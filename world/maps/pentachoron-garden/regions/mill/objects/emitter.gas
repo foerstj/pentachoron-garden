@@ -1,0 +1,15 @@
+[t:emt_sound,n:0x0010000a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -6.17724,2,-0.873686,0x34ade05d;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_gears_mill_lg";
+	  f max_dist = 10;
+	  f min_dist = 1;
+	}
+}
