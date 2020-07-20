@@ -71,3 +71,112 @@
 	  p position = -0.77224,0,-0.783415,0x63048c86;
 	}
 }
+[t:deer_doe,n:0x00100011]
+{
+	[placement]
+	{
+	  p position = -2.23332,-0.0242729,-2.62138,0xe5b9f976;
+	}
+}
+[t:deer_fawn,n:0x00100012]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.358625,0.0169067,-1.05635,0xe5b9f976;
+	}
+}
+[t:dog_sleeping,n:0x00100014]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+		screen_name = "Doggy McDogson";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 6.95009,2,-6.95082,0x34ade05d;
+	}
+}
+[t:mule,n:0x00100015]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+		screen_name = "Lame Mary";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.923879;
+	  p position = -1.23352,0,0.242182,0xd331433e;
+	}
+}
+[t:pig,n:0x00100016]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+		screen_name = "Piggy Pig";
+	}
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 2.78184,0,0.473474,0xb7196f51;
+	}
+}
+[t:rat,n:0x0010001b]
+{
+	[placement]
+	{
+	  p position = 1.00466,0,1.02049,0x79dc28d9;
+	}
+}
+[t:rat,n:0x0010001c]
+{
+	[placement]
+	{
+	  p position = 1.88883,0,-0.0328853,0x79dc28d9;
+	}
+}
+[t:rat,n:0x0010001d]
+{
+	[placement]
+	{
+	  p position = 2.36537,0,0.918411,0x79dc28d9;
+	}
+}
+[t:rat,n:0x0010001e]
+{
+	[placement]
+	{
+	  p position = -3.68558,0,-2.41427,0xd331433e;
+	}
+}
+[t:rat,n:0x0010001f]
+{
+	[placement]
+	{
+	  p position = -9.93204,-2,3.88481,0x34ade05d;
+	}
+}
+[t:rat,n:0x00100020]
+{
+	[placement]
+	{
+	  p position = -5.23141,2,5.63725,0x34ade05d;
+	}
+}
