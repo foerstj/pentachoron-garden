@@ -1,0 +1,73 @@
+[t:mp_townfolk_female_05,n:0x0010000b]
+{
+	[common]
+	{
+		screen_name = "Mrs. Miller";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mrs_miller;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.923879,0,-0.382684;
+	  p position = -2.91886,2,0.602526,0x34ade05d;
+	}
+}
+[t:mp_townfolk_m_05,n:0x0010000c]
+{
+	[common]
+	{
+		screen_name = "Mr. Miller";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mr_miller;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 0.15251,0.214712,0.270576,0x01cde22c;
+	}
+}
+[t:mp_townfolk_f_01,n:0x0010000d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		screen_name = "Molly Miller";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = molly_miller;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = -0.77224,0,-0.783415,0x63048c86;
+	}
+}
