@@ -1,3 +1,18 @@
+[molly_miller]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello outlander! Heading out for a walk in the Garden?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Have a nice walk! And make sure to talk with mum and dad, they'll help you out!";
+	  f scroll_rate = 10.000000;
+	}
+}
 [mr_miller]
 {
 	[text*]
@@ -46,21 +61,6 @@
 	[text*]
 	{
 		screen_text = "Enjoy your time at the Garden!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[molly_miller]
-{
-	[text*]
-	{
-		choice = more;
-	  i order = 0;
-		screen_text = "Hello outlander! Do you want to go for a walk in the Garden?";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
-		screen_text = "Have a nice walk! And make sure to talk with mum and dad, they'll help you out!";
 	  f scroll_rate = 10.000000;
 	}
 }
