@@ -18,7 +18,38 @@
 	[placement]
 	{
 	  q orientation = 0,-0.923879,0,-0.382684;
-	  p position = -2.91886,2,0.602526,0x34ade05d;
+	  p position = -3.12787,2,1.02975,0x34ade05d;
+	}
+}
+[t:dog_sleeping,n:0x00100014]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+		screen_name = "Doggy McDogson";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 6.73389,2,-6.49699,0x34ade05d;
+	}
+}
+[t:rat,n:0x0010001f]
+{
+	[placement]
+	{
+	  p position = -9.93204,-2,3.88481,0x34ade05d;
+	}
+}
+[t:rat,n:0x00100020]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.133484,-2.3,0.696841,0xa1065c91;
 	}
 }
 [t:mp_townfolk_m_05,n:0x0010000c]
@@ -42,6 +73,29 @@
 	{
 	  q orientation = 0,0.923879,0,-0.382684;
 	  p position = 0.15251,0.214712,0.270576,0x01cde22c;
+	}
+}
+[t:mule,n:0x00100015]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+		screen_name = "Lame Mary";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.923879;
+	  p position = -1.23352,0,0.242182,0xd331433e;
+	}
+}
+[t:rat,n:0x0010001e]
+{
+	[placement]
+	{
+	  p position = -3.68558,0,-2.41427,0xd331433e;
 	}
 }
 [t:mp_townfolk_f_01,n:0x0010000d]
@@ -86,38 +140,6 @@
 	  p position = 0.358625,0.0169067,-1.05635,0xe5b9f976;
 	}
 }
-[t:dog_sleeping,n:0x00100014]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-		screen_name = "Doggy McDogson";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,-0.382683;
-	  p position = 6.95009,2,-6.95082,0x34ade05d;
-	}
-}
-[t:mule,n:0x00100015]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-		screen_name = "Lame Mary";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.923879;
-	  p position = -1.23352,0,0.242182,0xd331433e;
-	}
-}
 [t:pig,n:0x00100016]
 {
 	[aspect]
@@ -157,26 +179,5 @@
 	[placement]
 	{
 	  p position = 2.36537,0,0.918411,0x79dc28d9;
-	}
-}
-[t:rat,n:0x0010001e]
-{
-	[placement]
-	{
-	  p position = -3.68558,0,-2.41427,0xd331433e;
-	}
-}
-[t:rat,n:0x0010001f]
-{
-	[placement]
-	{
-	  p position = -9.93204,-2,3.88481,0x34ade05d;
-	}
-}
-[t:rat,n:0x00100020]
-{
-	[placement]
-	{
-	  p position = -5.23141,2,5.63725,0x34ade05d;
 	}
 }
