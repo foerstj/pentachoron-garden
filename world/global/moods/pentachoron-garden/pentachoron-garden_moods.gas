@@ -20,10 +20,10 @@
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
-		room_type = rt_alley;
-	  f standard_intro_delay = 0.000000;
-	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_credits;
+		room_type = rt_plain;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_place_1_mill;
 	}
 	[wind]
 	{
@@ -54,9 +54,9 @@
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
 		room_type = rt_livingroom;
-	  f standard_intro_delay = 0.000000;
-	  f standard_repeat_delay = 10.000000;
-		standard_track = s_m_credits;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_place_1_mill;
 	}
 	[wind]
 	{
