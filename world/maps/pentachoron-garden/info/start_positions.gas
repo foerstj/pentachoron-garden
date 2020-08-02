@@ -2,7 +2,7 @@
 {
 	[t:start_group,n:default]
 	{
-	  b default = true;
+	  b default = false;
 		description = "";
 	  b dev_only = false;
 	  i id = 0;
@@ -101,6 +101,29 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = -1.013625,0.000000,1.570221,0x76446B59;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:farm]
+	{
+	  b default = true;
+		description = "";
+	  b dev_only = false;
+	  i id = 1698464;
+		screen_name = "The Farm";
+		[start_position]
+		{
+		  i id = 9;
+			position = 0.000000,0.000000,0.000000,0xE8D3FADC;
+			[camera]
+			{
+			  f azimuth = 0.500000;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = 0.000000,0.000000,0.000000,0xE8D3FADC;
 			}
 		}
 		[world_levels]
