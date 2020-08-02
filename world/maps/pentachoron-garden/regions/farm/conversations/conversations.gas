@@ -9,12 +9,11 @@
 	}
 	[text*]
 	{
-		choice = more;
 		screen_text = "Enjoy your stay in the Garden!";
 	  f scroll_rate = 10.000000;
 	}
 }
-[mr_farmer]
+[mr_farmer_packmules]
 {
 	[text*]
 	{
@@ -25,8 +24,24 @@
 	}
 	[text*]
 	{
+		choice = more;
+	  i order = 1;
+		screen_text = "My name is Mr. Farmer, I'm the farmer here. And my greatest pleasure in all of farmer life is selling packmules.
+		Do you happen to be interested in buying a packmule?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		choice = buy_packmule;
-		screen_text = "My name is Mr. Farmer, I'm the farmer here. And my greatest pleasure in all of farmer life is selling packmules. Do you happen to be interested in buying a packmule? Look at these exemplars, what beautiful mules they are! So strong and always loyal. You won't find packmules like these anywhere else!";
+		screen_text = "Look at these exemplars, what beautiful mules they are! So strong and always loyal. You won't find packmules like these anywhere else!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mr_farmer_no_packmules]
+{
+	[text*]
+	{
+		screen_text = "You won't find packmules like these anywhere else!";
 	  f scroll_rate = 10.000000;
 	}
 }
