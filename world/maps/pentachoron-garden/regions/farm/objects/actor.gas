@@ -79,3 +79,26 @@
 	  p position = -2.3363,-1.75,-0.947389,0x50c8807d;
 	}
 }
+[t:mother_zaod,n:0x0020001a]
+{
+	[common]
+	{
+		screen_name = "Grandma Farmer";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = grandma_farmer;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.18794,-4.25,-0.324071,0xa7c236e5;
+	}
+}
