@@ -55,12 +55,14 @@
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "This place used to be the favourite garden estate of the late Lord Hovart, who lived in these parts about fivehundred years ago. He loved this garden so much, he got buried here, and still rises from the dead sometimes and walks abroad. No seriously, if you see him walking around somewhere, kindly send him back to the dead.";
+		screen_text = "This place used to be the favourite garden estate of the late Lord Hovart, who lived in these parts about fivehundred years ago. He loved this garden so much, he got buried here, and still rises from the dead sometimes and walks abroad.
+No seriously, if you see him walking around somewhere, kindly send him back to the dead.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Enjoy your time at the Garden!";
+		choice = shop;
+		screen_text = "Do you need anything? I have only some basic stuff here at the moment, but please have a look. There are beasts and wild animals walking abroad in the Garden, you might want to take some provisions with you and something to protect yourself.";
 	  f scroll_rate = 10.000000;
 	}
 }

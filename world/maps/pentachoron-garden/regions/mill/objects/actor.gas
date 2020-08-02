@@ -1,26 +1,3 @@
-[t:mp_townfolk_female_05,n:0x0010000b]
-{
-	[common]
-	{
-		screen_name = "Mrs. Miller";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = mrs_miller;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.923879,0,-0.382684;
-	  p position = -3.12787,2,1.02975,0x34ade05d;
-	}
-}
 [t:dog_sleeping,n:0x00100014]
 {
 	[aspect]
@@ -108,6 +85,29 @@
 	{
 	  q orientation = 0,0.0697566,0,0.997564;
 	  p position = 3.18268,-0.0122719,-0.0416641,0xbe0cb3b3;
+	}
+}
+[t:starter_shop,n:0x001001ce]
+{
+	[common]
+	{
+		screen_name = "Mrs. Miller";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mrs_miller;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,-0.382683;
+	  p position = -2.95877,2,1.06773,0x34ade05d;
 	}
 }
 [t:mp_townfolk_f_01,n:0x0010000d]
