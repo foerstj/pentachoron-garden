@@ -1,0 +1,76 @@
+[t:bodrus,n:0x00200019]
+{
+	[common]
+	{
+		screen_name = "Mr. Farmer";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mr_farmer;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 3.49462,-1.75,-4.63404,0x50c8807d;
+	}
+}
+[t:mp_gypsy_female_01,n:0x0020001b]
+{
+	[common]
+	{
+		screen_name = "Mrs. Farmer";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mrs_farmer;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = -2.58922,-4.55,-7.56985,0xa7c236e5;
+	}
+}
+[t:mule,n:0x0020001d]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Donkey Kong";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.90445,-1.75,-1.1238,0x50c8807d;
+	}
+}
+[t:mule,n:0x0020001e]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Samy Salamy";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.3363,-1.75,-0.947389,0x50c8807d;
+	}
+}

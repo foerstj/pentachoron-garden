@@ -1,0 +1,32 @@
+[mrs_farmer]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello, and welcome to the Farm!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+		screen_text = "Enjoy your stay in the Garden!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[mr_farmer]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello there, welcome on our little homestead!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = buy_packmule;
+		screen_text = "My name is Mr. Farmer, I'm the farmer here. And my greatest pleasure in all of farmer life is selling packmules. Do you happen to be interested in buying a packmule? Look at these exemplars, what beautiful mules they are! So strong and always loyal. You won't find packmules like these anywhere else!";
+	  f scroll_rate = 10.000000;
+	}
+}
