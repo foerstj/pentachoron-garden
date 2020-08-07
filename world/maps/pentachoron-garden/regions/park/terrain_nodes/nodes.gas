@@ -1,11 +1,11 @@
 [t:terrain_nodes,n:siege_node_list]
 {
   x actor_ambient_color = 0xFFFFFFFF;
-  f actor_ambient_intensity = 1.000000;
+  f actor_ambient_intensity = 0.250000;
   x ambient_color = 0xFFFFFFFF;
-  f ambient_intensity = 1.000000;
+  f ambient_intensity = 0.200000;
   x object_ambient_color = 0xFFFFFFFF;
-  f object_ambient_intensity = 1.000000;
+  f object_ambient_intensity = 0.200000;
   x targetnode = 0x9953DBE9;
 	[t:snode,n:0x9953dbe9]
 	{
@@ -19,5 +19,42 @@
 	  b occludes_camera = true;
 	  b occludes_light = true;
 		texsetabbr = grs01;
+		[door*]
+		{
+		  i fardoor = 2;
+		  x farguid = 0xEE17E72F;
+		  i id = 1;
+		}
+		[door*]
+		{
+		  i fardoor = 1;
+		  x farguid = 0xEE17E72F;
+		  i id = 2;
+		}
+	}
+	[t:snode,n:0xee17e72f]
+	{
+	  b bounds_camera = true;
+	  b camera_fade = false;
+	  x guid = 0xEE17E72F;
+	  x mesh_guid = 0x0000061F;
+	  x nodelevel = 0xFFFFFFFF;
+	  x nodeobject = 0xFFFFFFFF;
+	  x nodesection = 0x00000001;
+	  b occludes_camera = true;
+	  b occludes_light = true;
+		texsetabbr = grs01;
+		[door*]
+		{
+		  i fardoor = 1;
+		  x farguid = 0x9953DBE9;
+		  i id = 2;
+		}
+		[door*]
+		{
+		  i fardoor = 2;
+		  x farguid = 0x9953DBE9;
+		  i id = 1;
+		}
 	}
 }
