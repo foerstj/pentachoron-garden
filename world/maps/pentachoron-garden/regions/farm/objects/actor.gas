@@ -294,18 +294,6 @@
 	  p position = -3.23616,-0.147231,-3.03694,0xc558ba05;
 	}
 }
-[t:pig,n:0x0020010c]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.95882,0,-0.284016;
-	  p position = -0.943733,-0.197069,-2.6999,0xc796197b;
-	}
-}
 [t:rat,n:0x0020010d]
 {
 	[placement]
@@ -476,5 +464,17 @@
 	{
 	  q orientation = 0,0.891006,0,-0.453991;
 	  p position = 0.338648,0,-1.87587,0x32c14455;
+	}
+}
+[t:pig,n:0x0020010c]
+{
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.95882,0,-0.284016;
+	  p position = -0.943733,-0.197069,-2.6999,0xc796197b;
 	}
 }
