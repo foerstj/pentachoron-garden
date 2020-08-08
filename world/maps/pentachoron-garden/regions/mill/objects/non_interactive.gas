@@ -2292,6 +2292,57 @@
 	  p position = 1.34538,-0.16185,0.522055,0x72ca9ebe;
 	}
 }
+[t:lamp_glb_post_03,n:0x00100035]
+{
+	[placement]
+	{
+	  p position = 0.116222,0,-0.30813,0x8087fe99;
+	}
+}
+[t:flowers_grs_08,n:0x0010011a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.00988;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0523356,0,0.99863;
+	  p position = 1.20564,0,-0.860371,0x8087fe99;
+	}
+}
+[t:grass_grs_07,n:0x00100132]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.3711;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.920505,0,0.390731;
+	  p position = 0.184811,0,-0.473923,0x8087fe99;
+	}
+}
+[t:tree_grs_deciduous_sway_04,n:0x0010008c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.12032;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999048,0,-0.0436195;
+	  p position = -1.22531,0,-0.180213,0x27a0ea42;
+	}
+}
+[t:grass_grs_06,n:0x0010017b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.515038,0,0.857167;
+	  p position = -1.31966,0,0.0657768,0x27a0ea42;
+	}
+}
 [t:tree_glb_sway_03,n:0x0010009b]
 {
 	[aspect]
@@ -2302,6 +2353,109 @@
 	{
 	  q orientation = 0,0.267238,0,0.96363;
 	  p position = -6.7872,2,1.09826,0xb2a99e67;
+	}
+}
+[t:tree_grs_deciduous_sway_04,n:0x00100070]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.24697;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.991445,0,0.130526;
+	  p position = -0.0726089,0,-1.58545,0x7a3a326c;
+	}
+}
+[t:grass_grs_05,n:0x00100121]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.39375;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.25038,0,0.968148;
+	  p position = 0.564735,-6.19888e-006,-0.698715,0x7a3a326c;
+	}
+}
+[t:grass_grs_06,n:0x0010017a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.979925,0,0.199368;
+	  p position = -0.165714,0,-1.53864,0x7a3a326c;
+	}
+}
+[t:planter_glb_05,n:0x00100088]
+{
+	[placement]
+	{
+	  p position = -2.30448,-0.115782,2.53946,0x28f8aec0;
+	}
+}
+[t:grass_grs_05,n:0x00100120]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.0114;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.656059,0,-0.75471;
+	  p position = -0.193985,-0.299997,0.439426,0x28f8aec0;
+	}
+}
+[t:butterfly_mp,n:0x0010013e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.33123;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.422618,0,-0.906308;
+	  p position = -2.75091,-0.299997,2.26617,0x28f8aec0;
+	}
+}
+[t:grass_grs_02,n:0x001001a3]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.374606,0,0.927184;
+	  p position = -1.02632,0.00479087,1.61485,0x28f8aec0;
+	}
+}
+[t:grass_grs_03,n:0x001001a5]
+{
+	[placement]
+	{
+	  q orientation = 0,0.156434,0,0.987688;
+	  p position = -2.32767,-0.113486,2.53371,0x28f8aec0;
+	}
+}
+[t:flowers_grs_blue,n:0x001000ec]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.15588;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.99863,0,0.0523356;
+	  p position = 3.93956,0.349864,0.00128937,0x4eff65cd;
+	}
+}
+[t:flowers_grs_blue,n:0x001001cb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.38517;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.766044,0,0.642788;
+	  p position = 3.83538,0.35,-1.10168,0x4eff65cd;
 	}
 }
 [t:grass_grs_09,n:0x001000e3]
@@ -2342,30 +2496,6 @@
 	{
 	  q orientation = 0,-0.130526,0,0.991445;
 	  p position = -3.58604,0,-1.80585,0xbf793cff;
-	}
-}
-[t:flowers_grs_blue,n:0x001000ec]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.15588;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.99863,0,0.0523356;
-	  p position = 3.93956,0.349864,0.00128937,0x4eff65cd;
-	}
-}
-[t:flowers_grs_blue,n:0x001001cb]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.38517;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.766044,0,0.642788;
-	  p position = 3.83538,0.35,-1.10168,0x4eff65cd;
 	}
 }
 [t:tree_grs_oak_03,n:0x00100057]
@@ -3802,136 +3932,6 @@
 	{
 	  q orientation = 0,0.814116,0,0.580703;
 	  p position = -2.08139,0.286542,3.45417,0xd78bc0aa;
-	}
-}
-[t:planter_glb_05,n:0x00100088]
-{
-	[placement]
-	{
-	  p position = -2.30448,-0.115782,2.53946,0x28f8aec0;
-	}
-}
-[t:grass_grs_05,n:0x00100120]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.0114;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.656059,0,-0.75471;
-	  p position = -0.193985,-0.299997,0.439426,0x28f8aec0;
-	}
-}
-[t:butterfly_mp,n:0x0010013e]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.33123;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.422618,0,-0.906308;
-	  p position = -2.75091,-0.299997,2.26617,0x28f8aec0;
-	}
-}
-[t:grass_grs_02,n:0x001001a3]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.374606,0,0.927184;
-	  p position = -1.02632,0.00479087,1.61485,0x28f8aec0;
-	}
-}
-[t:grass_grs_03,n:0x001001a5]
-{
-	[placement]
-	{
-	  q orientation = 0,0.156434,0,0.987688;
-	  p position = -2.32767,-0.113486,2.53371,0x28f8aec0;
-	}
-}
-[t:tree_grs_deciduous_sway_04,n:0x00100070]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.24697;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.991445,0,0.130526;
-	  p position = -0.0726089,0,-1.58545,0x7a3a326c;
-	}
-}
-[t:grass_grs_05,n:0x00100121]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.39375;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.25038,0,0.968148;
-	  p position = 0.564735,-6.19888e-006,-0.698715,0x7a3a326c;
-	}
-}
-[t:grass_grs_06,n:0x0010017a]
-{
-	[placement]
-	{
-	  q orientation = 0,0.979925,0,0.199368;
-	  p position = -0.165714,0,-1.53864,0x7a3a326c;
-	}
-}
-[t:tree_grs_deciduous_sway_04,n:0x0010008c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.12032;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999048,0,-0.0436195;
-	  p position = -1.22531,0,-0.180213,0x27a0ea42;
-	}
-}
-[t:grass_grs_06,n:0x0010017b]
-{
-	[placement]
-	{
-	  q orientation = 0,0.515038,0,0.857167;
-	  p position = -1.31966,0,0.0657768,0x27a0ea42;
-	}
-}
-[t:lamp_glb_post_03,n:0x00100035]
-{
-	[placement]
-	{
-	  p position = 0.116222,0,-0.30813,0x8087fe99;
-	}
-}
-[t:flowers_grs_08,n:0x0010011a]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.00988;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.0523356,0,0.99863;
-	  p position = 1.20564,0,-0.860371,0x8087fe99;
-	}
-}
-[t:grass_grs_07,n:0x00100132]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.3711;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.920505,0,0.390731;
-	  p position = 0.184811,0,-0.473923,0x8087fe99;
 	}
 }
 [t:flowers_grs_blue,n:0x001000ee]
