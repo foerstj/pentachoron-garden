@@ -1,5 +1,17 @@
 [node_mesh_index]
 {
+	0x000004eb = t_xxx_cnr_02b-ccav;
+	0x000004ec = t_xxx_cnr_02b-cnvx;
+	0x000004ee = t_xxx_cnr_04-cnvx;
+	0x000004ef = t_xxx_cnr_08-ccav;
+	0x000004f0 = t_xxx_cnr_08-cnvx;
+	0x000004f1 = t_xxx_cnr_12-ccav;
+	0x000004f2 = t_xxx_cnr_12-cnvx;
+	0x00000506 = t_xxx_cnr_tee-02b-02b-rmp-r;
+	0x0000050a = t_xxx_cnr_tee-04-04-08-r;
+	0x0000050b = t_xxx_cnr_tee-04-08-12-l;
+	0x0000050c = t_xxx_cnr_tee-04-08-12-r;
+	0x0000050e = t_xxx_cnr_tee-08-04-12-r;
 	0x0000061e = t_xxx_flr_04x08-v0;
 	0x0000061f = t_xxx_flr_08x08-v0;
 	0x00000799 = t_xxx_pth_02b-thin;
@@ -7,6 +19,12 @@
 	0x000007a5 = t_xxx_pth_08x04-e;
 	0x000007a9 = t_xxx_pth_08x04-i;
 	0x000007b1 = t_xxx_pth_08x08-g;
+	0x000007b2 = t_xxx_pth_08x08-h;
+	0x000007c6 = t_xxx_rmp_cnr-ccav;
+	0x000007c7 = t_xxx_rmp_cnr-cnvx;
+	0x000007c8 = t_xxx_rmp_ctx-04-l;
+	0x000007d3 = t_xxx_rmp_pth-traverse-rails-l;
+	0x000007d4 = t_xxx_rmp_pth-traverse-rails-r;
 	0x000007e1 = t_xxx_rvr_08-bridge-left-tx-right-a;
 	0x000007e2 = t_xxx_rvr_08-bridge-right-tx-left-a;
 	0x000007e3 = t_xxx_rvr_08-left-a;
@@ -17,7 +35,21 @@
 	0x000007e9 = t_xxx_rvr_08-right-turn;
 	0x00000804 = t_xxx_rvr_wfall-02a-tx-08-left;
 	0x00000805 = t_xxx_rvr_wfall-02a-tx-08-right;
+	0x0000093f = t_xxx_wal_02b-thick;
+	0x00000940 = t_xxx_wal_02b-thin;
+	0x00000941 = t_xxx_wal_02b-tx-02b-l;
+	0x00000945 = t_xxx_wal_04-diag-thick-l;
+	0x00000947 = t_xxx_wal_04-diag-thin-l;
+	0x0000094e = t_xxx_wal_04-tx-02b-r;
+	0x00000957 = t_xxx_wal_08-diag-thick-r;
+	0x00000959 = t_xxx_wal_08-diag-thin-r;
+	0x00000960 = t_xxx_wal_08-thck;
+	0x00000961 = t_xxx_wal_08-thin;
+	0x00000963 = t_xxx_wal_08-tx-02b-r;
 	0x0000096e = t_xxx_wal_12-diag-thick-l;
 	0x0000096f = t_xxx_wal_12-diag-thick-r;
 	0x00000976 = t_xxx_wal_12-thck;
+	0x00000977 = t_xxx_wal_12-thin;
+	0x0000097c = t_xxx_wal_12-tx-24-l;
+	0x0000097d = t_xxx_wal_12-tx-24-r;
 }
