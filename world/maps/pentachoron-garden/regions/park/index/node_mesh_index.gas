@@ -29,8 +29,21 @@
 	0x0000050b = t_xxx_cnr_tee-04-08-12-l;
 	0x0000050c = t_xxx_cnr_tee-04-08-12-r;
 	0x0000050e = t_xxx_cnr_tee-08-04-12-r;
+	0x0000061a = t_xxx_flr_04x04-v0;
+	0x0000061b = t_xxx_flr_04x04-v1;
 	0x0000061e = t_xxx_flr_04x08-v0;
 	0x0000061f = t_xxx_flr_08x08-v0;
+	0x00000620 = t_xxx_flr_08x08-v1;
+	0x00000621 = t_xxx_flr_08x08-v2;
+	0x00000622 = t_xxx_flr_08x08-v3;
+	0x0000062f = t_xxx_flr_compass-a;
+	0x00000634 = t_xxx_flr_fountain-a;
+	0x00000659 = t_xxx_flr_rockwall-cap-a;
+	0x0000065a = t_xxx_flr_rockwall-cap-b;
+	0x0000065b = t_xxx_flr_rockwall-thick-a;
+	0x0000065c = t_xxx_flr_rockwall-thin-a;
+	0x0000065d = t_xxx_flr_rockwall-turn-a;
+	0x00000670 = t_xxx_flr_sundial-a;
 	0x00000799 = t_xxx_pth_02b-thin;
 	0x000007a2 = t_xxx_pth_08x04-b;
 	0x000007a5 = t_xxx_pth_08x04-e;
@@ -77,4 +90,5 @@
 	0x00000977 = t_xxx_wal_12-thin;
 	0x0000097c = t_xxx_wal_12-tx-24-l;
 	0x0000097d = t_xxx_wal_12-tx-24-r;
+	0x00000bcd = t_grs01_brickplatform;
 }
