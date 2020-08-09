@@ -1,22 +1,8 @@
-[t:lamp_glb_post_03,n:0x01200010]
+[t:lamp_glb_post_03,n:0x0120001b]
 {
 	[placement]
 	{
-	  p position = 2.50151,0,1.15669,0xa0a71c3d;
-	}
-}
-[t:lamp_glb_post_03,n:0x01200011]
-{
-	[placement]
-	{
-	  p position = 0.551041,0,0.0948328,0xfc8a34db;
-	}
-}
-[t:lamp_glb_post_03,n:0x01200012]
-{
-	[placement]
-	{
-	  p position = -1.25109,-1,-2.56359,0x82fa5128;
+	  p position = 2.05764,0,-0.191696,0xb3ea69ab;
 	}
 }
 [t:lamp_glb_post_03,n:0x01200013]
@@ -26,18 +12,45 @@
 	  p position = 0.0425533,0.843915,2.19929,0x69852505;
 	}
 }
-[t:lamp_glb_post_03,n:0x01200014]
+[t:lamp_glb_post_03,n:0x01200010]
 {
 	[placement]
 	{
-	  p position = -0.333809,-0.852863,-2.35144,0x04907396;
+	  p position = 2.50151,0,1.15669,0xa0a71c3d;
 	}
 }
-[t:lamp_glb_post_03,n:0x01200015]
+[t:statue_cav_01,n:0x0120001e]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Saint Dorothea";
+	}
 	[placement]
 	{
-	  p position = 0.355339,0.888748,2.57293,0xdff9a022;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.0442142,0.450001,0.0303248,0x66a86856;
+	}
+}
+[t:statue_glb_wizard_01,n:0x0120001f]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	  f scale_multiplier = 2;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "St. Fiacrius";
+	}
+	[placement]
+	{
+	  p position = -0.0411415,0.450001,-0.0462198,0x12d43f0d;
 	}
 }
 [t:lamp_glb_post_03,n:0x01200016]
@@ -54,12 +67,33 @@
 	  p position = -3.9818,-3.8147e-006,-0.113699,0xaf81842d;
 	}
 }
+[t:lamp_glb_post_03,n:0x01200015]
+{
+	[placement]
+	{
+	  p position = 0.355339,0.888748,2.57293,0xdff9a022;
+	}
+}
 [t:lamp_glb_post_03,n:0x01200018]
 {
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 3.82959,0.803067,2.51533,0xaa726c78;
+	}
+}
+[t:lamp_glb_post_03,n:0x01200014]
+{
+	[placement]
+	{
+	  p position = -0.333809,-0.852863,-2.35144,0x04907396;
+	}
+}
+[t:lamp_glb_post_03,n:0x0120001a]
+{
+	[placement]
+	{
+	  p position = 1.89569,0,-0.0422925,0x4aaf4aa1;
 	}
 }
 [t:lamp_glb_post_03,n:0x01200019]
@@ -70,17 +104,17 @@
 	  p position = 2.64192,-1,3.78065,0x46902378;
 	}
 }
-[t:lamp_glb_post_03,n:0x0120001a]
+[t:lamp_glb_post_03,n:0x01200012]
 {
 	[placement]
 	{
-	  p position = 1.89569,0,-0.0422925,0x4aaf4aa1;
+	  p position = -1.25109,-1,-2.56359,0x82fa5128;
 	}
 }
-[t:lamp_glb_post_03,n:0x0120001b]
+[t:lamp_glb_post_03,n:0x01200011]
 {
 	[placement]
 	{
-	  p position = 2.05764,0,-0.191696,0xb3ea69ab;
+	  p position = 0.551041,0,0.0948328,0xfc8a34db;
 	}
 }
