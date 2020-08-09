@@ -104,6 +104,15 @@
 }
 [t:dog,n:0x00200106]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Shnoofy";
+	}
 	[placement]
 	{
 	  q orientation = 0,0.97437,0,-0.224951;
@@ -112,6 +121,15 @@
 }
 [t:dog_sleeping,n:0x00200107]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Woofy";
+	}
 	[placement]
 	{
 	  q orientation = 0,0.986286,0,-0.165048;
@@ -176,6 +194,15 @@
 }
 [t:pig,n:0x00200108]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Miss Piggy";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -188,6 +215,15 @@
 }
 [t:pig,n:0x00200109]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Piggle-Dum";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -200,6 +236,15 @@
 }
 [t:pig,n:0x0020010a]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Piggle-Dee";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -212,6 +257,15 @@
 }
 [t:pig,n:0x0020010b]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Frederick";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -224,6 +278,15 @@
 }
 [t:cow_brown,n:0x00200103]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Chow Cow";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -236,6 +299,15 @@
 }
 [t:cow_brown,n:0x00200105]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Chow Cow";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -296,6 +368,15 @@
 }
 [t:pig,n:0x0020010c]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Big Pig";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -428,6 +509,15 @@
 }
 [t:cow_brown,n:0x00200104]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Burger";
+	}
 	[mind]
 	{
 	  b on_enemy_entered_weapon_engage_range_attack = true;
@@ -476,5 +566,47 @@
 	{
 	  q orientation = 0,0.891006,0,-0.453991;
 	  p position = 0.338648,0,-1.87587,0x32c14455;
+	}
+}
+[t:pig,n:0x00200036]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Bacon";
+	}
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.777146,0,-0.629321;
+	  p position = 1.64601,-0.197069,-2.43006,0xc796197b;
+	}
+}
+[t:pig,n:0x00200043]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Dig Pig";
+	}
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878818,0,0.477159;
+	  p position = -2.99175,-0.197069,-3.61516,0xc796197b;
 	}
 }
