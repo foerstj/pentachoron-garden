@@ -1,0 +1,19 @@
+[chapters]
+{
+}
+[quests]
+{
+	[beast_park_phrak_queen]
+	{
+		screen_name = Phrak Queen;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:farm:conversations:grandma_farmer;
+			description = Kill the phrak queen in the Park.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = Molly Miller;
+		}
+	}
+}

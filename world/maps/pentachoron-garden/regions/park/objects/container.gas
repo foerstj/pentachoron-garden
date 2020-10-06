@@ -20,6 +20,21 @@
 	  p position = 2.30507,-1.5,-1.04457,0x876965d2;
 	}
 }
+[t:chest_csl_02_pg_park,n:0x01200201]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.19032,0.45,0.0366643,0x66a86856;
+	}
+}
+[t:chest_csl_02_pg_park,n:0x0120023c]
+{
+	[placement]
+	{
+	  p position = 0.0161757,0.450001,1.37918,0x12d43f0d;
+	}
+}
 [t:barrel_glb_fh_r1,n:0x0120024a]
 {
 	[placement]
@@ -173,20 +188,5 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.06824,0,0.297309,0x2ee5cc0a;
-	}
-}
-[t:chest_csl_02_pg_park,n:0x01200201]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.19032,0.45,0.0366643,0x66a86856;
-	}
-}
-[t:chest_csl_02_pg_park,n:0x0120023c]
-{
-	[placement]
-	{
-	  p position = 0.0161757,0.450001,1.37918,0x12d43f0d;
 	}
 }

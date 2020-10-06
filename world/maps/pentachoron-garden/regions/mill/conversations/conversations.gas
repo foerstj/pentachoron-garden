@@ -9,7 +9,16 @@
 	}
 	[text*]
 	{
-		screen_text = "Have a nice walk! And make sure to talk with mum and dad, they'll help you out!";
+		activate_quest* = beast_park_phrak_queen,0;
+		choice = more;
+	  i order = 1;
+	  b quest_dialogue = true;
+		screen_text = "I totally recommend you to go down to the Farm, they have such cute animals there. They sell pack mules, by the way. And the way through the Park is really pretty, and there are no beasts or big animals around, just the phraks can be annoying at times. If you see a phrak queen do smash it.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "So as I said, have a nice walk through the Park! And make sure to talk with mum and dad, they'll help you out!";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -34,6 +43,13 @@
 		choice = more;
 	  i order = 2;
 		screen_text = "Pleasure to meet you. It's not often we have visitors here, you see. Sure, this place is a bit off the beaten track... and maybe not in the best shape here and there... but I'm sure you'll like it here!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 3;
+		screen_text = "If you need anything, ask my wifey inside. Our stocks are a bit limited right now, but I'm sure we have all you need to get you started.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
