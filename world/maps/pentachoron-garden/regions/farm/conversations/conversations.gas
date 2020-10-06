@@ -1,3 +1,26 @@
+[grandma_farmer]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Good day to you, dear stranger. Welcome to Pentachoron Garden.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "It's the loveliest piece of land right here along the river, isn't it?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Enjoy your time here, my dear!
+Life is too short to worry. Just have fun, young one.";
+	  f scroll_rate = 10.000000;
+	}
+}
 [mr_farmer_no_packmules]
 {
 	[text*]
@@ -41,30 +64,23 @@
 	}
 	[text*]
 	{
-		screen_text = "Enjoy your stay in the Garden!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[grandma_farmer]
-{
-	[text*]
-	{
-		choice = more;
-	  i order = 0;
-		screen_text = "Good day to you, dear stranger. Welcome to Pentachoron Garden.";
-	  f scroll_rate = 10.000000;
-	}
-	[text*]
-	{
 		choice = more;
 	  i order = 1;
-		screen_text = "It's the loveliest piece of land right here along the river, isn't it?";
+		screen_text = "Not sure where to go from here? Don't worry, everything is pretty close anyways.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Enjoy your time here, my dear!
-Life is too short to worry. Just have fun, young one.";
+		activate_quest* = beast_park_phrak_queen,0;
+		choice = more;
+	  i order = 2;
+	  b quest_dialogue = true;
+		screen_text = "If you follow the river upstream, you'll get to the Mill soon enough. And the way there is literally a walk in the Park. You'll see, it's beautiful. And no wild animals to be afraid of - though if you see a phrak queen kindly squash it, we don't want these critters to build nests!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Enjoy your stay in the Garden!";
 	  f scroll_rate = 10.000000;
 	}
 }

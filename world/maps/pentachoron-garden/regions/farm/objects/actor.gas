@@ -366,6 +366,48 @@
 	  p position = -3.23616,-0.147231,-3.03694,0xc558ba05;
 	}
 }
+[t:pig,n:0x00200036]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Bacon";
+	}
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.777146,0,-0.629321;
+	  p position = 1.64601,-0.197069,-2.43006,0xc796197b;
+	}
+}
+[t:pig,n:0x00200043]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Dig Pig";
+	}
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878818,0,0.477159;
+	  p position = -2.99175,-0.197069,-3.61516,0xc796197b;
+	}
+}
 [t:pig,n:0x0020010c]
 {
 	[aspect]
@@ -566,47 +608,5 @@
 	{
 	  q orientation = 0,0.891006,0,-0.453991;
 	  p position = 0.338648,0,-1.87587,0x32c14455;
-	}
-}
-[t:pig,n:0x00200036]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Bacon";
-	}
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.777146,0,-0.629321;
-	  p position = 1.64601,-0.197069,-2.43006,0xc796197b;
-	}
-}
-[t:pig,n:0x00200043]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Dig Pig";
-	}
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.878818,0,0.477159;
-	  p position = -2.99175,-0.197069,-3.61516,0xc796197b;
 	}
 }
