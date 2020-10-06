@@ -1,0 +1,65 @@
+[t:template,n:chest_csl_02_pg_park]
+{
+	category_name = "pg";
+	doc = "1W_chest_csl_02_pg_park";
+	specializes = base_chest;
+	[aspect]
+	{
+		model = m_i_glb_chest-02;
+	}
+	[attack]
+	{
+		damage_max = 19;
+		damage_min = 13;
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_close]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00 = chest-02-close;
+				}
+			}
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files]
+				{
+					00 = chest-02-open;
+				}
+			}
+		}
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #weapon/1-13;
+					il_main = #body/1-32;
+					max = 2;
+					min = 1;
+				}
+				[oneof*]
+				{
+					chance = 0.5;
+					il_main = potion_mana_small;
+					il_main = potion_health_small;
+				}
+			}
+		}
+	}
+	[trapped]
+	{
+		trap = trp_generator_arrow_chest;
+		fire_event = WE_REQ_USE;
+	}
+}
