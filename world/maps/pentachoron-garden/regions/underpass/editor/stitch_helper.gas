@@ -2,4 +2,20 @@
 {
 	source_region_guid = 0x0000000F;
 	source_region_name = underpass;
+	[t:stitch_editor,n:farm]
+	{
+		dest_region = farm;
+		[node_ids]
+		{
+			0x00020f00 = 0xF8C89379,3;
+		}
+	}
+	[t:stitch_editor,n:mill]
+	{
+		dest_region = mill;
+		[node_ids]
+		{
+			0x00010f00 = 0xFC5C262E,3;
+		}
+	}
 }
