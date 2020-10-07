@@ -124,6 +124,8 @@
 			[*]
 			{
 				action* = fade_nodes(0x00000001,-1,-1,-1,"in");
+				action* = fade_nodes(0x00000121,-1,-1,-1,"in");
+				action* = fade_nodes(0x00000002,-1,-1,-1,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -143,6 +145,35 @@
 	  p position = -0.152977,0.9,-5.18073,0x853a39c2;
 	}
 }
+[t:trigger_generic,n:0x00100157]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000001,-1,1,-1,"out:black");
+				action* = fade_nodes(0x00000121,-1,-1,-1,"out:black");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0513763,-1.5,0.901081,0xd784f3ac;
+	}
+}
 [t:trigger_generic,n:0x00100119]
 {
 	[common]
@@ -152,6 +183,7 @@
 			[*]
 			{
 				action* = mood_change("mill");
+				action* = fade_nodes(0x00000120,-1,-1,-1,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,25.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -182,7 +214,7 @@
 			{
 				action* = mood_change("mill");
 				action* = fade_nodes(0x00000002,-1,-1,-1,"out:instant");
-				action* = fade_nodes(0x00000012,2,-1,-1,"out:instant");
+				action* = fade_nodes(0x00000122,-1,-1,-1,"out:instant");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -200,33 +232,5 @@
 	[placement]
 	{
 	  p position = 1.67904,0,-1.43996,0x411cb107;
-	}
-}
-[t:trigger_generic,n:0x00100157]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = fade_nodes(0x00000001,-1,1,-1,"out:black");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.0513763,-1.5,0.901081,0xd784f3ac;
 	}
 }

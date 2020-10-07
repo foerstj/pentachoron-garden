@@ -2,12 +2,12 @@
 {
 	source_region_guid = 0x00000001;
 	source_region_name = mill;
-	[t:stitch_editor,n:park]
+	[t:stitch_editor,n:park_mill]
 	{
-		dest_region = park;
+		dest_region = park_mill;
 		[node_ids]
 		{
-			0x00001012 = 0x112FD3FD,4;
+			0x00011200 = 0x112FD3FD,4;
 		}
 	}
 	[t:stitch_editor,n:underpass]

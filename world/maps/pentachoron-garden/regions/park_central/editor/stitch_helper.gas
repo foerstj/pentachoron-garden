@@ -2,4 +2,20 @@
 {
 	source_region_guid = 0x00000120;
 	source_region_name = park_central;
+	[t:stitch_editor,n:park_farm]
+	{
+		dest_region = park_farm;
+		[node_ids]
+		{
+			0x00120200 = 0x21763C9D,6;
+		}
+	}
+	[t:stitch_editor,n:park_mill]
+	{
+		dest_region = park_mill;
+		[node_ids]
+		{
+			0x00120100 = 0x6279E5AD,3;
+		}
+	}
 }
