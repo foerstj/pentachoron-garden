@@ -2,13 +2,15 @@
 {
 	[common]
 	{
+		screen_name = "starting points";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("farm");
-				action* = fade_nodes(0x00000001,-1,-1,-1,"out:instant");
-				action* = fade_nodes(0x00000121,-1,-1,-1,"out:instant");
+				action* = fade_nodes(0x00000001,1,0,-1,"out:instant");
+				action* = fade_nodes(0x00000001,1,1,-1,"out:instant");
+				action* = fade_nodes(0x00000121,1,-1,-1,"out:instant");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -32,6 +34,7 @@
 {
 	[common]
 	{
+		screen_name = "leave house-1";
 		[instance_triggers]
 		{
 			[*]
@@ -61,6 +64,7 @@
 {
 	[common]
 	{
+		screen_name = "leave house-1";
 		[instance_triggers]
 		{
 			[*]
@@ -89,6 +93,7 @@
 {
 	[common]
 	{
+		screen_name = "enter house-1";
 		[instance_triggers]
 		{
 			[*]
@@ -118,6 +123,7 @@
 {
 	[common]
 	{
+		screen_name = "enter house-2";
 		[instance_triggers]
 		{
 			[*]
@@ -146,6 +152,7 @@
 {
 	[common]
 	{
+		screen_name = "leave house-2";
 		[instance_triggers]
 		{
 			[*]
@@ -174,6 +181,7 @@
 {
 	[common]
 	{
+		screen_name = "leave house-2";
 		[instance_triggers]
 		{
 			[*]
@@ -202,6 +210,7 @@
 {
 	[common]
 	{
+		screen_name = "leave house-2";
 		[instance_triggers]
 		{
 			[*]
@@ -223,7 +232,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.11114,-1.75,-5.43025,0x50c8807d;
+	  p position = 0.0895104,-1.65373,-5.42005,0x50c8807d;
 	}
 }
 [t:party_humanoid,n:0x0020001c]
@@ -246,13 +255,14 @@
 {
 	[common]
 	{
+		screen_name = "enter from underpass";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000002,-1,-1,-1,"in");
-				action* = fade_nodes(0x00000122,-1,-1,-1,"in");
-				action* = fade_nodes(0x00000001,-1,-1,-1,"out:black");
+				action* = fade_nodes(0x00000002,1,1,-1,"in");
+				action* = fade_nodes(0x00000122,1,-1,-1,"in");
+				action* = fade_nodes(0x00000001,1,0,-1,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -276,12 +286,14 @@
 {
 	[common]
 	{
+		screen_name = "leave to underpass";
 		[instance_triggers]
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000002,-1,1,-1,"out:black");
-				action* = fade_nodes(0x00000122,-1,-1,-1,"out:black");
+				action* = fade_nodes(0x00000002,1,1,-1,"out:black");
+				action* = fade_nodes(0x00000122,1,-1,-1,"out:black");
+				action* = fade_nodes(0x00000001,1,0,-1,"in");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -305,11 +317,13 @@
 {
 	[common]
 	{
+		screen_name = "enter from park";
 		[instance_triggers]
 		{
 			[*]
 			{
 				action* = mood_change("farm");
+				action* = fade_nodes(0x00000120,1,-1,-1,"out:black");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
