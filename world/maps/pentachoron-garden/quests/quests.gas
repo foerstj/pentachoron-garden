@@ -5,15 +5,39 @@
 {
 	[beast_park_phrak_queen]
 	{
-		screen_name = Phrak Queen;
+		screen_name = phrak queen;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
 			address = world:maps:pentachoron-garden:regions:farm:conversations:grandma_farmer;
-			description = Kill the phrak queen in the Park.;
+			description = kill the phrak queen in the park.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = Molly Miller;
+			speaker = molly miller;
+		}
+	}
+	[flip_farm]
+	{
+		screen_name = Farm flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Re-activate the Farm flip by turning the flip switch at the Farm.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
+	[flip_mill]
+	{
+		screen_name = mill flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = re-activate the mill flip by turning the flip switch at the Mill.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
 		}
 	}
 }

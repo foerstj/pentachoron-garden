@@ -54,8 +54,11 @@
 	}
 	[text*]
 	{
+		activate_quest* = flip_mill,0;
+		activate_quest* = flip_farm,0;
 		choice = more;
 	  i order = 4;
+	  b quest_dialogue = true;
 		screen_text = "Speaking of the Flip-Flop... would you like to help me out? I would be really grateful if you could unlock the flips for us again - basically all you have to do is turn the flip switches again, on the outside flips. The flip switches are the little statues. By walking there you would also get to see the Garden - win-win, right?";
 	  f scroll_rate = 10.000000;
 	}

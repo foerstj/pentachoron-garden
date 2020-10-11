@@ -12,12 +12,11 @@
 	  f repeat_rate = 5;
 	}
 }
-[t:emt_sound,n:0x00f00071]
+[t:emt_sound,n:0x00f00072]
 {
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 4.21815,3,-3.94162,0xc8f1cb27;
+	  p position = 3.60008,3,-3.08431,0x35d30f69;
 	}
 	[sound_emitter]
 	{
@@ -26,12 +25,12 @@
 	  f repeat_rate = 3;
 	}
 }
-[t:emt_sound,n:0x00f00072]
+[t:emt_sound,n:0x00f00071]
 {
 	[placement]
 	{
-	  q orientation = 0,0,0,1;
-	  p position = 3.60008,3,-3.08431,0x35d30f69;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 4.21815,3,-3.94162,0xc8f1cb27;
 	}
 	[sound_emitter]
 	{

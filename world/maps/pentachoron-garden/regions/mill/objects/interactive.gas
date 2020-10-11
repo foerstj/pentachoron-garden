@@ -27,10 +27,13 @@
 	{
 		off_message = we_req_activate;
 		off_message_2 = we_req_activate;
+		off_message_3 = we_req_activate;
 	  x off_scid = 0x00100174;
 	  x off_scid_2 = 0x00100175;
+	  x off_scid_3 = 0x0010017D;
 	  x on_scid = 0x00100174;
 	  x on_scid_2 = 0x00100175;
+	  x on_scid_3 = 0x0010017D;
 	  f reset_time = 3;
 	}
 	[placement]

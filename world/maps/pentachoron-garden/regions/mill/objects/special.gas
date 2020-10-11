@@ -115,6 +115,34 @@
 	  p position = 6.32181,2,-1.12379,0x34ade05d;
 	}
 }
+[t:trigger_generic,n:0x0010017d]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_mill","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.46199,0,-3.33404,0x6405a7fc;
+	}
+}
 [t:trigger_generic,n:0x00100007]
 {
 	[common]
@@ -201,5 +229,34 @@
 	[placement]
 	{
 	  p position = 0.620066,0.2,0.640518,0x07beb3bb;
+	}
+}
+[t:trigger_generic,n:0x0010017c]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_mill","active",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.0486526,0.2,0.0085144,0x07beb3bb;
 	}
 }
