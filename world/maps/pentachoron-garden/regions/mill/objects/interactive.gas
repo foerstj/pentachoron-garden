@@ -19,6 +19,10 @@
 }
 [t:statue_cav_spin_02,n:0x0010011b]
 {
+	[common]
+	{
+		screen_name = "Mill flip";
+	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;

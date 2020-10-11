@@ -1,0 +1,30 @@
+[t:elevator_instant_4s_1c,n:0x002000c1]
+{
+	[elevator_instant_4s_1c]
+	{
+	  i connect_door_location1_level1 = 5;
+	  i connect_door_location1_level2 = 7;
+	  i connect_door_location2_level1 = 5;
+	  i connect_door_location2_level2 = 7;
+	  x connect_node_location1 = 0x195B6744;
+	  x connect_node_location2 = 0x510AD6B6;
+		down_effect = "displacer_plate_down";
+	  f duration_location1_moving_to_lv1 = 1;
+	  f duration_location1_moving_to_lv2 = 1;
+	  f duration_location2_moving_to_lv1 = 1;
+	  f duration_location2_moving_to_lv2 = 1;
+	  i e2_connect_door_location1_level1 = 5;
+	  i e2_connect_door_location1_level2 = 7;
+	  i e2_connect_door_location2_level1 = 5;
+	  i e2_connect_door_location2_level2 = 7;
+	  x e2_elevator_node = 0x5FA825B7;
+	  x elevator_node = 0x8065C870;
+		material = "hub";
+	  x other_elevator = 0x00F0006D;
+		up_effect = "displacer_plate_up";
+	}
+	[placement]
+	{
+	  p position = -0.622047,0.2,0.63452,0x8065c870;
+	}
+}

@@ -1,5 +1,14 @@
 [t:statue_csl_01,n:0x00f00007]
 {
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Welcome to Pentachoron Garden Flop. - Built by Goblin Inventors, Inc.";
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
