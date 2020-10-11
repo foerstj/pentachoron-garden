@@ -172,3 +172,34 @@
 	  p position = -0.179882,0,3.99304,0x27a0ea42;
 	}
 }
+[t:use_point,n:0x00100168]
+{
+	[placement]
+	{
+	  p position = 0.385229,0.2,-0.391086,0x07beb3bb;
+	}
+}
+[t:set_quest_bits,n:0x00100174]
+{
+	[placement]
+	{
+	  p position = -0.617048,0.2,-0.576511,0x07beb3bb;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "flip_mill_activated";
+	}
+}
+[t:check_quest_bits,n:0x00100175]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "flip_mill_activated";
+		map_name = "pentachoron_garden";
+	  x send_to_scid = 0x00100166;
+	}
+	[placement]
+	{
+	  p position = 0.620066,0.2,0.640518,0x07beb3bb;
+	}
+}

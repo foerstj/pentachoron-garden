@@ -1,0 +1,20 @@
+[t:check_quest_bits,n:0x00f0006b]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "flip_mill_activated";
+		map_name = "pentachoron_garden";
+	  x send_to_scid = 0x00F0006A;
+	}
+	[placement]
+	{
+	  p position = 0.496883,0.200001,0.590391,0xe830b88a;
+	}
+}
+[t:use_point,n:0x00f0006c]
+{
+	[placement]
+	{
+	  p position = 0.0179452,0.199999,-0.539515,0xe830b88a;
+	}
+}
