@@ -19,6 +19,12 @@
 	  i e2_connect_door_location2_level2 = 7;
 	  x e2_elevator_node = 0x8065C870;
 	  x elevator_node = 0x5FA825B7;
+		location1_moving_to_lv1_actioninfo = "flop";
+		location1_moving_to_lv2_actioninfo = "flip";
+		location1_moving_to_lv2_hint = ah_xaxis_positive;
+		location2_moving_to_lv1_actioninfo = "farm";
+		location2_moving_to_lv2_actioninfo = "flip";
+		location2_moving_to_lv2_hint = ah_xaxis_positive;
 		material = "hub";
 	  x other_elevator = 0x002000C1;
 		up_effect = "displacer_plate_up";
@@ -49,6 +55,12 @@
 	  i e2_connect_door_location2_level2 = 7;
 	  x e2_elevator_node = 0x07BEB3BB;
 	  x elevator_node = 0xE830B88A;
+		location1_moving_to_lv1_actioninfo = "flop";
+		location1_moving_to_lv2_actioninfo = "flip";
+		location1_moving_to_lv2_hint = ah_xaxis_positive;
+		location2_moving_to_lv1_actioninfo = "mill";
+		location2_moving_to_lv2_actioninfo = "flip";
+		location2_moving_to_lv2_hint = ah_xaxis_positive;
 		material = "hub";
 	  x other_elevator = 0x00100166;
 		up_effect = "displacer_plate_up";

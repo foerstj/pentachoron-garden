@@ -163,3 +163,33 @@
 	  f wind_velocity = 2.000000;
 	}
 }
+[mood_setting*]
+{
+  b interior = true;
+	mood_name = flop;
+  f transition_time = 2.000000;
+	[fog]
+	{
+	  x fog_color = 0xFF000000;
+	  f fog_density = 1.000000;
+	  f fog_far_dist = 30.000000;
+	  f fog_lowdetail_far_dist = 30.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_near_dist = 20.000000;
+	}
+}
+[mood_setting*]
+{
+  b interior = true;
+	mood_name = flip;
+  f transition_time = 0.500000;
+	[fog]
+	{
+	  x fog_color = 0xFF000000;
+	  f fog_density = 1.000000;
+	  f fog_far_dist = 10.000000;
+	  f fog_lowdetail_far_dist = 10.000000;
+	  f fog_lowdetail_near_dist = 5.000000;
+	  f fog_near_dist = 5.000000;
+	}
+}
