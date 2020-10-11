@@ -4,7 +4,7 @@
 	{
 		choice = more;
 	  i order = 0;
-		screen_text = "Hello outlander! Heading out for a walk in the Garden?";
+		screen_text = "Hello outlander! Heading out for a walk in the Garden? The Flip-Flop's broken anyways...";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
@@ -42,19 +42,33 @@
 	{
 		choice = more;
 	  i order = 2;
-		screen_text = "Pleasure to meet you. It's not often we have visitors here, you see. Sure, this place is a bit off the beaten track... and maybe not in the best shape here and there... but I'm sure you'll like it here!";
+		screen_text = "Pleasure to meet you. It's not often we have visitors here, you see. Sure, this place is a bit off the beaten track... lying on the edge of the Badlands and stuff... but it's actually quite nice, isn't it? And don't worry, whatever you've heard of the region, it's all just people talking nonsense, it's really all safe and harmless. I'm sure you'll like it here!";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 3;
-		screen_text = "If you need anything, ask my wifey inside. Our stocks are a bit limited right now, but I'm sure we have all you need to get you started.";
+		screen_text = "Now, I'm afraid the Garden is just a little unkempt these days, I hope you don't mind. What's worse, the Flip-Flop is out of order again... it's our very own teleport hub, very convenient to get to the other places usually, just got a little rusty over the centuries, I guess.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Enjoy your time at the Garden!";
+		choice = more;
+	  i order = 4;
+		screen_text = "Speaking of the Flip-Flop... would you like to help me out? I would be really grateful if you could unlock the flips for us again - basically all you have to do is turn the flip switches again, on the outside flips. The flip switches are the little statues. By walking there you would also get to see the Garden - win-win, right?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 5;
+		screen_text = "If you need anything, ask my wifey inside. Our stocks are a bit limited right now due to the Flip-Flop situation, but I'm sure we have all you need to get you started.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Enjoy your time in the Garden!";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -71,14 +85,20 @@
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "This place used to be the favourite garden estate of the late Lord Hovart, who lived in these parts about fivehundred years ago. He loved this garden so much, he got buried here, and still rises from the dead sometimes and walks abroad.
-No seriously, if you see him walking around somewhere, kindly send him back to the dead.";
+		screen_text = "This place used to be the favourite garden estate of the late Lord Hovart, who had a summer residence in these parts long ago. He loved this garden so much, he still rises from the dead sometimes and walks abroad. No seriously, if you see him walking around somewhere, kindly send him back to the dead. Don't worry, he's actually quite harmless.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 2;
+		screen_text = "The Garden is very neatly arranged in such a way that you can reach easily from any point to any other. Our Mill here is right in the center. The Flip-Flop of course offers even more convenience, except it recently got locked down again... If you want to help just ask my hubby outside.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Do you need anything? I have only some basic stuff here at the moment, but please have a look. There are beasts and wild animals walking abroad in the Garden, you might want to take some provisions with you and something to protect yourself.";
+		screen_text = "Do you need anything? I have only some basic stuff here at the moment, but please have a look. There are sometimes beasts and wild animals walking abroad in the Garden, you might want to take some provisions with you and something to protect yourself.";
 	  f scroll_rate = 10.000000;
 	}
 }

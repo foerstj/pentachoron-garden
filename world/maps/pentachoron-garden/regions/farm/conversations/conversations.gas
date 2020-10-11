@@ -11,13 +11,12 @@
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "It's the loveliest piece of land right here along the river, isn't it?";
+		screen_text = "It's the loveliest piece of land right here along the river, isn't it? Our Farm is right in the Middle of the Garden.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Enjoy your time here, my dear!
-Life is too short to worry. Just have fun, young one.";
+		screen_text = "Enjoy your time here, my dear! Life is too short to worry. Just have fun, young one.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -42,14 +41,13 @@ Life is too short to worry. Just have fun, young one.";
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "My name is Mr. Farmer, I'm the farmer here. And my greatest pleasure in all of farmer life is selling packmules.
-		Do you happen to be interested in buying a packmule?";
+		screen_text = "My name is Mr. Farmer, I'm the farmer here. And the proud owner of these beautiful packmules. Look at these exemplars, what beautiful mules they are! So strong and always loyal. You won't find packmules like these anywhere else! You can rent them if you want!";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		choice = buy_packmule;
-		screen_text = "Look at these exemplars, what beautiful mules they are! So strong and always loyal. You won't find packmules like these anywhere else!";
+		screen_text = "Would you like to rent a packmule? You can keep it for your entire stay here in the Garden if you want.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -66,7 +64,7 @@ Life is too short to worry. Just have fun, young one.";
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "Not sure where to go from here? Don't worry, everything is pretty close anyways.";
+		screen_text = "Not sure where to go from here? The Flip-Flop is broken currently, but don't worry, we are right in the middle of the Garden, so everything is pretty close anyways.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
