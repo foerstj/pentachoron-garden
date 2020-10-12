@@ -15,3 +15,34 @@
 		use_point_scids = 0x00300015;
 	}
 }
+[t:sign_glb_inn_02,n:0x00300021]
+{
+	[common]
+	{
+		screen_name = "Ye Olde Gadzookery Inn";
+	}
+	[placement]
+	{
+	  p position = 13.5599,0.623058,0.592233,0xe4abc8e5;
+	}
+}
+[t:sign_glb_inn_03,n:0x00300022]
+{
+	[common]
+	{
+		screen_name = "Ye Olde Gadzookery Inn";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 13.7247,-3.7,-3.31427,0xe4abc8e5;
+	}
+}
+[t:door_grs_peasant_right,n:0x00300024]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 11.2472,-2.7,-0.0860479,0xe4abc8e5;
+	}
+}
