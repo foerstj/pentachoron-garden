@@ -18,11 +18,23 @@
 	}
 	[flip_farm]
 	{
-		screen_name = Farm flip;
+		screen_name = farm flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = Re-activate the Farm flip by turning the flip switch at the Farm.;
+			description = re-activate the farm flip by turning the flip switch at the farm.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
+	[flip_inn]
+	{
+		screen_name = inn flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = re-activate the inn flip by turning the flip switch at the inn.;
 		  i order = 0;
 		  b required_update = true;
 			speaker = ;
@@ -34,7 +46,7 @@
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = re-activate the mill flip by turning the flip switch at the Mill.;
+			description = re-activate the mill flip by turning the flip switch at the mill.;
 		  i order = 0;
 		  b required_update = true;
 			speaker = ;
