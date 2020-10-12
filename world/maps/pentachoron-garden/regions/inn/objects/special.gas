@@ -7,6 +7,7 @@
 			[*]
 			{
 				action* = fade_nodes(0x00000003,1,2,1,"in");
+				action* = mood_change("inn");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,0.500000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -35,6 +36,7 @@
 			[*]
 			{
 				action* = fade_nodes(0x00000003,1,2,1,"out:black");
+				action* = mood_change("inn-indoor");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -52,6 +54,34 @@
 	[placement]
 	{
 	  p position = 12.0533,-2.7,0.55651,0xe4abc8e5;
+	}
+}
+[t:trigger_generic,n:0x0030001d]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("inn");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(10.000000,0.500000,4.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.961406,-0.0500011,-0.875342,0x568c90e4;
 	}
 }
 [t:use_point,n:0x00300015]

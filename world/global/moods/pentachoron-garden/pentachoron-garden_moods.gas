@@ -2,7 +2,7 @@
 {
   b interior = false;
 	mood_name = mill;
-  f transition_time = 10.000000;
+  f transition_time = 5.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFCFE4EF;
@@ -35,7 +35,7 @@
 {
   b interior = true;
 	mood_name = mill-indoor;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFCFE4EF;
@@ -68,7 +68,7 @@
 {
   b interior = false;
 	mood_name = farm;
-  f transition_time = 10.000000;
+  f transition_time = 5.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFCFE4EF;
@@ -101,7 +101,7 @@
 {
   b interior = true;
 	mood_name = farm-indoor;
-  f transition_time = 0.000000;
+  f transition_time = 1.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFCFE4EF;
@@ -134,7 +134,7 @@
 {
   b interior = false;
 	mood_name = park;
-  f transition_time = 10.000000;
+  f transition_time = 5.000000;
 	[fog]
 	{
 	  x fog_color = 0xFFCFE4EF;
@@ -167,7 +167,7 @@
 {
   b interior = true;
 	mood_name = flop;
-  f transition_time = 2.000000;
+  f transition_time = 1.500000;
 	[fog]
 	{
 	  x fog_color = 0xFF000000;
@@ -191,5 +191,71 @@
 	  f fog_lowdetail_far_dist = 10.000000;
 	  f fog_lowdetail_near_dist = 5.000000;
 	  f fog_near_dist = 5.000000;
+	}
+}
+[mood_setting*]
+{
+  b interior = false;
+	mood_name = inn;
+  f transition_time = 5.000000;
+	[fog]
+	{
+	  x fog_color = 0xFFCFE4EF;
+	  f fog_density = 1.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_near_dist = 30.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_woods_01;
+	  f battle_intro_delay = 0.000000;
+	  f battle_repeat_delay = 0.000000;
+		battle_track = ;
+		room_type = rt_forest;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_place_3_inn;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.000000;
+	  f wind_velocity = 3.000000;
+	}
+}
+[mood_setting*]
+{
+  b interior = true;
+	mood_name = inn-indoor;
+  f transition_time = 1.000000;
+	[fog]
+	{
+	  x fog_color = 0xFFCFE4EF;
+	  f fog_density = 1.000000;
+	  f fog_far_dist = 60.000000;
+	  f fog_lowdetail_far_dist = 40.000000;
+	  f fog_lowdetail_near_dist = 20.000000;
+	  f fog_near_dist = 30.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_env_tavern;
+	  f battle_intro_delay = 0.000000;
+	  f battle_repeat_delay = 0.000000;
+		battle_track = ;
+		room_type = rt_livingroom;
+	  f standard_intro_delay = 10.000000;
+	  f standard_repeat_delay = 20.000000;
+		standard_track = s_m_place_3_inn_inside;
+	}
+	[wind]
+	{
+	  f wind_direction = 0.000000;
+	  f wind_velocity = 0.000000;
 	}
 }
