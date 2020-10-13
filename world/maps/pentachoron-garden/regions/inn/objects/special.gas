@@ -56,16 +56,32 @@
 	  p position = 12.0533,-2.7,0.55651,0xe4abc8e5;
 	}
 }
-[t:set_quest_bits,n:0x00300027]
+[t:trigger_generic,n:0x00300028]
 {
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_inn","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.612177,0.2,-0.502962,0x7e81941d;
-	}
-	[set_quest_bits]
-	{
-		bool_variable = "flip_inn_activated";
+	  p position = -2.27058,0.0257111,0.990515,0xe3468f29;
 	}
 }
 [t:trigger_generic,n:0x0030001d]
@@ -260,31 +276,15 @@
 	  p position = 0.595894,0.2,0.537937,0x7e81941d;
 	}
 }
-[t:trigger_generic,n:0x00300028]
+[t:set_quest_bits,n:0x00300027]
 {
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("flip_inn","completed",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
 	[placement]
 	{
-	  p position = -2.27058,0.0257111,0.990515,0xe3468f29;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.612177,0.2,-0.502962,0x7e81941d;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "flip_inn_activated";
 	}
 }
