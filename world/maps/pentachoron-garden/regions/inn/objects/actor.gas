@@ -22,24 +22,6 @@
 	  p position = 13.719,-3.7,-6.38881,0xe4abc8e5;
 	}
 }
-[t:ulora,n:0x00300079]
-{
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.8;
-	}
-	[common]
-	{
-		screen_name = "Bailey";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -6.00395,-2.7,1.7098,0xe4abc8e5;
-	}
-}
 [t:zed,n:0x0030007a]
 {
 	[aspect]
@@ -94,17 +76,13 @@
 	  p position = -5.04481,-2.7,5.19896,0xe4abc8e5;
 	}
 }
-[t:lorun,n:0x0030007d]
+[t:boyler_smyth,n:0x0030007d]
 {
 	[aspect]
 	{
-	  f max_life = 147;
-	  f max_mana = 185;
+	  f max_life = 68.6;
+	  f max_mana = 80;
 	  f scale_multiplier = 0.8;
-	}
-	[common]
-	{
-		screen_name = "Boiler";
 	}
 	[placement]
 	{
@@ -146,5 +124,23 @@
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = 0.790975,-2.7,-2.35597,0xe4abc8e5;
+	}
+}
+[t:bailey_keaper,n:0x00300079]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		screen_name = "Bailey";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -6.00395,-2.7,1.7098,0xe4abc8e5;
 	}
 }
