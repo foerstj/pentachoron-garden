@@ -1,3 +1,67 @@
+[bar_keaper]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Drink?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[fanelia_keaper]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello stranger, be our guest! Enjoying our garden? It's quite lovely isn't it?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+		screen_text = "Oh, it must have been so beautiful back in the days... You know, when Lord Hovart and Lady Ashish were staying here. When they were still young and good...
+
+Do you know the story of Lord Hovart and Lady Ashish? Hovart was a lord in Ehb back then, the only one in fact, and Lady Ashish was a sorceress - and they fell madly in love with each other!
+In their youthful days they built this garden estate, and spent many a happy summer vacation in its beautiful surroundings.
+And they lived happily ever after. - Well not really, of course.";
+	  f scroll_rate = 7.000000;
+	}
+}
+[gramper_farmer]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello, young fella! Do you know the history of Lord Hovart?";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Hovart was a lord in Ehb, long time ago, and his lady was the sorceress Ashish. Yeah it was all pretty romantic and stuff. Then he started dabbling with her magic and turned evil. Clear case of megalomania, if you ask me. I know some people tell that he turned evil because he spent too much time up here close to the Badlands, nonsense of course.
+Anyhow he turned evil, and she was captured by the Utraeans and turned into a spider monster. Lucky for us they pretty much forgot about this place, and instead built a whacky underground fortress over in Ehb. Hovart was slain in the Seck Rebellion but pops up as an undead from time to time. Even here. Guess he misses the good old times... but too late for him, of course.
+If you see him walking abroad, be so kind and send him back where he belongs.";
+	  f scroll_rate = 7.000000;
+	}
+}
+[granny_miller]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "A visitor, how nice! Welcome to the Garden. Wanna know a bit about its history? You're lucky because us three are basically the inofficial club of hobby historians of Pentachoron Garden, hehe.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "So, this place was built right here at the outskirts of the Badlands as a manorial garden and vacational estate of Lord Hovart and Lady Ashish; my friends will sure tell you more about them.
+Then, well, you know... they abandoned this place. But they had servants living here, year-round. And when they heard that their masters were rather not coming back, they simply stayed here, taking ownership of the place, starting families. And those servants were our forefathers. There you have it - we're all descendants of Lord Hovart's servants here.
+
+Ah the Flip-Flop? That was built during those days as well, during one of the first generations after Hovart's death. They found a little treasure in His Lordship's chambers, and since they didn't have any need for it, they commissioned their very own teleportation system from the Goblins, so they could visit each other even more easily. The Goblins of course had pillaged the components from some Utraean ruins, what else. And it's very handy right? A bit rusty and moody sometimes but most of the days it works perfectly fine.";
+	  f scroll_rate = 7.000000;
+	}
+}
 [hire]
 {
 	[text*]
@@ -7,12 +71,18 @@
 	  f scroll_rate = 10.000000;
 	}
 }
-[bar_keaper]
+[inn_keaper]
 {
 	[text*]
 	{
-		choice = shop;
-		screen_text = "Drink?";
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello there! Wouldst thee like to visit me Ale-House? Come in and be our guest!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "If thou art looking for the right way to go from here, let me help thee. The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at hand, forsooth!";
 	  f scroll_rate = 10.000000;
 	}
 }

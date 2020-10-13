@@ -1,0 +1,30 @@
+[t:template,n:townfolk_f_05_talks]
+{
+	category_name = "1W_townsperson";
+	doc = "townfolk_f_05_talks";
+	specializes = base_npc_fg;
+	[aspect]
+	{
+		model = m_c_gah_fg_pos_a7;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_24;
+			1 = b_c_pos_a7_049;
+		}
+	}
+	[common]
+	{
+		screen_name = "Townsperson";
+	}
+	[inventory]
+	{
+		custom_head = m_c_gah_fg_hlmt_head-03;
+		[equipment]
+		{
+			es_feet = bo_bo_le_light;
+		}
+	}
+	[conversation]
+	{
+	}
+}

@@ -1,8 +1,34 @@
+[t:potion_shop,n:0x00300029]
+{
+	[common]
+	{
+		screen_name = "Bar Keaper";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = bar_keaper;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -5.97294,-2.7,-3.33165,0xe4abc8e5;
+	}
+}
 [t:hein,n:0x0030002a]
 {
 	[common]
 	{
 		screen_name = "Inn Keaper";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = inn_keaper;
+		}
 	}
 	[placement]
 	{
@@ -151,11 +177,22 @@
 	  p position = -4.46113,-2.7,3.25273,0xe4abc8e5;
 	}
 }
-[t:townfolk_f_05,n:0x0030007e]
+[t:townfolk_f_05_talks,n:0x0030007e]
 {
 	[common]
 	{
 		screen_name = "Fanelia Keaper";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = fanelia_keaper;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{
@@ -169,6 +206,13 @@
 	{
 		screen_name = "Gramper Farmer";
 	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = gramper_farmer;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -181,28 +225,20 @@
 	{
 		screen_name = "Granny Miller";
 	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = 0.790975,-2.7,-2.35597,0xe4abc8e5;
-	}
-}
-[t:potion_shop,n:0x00300029]
-{
-	[common]
-	{
-		screen_name = "Bar Keaper";
-	}
 	[conversation]
 	{
 		[conversations]
 		{
-			* = bar_keaper;
+			* = granny_miller;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -5.97294,-2.7,-3.33165,0xe4abc8e5;
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 0.790975,-2.7,-2.35597,0xe4abc8e5;
 	}
 }
