@@ -22,10 +22,36 @@
 	  p position = 13.719,-3.7,-6.38881,0xe4abc8e5;
 	}
 }
+[t:bailey_keaper,n:0x00300079]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	  f scale_multiplier = 0.8;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = hire;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -6.00395,-2.7,1.7098,0xe4abc8e5;
+	}
+}
 [t:zed,n:0x0030007a]
 {
 	[aspect]
 	{
+	  i gold_value = 200;
 	  f max_life = 68.6;
 	  f max_mana = 80;
 	  f scale_multiplier = 0.8;
@@ -34,16 +60,28 @@
 	{
 		screen_name = "Zend";
 	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = hire;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,0.382683;
-	  p position = -7.81426,-2.7,5.2829,0xe4abc8e5;
+	  p position = -8.10849,-2.7,5.26524,0xe4abc8e5;
 	}
 }
 [t:rusk,n:0x0030007b]
 {
 	[aspect]
 	{
+	  i gold_value = 200;
 	  f max_life = 78.4;
 	  f max_mana = 31;
 	  f scale_multiplier = 0.8;
@@ -51,6 +89,17 @@
 	[common]
 	{
 		screen_name = "Kale";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = hire;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{
@@ -62,6 +111,7 @@
 {
 	[aspect]
 	{
+	  i gold_value = 200;
 	  f max_life = 58.8;
 	  f max_mana = 34;
 	  f scale_multiplier = 0.8;
@@ -70,24 +120,47 @@
 	{
 		screen_name = "Millie";
 	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = hire;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.923879,0,-0.382684;
-	  p position = -5.04481,-2.7,5.19896,0xe4abc8e5;
+	  p position = -4.95537,-2.7,5.46339,0xe4abc8e5;
 	}
 }
 [t:boyler_smyth,n:0x0030007d]
 {
 	[aspect]
 	{
+	  i gold_value = 200;
 	  f max_life = 68.6;
 	  f max_mana = 80;
 	  f scale_multiplier = 0.8;
 	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = hire;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -4.49715,-2.7,3.26547,0xe4abc8e5;
+	  p position = -4.46113,-2.7,3.25273,0xe4abc8e5;
 	}
 }
 [t:townfolk_f_05,n:0x0030007e]
@@ -124,23 +197,5 @@
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = 0.790975,-2.7,-2.35597,0xe4abc8e5;
-	}
-}
-[t:bailey_keaper,n:0x00300079]
-{
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.8;
-	}
-	[common]
-	{
-		screen_name = "Bailey";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -6.00395,-2.7,1.7098,0xe4abc8e5;
 	}
 }
