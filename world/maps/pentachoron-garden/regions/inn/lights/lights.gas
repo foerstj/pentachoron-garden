@@ -69,19 +69,19 @@
 	  b affects_actors = true;
 	  b affects_items = true;
 	  b affects_terrain = true;
-	  x color = 0xFFFFFF80;
+	  x color = 0xFFFFFF00;
 	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
-	  f intensity = 0.500000;
+	  f intensity = 1.000000;
 	  b occlude_geometry = false;
 	  b on_timer = false;
 	  f outer_radius = 5.000000;
 		[position]
 		{
 		  x node = 0x26FE6F75;
-		  f x = -5.722221;
+		  f x = -5.479445;
 		  f y = -4.926250;
-		  f z = -5.125859;
+		  f z = -5.034171;
 		}
 	}
 	[t:point,n:light_0x3b69f1db]
