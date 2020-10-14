@@ -773,57 +773,6 @@
 	  p position = -4.54958,-1.71027,-4.40013,0xe4abc8e5;
 	}
 }
-[t:lamp_glb_post_03,n:0x0030005f]
-{
-	[placement]
-	{
-	  p position = -4.24435,1.90735e-006,-0.518671,0xe3468f29;
-	}
-}
-[t:lamp_glb_post_03,n:0x0030007f]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -5.9578,-0.0500042,-1.86426,0x10540322;
-	}
-}
-[t:lamp_glb_post_03,n:0x00300092]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -5.73437,-0.100009,1.65716,0x568c90e4;
-	}
-}
-[t:lamp_glb_post_03,n:0x00300083]
-{
-	[placement]
-	{
-	  p position = 3.79849,1.90735e-006,1.2382,0x2247b6c5;
-	}
-}
-[t:lamp_glb_post_03,n:0x00300080]
-{
-	[placement]
-	{
-	  p position = -2.96132,1.90735e-006,-0.8841,0xbd33c7af;
-	}
-}
-[t:lamp_glb_post_03,n:0x00300085]
-{
-	[placement]
-	{
-	  p position = -0.0717739,1.90735e-006,0.0760098,0xaebdc7cf;
-	}
-}
-[t:lamp_glb_post_03,n:0x00300086]
-{
-	[placement]
-	{
-	  p position = 0.303822,0,-1.62675,0x757354f9;
-	}
-}
 [t:statue_cav_02,n:0x00300093]
 {
 	[aspect]
@@ -844,6 +793,7 @@
 {
 	[aspect]
 	{
+	  b draw_selection_indicator = false;
 	  b is_selectable = true;
 	  f scale_multiplier = 0.4;
 	}
@@ -861,6 +811,7 @@
 {
 	[aspect]
 	{
+	  b draw_selection_indicator = false;
 	  b is_selectable = true;
 	  f scale_multiplier = 0.5;
 	}
@@ -1029,5 +980,56 @@
 	[placement]
 	{
 	  p position = -11.6606,-1.275,-1.95032,0xe4abc8e5;
+	}
+}
+[t:lamp_glb_post_03,n:0x0030005f]
+{
+	[placement]
+	{
+	  p position = -4.24435,1.90735e-006,-0.518671,0xe3468f29;
+	}
+}
+[t:lamp_glb_post_03,n:0x0030007f]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -5.9578,-0.0500042,-1.86426,0x10540322;
+	}
+}
+[t:lamp_glb_post_03,n:0x00300092]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -5.73437,-0.100009,1.65716,0x568c90e4;
+	}
+}
+[t:lamp_glb_post_03,n:0x00300083]
+{
+	[placement]
+	{
+	  p position = 3.79849,1.90735e-006,1.2382,0x2247b6c5;
+	}
+}
+[t:lamp_glb_post_03,n:0x00300080]
+{
+	[placement]
+	{
+	  p position = -2.96132,1.90735e-006,-0.8841,0xbd33c7af;
+	}
+}
+[t:lamp_glb_post_03,n:0x00300085]
+{
+	[placement]
+	{
+	  p position = -0.0717739,1.90735e-006,0.0760098,0xaebdc7cf;
+	}
+}
+[t:lamp_glb_post_03,n:0x00300086]
+{
+	[placement]
+	{
+	  p position = 0.303822,0,-1.62675,0x757354f9;
 	}
 }
