@@ -3,7 +3,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 1.63924,-2.4,-5.98172,0xe4abc8e5;
+	  p position = 1.69044,-2.4,-5.99383,0xe4abc8e5;
 	}
 }
 [t:wood_grs_pile,n:0x0030002d]
@@ -822,5 +822,56 @@
 	[placement]
 	{
 	  p position = 0.303822,0,-1.62675,0x757354f9;
+	}
+}
+[t:statue_cav_02,n:0x00300093]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "In memory of grandfather Kalm";
+	}
+	[placement]
+	{
+	  p position = -4.51198,-1.7198,-7.35364,0xe4abc8e5;
+	}
+}
+[t:statue_glb_03,n:0x00300094]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	  f scale_multiplier = 0.4;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Lady Ashish";
+	}
+	[placement]
+	{
+	  p position = 1.61106,-2.4,-6.14208,0xe4abc8e5;
+	}
+}
+[t:statue_glb_roman_04,n:0x00300096]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	  f scale_multiplier = 0.5;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Lord Hovart";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.09016,-2.4,-6.09676,0xe4abc8e5;
 	}
 }
