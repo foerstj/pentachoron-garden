@@ -23,12 +23,6 @@
 		{
 			[*]
 			{
-				action* = call_sfx_script("respawn_shrine");
-				condition* = receive_world_message("WE_ENTERED_WORLD");
-				single_shot = true;
-			}
-			[*]
-			{
 				action* = call_sfx_script("respawn_shrine_charge");
 				condition* = receive_world_message("we_req_use");
 			}
@@ -58,12 +52,6 @@
 		rollover_display = true;
 		[template_triggers]
 		{
-			[*]
-			{
-				action* = call_sfx_script("respawn_shrine");
-				condition* = receive_world_message("WE_ENTERED_WORLD");
-				single_shot = true;
-			}
 			[*]
 			{
 				action* = call_sfx_script("respawn_shrine_charge");
