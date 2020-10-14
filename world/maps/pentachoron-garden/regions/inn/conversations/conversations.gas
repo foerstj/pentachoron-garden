@@ -93,6 +93,77 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	  f scroll_rate = 10.000000;
 	}
 }
+[pm_join_bailey]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hello visitor, would you like some company?
+My name is Bailey, I'm the daughter of this house, and bored to death of serving Penta Ale to the Grannies' Club of Wannabe Historians. Please take me with you!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_boyler]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Greetings, stranger. My name is Boyler Smyth, son on Blade.
+Would you like company during your stay here? It would be my pleasure to show you the Dwarven Smitty, and a handy combat mage is always useful.
+Of course I would like to earn some pocket money; I want to buy a new anvil for my homework.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_kale]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello. I am Kale, Kale Farmer. I'm a farmer.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "My parents are farmers. We live on the Farm.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 2;
+		screen_text = "Wanna see the Farm? I can show you. I can show you around the whole Garden if you want.
+But you would need to pay my bill...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "I'm afraid I have ordered too many Penta Ales and my money ran out. Math's a bitch right? My friends here have no money left either. Mom n pop will be angry with me again. Please bail me out? You can rely on my strong arm for as long as you stay.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_millie]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hello mate, fancy some company for taking a stroll through the Garden? I'd love to join you. I'd also love some pocket money, wink wink nod nod.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_zend]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "What do we have here, a visitor! Have money?
+I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage on your side exploring the Garden? I wanna buy a new cauldron for my homework, so for a little bit of gold I'm all yours!";
+	  f scroll_rate = 10.000000;
+	}
+}
 [pm_reject]
 {
 	[text*]
@@ -107,51 +178,6 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	{
 		choice = potential_member;
 		screen_text = "No hard feelings mate... Wanna go together again?";
-	  f scroll_rate = 10.000000;
-	}
-}
-[pm_join_bailey]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Hire me, I'm Bailey!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[pm_join_millie]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Hire me, I'm Millie!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[pm_join_kale]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Hire me, I'm Kale!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[pm_join_zend]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Hire me, I'm Zend!";
-	  f scroll_rate = 10.000000;
-	}
-}
-[pm_join_boyler]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Hire me, I'm Boyler!";
 	  f scroll_rate = 10.000000;
 	}
 }
