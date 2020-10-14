@@ -62,15 +62,6 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	  f scroll_rate = 7.000000;
 	}
 }
-[hire]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "hire me!";
-	  f scroll_rate = 10.000000;
-	}
-}
 [inn_keaper]
 {
 	[text*]
@@ -83,6 +74,84 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	[text*]
 	{
 		screen_text = "If thou art looking for the right way to go from here, let me help thee. The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at hand, forsooth!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_accept]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_reject]
+{
+	[text*]
+	{
+		screen_text = "Pff then not!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "No hard feelings mate... Wanna go together again?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_bailey]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hire me, I'm Bailey!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_millie]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hire me, I'm Millie!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_kale]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hire me, I'm Kale!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_zend]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hire me, I'm Zend!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[pm_join_boyler]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Hire me, I'm Boyler!";
 	  f scroll_rate = 10.000000;
 	}
 }

@@ -48,12 +48,16 @@
 	{
 		[conversations]
 		{
-			* = hire;
+			* = pm_accept;
+			* = pm_disband;
+			* = pm_join_bailey;
+			* = pm_reject;
+			* = pm_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_bailey_pm.skrit;
 	}
 	[placement]
 	{
@@ -78,12 +82,16 @@
 	{
 		[conversations]
 		{
-			* = hire;
+			* = pm_accept;
+			* = pm_disband;
+			* = pm_join_zend;
+			* = pm_reject;
+			* = pm_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_zend_pm.skrit;
 	}
 	[placement]
 	{
@@ -108,12 +116,16 @@
 	{
 		[conversations]
 		{
-			* = hire;
+			* = pm_accept;
+			* = pm_disband;
+			* = pm_join_kale;
+			* = pm_reject;
+			* = pm_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_kale_pm.skrit;
 	}
 	[placement]
 	{
@@ -138,12 +150,16 @@
 	{
 		[conversations]
 		{
-			* = hire;
+			* = pm_accept;
+			* = pm_disband;
+			* = pm_join_millie;
+			* = pm_reject;
+			* = pm_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_millie_pm.skrit;
 	}
 	[placement]
 	{
@@ -164,12 +180,16 @@
 	{
 		[conversations]
 		{
-			* = hire;
+			* = pm_accept;
+			* = pm_disband;
+			* = pm_join_boyler;
+			* = pm_reject;
+			* = pm_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_boyler_pm.skrit;
 	}
 	[placement]
 	{
@@ -240,12 +260,5 @@
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = 0.790975,-2.7,-2.35597,0xe4abc8e5;
-	}
-}
-[t:droog_archer,n:0x0030002c]
-{
-	[placement]
-	{
-	  p position = -3.85069,0,1.8969,0x8000c509;
 	}
 }
