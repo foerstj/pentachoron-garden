@@ -1,0 +1,74 @@
+[t:template,n:respawn_statue_azunai]
+{
+	specializes 		= interactive;
+	doc 				= "statue_respawn_azunai";
+	category_name       = "interactive";
+
+	[aspect]
+	{
+		model = m_i_glb_statue-azunai-02;
+		is_ghost_usable = true;
+		draw_selection_indicator = false;
+	}
+
+	[respawn_shrine] { }
+
+	[common]
+	{
+		screen_name      = "Azunai the Defender";
+		is_multi_player  = true;
+		is_single_player = true;
+		rollover_display = true;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("respawn_shrine");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				action* = call_sfx_script("respawn_shrine_charge");
+				condition* = receive_world_message("we_req_use");
+			}
+		}
+	}
+}
+[t:template,n:respawn_statue_xeria]
+{
+	specializes 		= interactive;
+	doc 				= "statue_respawn_xeria";
+	category_name       = "interactive";
+
+	[aspect]
+	{
+		model = m_i_cav_statue-01;
+		is_ghost_usable = true;
+		draw_selection_indicator = false;
+	}
+
+	[respawn_shrine] { }
+
+	[common]
+	{
+		screen_name      = "Xeria the Valiant";
+		is_multi_player  = true;
+		is_single_player = true;
+		rollover_display = true;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("respawn_shrine");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				action* = call_sfx_script("respawn_shrine_charge");
+				condition* = receive_world_message("we_req_use");
+			}
+		}
+	}
+}

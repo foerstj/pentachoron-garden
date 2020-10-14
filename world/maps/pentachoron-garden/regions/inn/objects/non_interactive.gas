@@ -520,33 +520,3 @@
 	  p position = 2.06089,-2.7,2.34813,0xe4abc8e5;
 	}
 }
-[t:statue_glb_roman_01,n:0x0030002c]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	  f scale_multiplier = 1.5;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Saint Arnulf";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,0.382683;
-	  p position = -1.80058,0.307834,0.347515,0xf76ec00e;
-	}
-}
-[t:stand_csl_01,n:0x0030002d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.5;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -1.58953,-0.751809,0.10145,0xf76ec00e;
-	}
-}

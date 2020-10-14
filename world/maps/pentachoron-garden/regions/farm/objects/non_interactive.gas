@@ -103,7 +103,7 @@
 	[common]
 	{
 	  b rollover_display = true;
-		screen_name = "St. Isidore";
+		screen_name = "Fiacrius Farmer, Forefather of the Farmer Family.";
 	}
 	[placement]
 	{
@@ -709,6 +709,41 @@
 	{
 	  q orientation = 0,0.782608,0,0.622514;
 	  p position = -2.45974,1.90735e-006,0.12771,0x3cd5866e;
+	}
+}
+[t:grass_grs_07,n:0x00200187]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.63493;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.782608,0,0.622514;
+	  p position = 0.0861177,-0.284019,-0.0337372,0x536f8cbe;
+	}
+}
+[t:flowers_grs_06,n:0x002001b5]
+{
+	[placement]
+	{
+	  q orientation = 0,0.998629,0,0.0523355;
+	  p position = -1.58662,-0.3,0.85391,0x536f8cbe;
+	}
+}
+[t:flowers_grs_06,n:0x002001bb]
+{
+	[placement]
+	{
+	  q orientation = 0,0.430511,0,-0.902585;
+	  p position = 1.81677,0.0057537,-0.559261,0x536f8cbe;
+	}
+}
+[t:planter_csl_02,n:0x002001be]
+{
+	[placement]
+	{
+	  p position = -0.944652,-0.135689,-0.707949,0x536f8cbe;
 	}
 }
 [t:tree_grs_oak_02,n:0x00200027]

@@ -797,23 +797,6 @@
 	  p position = 0.406557,-1.2,-1.55766,0xe65af987;
 	}
 }
-[t:statue_cav_01,n:0x0120001e]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Saint Dorothea";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.0442142,0.450001,0.0303248,0x66a86856;
-	}
-}
 [t:tree_grs_poplar_01,n:0x0120005b]
 {
 	[aspect]
@@ -1504,23 +1487,6 @@
 	{
 	  q orientation = 0,0.224951,0,0.97437;
 	  p position = 1.93502,0,0.128412,0x180a7f4c;
-	}
-}
-[t:statue_glb_wizard_01,n:0x0120001f]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	  f scale_multiplier = 2;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "St. Fiacrius";
-	}
-	[placement]
-	{
-	  p position = -0.0411415,0.450001,-0.0462198,0x12d43f0d;
 	}
 }
 [t:grass_grs_09,n:0x01200161]
@@ -6332,5 +6298,39 @@
 	{
 	  q orientation = 0,-0.267238,0,0.96363;
 	  p position = 1.43088,-1.00888,-1.89887,0xfd5e75d1;
+	}
+}
+[t:statue_glb_01,n:0x0120028d]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Lady Ashish";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.441067,0.45,-0.195115,0x66a86856;
+	}
+}
+[t:statue_glb_roman_01,n:0x012002b9]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	  f scale_multiplier = 1.8;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Lord Hovart";
+	}
+	[placement]
+	{
+	  p position = 0.0367239,0.450001,-0.186916,0x12d43f0d;
 	}
 }
