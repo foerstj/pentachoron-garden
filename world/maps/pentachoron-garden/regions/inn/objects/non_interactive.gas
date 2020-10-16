@@ -219,20 +219,6 @@
 	  p position = 0.267295,-2.4,-6.40462,0xe4abc8e5;
 	}
 }
-[t:moosehead_glb,n:0x00300048]
-{
-	[placement]
-	{
-	  p position = -10.0519,-0.776355,-4.02413,0xe4abc8e5;
-	}
-}
-[t:bearhead_glb,n:0x00300049]
-{
-	[placement]
-	{
-	  p position = -4.581,-0.886083,-7.28457,0xe4abc8e5;
-	}
-}
 [t:pipe_gob_04,n:0x0030004b]
 {
 	[placement]
@@ -777,6 +763,7 @@
 {
 	[aspect]
 	{
+	  b draw_selection_indicator = false;
 	  b is_selectable = true;
 	}
 	[common]
@@ -1031,5 +1018,31 @@
 	[placement]
 	{
 	  p position = 0.303822,0,-1.62675,0x757354f9;
+	}
+}
+[t:moosehead_glb,n:0x00300095]
+{
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_multiplier = 3;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 13.8132,2.68585,0.589483,0xe4abc8e5;
+	}
+}
+[t:moosehead_glb,n:0x00300097]
+{
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_multiplier = 3;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -14.7856,2.38484,0.455712,0xe4abc8e5;
 	}
 }
