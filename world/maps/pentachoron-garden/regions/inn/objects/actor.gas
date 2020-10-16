@@ -36,6 +36,40 @@
 	  p position = 13.7885,-3.7,-2.38696,0xe4abc8e5;
 	}
 }
+[t:dog,n:0x00300048]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Sup Dawg";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 13.4342,-3.6664,-1.28799,0xe4abc8e5;
+	}
+}
+[t:dog_sleeping,n:0x00300049]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Fusty";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.923879;
+	  p position = -1.87275,-2.7,-5.23022,0xe4abc8e5;
+	}
+}
 [t:bailey_keaper,n:0x00300079]
 {
 	[aspect]
@@ -262,61 +296,6 @@
 	  p position = 0.790975,-2.7,-2.35597,0xe4abc8e5;
 	}
 }
-[t:dog,n:0x00300048]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Sup Dawg";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 13.4342,-3.6664,-1.28799,0xe4abc8e5;
-	}
-}
-[t:dog_sleeping,n:0x00300049]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Fusty";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.923879;
-	  p position = -1.87275,-2.7,-5.23022,0xe4abc8e5;
-	}
-}
-[t:cow_brown,n:0x00300098]
-{
-	[aspect]
-	{
-	  b is_selectable = true;
-	}
-	[common]
-	{
-	  b rollover_display = true;
-		screen_name = "Brownie";
-	}
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.861629,0,0.507538;
-	  p position = 1.99576,-0.05,1.984,0xc5dc47c5;
-	}
-}
 [t:rat,n:0x00300099]
 {
 	[placement]
@@ -403,5 +382,26 @@
 	{
 	  q orientation = 0,0.788011,0,0.615661;
 	  p position = 9.88929,-3.7,-6.36468,0xe4abc8e5;
+	}
+}
+[t:cow_brown,n:0x00300098]
+{
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Brownie";
+	}
+	[mind]
+	{
+	  b on_enemy_entered_weapon_engage_range_attack = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.861629,0,0.507538;
+	  p position = 1.99576,-0.05,1.984,0xc5dc47c5;
 	}
 }
