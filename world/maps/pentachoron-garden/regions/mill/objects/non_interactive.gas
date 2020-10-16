@@ -80,6 +80,7 @@
 {
 	[aspect]
 	{
+	  b draw_selection_indicator = false;
 	  b is_selectable = true;
 	}
 	[common]
@@ -299,14 +300,6 @@
 	{
 	  q orientation = 0,0.681998,0,-0.731354;
 	  p position = -5.95301,-1.88141,9.222,0x34ade05d;
-	}
-}
-[t:shield_csl_wall_01,n:0x00100053]
-{
-	[placement]
-	{
-	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = -3.57052,4.51723,6.46424,0x34ade05d;
 	}
 }
 [t:table_glb_02,n:0x00100054]
@@ -4331,5 +4324,13 @@
 	{
 	  q orientation = 0,0.995396,0,-0.0958459;
 	  p position = 2.00434,0,1.42123,0x7c97ee90;
+	}
+}
+[t:staghead_glb,n:0x001001d3]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.60478e-007;
+	  p position = 4.57109,6.40515,-1.03221,0x34ade05d;
 	}
 }
