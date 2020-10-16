@@ -3,7 +3,7 @@
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Drink?";
+		screen_text = "Valorous day! would thee like to drinketh a shrump ale?";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -13,16 +13,16 @@
 	{
 		choice = more;
 	  i order = 0;
-		screen_text = "Hello stranger, be our guest! Enjoying our garden? It's quite lovely isn't it?";
+		screen_text = "Holla stranger, beest our guest! enjoying our garden? t's quite lovely isn't t?";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "Oh, it must have been so beautiful back in the days... You know, when Lord Hovart and Lady Ashish were staying here. When they were still young and good...
-
-Do you know the story of Lord Hovart and Lady Ashish? Hovart was a lord in Ehb back then, the only one in fact, and Lady Ashish was a sorceress - and they fell madly in love with each other!
-In their youthful days they built this garden estate, and spent many a happy summer vacation in its beautiful surroundings.
-And they lived happily ever after. - Well not really, of course.";
+		screen_text = "Oh, t might not but has't been so quite quaint back in the days.  Thee knoweth, at which hour lord hovart and mistress ashish wast staying hither.  At which hour they wast still young and valorous. 
+ 
+doth thee knoweth the story of lord hovart and mistress ashish? hovart wast a lord in ehb back then, the only one in fact, and mistress ashish wast a utraean sorceress - and they hath fallen madly in love with each other!
+in their young days they hath built this garden estate, and hath spent many a joyous summer vacation in its quite quaint surroundings. 
+ and they hath lived happily ev'r after.  - well not very much, of course";
 	  f scroll_rate = 7.000000;
 	}
 }
@@ -67,12 +67,12 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	{
 		choice = more;
 	  i order = 0;
-		screen_text = "Hello there! Wouldst thee like to visit me Ale-House? Come in and be our guest!";
+		screen_text = "Welcome, lief visitor! would thee like to visit mine own ale-house? cometh in and beest our guest!";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
-		screen_text = "If thou art looking for the right way to go from here, let me help thee. The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at hand, forsooth!";
+		screen_text = "If 't be true thou art looking f'r the right way to wend from hither, alloweth me holp thee.  The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at handeth, forsooth!";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -97,8 +97,8 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Hello visitor, would you like some company?
-My name is Bailey, I'm the daughter of this house, and bored to death of serving Penta Ale to the Grannies' Club of Wannabe Historians. Please take me with you!";
+		screen_text = "Holla visitor, would thee like some company?
+mine own name is Bailey, i'm the daughter of this house, and bor'd to death of serving shrump ale to the grannies' club of wannabe historians.  Prithee taketh me with thee!";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -107,9 +107,9 @@ My name is Bailey, I'm the daughter of this house, and bored to death of serving
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Greetings, stranger. My name is Boyler Smyth, son on Blade.
-Would you like company during your stay here? It would be my pleasure to show you the Dwarven Smitty, and a handy combat mage is always useful.
-Of course I would like to earn some pocket money; I want to buy a new anvil for my homework.";
+		screen_text = "Greetingks, straynger. My nayme ish Boyler Smyth, son on Blade.
+Wud you like companee dyouring your shtay here? It wud be my bleashure to show you de Dwarven Smitty, and a handee combatt mayge ish always usefull.
+Of coarse I wud like to earn some pocket monee; I want to buy a nyoo anvill foar my homeworg.";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -140,7 +140,7 @@ But you would need to pay my bill...";
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "I'm afraid I have ordered too many Penta Ales and my money ran out. Math's a bitch right? My friends here have no money left either. Mom n pop will be angry with me again. Please bail me out? You can rely on my strong arm for as long as you stay.";
+		screen_text = "I'm afraid I have ordered too many Shrump Ales and my money ran out. Math's a bitch right? My friends here have no money left either. Mom n pop will be angry with me again. Please bail me out? You can rely on my strong arm for as long as you stay.";
 	  f scroll_rate = 10.000000;
 	}
 }

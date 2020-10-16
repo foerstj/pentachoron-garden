@@ -794,6 +794,19 @@
 	  p position = 1.61106,-2.4,-6.14208,0xe4abc8e5;
 	}
 }
+[t:moosehead_glb,n:0x00300095]
+{
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_multiplier = 3;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 13.8132,2.68585,0.589483,0xe4abc8e5;
+	}
+}
 [t:statue_glb_roman_04,n:0x00300096]
 {
 	[aspect]
@@ -811,6 +824,19 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.09016,-2.4,-6.09676,0xe4abc8e5;
+	}
+}
+[t:moosehead_glb,n:0x00300097]
+{
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_multiplier = 3;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -14.7856,2.38484,0.455712,0xe4abc8e5;
 	}
 }
 [t:books_glb_01,n:0x0030009a]
@@ -1018,31 +1044,5 @@
 	[placement]
 	{
 	  p position = 0.303822,0,-1.62675,0x757354f9;
-	}
-}
-[t:moosehead_glb,n:0x00300095]
-{
-	[aspect]
-	{
-	  b does_block_camera = true;
-	  f scale_multiplier = 3;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 13.8132,2.68585,0.589483,0xe4abc8e5;
-	}
-}
-[t:moosehead_glb,n:0x00300097]
-{
-	[aspect]
-	{
-	  b does_block_camera = true;
-	  f scale_multiplier = 3;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -14.7856,2.38484,0.455712,0xe4abc8e5;
 	}
 }
