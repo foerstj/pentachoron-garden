@@ -2,4 +2,15 @@
 {
 	source_region_guid = 0x00000003;
 	source_region_name = inn;
+	[t:stitch_editor,n:orchard]
+	{
+		dest_region = orchard;
+		[node_ids]
+		{
+			0x00302301 = 0x40396506,3;
+			0x00302302 = 0x5BE6B8C8,4;
+			0x00302303 = 0xD0AB119C,6;
+			0x00302304 = 0x590FE022,3;
+		}
+	}
 }

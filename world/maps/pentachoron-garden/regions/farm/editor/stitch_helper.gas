@@ -2,6 +2,16 @@
 {
 	source_region_guid = 0x00000002;
 	source_region_name = farm;
+	[t:stitch_editor,n:orchard]
+	{
+		dest_region = orchard;
+		[node_ids]
+		{
+			0x00202301 = 0x7471CA96,3;
+			0x00202302 = 0x61807672,1;
+			0x00202303 = 0x36B30A6C,3;
+		}
+	}
 	[t:stitch_editor,n:park]
 	{
 		dest_region = park;
