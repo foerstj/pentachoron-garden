@@ -6,7 +6,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000001,1,2,-1,"out:black");
+				action* = fade_nodes(0x00000001,1,2,1,"out:black");
 				action* = mood_change("mill-indoor");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,1.000000,"on_every_enter");
@@ -35,7 +35,7 @@
 		{
 			[*]
 			{
-				action* = fade_nodes(0x00000001,1,2,-1,"in");
+				action* = fade_nodes(0x00000001,1,2,1,"in");
 				action* = mood_change("mill");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,0.500000,0.500000,"on_every_enter");
