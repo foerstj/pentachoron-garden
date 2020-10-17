@@ -72,7 +72,23 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	}
 	[text*]
 	{
+		choice = more;
+	  i order = 1;
 		screen_text = "If 't be true thou art looking f'r the right way to wend from hither, alloweth me holp thee.  The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at handeth, forsooth!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		activate_quest* = beast_orchard_hulking_gremal,0;
+		choice = more;
+	  i order = 2;
+	  b quest_dialogue = true;
+		screen_text = "Upstream lies the Farm.  Mr. Farmer is a very valorous cousin of mine, frequent customer and reliable supplier.  And he's at each moment joyous to did rend mules, if 't be true thou art interest'd.  The way leads through an orchard full of fusty fruit trees and gremals.  Such cute dram creatures, as long as they becometh not too big right? eke maketh f'r a valorous stew";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "Enjoy thy time in the Garden!";
 	  f scroll_rate = 10.000000;
 	}
 }

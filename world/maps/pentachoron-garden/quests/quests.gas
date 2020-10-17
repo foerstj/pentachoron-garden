@@ -3,17 +3,30 @@
 }
 [quests]
 {
+	[beast_orchard_hulking_gremal]
+	{
+		screen_name = hulking gremal;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
+			description = kill the hulking gremal in the orchard.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = mrs. farmer;
+		}
+	}
 	[beast_park_phrak_queen]
 	{
 		screen_name = phrak queen;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			address = world:maps:pentachoron-garden:regions:farm:conversations:grandma_farmer;
+			address = world:maps:pentachoron-garden:regions:mill:conversations:molly_miller;
 			description = kill the phrak queen in the park.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = molly miller;
+			speaker = molly;
 		}
 	}
 	[flip_farm]

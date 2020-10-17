@@ -78,6 +78,15 @@
 	}
 	[text*]
 	{
+		activate_quest* = beast_orchard_hulking_gremal,0;
+		choice = more;
+	  i order = 3;
+	  b quest_dialogue = true;
+		screen_text = "Following the Brook downstream, you'll get through our Orchard, and will arrive at the Inn. Our junior's over there probably, hanging out with his friends instead of making himself useful. Anyways, the Orchard is full of cute little gremals but be careful with the bigger ones. Been bitten recently.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "Enjoy your stay in the Garden!";
 	  f scroll_rate = 10.000000;
 	}
