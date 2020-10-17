@@ -54,19 +54,27 @@
 	}
 	[text*]
 	{
+		choice = more;
+	  i order = 4;
+		screen_text = "Once the flips get locked down, they can only be unlocked by goblin hands touching the outside flip switches.
+You can try your luck with them, if you want. A lot of people have goblin blood in them without knowing. None of us here has, except for the Dwarves of course, but they're the kind of people who enjoy being left in peace for a while, so they're never in a great hurry to fix them.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		activate_quest* = flip_mill,0;
 		activate_quest* = flip_farm,0;
 		activate_quest* = flip_inn,0;
 		choice = more;
-	  i order = 4;
+	  i order = 5;
 	  b quest_dialogue = true;
-		screen_text = "Speaking of the Flip-Flop... would you like to help me out? I would be really grateful if you could unlock the flips for us again - basically all you have to do is turn the flip switches again, on the outside flips. The flip switches are the little statues. By walking there you would also get to see the Garden - win-win, right?";
+		screen_text = "So, if you're lucky and able to open the flips, would you like to help me out? You'd have to walk to them, of course. But by walking you would also get to see the Garden - win-win, right?";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
 	{
 		choice = more;
-	  i order = 5;
+	  i order = 6;
 		screen_text = "If you need anything, ask my wifey inside. Our stocks are a bit limited right now due to the Flip-Flop situation, but I'm sure we have all you need to get you started.";
 	  f scroll_rate = 10.000000;
 	}
