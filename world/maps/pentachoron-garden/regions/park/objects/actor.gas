@@ -114,17 +114,6 @@
 	  p position = 1.04942,0,-0.908,0xb3ea69ab;
 	}
 }
-[t:butterfly,n:0x0120026f]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = 1.74763,0,-1.95586,0x8d3c7d17;
-	}
-}
 [t:butterfly,n:0x01200270]
 {
 	[mind]
@@ -152,17 +141,6 @@
 	  p position = -2.19451,0.45,0.0226044,0x66a86856;
 	}
 }
-[t:butterfly,n:0x01200273]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = 0.525469,0.45,-1.6063,0x66a86856;
-	}
-}
 [t:butterfly,n:0x01200272]
 {
 	[mind]
@@ -173,18 +151,6 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.55323,-1.2,1.939,0xc7c7ad57;
-	}
-}
-[t:butterfly,n:0x01200271]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -0.897235,-1.2,1.09356,0x90e6cd79;
 	}
 }
 [t:phrak,n:0x012002a1]
@@ -230,18 +196,6 @@
 	  p position = 0.777685,-1.2,-1.50449,0x15994bae;
 	}
 }
-[t:butterfly,n:0x0120025d]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -3.23486,0,-0.401349,0x612258d3;
-	}
-}
 [t:butterfly,n:0x0120025e]
 {
 	[mind]
@@ -258,17 +212,6 @@
 	[placement]
 	{
 	  p position = -0.0147765,0.450001,2.07328,0x12d43f0d;
-	}
-}
-[t:butterfly,n:0x0120025b]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = 0.637084,1.90735e-006,-1.07293,0xadc0befb;
 	}
 }
 [t:phrak_piercer,n:0x012002a9]
@@ -336,17 +279,6 @@
 	{
 	  q orientation = 0,0.713251,0,0.700909;
 	  p position = -2.58767,-0.0175335,-2.12349,0x0ac7200c;
-	}
-}
-[t:butterfly,n:0x01200260]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = 1.62299,-0.250629,-3.12927,0xe2410188;
 	}
 }
 [t:gremal,n:0x0120027b]
@@ -463,17 +395,6 @@
 	  p position = 2.68828,0.549999,0.0633948,0xadf39b91;
 	}
 }
-[t:butterfly,n:0x01200263]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = -2.38466,0,-2.74161,0xf399da3e;
-	}
-}
 [t:butterfly,n:0x01200264]
 {
 	[mind]
@@ -507,18 +428,6 @@
 	{
 	  q orientation = 0,-0.688355,0,0.725374;
 	  p position = 3.18398,-0.3,1.04686,0x3173ad12;
-	}
-}
-[t:butterfly,n:0x01200265]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 0.135144,0,-3.05282,0xb5ea439b;
 	}
 }
 [t:spider_adolescent_yellow,n:0x012002ad]
@@ -596,18 +505,6 @@
 	  p position = -3.40316,-1.2,-3.39395,0x6500be9d;
 	}
 }
-[t:butterfly,n:0x0120026a]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -3.38309,0,1.71208,0x59f02d02;
-	}
-}
 [t:gremal,n:0x01200286]
 {
 	[placement]
@@ -664,17 +561,6 @@
 	{
 	  q orientation = 0,0.139173,0,0.990268;
 	  p position = -3.94741,-1.2,-2.53405,0x7247e8cf;
-	}
-}
-[t:butterfly,n:0x01200269]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = -3.36261,-0.300001,2.86834,0xb518ba9d;
 	}
 }
 [t:gremal,n:0x01200283]
@@ -736,17 +622,6 @@
 	  p position = 2.49643,0.000715256,-0.132346,0x16b61c2c;
 	}
 }
-[t:butterfly,n:0x01200268]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = 2.6838,-0.0367597,0.636106,0x16b61c2c;
-	}
-}
 [t:skrubb_farm,n:0x0120029b]
 {
 	[placement]
@@ -798,17 +673,6 @@
 	  p position = -6.04428,2,-2.72769,0x3e4da767;
 	}
 }
-[t:butterfly,n:0x0120026c]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = -0.903041,0,0.336827,0xe42a2eb6;
-	}
-}
 [t:phrak,n:0x01200292]
 {
 	[placement]
@@ -858,17 +722,6 @@
 	{
 	  q orientation = 0,0.829037,0,-0.559193;
 	  p position = -1.12587,0,1.52816,0x4352cb66;
-	}
-}
-[t:butterfly,n:0x01200261]
-{
-	[mind]
-	{
-	  b on_enemy_entered_weapon_engage_range_attack = true;
-	}
-	[placement]
-	{
-	  p position = -2.21222,-0.300001,2.94633,0x3930fc23;
 	}
 }
 [t:skrubb_farm,n:0x0120029c]
