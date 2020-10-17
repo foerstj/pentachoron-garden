@@ -98,6 +98,18 @@
 	  p position = 1.58769,-2,-4.99075,0x58f6f3a1;
 	}
 }
+[t:barrel_glb,n:0x01200259]
+{
+	[inventory]
+	{
+	  i gold = 20;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.656059,0,0.75471;
+	  p position = 1.28149,0,-3.00297,0x07e09e47;
+	}
+}
 [t:barrel_glb_fh_r1,n:0x01200243]
 {
 	[placement]
@@ -188,17 +200,5 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -1.06824,0,0.297309,0x2ee5cc0a;
-	}
-}
-[t:barrel_glb,n:0x01200259]
-{
-	[inventory]
-	{
-	  i gold = 20;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.656059,0,0.75471;
-	  p position = 1.28149,0,-3.00297,0x07e09e47;
 	}
 }
