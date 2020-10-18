@@ -51,3 +51,27 @@
 		use_point_scids = 0x002000be;
 	}
 }
+[t:sign_glb_01,n:0x0020019f]
+{
+	[common]
+	{
+		screen_name = "To Mill via Park";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.00518,0,1.1134,0x3cd5866e;
+	}
+}
+[t:sign_glb_01,n:0x002001fc]
+{
+	[common]
+	{
+		screen_name = "To Inn via Orchard";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 6.60488,-4.55,-7.42548,0xa7c236e5;
+	}
+}

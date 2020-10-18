@@ -162,10 +162,31 @@
 	  f outer_radius = 20.000000;
 		[position]
 		{
-		  x node = 0xE3468F29;
-		  f x = -4.266191;
-		  f y = 5.539363;
-		  f z = -0.406933;
+		  x node = 0x4814D8D7;
+		  f x = 0.285843;
+		  f y = 5.589362;
+		  f z = -0.799335;
+		}
+	}
+	[t:point,n:light_0x6cb7b5b8]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFFFFF00;
+	  b draw_shadow = true;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = true;
+	  b on_timer = false;
+	  f outer_radius = 20.000000;
+		[position]
+		{
+		  x node = 0x9DA3688D;
+		  f x = -0.484234;
+		  f y = 5.497834;
+		  f z = -0.228577;
 		}
 	}
 	[t:point,n:light_0x83200da7]
