@@ -75,3 +75,15 @@
 		use_point_scids = 0x00300015;
 	}
 }
+[t:sign_glb_01,n:0x0030013b]
+{
+	[common]
+	{
+		screen_name = "To Mill via Snapper Pond";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -5.03621,-0.0456354,-0.847406,0x568c90e4;
+	}
+}
