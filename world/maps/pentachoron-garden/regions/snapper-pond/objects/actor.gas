@@ -1,0 +1,75 @@
+[t:wolf_gray_boss_01,n:0x013000dc]
+{
+	[common]
+	{
+		screen_name = "Alpha Wolf";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("beast_snapper_pond_alpha_wolf","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("beast_snapper_pond_alpha_wolf","active",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(20.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -1.87042,7.98735,5.61345,0xd8643100;
+	}
+}
+[t:wolf_gray,n:0x013000dd]
+{
+	[placement]
+	{
+	  p position = 2.08639,-0.0528393,-1.59142,0x39586b9c;
+	}
+}
+[t:wolf_gray,n:0x013000de]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.51647,-0.3,0.474131,0x39586b9c;
+	}
+}
+[t:wolf_gray,n:0x013000df]
+{
+	[placement]
+	{
+	  p position = 1.32687,0.22298,-1.62946,0x8f0832ed;
+	}
+}
+[t:wolf_gray,n:0x013000e0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -2.53356,-0.217548,2.79387,0x317fd627;
+	}
+}

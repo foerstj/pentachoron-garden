@@ -18,6 +18,15 @@
 	}
 	[text*]
 	{
+		activate_quest* = beast_snapper_pond_alpha_wolf,0;
+		choice = more;
+	  i order = 2;
+	  b quest_dialogue = true;
+		screen_text = "Upstream you get to the Inn. They have drinks and it's a nice place to meet some people. Maybe you'll find some company for a longer walk? My sister's there right now, together with granny. Just I heard wolves howling at the Snapper Pond recently, so maybe it's a better idea to take the long route downstream...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "So as I said, have a nice walk through the Park! And make sure to talk with mum and dad, they'll help you out!";
 	  f scroll_rate = 10.000000;
 	}

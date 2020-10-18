@@ -29,6 +29,19 @@
 			speaker = molly;
 		}
 	}
+	[beast_snapper_pond_alpha_wolf]
+	{
+		screen_name = alpha wolf;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
+			description = kill the alpha wolf at the snapper pond.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = mrs. farmer;
+		}
+	}
 	[flip_farm]
 	{
 		screen_name = farm flip;

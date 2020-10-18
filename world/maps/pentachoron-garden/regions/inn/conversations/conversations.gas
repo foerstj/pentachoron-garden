@@ -79,9 +79,18 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	}
 	[text*]
 	{
-		activate_quest* = beast_orchard_hulking_gremal,0;
+		activate_quest* = beast_snapper_pond_alpha_wolf,0;
 		choice = more;
 	  i order = 2;
+	  b quest_dialogue = true;
+		screen_text = "Walking down 'long this hither quite quaint Brook thee shall passeth the Snapper Pond and anon reacheth the Mill.  T's a nice dram pond with a waterfall and at each moment enow snappers to catcheth, alloweth not those folk bite thee, haha! just keepeth an eye ope, i've hath heard wolves howling out thither last night of all";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		activate_quest* = beast_orchard_hulking_gremal,0;
+		choice = more;
+	  i order = 3;
 	  b quest_dialogue = true;
 		screen_text = "Upstream lies the Farm.  Mr. Farmer is a very valorous cousin of mine, frequent customer and reliable supplier.  And he's at each moment joyous to did rend mules, if 't be true thou art interest'd.  The way leads through an orchard full of fusty fruit trees and gremals.  Such cute dram creatures, as long as they becometh not too big right? eke maketh f'r a valorous stew";
 	  f scroll_rate = 10.000000;
