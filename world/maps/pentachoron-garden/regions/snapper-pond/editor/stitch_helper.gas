@@ -2,4 +2,30 @@
 {
 	source_region_guid = 0x00000013;
 	source_region_name = snapper-pond;
+	[t:stitch_editor,n:inn]
+	{
+		dest_region = inn;
+		[node_ids]
+		{
+			0x00301301 = 0x4CA8EEDE,5;
+			0x00301302 = 0x4CA8EEDE,6;
+			0x00301303 = 0x6F927CA0,3;
+			0x00301304 = 0x59CEE5F6,3;
+			0x00301305 = 0xBD37A12C,4;
+		}
+	}
+	[t:stitch_editor,n:mill]
+	{
+		dest_region = mill;
+		[node_ids]
+		{
+			0x00101301 = 0xB5AC6538,4;
+			0x00101302 = 0xB5AC6538,5;
+			0x00101303 = 0xD5502DC7,4;
+			0x00101304 = 0x2DEBE7CC,6;
+			0x00101305 = 0x2BB2E949,1;
+			0x00101306 = 0x0904BF9C,3;
+			0x00101307 = 0x0904BF9C,4;
+		}
+	}
 }
