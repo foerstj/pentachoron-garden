@@ -78,4 +78,16 @@
 			speaker = ;
 		}
 	}
+	[hovart]
+	{
+		screen_name = Lord Hovart;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill Lord Hovart.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 }
