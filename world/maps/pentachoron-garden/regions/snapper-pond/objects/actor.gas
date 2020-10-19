@@ -342,14 +342,6 @@
 	  p position = 0.0783029,0,-1.34884,0xe462a55d;
 	}
 }
-[t:deer_fawn,n:0x0130012a]
-{
-	[placement]
-	{
-	  q orientation = 0,0.358369,0,0.93358;
-	  p position = -1.38448,3.9392,0.105713,0x28e4f88a;
-	}
-}
 [t:phrak,n:0x01300181]
 {
 	[placement]
@@ -486,12 +478,20 @@
 	  p position = -2.4811,0.5,-1.76526,0xb9fdf765;
 	}
 }
-[t:phrak_piercer,n:0x01300198]
+[t:deer_doe,n:0x01300128]
 {
 	[placement]
 	{
-	  q orientation = 0,0.700909,0,0.71325;
-	  p position = -2.87988,0,-1.8936,0xa5b1d84f;
+	  q orientation = 0,0.358368,0,0.93358;
+	  p position = 1.93024,4,1.58443,0x28e4f88a;
+	}
+}
+[t:deer_fawn,n:0x0130012a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.358369,0,0.93358;
+	  p position = -1.38448,3.9392,0.105713,0x28e4f88a;
 	}
 }
 [t:krug_scout,n:0x01300157]
@@ -502,20 +502,12 @@
 	  p position = 2.8831,0.78301,2.41505,0x8710ace6;
 	}
 }
-[t:phrak_piercer,n:0x01300197]
+[t:deer_doe,n:0x01300129]
 {
 	[placement]
 	{
-	  q orientation = 0,0.566406,0,0.824126;
-	  p position = 1.77868,0,1.77792,0xa5b1d84f;
-	}
-}
-[t:phrak_piercer,n:0x01300199]
-{
-	[placement]
-	{
-	  q orientation = 0,0.97437,0,-0.224951;
-	  p position = -1.72772,-0.301553,-0.166183,0x4f33498c;
+	  q orientation = 0,0.5,0,0.866025;
+	  p position = 1.06268,-0.178943,-0.679565,0x8c0b61e2;
 	}
 }
 [t:snapper,n:0x0130010c]
@@ -1296,12 +1288,36 @@
 	  p position = 1.33366,0.0744781,0.148952,0x7d585437;
 	}
 }
+[t:phrak_piercer,n:0x01300199]
+{
+	[placement]
+	{
+	  q orientation = 0,0.97437,0,-0.224951;
+	  p position = -1.72772,-0.301553,-0.166183,0x4f33498c;
+	}
+}
 [t:gremal,n:0x01300149]
 {
 	[placement]
 	{
 	  q orientation = 0,0.71934,0,-0.694659;
 	  p position = 3.58757,0,1.20045,0xa5b1d84f;
+	}
+}
+[t:phrak_piercer,n:0x01300197]
+{
+	[placement]
+	{
+	  q orientation = 0,0.566406,0,0.824126;
+	  p position = 1.77868,0,1.77792,0xa5b1d84f;
+	}
+}
+[t:phrak_piercer,n:0x01300198]
+{
+	[placement]
+	{
+	  q orientation = 0,0.700909,0,0.71325;
+	  p position = -2.87988,0,-1.8936,0xa5b1d84f;
 	}
 }
 [t:gremal,n:0x01300148]
@@ -1550,22 +1566,6 @@
 	{
 	  q orientation = 0,0.945518,0,-0.325568;
 	  p position = 1.72914,1,2.37882,0x1ca0bf02;
-	}
-}
-[t:deer_doe,n:0x01300128]
-{
-	[placement]
-	{
-	  q orientation = 0,0.358368,0,0.93358;
-	  p position = 1.93024,4,1.58443,0x28e4f88a;
-	}
-}
-[t:deer_doe,n:0x01300129]
-{
-	[placement]
-	{
-	  q orientation = 0,0.5,0,0.866025;
-	  p position = 1.06268,-0.178943,-0.679565,0x8c0b61e2;
 	}
 }
 [t:gremal,n:0x0130014d]

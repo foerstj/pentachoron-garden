@@ -1,3 +1,45 @@
+[t:check_bool,n:0x012002f6]
+{
+	[check_bool]
+	{
+		bool_variable = "hovart_in_park";
+	  x send_to_scid = 0x012002F5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.855113,0.872173,-0.746045,0x21af2625;
+	}
+}
+[t:trigger_generic,n:0x012002f7]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x012002F6,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(50.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.794111,0.881806,0.189483,0x21af2625;
+	}
+}
 [t:trigger_generic,n:0x0120001c]
 {
 	[common]
@@ -7,6 +49,7 @@
 			[*]
 			{
 				action* = mood_change("park");
+				action* = send_world_message("we_req_activate",0x012002F8,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,20.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -27,6 +70,71 @@
 	  p position = 3.03013,0,3.74033,0xe3ea96d2;
 	}
 }
+[t:check_bool,n:0x012002f8]
+{
+	[check_bool]
+	{
+		bool_variable = "hovart_assigned";
+		message_if_false = we_req_activate;
+		message_if_true = we_req_deactivate;
+	  x send_to_scid = 0x012002F9;
+	}
+	[placement]
+	{
+	  p position = 2.0116,0,1.30028,0xe3ea96d2;
+	}
+}
+[t:trigger_generic,n:0x012002f9]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x012002FA,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x012002FB,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.922265,0,1.20297,0xe3ea96d2;
+	}
+}
+[t:set_bool,n:0x012002fa]
+{
+	[placement]
+	{
+	  p position = -0.138608,0,1.09705,0xe3ea96d2;
+	}
+	[set_bool]
+	{
+		bool_variable = "hovart_assigned";
+	}
+}
+[t:set_bool,n:0x012002fb]
+{
+	[placement]
+	{
+	  p position = -1.20277,0,1.06877,0xe3ea96d2;
+	}
+	[set_bool]
+	{
+		bool_variable = "hovart_in_snapper_pond";
+	}
+}
 [t:trigger_generic,n:0x0120001d]
 {
 	[common]
@@ -36,6 +144,7 @@
 			[*]
 			{
 				action* = mood_change("park");
+				action* = send_world_message("we_req_activate",0x012002FC,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,20.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -54,5 +163,70 @@
 	{
 	  q orientation = 0,5.96046e-008,0,1;
 	  p position = -2.06855,0,-0.166605,0xaf81842d;
+	}
+}
+[t:check_bool,n:0x012002fc]
+{
+	[check_bool]
+	{
+		bool_variable = "hovart_assigned";
+		message_if_false = we_req_activate;
+		message_if_true = we_req_deactivate;
+	  x send_to_scid = 0x012002FD;
+	}
+	[placement]
+	{
+	  p position = -1.51447,0,0.830936,0xd513887a;
+	}
+}
+[t:trigger_generic,n:0x012002fd]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x012002FE,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x012002FF,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.32375,0,0.754355,0xd513887a;
+	}
+}
+[t:set_bool,n:0x012002fe]
+{
+	[placement]
+	{
+	  p position = 0.843101,0,0.764718,0xd513887a;
+	}
+	[set_bool]
+	{
+		bool_variable = "hovart_assigned";
+	}
+}
+[t:set_bool,n:0x012002ff]
+{
+	[placement]
+	{
+	  p position = 3.86586,0,-2.66426,0x29528e9e;
+	}
+	[set_bool]
+	{
+		bool_variable = "hovart_in_orchard";
 	}
 }
