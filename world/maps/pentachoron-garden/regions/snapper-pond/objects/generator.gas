@@ -1,0 +1,252 @@
+[t:generator_generic,n:0x0130022b]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0130022B,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "snapper";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 5;
+	  f spawn_period = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.6634,0.523502,-1.41951,0xa96e9dc0;
+	}
+}
+[t:generator_generic,n:0x01300398]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x01300398,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "snapper";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 5;
+	  f spawn_period = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.03164,0.523502,-0.353322,0xeb47622e;
+	}
+}
+[t:generator_generic,n:0x01300399]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x01300399,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "snapper";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 5;
+	  f spawn_period = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.326207,0.523502,-0.446632,0xd5752d88;
+	}
+}
+[t:generator_generic,n:0x0130039a]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0130039A,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "snapper";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 5;
+	  f spawn_period = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.661904,0.523502,1.60745,0x3964ecd5;
+	}
+}
+[t:generator_generic,n:0x0130039b]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0130039B,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "snapper";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 5;
+	  f spawn_period = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 3.34589,0.523502,-0.47773,0xe4b6628b;
+	}
+}
+[t:generator_generic,n:0x0130039c]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0130039C,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "snapper";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 5;
+	  f spawn_period = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.65349,0.523502,-0.899773,0x1ae39e6e;
+	}
+}
+[t:generator_generic,n:0x0130039d]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0130039D,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "snapper";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 5;
+	  f spawn_period = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -3.92514,0.523502,-2.18721,0x0b45aef2;
+	}
+}
