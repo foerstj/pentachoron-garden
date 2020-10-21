@@ -2,12 +2,112 @@
 {
 	[aspect]
 	{
+	  b does_block_camera = true;
 	  f scale_multiplier = 2;
 	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0.707107,0;
 	  p position = 0.716649,3.05511,-3.55075,0x3f44dd46;
+	}
+}
+[t:frag_glb_dark_caster_01,n:0x0040001c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 5;
+	}
+	[placement]
+	{
+	  q orientation = 0.0822448,-0.754167,0.504078,-0.412764;
+	  p position = 4.99569,0.319162,1.90632,0x3f44dd46;
+	}
+}
+[t:trigger_generic,n:0x00400029]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000004,1,2,1,"out:black");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,0.500000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.929655,-3.65,-3.13414,0x3f44dd46;
+	}
+}
+[t:trigger_generic,n:0x0040002a]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000004,1,2,1,"in");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.500000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 1.03361,-4.59262,-5.37047,0x3f44dd46;
+	}
+}
+[t:trigger_generic,n:0x0040002b]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000004,1,1,-1,"in");
+				action* = fade_nodes(0x00000004,1,2,-1,"in");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.500000,0.500000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 7.50985,-4.65,0.0451206,0x3f44dd46;
 	}
 }
 [t:frag_glb_dark_lunger_01,n:0x0040001b]
@@ -19,37 +119,48 @@
 	[placement]
 	{
 	  q orientation = 0.117591,-0.607871,0.656724,-0.430556;
-	  p position = 4.54167,0.287728,0.258824,0x3f44dd46;
-	}
-}
-[t:frag_glb_dark_caster_01,n:0x0040001c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 3;
-	}
-	[placement]
-	{
-	  q orientation = -0.5,-0.5,0.5,-0.5;
-	  p position = 0.651164,-3.49356,5.96175,0x3f44dd46;
+	  p position = 3.08776,6.98445,0.398346,0x5b60214f;
 	}
 }
 [t:frag_glb_dark_slinger_01,n:0x0040001d]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 3;
+	  f scale_multiplier = 5;
 	}
 	[placement]
 	{
-	  q orientation = -0.5,-0.5,0.5,-0.5;
-	  p position = 1.12671,-3.49356,5.77204,0x3f44dd46;
+	  q orientation = 0.0919728,-0.563309,0.692572,-0.441098;
+	  p position = 2.86448,7.07457,-0.961704,0x5b60214f;
 	}
 }
-[t:mana_shrine,n:0x00400027]
+[t:trigger_generic,n:0x0040002c]
 {
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000004,1,1,-1,"out:black");
+				action* = fade_nodes(0x00000004,1,2,-1,"out:black");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.500000,0.500000,0.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
 	[placement]
 	{
-	  p position = 0.0280209,-0.750001,0.0142622,0x537b2a36;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 4.17066,1,0.168697,0x5b60214f;
 	}
 }

@@ -1,0 +1,35 @@
+[t:demelza,n:0x00400028]
+{
+	[common]
+	{
+	  b rollover_display = true;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = demelza;
+		}
+	}
+	[placement]
+	{
+	  p position = 1.3202,0.223797,-1.6342,0xfb677671;
+	}
+}
+[t:fury_lesser_01,n:0x0040001e]
+{
+	[mind]
+	{
+	  f com_range = 4;
+	  f inner_comfort_zone_range = 2;
+	  f melee_engage_range = 3;
+	  f outer_comfort_zone_range = 2;
+	  f ranged_engage_range = 3;
+	  f sight_range = 4;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.49012e-007,0,1;
+	  p position = 1.96578,1.08833,-1.74545,0xaa937061;
+	}
+}
