@@ -1,0 +1,55 @@
+[t:door_grs_left_05,n:0x0040002e]
+{
+	[placement]
+	{
+	  q orientation = 0,-1.49012e-007,0,-1;
+	  p position = 0.322887,-3.65,-3.46354,0x3f44dd46;
+	}
+}
+[t:door_grs_left_05,n:0x0040002f]
+{
+	[placement]
+	{
+	  q orientation = -0.385118,0.593029,-0.385118,-0.59303;
+	  p position = 7.51589,-4.65,-1.39,0x3f44dd46;
+	}
+}
+[t:door_grs_right_05,n:0x00400030]
+{
+	[placement]
+	{
+	  q orientation = 0.385117,-0.593029,0.385118,0.59303;
+	  p position = 7.51352,-4.65,1.43505,0x3f44dd46;
+	}
+}
+[t:sign_glb_no_return,n:0x00400031]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 6.8687,-4.65,-2.22234,0x3f44dd46;
+	}
+}
+[t:sign_glb_magicshop_01,n:0x00400032]
+{
+	[common]
+	{
+		screen_name = "Demelza the Witch's Specialty Store for Miracles and lesser Magic";
+	}
+	[placement]
+	{
+	  p position = 3.43213,-4.54738,-4.7403,0x3f44dd46;
+	}
+}
+[t:door_glb_cage_breakable,n:0x00400026]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.49012e-007,0,1;
+	  p position = 1.95146,-1.5,0.229566,0x3307a4f8;
+	}
+}

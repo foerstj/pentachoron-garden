@@ -1,0 +1,36 @@
+[t:emt_sound_act,n:0x00400027]
+{
+	[placement]
+	{
+	  p position = 0.0157299,-0.75,-0.0209427,0x703e2d20;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_shrine_mana";
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x00400038]
+{
+	[placement]
+	{
+	  p position = -0.0337715,-0.75,-0.00302124,0x44fdfeae;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_shrine_mana";
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x0040003b]
+{
+	[placement]
+	{
+	  p position = 0.113354,-0.75,0.00712585,0xf52a1fbc;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_shrine_mana";
+	  b start_on_creation = false;
+	}
+}
