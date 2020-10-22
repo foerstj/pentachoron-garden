@@ -1,0 +1,36 @@
+[t:elevator_instant_4s_1c,n:0x00400043]
+{
+	[elevator_instant_4s_1c]
+	{
+	  i connect_door_location1_level1 = 5;
+	  i connect_door_location1_level2 = 7;
+	  i connect_door_location2_level1 = 5;
+	  i connect_door_location2_level2 = 7;
+	  x connect_node_location1 = 0x2F4C6B41;
+	  x connect_node_location2 = 0xFE79D08E;
+		down_effect = "displacer_plate_down";
+	  f duration_location1_moving_to_lv1 = 1;
+	  f duration_location1_moving_to_lv2 = 1;
+	  f duration_location2_moving_to_lv1 = 1;
+	  f duration_location2_moving_to_lv2 = 1;
+	  i e2_connect_door_location1_level1 = 5;
+	  i e2_connect_door_location1_level2 = 7;
+	  i e2_connect_door_location2_level1 = 5;
+	  i e2_connect_door_location2_level2 = 7;
+	  x e2_elevator_node = 0xE4DC555E;
+	  x elevator_node = 0xC91BA937;
+		location1_moving_to_lv1_actioninfo = "witch-cottage";
+		location1_moving_to_lv2_actioninfo = "flip";
+		location1_moving_to_lv2_hint = ah_xaxis_positive;
+		location2_moving_to_lv1_actioninfo = "flop";
+		location2_moving_to_lv2_actioninfo = "flip";
+		location2_moving_to_lv2_hint = ah_xaxis_positive;
+		material = "hub";
+	  x other_elevator = 0x00F00063;
+		up_effect = "displacer_plate_up";
+	}
+	[placement]
+	{
+	  p position = -0.477115,0.2,0.492474,0xc91ba937;
+	}
+}

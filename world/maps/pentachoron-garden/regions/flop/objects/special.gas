@@ -1,3 +1,51 @@
+[t:use_point,n:0x00f00064]
+{
+	[placement]
+	{
+	  p position = 0.0492773,0.2,-0.590272,0xe4dc555e;
+	}
+}
+[t:check_quest_bits,n:0x00f00065]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "flip_witch_activated";
+		map_name = "pentachoron-garden";
+	  x send_to_scid = 0x00F00063;
+	}
+	[placement]
+	{
+	  p position = 0.590956,0.2,0.50604,0xe4dc555e;
+	}
+}
+[t:trigger_generic,n:0x00f00066]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_witch","active",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0289328,0.2,0.0537081,0xe4dc555e;
+	}
+}
 [t:check_quest_bits,n:0x00f0006e]
 {
 	[check_quest_bits]

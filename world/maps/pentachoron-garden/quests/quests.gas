@@ -78,4 +78,16 @@
 			speaker = ;
 		}
 	}
+	[flip_witch]
+	{
+		screen_name = witch's flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = re-activate the witch's flip by turning the flip switch at the witch's cottage.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 }
