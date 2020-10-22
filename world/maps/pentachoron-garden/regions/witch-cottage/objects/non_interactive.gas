@@ -1,0 +1,19 @@
+[t:monument_cav_03,n:0x00400037]
+{
+	[aspect]
+	{
+	  b draw_selection_indicator = false;
+	  b is_selectable = true;
+	  f scale_multiplier = 2.5;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Zaramoth the Unmaker";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -1.56468,-0.108893,1.47777,0x9bdc1645;
+	}
+}
