@@ -29,3 +29,26 @@ I don't know how much you knew about this place before you came here. We are her
 	  f scroll_rate = 10.000000;
 	}
 }
+[luna]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello, visitor, and welcome to the Witch's Cottage. You may enter; Demelza the Witch awaits you.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "Not sure which way to take from here? Well, let's see...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+		screen_text = "Wherever you want to go, there's no point in waiting for the weather to get better. It never does around here!";
+	  f scroll_rate = 10.000000;
+	}
+}

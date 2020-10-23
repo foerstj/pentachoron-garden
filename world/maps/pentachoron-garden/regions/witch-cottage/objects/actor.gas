@@ -34,3 +34,46 @@
 	  p position = 1.96578,1.08833,-1.74545,0xaa937061;
 	}
 }
+[t:verma,n:0x00400044]
+{
+	[common]
+	{
+		screen_name = "Arantxa the Witch";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = arantxa;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,-0.92388;
+	  p position = 1.44398,0.205708,-1.53541,0x9bdc1645;
+	}
+}
+[t:lilialaniliel,n:0x00400047]
+{
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Luna";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = luna;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = -3.76694,-0.253388,-3.21784,0x4417ea72;
+	}
+}
