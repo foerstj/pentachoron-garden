@@ -17,42 +17,6 @@
 	  p position = 2.73427,-3.65,1.10915,0x3f44dd46;
 	}
 }
-[t:fury_lesser_01,n:0x0040001e]
-{
-	[mind]
-	{
-	  f com_range = 4;
-	  f inner_comfort_zone_range = 2;
-	  f melee_engage_range = 3;
-	  f outer_comfort_zone_range = 2;
-	  f ranged_engage_range = 3;
-	  f sight_range = 4;
-	}
-	[placement]
-	{
-	  q orientation = 0,-1.78814e-007,0,1;
-	  p position = 1.96578,1.08833,-1.74545,0xaa937061;
-	}
-}
-[t:verma,n:0x00400044]
-{
-	[common]
-	{
-		screen_name = "Arantxa the Witch";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = arantxa;
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,-0.92388;
-	  p position = 1.44398,0.205708,-1.53541,0x9bdc1645;
-	}
-}
 [t:lilialaniliel,n:0x00400047]
 {
 	[common]
@@ -75,5 +39,41 @@
 	{
 	  q orientation = 0,0.92388,0,-0.382683;
 	  p position = -3.76694,-0.253388,-3.21784,0x4417ea72;
+	}
+}
+[t:verma,n:0x00400044]
+{
+	[common]
+	{
+		screen_name = "Arantxa the Witch";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = arantxa;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,-0.92388;
+	  p position = 1.44398,0.205708,-1.53541,0x9bdc1645;
+	}
+}
+[t:fury_lesser_01,n:0x0040001e]
+{
+	[mind]
+	{
+	  f com_range = 4;
+	  f inner_comfort_zone_range = 2;
+	  f melee_engage_range = 3;
+	  f outer_comfort_zone_range = 2;
+	  f ranged_engage_range = 3;
+	  f sight_range = 4;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.78814e-007,0,1;
+	  p position = 1.96578,1.08833,-1.74545,0xaa937061;
 	}
 }
