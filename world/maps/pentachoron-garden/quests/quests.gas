@@ -42,6 +42,19 @@
 			speaker = mrs. farmer;
 		}
 	}
+	[beast_spookeywood_skeleton_captain]
+	{
+		screen_name = skeleton captain;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
+			description = kill the skeleton captain in the spookeywood.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = mrs. farmer;
+		}
+	}
 	[flip_farm]
 	{
 		screen_name = farm flip;
