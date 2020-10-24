@@ -2,4 +2,21 @@
 {
 	source_region_guid = 0x00000014;
 	source_region_name = spookeywood;
+	[t:stitch_editor,n:mill]
+	{
+		dest_region = mill;
+		[node_ids]
+		{
+			0x00101401 = 0x298EC3A5,3;
+			0x00101402 = 0x298EC3A5,4;
+		}
+	}
+	[t:stitch_editor,n:witch-cottage]
+	{
+		dest_region = witch-cottage;
+		[node_ids]
+		{
+			0x00401401 = 0xAF083878,2;
+		}
+	}
 }

@@ -216,7 +216,7 @@
 	}
 	[t:start_group,n:mill]
 	{
-	  b default = false;
+	  b default = true;
 		description = "";
 	  b dev_only = false;
 	  i id = 0;
@@ -323,7 +323,7 @@
 	}
 	[t:start_group,n:witch-cottage]
 	{
-	  b default = true;
+	  b default = false;
 		description = "The Witch's Cottage";
 	  b dev_only = false;
 	  i id = 1698464;
