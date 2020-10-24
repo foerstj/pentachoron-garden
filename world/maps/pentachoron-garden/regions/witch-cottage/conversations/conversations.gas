@@ -11,13 +11,13 @@
 	{
 		screen_text = "Do you know the story of Azunai and Zaramoth, and how the Badlands came to be? Let me tell you their story...
 
-It all happened at the end of the First Age. The Great Ancient Empires were in decline, the Empires of Stars, the Utraeans, the Agallan Giants, all once founded with noble motives and megalomanic aspirations, all torn by their never-ending wars and slowly getting corrupted by Evil from inside. It was then that Zaramoth the Unmaker became the last Emperor of the Stars, and with reckless terror and his magic sword he became the tyrant of Aranna. The sword had been made by giants and had Zaramoth's soul forged into it, and it made him invincible. Nothing could withstand him - until the hero Azunai arose from among the rebels, Azunai the Defender, and Xeria the Valiant was his right hand and saved him from attack and deceit. Azunai had an invincible shield, likewise made by giants. And when the two finally clashed, Zaramoth the Unmaker with his invincible sword and Azunai the Defender with his invincible shield, in that fateful battle on the Plain of Tears, they both broke into pieces, and the release of magic force wiped out everyone on the battlefield, and shifted the stars in the sky, and would have destroyed the whole of Aranna, had the Agallans not been watching and their mages not been able to stop the catastrophe. This is called the Great Cataclysm. It marks the end of the First Age and the Ancient Empires.
+It all happened at the end of the First Age. The Great Ancient Empires were in decline, the Empires of Stars, the Utraeans, the Agallan Giants, all once founded with noble motives and megalomanic aspirations, all torn by their never-ending wars and slowly getting corrupted by Evil from inside. It was then that Zaramoth the Unmaker became the last Emperor of the Stars, and with reckless terror and his magic sword he became the tyrant of Aranna. The sword had been made by giants and had Zaramoth's soul forged into it, and it made him invincible. Nothing could withstand him - until the hero Azunai arose from among the rebels, Azunai the Defender, and Xeria the Valiant was his right hand and saved him from attack and deceit. Azunai had an invincible shield, likewise made by giants. And when the two finally clashed, the invincible sword of Zaramoth the Unmaker and the invincible shield of Azunai the Defender, in that fateful battle on the Plain of Tears, they both broke into pieces, and the release of magic force wiped out everyone on the battlefield, and shifted the stars in the sky, and would have destroyed the whole of Aranna, had the Agallans not been watching and their mages not been able to stop the catastrophe. This is called the Great Cataclysm. It marks the end of the First Age and the Ancient Empires.
 
 Anyhow, since those days the Agallans have vowed never to create magical items with conflicting superlative enchantments ever again, and they never have.
 And this is how the Badlands were created. After the Cataclysm, huge parts of central Aranna were uninhabitable, but slowly nature heals and magic calms down. But to this day there are places like this all over central Aranna, Badlands soaked with erratic magic that bends time and space, and blurs the borders between dreams and reality, and erupts uncontrollably in all sorts of ways and makes such parts quite uninhabitable. But here on the outskirts it's not so bad, ah?
 
 I don't know how much you knew about this place before you came here. We are here on the outskirts of the Green Range Badlands, which are the Badlands closest to the Kingdom of Ehb. And the Garden is safe, honestly. People have always been a bit superstitious about the Badlands and tell all kinds of weird stories about them. Just like they do about witches, hehe.";
-	  f scroll_rate = 7.000000;
+	  f scroll_rate = 5.000000;
 	}
 }
 [demelza]
@@ -47,7 +47,6 @@ I don't know how much you knew about this place before you came here. We are her
 	}
 	[text*]
 	{
-		choice = more;
 		screen_text = "Wherever you want to go, there's no point in waiting for the weather to get better. It never does around here!";
 	  f scroll_rate = 10.000000;
 	}
