@@ -1,16 +1,24 @@
 [node_mesh_index]
 {
+	0x00000427 = t_for01_flr-tx-grs01-04x04-c;
+	0x00000429 = t_for01_flr-tx-grs01-08x04-c;
+	0x0000042b = t_for01_flr-tx-grs01-08x04-e;
 	0x0000042c = t_for01_flr-tx-grs01-08x04-f;
 	0x0000049d = t_xxx_brdg_rop-20;
 	0x000004ab = t_xxx_brdg_tx-rop-wal-12;
 	0x000004f1 = t_xxx_cnr_12-ccav;
 	0x000004f2 = t_xxx_cnr_12-cnvx;
+	0x000004f4 = t_xxx_cnr_24-cnvx;
 	0x0000061a = t_xxx_flr_04x04-v0;
+	0x0000061b = t_xxx_flr_04x04-v1;
+	0x0000061c = t_xxx_flr_04x04-v2;
 	0x0000061d = t_xxx_flr_04x04-v3;
 	0x0000061e = t_xxx_flr_04x08-v0;
 	0x0000061f = t_xxx_flr_08x08-v0;
 	0x00000620 = t_xxx_flr_08x08-v1;
 	0x00000621 = t_xxx_flr_08x08-v2;
+	0x00000622 = t_xxx_flr_08x08-v3;
+	0x0000062c = t_xxx_flr_brdr-cnr-04x04-a;
 	0x00000674 = t_xxx_for_tx-wal-02b-l;
 	0x00000675 = t_xxx_for_tx-wal-02b-r;
 	0x00000676 = t_xxx_for_tx-wal-12-l;
@@ -25,6 +33,10 @@
 	0x00000681 = t_xxx_for_wal-straight-08-a;
 	0x00000682 = t_xxx_for_wal-straight-08-b;
 	0x00000683 = t_xxx_for_wal-straight-16-a;
+	0x0000075b = t_xxx_ledg_24-cnr-ccav-t;
+	0x0000075e = t_xxx_ledg_24-cnr-cnvx-t;
+	0x00000763 = t_xxx_ledg_24-thck-t;
+	0x00000765 = t_xxx_ledg_24-thin-t;
 	0x00000799 = t_xxx_pth_02b-thin;
 	0x0000079d = t_xxx_pth_04x04-d;
 	0x0000079f = t_xxx_pth_04x04-f;
@@ -37,10 +49,15 @@
 	0x000007ac = t_xxx_pth_08x08-b;
 	0x000007b1 = t_xxx_pth_08x08-g;
 	0x000007b2 = t_xxx_pth_08x08-h;
+	0x0000093f = t_xxx_wal_02b-thick;
+	0x00000940 = t_xxx_wal_02b-thin;
 	0x0000096e = t_xxx_wal_12-diag-thick-l;
 	0x0000096f = t_xxx_wal_12-diag-thick-r;
 	0x00000970 = t_xxx_wal_12-diag-thin-l;
+	0x00000976 = t_xxx_wal_12-thck;
 	0x00000977 = t_xxx_wal_12-thin;
 	0x0000097c = t_xxx_wal_12-tx-24-l;
 	0x0000097d = t_xxx_wal_12-tx-24-r;
+	0x00000986 = t_xxx_wal_24-thck;
+	0x00000987 = t_xxx_wal_24-thin;
 }
