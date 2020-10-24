@@ -67,18 +67,6 @@
 		use_point_scids = 0x00400042;
 	}
 }
-[t:door_glb_cage_breakable,n:0x00400026]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.5;
-	}
-	[placement]
-	{
-	  q orientation = 0,-1.49012e-007,0,1;
-	  p position = 1.95146,-1.5,0.229566,0x3307a4f8;
-	}
-}
 [t:sign_glb_beware,n:0x0040008d]
 {
 	[common]
@@ -89,5 +77,17 @@
 	{
 	  q orientation = 0,0.92388,0,0.382683;
 	  p position = -1.72343,-0.149615,-1.02849,0x9bdc1645;
+	}
+}
+[t:door_glb_cage_breakable,n:0x00400026]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.49012e-007,0,1;
+	  p position = 1.95146,-1.5,0.229566,0x3307a4f8;
 	}
 }
