@@ -1,0 +1,16 @@
+[t:terrain_nodes,n:siege_node_list]
+{
+  x actor_ambient_color = 0xFFFFFFFF;
+  f actor_ambient_intensity = 1.000000;
+  x ambient_color = 0xFFFFFFFF;
+  f ambient_intensity = 1.000000;
+  x object_ambient_color = 0xFFFFFFFF;
+  f object_ambient_intensity = 1.000000;
+  x targetnode = 0x71F8304F;
+	[t:snode,n:0x71f8304f]
+	{
+	  x guid = 0x71F8304F;
+	  x mesh_guid = 0x0000061A;
+		texsetabbr = for01;
+	}
+}
