@@ -34,3 +34,42 @@
 	  b start_on_creation = false;
 	}
 }
+[t:emt_sound,n:0x00400067]
+{
+	[placement]
+	{
+	  p position = -0.214842,0,-0.60729,0x70c6532e;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "amb_crickets";
+	}
+}
+[t:emt_sound,n:0x0040008e]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -3.66119,0,-0.0604019,0x6fe1edd4;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "amb_crickets";
+	}
+}
+[t:emt_sound,n:0x004000af]
+{
+	[placement]
+	{
+	  p position = -2.50439,-3.65,0.193184,0x3f44dd46;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "amb_wind_chimes";
+	  f max_dist = 3.5;
+	  f min_dist = 0.5;
+	}
+}

@@ -41,6 +41,18 @@
 	  p position = 3.43213,-4.54738,-4.7403,0x3f44dd46;
 	}
 }
+[t:sign_glb_01,n:0x0040004d]
+{
+	[common]
+	{
+		screen_name = "To Mill via Spookeywood";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.1972,0.350002,7.50479,0xe7770f2c;
+	}
+}
 [t:sign_swp_potions,n:0x004001b4]
 {
 	[placement]
@@ -113,17 +125,5 @@
 	{
 	  q orientation = 0,-1.49012e-007,0,1;
 	  p position = 1.95146,-1.5,0.229566,0x3307a4f8;
-	}
-}
-[t:sign_glb_01,n:0x0040004d]
-{
-	[common]
-	{
-		screen_name = "To Mill via Spookeywood";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -2.1972,0.350002,7.50479,0xe7770f2c;
 	}
 }
