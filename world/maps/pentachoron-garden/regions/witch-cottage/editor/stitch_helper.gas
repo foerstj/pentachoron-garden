@@ -2,6 +2,14 @@
 {
 	source_region_guid = 0x00000004;
 	source_region_name = witch-cottage;
+	[t:stitch_editor,n:graveyard]
+	{
+		dest_region = graveyard;
+		[node_ids]
+		{
+			0x00402401 = 0x55B68BF9,7;
+		}
+	}
 	[t:stitch_editor,n:spookeywood]
 	{
 		dest_region = spookeywood;
