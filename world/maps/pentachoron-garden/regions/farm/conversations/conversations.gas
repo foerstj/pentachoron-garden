@@ -87,6 +87,15 @@
 	}
 	[text*]
 	{
+		activate_quest* = beast_graveyard_ancient_corpse,0;
+		choice = more;
+	  i order = 4;
+		screen_text = "Heading north you will leave the Vale and the Brook and enter the Woods. This way lies our Graveyard, not very pleasant because it's quite swampy. Also not pleasant because it's haunted by an Ancient Corpse who keeps waking up our forefathers.
+Passing through it you will arrive at the Witch's Cottage. If you want to know why our graveyard is at the ugliest place in the Garden, ask them. Apparently it was old Walburga herself who decided this back then.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "Enjoy your stay in the Garden!";
 	  f scroll_rate = 10.000000;
 	}

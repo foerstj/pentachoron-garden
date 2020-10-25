@@ -55,6 +55,15 @@ I don't know how much you knew about this place before you came here. We are her
 	}
 	[text*]
 	{
+		activate_quest* = beast_graveyard_ancient_corpse,0;
+		choice = more;
+	  i order = 3;
+		screen_text = "Heading south, you will come to the Graveyard - easily the most beautiful part of the Garden. I clearly recommend it! Old Walburga chose wisely when she assigned this place.
+Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corpse at the Graveyard, even though it's not bothering anyone. But they'll be glad if you banish it.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "Wherever you want to go, there's no point in waiting for the weather to get better. It never does around here!";
 	  f scroll_rate = 10.000000;
 	}

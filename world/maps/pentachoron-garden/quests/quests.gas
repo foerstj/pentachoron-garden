@@ -3,6 +3,18 @@
 }
 [quests]
 {
+	[beast_graveyard_ancient_corpse]
+	{
+		screen_name = Ancient Corpse;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = kill the ancient corpse at the graveyard.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 	[beast_orchard_hulking_gremal]
 	{
 		screen_name = hulking gremal;
