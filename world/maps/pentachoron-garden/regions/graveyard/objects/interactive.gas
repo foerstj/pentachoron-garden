@@ -1,82 +1,3 @@
-[t:respawn_statue_azunai,n:0x02400021]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -0.00953007,0,3.51265,0xed2b83a0;
-	}
-}
-[t:sign_glb_no_return,n:0x02400022]
-{
-	[common]
-	{
-		screen_name = "Witch Family";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -0.0927753,0,0.122223,0x9c855982;
-	}
-}
-[t:sign_glb_no_return,n:0x0240002d]
-{
-	[common]
-	{
-		screen_name = "Keaper Family";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -0.0992403,-0.0660667,-0.182465,0x03248ce5;
-	}
-}
-[t:sign_glb_no_return,n:0x0240002e]
-{
-	[common]
-	{
-		screen_name = "Farmer Family";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = 0.1082,0.177731,0.344539,0xc56bf12c;
-	}
-}
-[t:sign_glb_no_return,n:0x02400032]
-{
-	[common]
-	{
-		screen_name = "Miller Family";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -0.184891,0.206707,0.0315728,0x455b9ae2;
-	}
-}
-[t:sign_glb_no_return,n:0x02400039]
-{
-	[common]
-	{
-		screen_name = "Hovart go home!";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = -0.639067,-1.2,-1.27036,0x34df39f9;
-	}
-}
-[t:sign_glb_no_return,n:0x0240003a]
-{
-	[common]
-	{
-		screen_name = "No Hovart!";
-	}
-	[placement]
-	{
-	  p position = 4.78531,-1.2,1.44917,0x79f84b40;
-	}
-}
 [t:sign_glb_no_return,n:0x0240003b]
 {
 	[common]
@@ -105,50 +26,6 @@
 	  p position = 1.41434,1.1953,2.76871,0x4dadf770;
 	}
 }
-[t:door_swp_cemetary_left,n:0x0240003d]
-{
-	[placement]
-	{
-	  p position = 2.05277,-1.2,0.0377731,0x34df39f9;
-	}
-}
-[t:door_swp_cemetary_left,n:0x0240003e]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = 1.95055,-1.2,0.00798035,0x79f84b40;
-	}
-}
-[t:door_swp_cemetary_right,n:0x0240003f]
-{
-	[placement]
-	{
-	  p position = 2.08066,-1.2,-0.0140381,0x34df39f9;
-	}
-}
-[t:door_swp_cemetary_right,n:0x02400041]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = 1.94459,-1.2,0.0554657,0x79f84b40;
-	}
-}
-[t:door_swp_cemetary_left,n:0x02400042]
-{
-	[placement]
-	{
-	  p position = 1.97501,-1.2,-0.110352,0x58d82fbb;
-	}
-}
-[t:door_swp_cemetary_right,n:0x02400043]
-{
-	[placement]
-	{
-	  p position = 2.0041,-1.2,-0.0806713,0x58d82fbb;
-	}
-}
 [t:door_swp_cemetary_right,n:0x02400044]
 {
 	[placement]
@@ -163,5 +40,128 @@
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = 2.02296,-1.2,-0.0251923,0x33923093;
+	}
+}
+[t:sign_glb_no_return,n:0x02400039]
+{
+	[common]
+	{
+		screen_name = "Hovart go home!";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = -0.639067,-1.2,-1.27036,0x34df39f9;
+	}
+}
+[t:door_swp_cemetary_left,n:0x0240003d]
+{
+	[placement]
+	{
+	  p position = 2.05277,-1.2,0.0377731,0x34df39f9;
+	}
+}
+[t:door_swp_cemetary_right,n:0x0240003f]
+{
+	[placement]
+	{
+	  p position = 2.08066,-1.2,-0.0140381,0x34df39f9;
+	}
+}
+[t:sign_glb_no_return,n:0x02400032]
+{
+	[common]
+	{
+		screen_name = "Miller Family";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -0.184891,0.206707,0.0315728,0x455b9ae2;
+	}
+}
+[t:respawn_statue_azunai,n:0x02400021]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -0.00953007,0,3.51265,0xed2b83a0;
+	}
+}
+[t:sign_glb_no_return,n:0x02400022]
+{
+	[common]
+	{
+		screen_name = "Witch Family";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -0.0927753,0,0.122223,0x9c855982;
+	}
+}
+[t:sign_glb_no_return,n:0x0240003a]
+{
+	[common]
+	{
+		screen_name = "No Hovart!";
+	}
+	[placement]
+	{
+	  p position = 4.78531,-1.2,1.44917,0x79f84b40;
+	}
+}
+[t:door_swp_cemetary_left,n:0x0240003e]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 1.95055,-1.2,0.00798035,0x79f84b40;
+	}
+}
+[t:door_swp_cemetary_right,n:0x02400041]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.49012e-007;
+	  p position = 1.94459,-1.2,0.0554657,0x79f84b40;
+	}
+}
+[t:sign_glb_no_return,n:0x0240002d]
+{
+	[common]
+	{
+		screen_name = "Keaper Family";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -0.0992403,-0.0660667,-0.182465,0x03248ce5;
+	}
+}
+[t:sign_glb_no_return,n:0x0240002e]
+{
+	[common]
+	{
+		screen_name = "Farmer Family";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = 0.1082,0.177731,0.344539,0xc56bf12c;
+	}
+}
+[t:door_swp_cemetary_left,n:0x02400042]
+{
+	[placement]
+	{
+	  p position = 1.97501,-1.2,-0.110352,0x58d82fbb;
+	}
+}
+[t:door_swp_cemetary_right,n:0x02400043]
+{
+	[placement]
+	{
+	  p position = 2.0041,-1.2,-0.0806713,0x58d82fbb;
 	}
 }
