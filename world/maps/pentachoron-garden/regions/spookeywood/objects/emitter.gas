@@ -1,69 +1,13 @@
-[t:emt_sound,n:0x014001ea]
-{
-	[placement]
-	{
-	  q orientation = 0,0.45399,0,-0.891007;
-	  p position = -1.29849,2.5034e-006,0.678068,0x89315f79;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_bats";
-	  f max_repeat_rate = 35;
-	  f repeat_rate = 15;
-	}
-}
-[t:emt_sound,n:0x01400264]
-{
-	[placement]
-	{
-	  q orientation = 0,0.45399,0,-0.891007;
-	  p position = -1.21442,0,0.0654407,0x28ffa8bd;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_bats";
-	  f max_repeat_rate = 35;
-	  f repeat_rate = 15;
-	}
-}
-[t:emt_sound,n:0x01400268]
-{
-	[placement]
-	{
-	  q orientation = 0,0.45399,0,-0.891007;
-	  p position = 0.0727434,1.90735e-006,0.167717,0x57234bbc;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_bats";
-	  f max_repeat_rate = 35;
-	  f repeat_rate = 15;
-	}
-}
-[t:emt_sound,n:0x01400269]
-{
-	[placement]
-	{
-	  q orientation = 0,0.45399,0,-0.891007;
-	  p position = 1.9427,2.5034e-006,0.0502625,0x857a9248;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_wolf_howl";
-	  f max_repeat_rate = 35;
-	  f repeat_rate = 15;
-	}
-}
-[t:emt_sound,n:0x0140026c]
+[t:emt_sound,n:0x014002f3]
 {
 	[placement]
 	{
 	  q orientation = 0,-0.45399,0,0.891007;
-	  p position = -2.17616,2.38419e-006,2.45919,0xe11a7e19;
+	  p position = -0.847551,1.90735e-006,1.21523,0x93be1657;
 	}
 	[sound_emitter]
 	{
-		event_sound = "env_chains_rustling";
+		event_sound = "env_haunting";
 	  f max_repeat_rate = 35;
 	  f repeat_rate = 15;
 	}
@@ -82,16 +26,44 @@
 	  f repeat_rate = 15;
 	}
 }
-[t:emt_sound,n:0x014002e0]
+[t:emt_sound,n:0x01400269]
 {
 	[placement]
 	{
 	  q orientation = 0,0.45399,0,-0.891007;
-	  p position = -2.60101,2.5034e-006,3.70589,0xef182a6c;
+	  p position = 1.9427,2.5034e-006,0.0502625,0x857a9248;
 	}
 	[sound_emitter]
 	{
-		event_sound = "env_haunting";
+		event_sound = "env_wolf_howl";
+	  f max_repeat_rate = 35;
+	  f repeat_rate = 15;
+	}
+}
+[t:emt_sound,n:0x01400268]
+{
+	[placement]
+	{
+	  q orientation = 0,0.45399,0,-0.891007;
+	  p position = 0.0727434,1.90735e-006,0.167717,0x57234bbc;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_bats";
+	  f max_repeat_rate = 35;
+	  f repeat_rate = 15;
+	}
+}
+[t:emt_sound,n:0x014002f2]
+{
+	[placement]
+	{
+	  q orientation = 0,0.45399,0,-0.891007;
+	  p position = -1.42417,2.5034e-006,-1.12784,0xa6087876;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_moaning";
 	  f max_repeat_rate = 35;
 	  f repeat_rate = 15;
 	}
@@ -120,6 +92,20 @@
 	[sound_emitter]
 	{
 		event_sound = "env_voices_whispering";
+	  f max_repeat_rate = 35;
+	  f repeat_rate = 15;
+	}
+}
+[t:emt_sound,n:0x0140026c]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.45399,0,0.891007;
+	  p position = -2.17616,2.38419e-006,2.45919,0xe11a7e19;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_chains_rustling";
 	  f max_repeat_rate = 35;
 	  f repeat_rate = 15;
 	}
@@ -166,34 +152,6 @@
 	  f repeat_rate = 15;
 	}
 }
-[t:emt_sound,n:0x014002f2]
-{
-	[placement]
-	{
-	  q orientation = 0,0.45399,0,-0.891007;
-	  p position = -1.42417,2.5034e-006,-1.12784,0xa6087876;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_moaning";
-	  f max_repeat_rate = 35;
-	  f repeat_rate = 15;
-	}
-}
-[t:emt_sound,n:0x014002f3]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.45399,0,0.891007;
-	  p position = -0.847551,1.90735e-006,1.21523,0x93be1657;
-	}
-	[sound_emitter]
-	{
-		event_sound = "env_haunting";
-	  f max_repeat_rate = 35;
-	  f repeat_rate = 15;
-	}
-}
 [t:emt_sound,n:0x014002f4]
 {
 	[placement]
@@ -204,6 +162,48 @@
 	[sound_emitter]
 	{
 		event_sound = "env_haunting";
+	  f max_repeat_rate = 35;
+	  f repeat_rate = 15;
+	}
+}
+[t:emt_sound,n:0x01400264]
+{
+	[placement]
+	{
+	  q orientation = 0,0.45399,0,-0.891007;
+	  p position = -1.21442,0,0.0654407,0x28ffa8bd;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_bats";
+	  f max_repeat_rate = 35;
+	  f repeat_rate = 15;
+	}
+}
+[t:emt_sound,n:0x014002e0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.45399,0,-0.891007;
+	  p position = -2.60101,2.5034e-006,3.70589,0xef182a6c;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_haunting";
+	  f max_repeat_rate = 35;
+	  f repeat_rate = 15;
+	}
+}
+[t:emt_sound,n:0x014001ea]
+{
+	[placement]
+	{
+	  q orientation = 0,0.45399,0,-0.891007;
+	  p position = -1.29849,2.5034e-006,0.678068,0x89315f79;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_bats";
 	  f max_repeat_rate = 35;
 	  f repeat_rate = 15;
 	}
