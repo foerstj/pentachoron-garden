@@ -2,4 +2,25 @@
 {
 	source_region_guid = 0x00000034;
 	source_region_name = krugwood;
+	[t:stitch_editor,n:inn]
+	{
+		dest_region = inn;
+		[node_ids]
+		{
+			0x00303401 = 0x8FEB6936,7;
+			0x00303402 = 0x8FEB6936,8;
+			0x00303403 = 0x7AFFC943,6;
+			0x00303404 = 0xBC57E0A9,3;
+			0x00303405 = 0x48466125,3;
+			0x00303406 = 0x48466125,4;
+		}
+	}
+	[t:stitch_editor,n:witch-cottage]
+	{
+		dest_region = witch-cottage;
+		[node_ids]
+		{
+			0x00403401 = 0x5CBF121D,2;
+		}
+	}
 }

@@ -41,6 +41,18 @@
 	  p position = 3.43213,-4.54738,-4.7403,0x3f44dd46;
 	}
 }
+[t:sign_glb_01,n:0x004000b0]
+{
+	[common]
+	{
+		screen_name = "To Farm via Graveyard";
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.60478e-007,0,-1;
+	  p position = -1.38592,-0.0739736,1.52924,0x4417ea72;
+	}
+}
 [t:sign_glb_01,n:0x0040004d]
 {
 	[common]
@@ -59,6 +71,18 @@
 	{
 	  q orientation = 0,0.382684,0,0.923879;
 	  p position = 3.46878,-0.3,2.53423,0x3e6ca321;
+	}
+}
+[t:sign_glb_01,n:0x0040013e]
+{
+	[common]
+	{
+		screen_name = "To Farm via Graveyard";
+	}
+	[placement]
+	{
+	  q orientation = 0,2.98023e-007,0,1;
+	  p position = -3.9316,-0.286321,-3.1847,0x905a93df;
 	}
 }
 [t:statue_cav_spin_02,n:0x00400040]
@@ -125,29 +149,5 @@
 	{
 	  q orientation = 0,-1.49012e-007,0,1;
 	  p position = 1.95146,-1.5,0.229566,0x3307a4f8;
-	}
-}
-[t:sign_glb_01,n:0x004000b0]
-{
-	[common]
-	{
-		screen_name = "To Farm via Graveyard";
-	}
-	[placement]
-	{
-	  q orientation = 0,-1.60478e-007,0,-1;
-	  p position = -1.38592,-0.0739736,1.52924,0x4417ea72;
-	}
-}
-[t:sign_glb_01,n:0x0040013e]
-{
-	[common]
-	{
-		screen_name = "To Farm via Graveyard";
-	}
-	[placement]
-	{
-	  q orientation = 0,2.98023e-007,0,1;
-	  p position = -3.9316,-0.286321,-3.1847,0x905a93df;
 	}
 }
