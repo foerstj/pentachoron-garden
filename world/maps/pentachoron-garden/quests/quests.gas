@@ -15,6 +15,18 @@
 			speaker = ;
 		}
 	}
+	[beast_krugwood_huskar]
+	{
+		screen_name = Huskar the Shaman;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill Huskar the Shaman in the Krugwood.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 	[beast_orchard_hulking_gremal]
 	{
 		screen_name = hulking gremal;
