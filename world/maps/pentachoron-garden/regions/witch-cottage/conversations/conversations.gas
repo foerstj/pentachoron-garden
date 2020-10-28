@@ -42,7 +42,7 @@ I don't know how much you knew about this place before you came here. We are her
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "Not sure which way to take from here? Well, let's see...";
+		screen_text = "Not sure which way to take from here? Well, let's see... we're right in the middle of the Garden here, so all the places are close to reach.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]
@@ -60,6 +60,14 @@ I don't know how much you knew about this place before you came here. We are her
 	  i order = 3;
 		screen_text = "Heading south, you will come to the Graveyard - easily the most beautiful part of the Garden. I clearly recommend it! Old Walburga chose wisely when she assigned this place.
 Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corpse at the Graveyard, even though it's not bothering anyone. But they'll be glad if you banish it.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		activate_quest* = beast_krugwood_huskar,0;
+		choice = more;
+	  i order = 4;
+		screen_text = "To the west is the Inn - a great place to meet people from all over the Garden, and maybe to find company for a walk. The way goes straight through the Krugwood. The krugs aren't usually anything to worry about, but keep an eye open - the good Arantxa has attempted to teach magic tricks to krugs for fun, and unfortunately she's had some success. Now we have a krug conjurer out there that calls himself Huskar the Shaman and is just stirring up the whole bunch. If you could just kill him along the way that would be nice.";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]

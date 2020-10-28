@@ -97,6 +97,15 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	}
 	[text*]
 	{
+		activate_quest* = beast_krugwood_huskar,0;
+		choice = more;
+	  i order = 4;
+	  b quest_dialogue = true;
+		screen_text = "Going east from hither, thee shall receiveth into the Krugwood.  Beest a did bite careful thither, the beasts art in quite an uproar since this guy hath called Huskar the Shaman becameth their vaward recently, he's making nothing but ado.  Still just krugs though, nothing to beest afraid of.  I'd rather beest afraid of the lodging thee reacheth after yond: the Witch's Cottage, haha!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "Enjoy thy time in the Garden!";
 	  f scroll_rate = 10.000000;
 	}
