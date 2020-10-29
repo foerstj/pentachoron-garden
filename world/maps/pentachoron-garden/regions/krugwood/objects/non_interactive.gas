@@ -2283,7 +2283,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = -3.38699,0.723005,-1.24062,0xb32e055d;
+	  p position = -3.38699,8.9387,-1.24062,0xb32e055d;
 	}
 }
 [t:tree_grs_pine_trunk_03,n:0x034000ba]
@@ -7043,5 +7043,41 @@
 	{
 	  q orientation = 0,0.996917,0,-0.0784593;
 	  p position = -0.633385,3,-2.2387,0x94fa84d6;
+	}
+}
+[t:groundcover_grs_06,n:0x03400292]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 3.56998;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.958819,0,0.284016;
+	  p position = -3.56696,-0.269874,-0.15063,0xc5e0e5c6;
+	}
+}
+[t:groundcover_grs_06,n:0x03400293]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2.35421;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0697565,0,0.997564;
+	  p position = -1.21275,0,1.24006,0x48466125;
+	}
+}
+[t:groundcover_grs_06,n:0x03400294]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2.61653;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.469471,0,0.882948;
+	  p position = -0.173614,0,1.01975,0x8feb6936;
 	}
 }
