@@ -127,4 +127,40 @@
 			speaker = ;
 		}
 	}
+	[hovart_mill_snapper_pond]
+	{
+		screen_name = Hovart at the Snapper Pond;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill Lord Hovart at the Snapper Pond near the Mill.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
+	[hovart_farm_orchard]
+	{
+		screen_name = Hovart in the Orchard;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill Lord Hovart in the Orchard near the Farm.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
+	[hovart_witch_krugwood]
+	{
+		screen_name = Hovart in the Krugwood;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill Lord Hovart in the Krugwood near the Witch's Cottage.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 }
