@@ -1,186 +1,3 @@
-[t:trigger_generic,n:0x00500026]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("dwarven-smitty");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.198611,12,-0.626572,0xef8d9538;
-	}
-}
-[t:trigger_generic,n:0x00500021]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("dwarven-smitty");
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(10.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.97237,0,-0.233445;
-	  p position = 1.4643,-0.129093,1.03702,0xfc0817c1;
-	}
-}
-[t:trigger_generic,n:0x00500025]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("dwarven-smitty");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.0585136,1.15699,-8.59634,0x0532e273;
-	}
-}
-[t:trigger_generic,n:0x00500023]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("dwarven-smitty");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.013515,1.15719,-8.58346,0x0e0a4245;
-	}
-}
-[t:trigger_generic,n:0x00500024]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("dwarven-smitty");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.0391273,1.15713,-8.58702,0xe1e24b32;
-	}
-}
-[t:blocking_object,n:0x00500022]
-{
-	[placement]
-	{
-	  p position = -3.17118,4,3.82656,0x74cb20d3;
-	}
-}
-[t:blocking_object,n:0x00500028]
-{
-	[placement]
-	{
-	  p position = -1.85534,-1.97589,-1.67117,0xd0479314;
-	}
-}
-[t:blocking_object,n:0x00500029]
-{
-	[placement]
-	{
-	  p position = 3.49893,-2,-5.81397,0xc4a89db8;
-	}
-}
-[t:blocking_object,n:0x0050002a]
-{
-	[placement]
-	{
-	  p position = 2.93083,4,1.76965,0xe3578ddc;
-	}
-}
-[t:blocking_object,n:0x0050002b]
-{
-	[placement]
-	{
-	  p position = 3.31247,-12,-5.86812,0x59a92904;
-	}
-}
-[t:blocking_object,n:0x0050002c]
-{
-	[placement]
-	{
-	  p position = -3.10532,-12,-5.90469,0xd5b23a5e;
-	}
-}
 [t:trigger_generic,n:0x0050002d]
 {
 	[common]
@@ -562,5 +379,260 @@
 	[placement]
 	{
 	  p position = -1.63604,-3.5,-1.85056,0xc3d419e8;
+	}
+}
+[t:blocking_object,n:0x0050002c]
+{
+	[placement]
+	{
+	  p position = -3.10532,-12,-5.90469,0xd5b23a5e;
+	}
+}
+[t:blocking_object,n:0x0050002b]
+{
+	[placement]
+	{
+	  p position = 3.31247,-12,-5.86812,0x59a92904;
+	}
+}
+[t:blocking_object,n:0x0050002a]
+{
+	[placement]
+	{
+	  p position = 2.93083,4,1.76965,0xe3578ddc;
+	}
+}
+[t:blocking_object,n:0x00500022]
+{
+	[placement]
+	{
+	  p position = -3.17118,4,3.82656,0x74cb20d3;
+	}
+}
+[t:blocking_object,n:0x00500029]
+{
+	[placement]
+	{
+	  p position = 3.49893,-2,-5.81397,0xc4a89db8;
+	}
+}
+[t:trigger_generic,n:0x00500021]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("dwarven-smitty");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.97237,0,-0.233445;
+	  p position = 1.4643,-0.129093,1.03702,0xfc0817c1;
+	}
+}
+[t:blocking_object,n:0x00500028]
+{
+	[placement]
+	{
+	  p position = -1.85534,-1.97589,-1.67117,0xd0479314;
+	}
+}
+[t:trigger_generic,n:0x00500024]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("dwarven-smitty");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0391273,1.15713,-8.58702,0xe1e24b32;
+	}
+}
+[t:trigger_generic,n:0x00500023]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("dwarven-smitty");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.013515,1.15719,-8.58346,0x0e0a4245;
+	}
+}
+[t:trigger_generic,n:0x00500025]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("dwarven-smitty");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.0585136,1.15699,-8.59634,0x0532e273;
+	}
+}
+[t:trigger_generic,n:0x00500026]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("dwarven-smitty");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.198611,12,-0.626572,0xef8d9538;
+	}
+}
+[t:use_point,n:0x00500048]
+{
+	[placement]
+	{
+	  p position = -2.38667,12,-0.069201,0x4886956f;
+	}
+}
+[t:use_point,n:0x00500049]
+{
+	[placement]
+	{
+	  p position = -3.12468,0.681745,1.79964,0x5755e605;
+	}
+}
+[t:use_point,n:0x0050004a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -2.3427,12,-0.039134,0x4886956f;
+	}
+}
+[t:use_point,n:0x0050004b]
+{
+	[placement]
+	{
+	  p position = -0.822738,12,0.183613,0x5755e605;
+	}
+}
+[t:use_point,n:0x0050004c]
+{
+	[placement]
+	{
+	  p position = -1.96157,12,2.03388,0xeec23db8;
+	}
+}
+[t:use_point,n:0x00500052]
+{
+	[placement]
+	{
+	  p position = -2.3229,12,0.0463367,0x954988e4;
+	}
+}
+[t:use_point,n:0x00500053]
+{
+	[placement]
+	{
+	  p position = -3.04196,0.663754,1.9755,0x91059b94;
+	}
+}
+[t:use_point,n:0x00500054]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -2.35062,12,0.0938268,0x954988e4;
+	}
+}
+[t:use_point,n:0x00500055]
+{
+	[placement]
+	{
+	  p position = -0.531341,12,0.0531187,0x91059b94;
+	}
+}
+[t:use_point,n:0x00500056]
+{
+	[placement]
+	{
+	  p position = -2.01995,12,1.81481,0x3c1b37bc;
 	}
 }
