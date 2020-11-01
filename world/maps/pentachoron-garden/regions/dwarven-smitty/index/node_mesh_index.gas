@@ -14,9 +14,14 @@
 	0x00000509 = t_xxx_cnr_tee-04-04-08-l;
 	0x0000050a = t_xxx_cnr_tee-04-04-08-r;
 	0x0000061a = t_xxx_flr_04x04-v0;
+	0x0000061b = t_xxx_flr_04x04-v1;
+	0x0000061c = t_xxx_flr_04x04-v2;
+	0x0000061d = t_xxx_flr_04x04-v3;
 	0x0000061e = t_xxx_flr_04x08-v0;
 	0x0000061f = t_xxx_flr_08x08-v0;
 	0x00000620 = t_xxx_flr_08x08-v1;
+	0x00000621 = t_xxx_flr_08x08-v2;
+	0x00000622 = t_xxx_flr_08x08-v3;
 	0x00000746 = t_xxx_ledg_08-cnr-cnvx-t;
 	0x0000074b = t_xxx_ledg_08-thck-t;
 	0x0000074d = t_xxx_ledg_08-thin-t;
@@ -48,7 +53,10 @@
 	0x0000094b = t_xxx_wal_04-thck;
 	0x0000094c = t_xxx_wal_04-thin;
 	0x00000956 = t_xxx_wal_08-diag-thick-l;
+	0x00000957 = t_xxx_wal_08-diag-thick-r;
+	0x00000958 = t_xxx_wal_08-diag-thin-l;
 	0x00000960 = t_xxx_wal_08-thck;
+	0x00000961 = t_xxx_wal_08-thin;
 	0x0000096f = t_xxx_wal_12-diag-thick-r;
 	0x00000976 = t_xxx_wal_12-thck;
 	0x00000977 = t_xxx_wal_12-thin;
@@ -62,8 +70,11 @@
 	0x00000991 = t_xxx_wal_32-diag-thin-r;
 	0x00000992 = t_xxx_wal_32-thck;
 	0x00000993 = t_xxx_wal_32-thin;
+	0x00000c7f = t_nt01_blacksmith-door-top-front;
+	0x00000c81 = t_nt01_blacksmith-door-top-side;
 	0x00000c82 = t_nt01_blacksmith-roof;
 	0x00000c83 = t_nt01_blacksmith;
+	0x00000c84 = t_nt01_house-1-door-top;
 	0x00000c85 = t_nt01_house-1;
 	0x00000c8c = t_nt01_house1-roof;
 	0x00000c8f = t_nt01_magicshop-roof;
