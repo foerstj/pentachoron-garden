@@ -1,0 +1,440 @@
+[t:template,n:dwarf_shop_body]
+{
+	category_name = "1W_shopkeep";
+	doc = "dwarf shop body";
+	specializes = base_dwarf;
+	[actor] { portrait_icon = b_gui_ig_i_ic_c_go; }
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		use_range = 1.0;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_05;
+			1 = b_c_pos_a1_032;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body/23-40;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/41-79;
+					max = 16;
+					min = 16;
+				}
+				[all*]
+				{
+					il_main = #body/80-110;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+    [mind]
+    {
+		actor_may_attack = false;
+        actor_may_be_attacked = false;
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:dwarf_shop_boots_helm_gloves]
+{
+	category_name = "1W_shopkeep";
+	doc = "dwarf shop boots helm gloves";
+	specializes = base_dwarf;
+	[actor] { portrait_icon = b_gui_ig_i_ic_c_orkin; }
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		use_range = 1;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_06;
+			1 = b_c_pos_a1_034;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[mind]
+    {
+		actor_may_attack = false;
+        actor_may_be_attacked = false;
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #gloves/3-40;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/41-79;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #gloves/80-110;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #helm/3-40;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/41-79;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #helm/80-110;
+					max = 4;
+					min = 4;
+				}
+
+				[all*]
+				{
+					il_main = #boots/3-40;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/41-79;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #boots/80-110;
+					max = 4;
+					min = 4;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:dwarf_shop_melee]
+{
+	category_name = "1W_shopkeep";
+	doc = "dwarf shop melee";
+	specializes = base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_dornek;
+	}
+	[aspect]
+	{
+		use_range = 1.0;
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_09;
+			1 = b_c_pos_a1_063;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_weapon_hand = ax_g_c_2h1b_avg;
+		}
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/14-18;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #melee/19-38;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #melee/39-52;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:dwarf_shop_ranged]
+{
+	category_name = "1W_shopkeep";
+	doc = "dwarf shop ranged";
+	specializes = base_dwarf;
+	[actor] { portrait_icon = b_gui_ig_i_ic_c_gl; }
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		use_range = 1.0;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_07;
+			1 = b_c_pos_a1_069;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #ranged/14-18;
+					max = 8;
+					min = 8;
+				}
+				[all*]
+				{
+					il_main = #ranged/19-38;
+					max = 18;
+					min = 18;
+				}
+				[all*]
+				{
+					il_main = #ranged/39-52;
+					max = 6;
+					min = 6;
+				}
+			}
+		}
+	}
+    [mind]
+    {
+		actor_may_attack = false;
+        actor_may_be_attacked = false;
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:dwarf_shop_shield]
+{
+	category_name = "1W_shopkeep";
+	doc = "dwarf shop shield";
+	specializes = base_dwarf;
+	[actor] { portrait_icon = b_gui_ig_i_ic_c_rhut; }
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		use_range = 1;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_10;
+			1 = b_c_pos_a1_068;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[mind]
+    {
+		actor_may_attack = false;
+        actor_may_be_attacked = false;
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/3-40;
+					max = 5;
+					min = 5;
+				}
+				[all*]
+				{
+					il_main = #shield/41-79;
+					max = 6;
+					min = 6;
+				}
+				[all*]
+				{
+					il_main = #shield/80-110;
+					max = 4;
+					min = 4;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:dwarf_shop_ring_amulet]
+{
+	category_name = "1W_shopkeep";
+	doc = "dwarf shop ring amulet";
+	specializes = base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_torg;
+	}
+	[aspect]
+	{
+		use_range = 1.0;
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_02;
+			1 = b_c_pos_a1_006;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_weapon_hand = ax_g_c_2h1b_avg;
+		}
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[misc]
+			{
+				[all*]
+				{
+					il_main = #ring/-mod(1)/19-23;
+					max = 3;
+					min = 1;
+				}
+				[all*]
+				{
+					il_main = #amulet/-mod(1)/19-23;
+					max = 3;
+					min = 1;
+				}
+				[all*]
+				{
+					il_main = #ring/25-40;
+					max = 3;
+					min = 1;
+				}
+				[all*]
+				{
+					il_main = #amulet/25-40;
+					max = 3;
+					min = 1;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}

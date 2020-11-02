@@ -519,6 +519,34 @@
 		bool_variable = "flip_smitty_activated";
 	}
 }
+[t:trigger_generic,n:0x00500064]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_smitty","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 1.57558,0.2,-0.42329,0x6401f931;
+	}
+}
 [t:blocking_object,n:0x00500028]
 {
 	[placement]
@@ -735,33 +763,5 @@
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
 	  p position = -2.3427,12,-0.039134,0x4886956f;
-	}
-}
-[t:trigger_generic,n:0x00500064]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("flip_smitty","completed",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_req_activate",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 1.57558,0.2,-0.42329,0x6401f931;
 	}
 }

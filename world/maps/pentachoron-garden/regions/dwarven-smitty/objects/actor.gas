@@ -1,0 +1,138 @@
+[t:dwarf_shop_body,n:0x00500065]
+{
+	[common]
+	{
+		screen_name = "body";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = dummy_shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = -2.93376,-0.273503,1.69404,0x9050d458;
+	}
+}
+[t:dwarf_shop_boots_helm_gloves,n:0x00500066]
+{
+	[common]
+	{
+		screen_name = "boots helm gloves";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = dummy_shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.49012e-007;
+	  p position = 2.88786,0,1.11857,0x9e64d4fe;
+	}
+}
+[t:dwarf_shop_melee,n:0x00500067]
+{
+	[common]
+	{
+		screen_name = "melee";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = dummy_shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.923879,0,-0.382684;
+	  p position = -3.70368,0,1.72191,0x9e64d4fe;
+	}
+}
+[t:dwarf_shop_ranged,n:0x00500068]
+{
+	[common]
+	{
+		screen_name = "ranged";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = dummy_shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.48619,-0.3,2.11605,0x13edb606;
+	}
+}
+[t:dwarf_shop_ring_amulet,n:0x00500069]
+{
+	[common]
+	{
+		screen_name = "ring amulet";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = dummy_shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.0460081,-0.299999,3.47629,0x13edb606;
+	}
+}
+[t:dwarf_shop_shield,n:0x0050006a]
+{
+	[common]
+	{
+		screen_name = "shield";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = dummy_shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.09084,-0.300001,2.83991,0x9050d458;
+	}
+}
