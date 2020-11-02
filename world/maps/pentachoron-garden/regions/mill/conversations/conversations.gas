@@ -84,10 +84,13 @@ You can try your luck with them, if you want. A lot of people have goblin blood 
 		activate_quest* = flip_farm,0;
 		activate_quest* = flip_inn,0;
 		activate_quest* = flip_witch,0;
+		activate_quest* = flip_smitty,0;
 		choice = more;
 	  i order = 5;
 	  b quest_dialogue = true;
-		screen_text = "So, if you're lucky and able to open the flips, would you like to help me out? You'd have to walk to them, of course. But by walking you would also get to see the Garden - win-win, right?";
+		screen_text = "So, if you're lucky and able to open the flips, would you like to help me out? You'd have to walk to them, of course. But by walking you would also get to see the Garden - win-win, right?
+
+You can have a nice walk down along the Brook to the Farm and the Inn, and you'll easily get back here for lunchtime. What do you think? We can take care of the Witch's Cottage and the Dwarven Smitty later on, those areas are a bit more difficult...";
 	  f scroll_rate = 10.000000;
 	}
 	[text*]

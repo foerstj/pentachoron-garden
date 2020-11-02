@@ -115,6 +115,18 @@
 			speaker = ;
 		}
 	}
+	[flip_smitty]
+	{
+		screen_name = Smitty flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = re-activate the Smitty flip by turning the flip switch at the Dwarven Smitty.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 	[flip_witch]
 	{
 		screen_name = witch's flip;

@@ -30,6 +30,74 @@
 	  p position = 0.735499,0.15,-0.089386,0xdb0a449a;
 	}
 }
+[t:elevator_instant_4s_1c,n:0x00500061]
+{
+	[elevator_instant_4s_1c]
+	{
+	  i connect_door_location1_level1 = 5;
+	  i connect_door_location1_level2 = 7;
+	  i connect_door_location2_level1 = 5;
+	  i connect_door_location2_level2 = 7;
+	  x connect_node_location1 = 0x6401F931;
+	  x connect_node_location2 = 0x96555C50;
+		down_effect = "displacer_plate_down";
+	  f duration_location1_moving_to_lv1 = 1;
+	  f duration_location1_moving_to_lv2 = 1;
+	  f duration_location2_moving_to_lv1 = 1;
+	  f duration_location2_moving_to_lv2 = 1;
+	  i e2_connect_door_location1_level1 = 5;
+	  i e2_connect_door_location1_level2 = 7;
+	  i e2_connect_door_location2_level1 = 5;
+	  i e2_connect_door_location2_level2 = 7;
+	  x e2_elevator_node = 0x56DED2ED;
+	  x elevator_node = 0xB518763B;
+		location1_moving_to_lv1_actioninfo = "dwarven-smitty";
+		location1_moving_to_lv2_actioninfo = "flip";
+		location1_moving_to_lv2_hint = ah_xaxis_positive;
+		location2_moving_to_lv1_actioninfo = "flop";
+		location2_moving_to_lv2_actioninfo = "flip";
+		location2_moving_to_lv2_hint = ah_xaxis_positive;
+		material = "hub";
+	  x other_elevator = 0x00F00083;
+		up_effect = "displacer_plate_up";
+	}
+	[placement]
+	{
+	  p position = -0.668928,0.199999,0.591325,0xb518763b;
+	}
+}
+[t:elevator_2s_2c_2n,n:0x00500044]
+{
+	[elevator_2s_2c_2n]
+	{
+	  i additional_door_level2 = 10;
+	  x additional_node_level2 = 0x38CE9914;
+	  i connect_door_level1 = 8;
+	  i connect_door_level2 = 9;
+	  x connect_node_level1 = 0xD9C1CD62;
+	  x connect_node_level2 = 0x38CE9914;
+	  f duration = 8;
+	  i elevator_additionaldoor_level2 = 3;
+	  i elevator_door_level1 = 2;
+	  i elevator_door_level2 = 1;
+	  x elevator_node = 0xB270463E;
+		level1_message = we_req_deactivate;
+	  f level1_message_delay = 0;
+	  x level1_scid = 0x0050004F;
+		level2_message = we_req_deactivate;
+	  f level2_message_delay = 0;
+	  x level2_scid = 0x0050004F;
+		material = "dc_pulley";
+	  f moving1_message_delay = 0;
+	  x moving1_scid = 0x0050004F;
+	  f moving2_message_delay = 0;
+	  x moving2_scid = 0x0050004F;
+	}
+	[placement]
+	{
+	  p position = 0.299172,0.150005,-0.101477,0xb270463e;
+	}
+}
 [t:elevator_2s_2c_2n,n:0x0050004e]
 {
 	[elevator_2s_2c_2n]
@@ -78,37 +146,5 @@
 	[placement]
 	{
 	  p position = -2.29087,12,-0.634102,0x4886956f;
-	}
-}
-[t:elevator_2s_2c_2n,n:0x00500044]
-{
-	[elevator_2s_2c_2n]
-	{
-	  i additional_door_level2 = 10;
-	  x additional_node_level2 = 0x38CE9914;
-	  i connect_door_level1 = 8;
-	  i connect_door_level2 = 9;
-	  x connect_node_level1 = 0xD9C1CD62;
-	  x connect_node_level2 = 0x38CE9914;
-	  f duration = 8;
-	  i elevator_additionaldoor_level2 = 3;
-	  i elevator_door_level1 = 2;
-	  i elevator_door_level2 = 1;
-	  x elevator_node = 0xB270463E;
-		level1_message = we_req_deactivate;
-	  f level1_message_delay = 0;
-	  x level1_scid = 0x0050004F;
-		level2_message = we_req_deactivate;
-	  f level2_message_delay = 0;
-	  x level2_scid = 0x0050004F;
-		material = "dc_pulley";
-	  f moving1_message_delay = 0;
-	  x moving1_scid = 0x0050004F;
-	  f moving2_message_delay = 0;
-	  x moving2_scid = 0x0050004F;
-	}
-	[placement]
-	{
-	  p position = 0.299172,0.150005,-0.101477,0xb270463e;
 	}
 }

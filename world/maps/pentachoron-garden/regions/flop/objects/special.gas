@@ -143,6 +143,54 @@
 	  p position = 0.0326307,0.2,0.0470114,0xe830b88a;
 	}
 }
+[t:use_point,n:0x00f0007a]
+{
+	[placement]
+	{
+	  p position = -0.0114684,0.2,-0.569543,0x56ded2ed;
+	}
+}
+[t:trigger_generic,n:0x00f0007c]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_smitty","active",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -0.00776219,0.2,0.0154181,0x56ded2ed;
+	}
+}
+[t:check_quest_bits,n:0x00f00082]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "flip_smitty_activated";
+		map_name = "pentachoron-garden";
+	  x send_to_scid = 0x00F00083;
+	}
+	[placement]
+	{
+	  p position = 0.553458,0.2,0.568728,0x56ded2ed;
+	}
+}
 [t:use_point,n:0x00f0007d]
 {
 	[placement]

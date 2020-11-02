@@ -416,6 +416,13 @@
 	  p position = -3.10532,-12,-5.90469,0xd5b23a5e;
 	}
 }
+[t:use_point,n:0x00500043]
+{
+	[placement]
+	{
+	  p position = -7.44722,15.85,2.68637,0x38ce9914;
+	}
+}
 [t:blocking_object,n:0x0050002b]
 {
 	[placement]
@@ -444,6 +451,13 @@
 	  p position = -0.896558,0.15,-0.602379,0xdb0a449a;
 	}
 }
+[t:use_point,n:0x00500041]
+{
+	[placement]
+	{
+	  p position = -0.795319,1.90735e-006,2.23027,0x49614fe1;
+	}
+}
 [t:blocking_object,n:0x0050002a]
 {
 	[placement]
@@ -465,7 +479,7 @@
 	  p position = 3.49893,-2,-5.81397,0xc4a89db8;
 	}
 }
-[t:trigger_generic,n:0x00500021]
+[t:trigger_generic,n:0x00500051]
 {
 	[common]
 	{
@@ -490,8 +504,19 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.97237,0,-0.233445;
-	  p position = 1.4643,-0.129093,1.03702,0xfc0817c1;
+	  q orientation = 0,1,0,0;
+	  p position = -1.53044,0.2,-1.5703,0x6401f931;
+	}
+}
+[t:set_quest_bits,n:0x00500063]
+{
+	[placement]
+	{
+	  p position = 1.48135,0.2,-1.24754,0x6401f931;
+	}
+	[set_quest_bits]
+	{
+		bool_variable = "flip_smitty_activated";
 	}
 }
 [t:blocking_object,n:0x00500028]
@@ -499,6 +524,54 @@
 	[placement]
 	{
 	  p position = -1.85534,-1.97589,-1.67117,0xd0479314;
+	}
+}
+[t:trigger_generic,n:0x0050003f]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_smitty","active",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.021216,0.2,-0.0202465,0xb518763b;
+	}
+}
+[t:use_point,n:0x00500060]
+{
+	[placement]
+	{
+	  p position = 0.00832665,0.2,-0.531199,0xb518763b;
+	}
+}
+[t:check_quest_bits,n:0x00500062]
+{
+	[check_quest_bits]
+	{
+		bool_variable = "flip_smitty_activated";
+		map_name = "pentachoron-garden";
+	  x send_to_scid = 0x00500061;
+	}
+	[placement]
+	{
+	  p position = 0.559667,0.2,0.59976,0xb518763b;
 	}
 }
 [t:trigger_generic,n:0x00500024]
@@ -613,6 +686,13 @@
 	  p position = 0.198611,12,-0.626572,0xef8d9538;
 	}
 }
+[t:use_point,n:0x00500040]
+{
+	[placement]
+	{
+	  p position = -1.08045,0.149999,-0.853643,0xb270463e;
+	}
+}
 [t:use_point,n:0x00500056]
 {
 	[placement]
@@ -657,24 +737,31 @@
 	  p position = -2.3427,12,-0.039134,0x4886956f;
 	}
 }
-[t:use_point,n:0x00500040]
+[t:trigger_generic,n:0x00500064]
 {
-	[placement]
+	[common]
 	{
-	  p position = -1.08045,0.149999,-0.853643,0xb270463e;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("flip_smitty","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
-}
-[t:use_point,n:0x00500041]
-{
 	[placement]
 	{
-	  p position = -0.795319,1.90735e-006,2.23027,0x49614fe1;
-	}
-}
-[t:use_point,n:0x00500043]
-{
-	[placement]
-	{
-	  p position = -7.44722,15.85,2.68637,0x38ce9914;
+	  p position = 1.57558,0.2,-0.42329,0x6401f931;
 	}
 }
