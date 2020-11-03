@@ -7,3 +7,31 @@
 	  f scroll_rate = 10.000000;
 	}
 }
+[wyrt_smyth]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hellow there, straynger! Welkome to the Dwarven Smitty, hehe!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "Heading in or out? You're welkome to worm up inside owa kozie houzes. We also haf lots of worm clothis for yoo to buy, boots and hatts and gloves, arl yoo cud evor wish for.
+
+Iff yoo haf to leave, lett me tell yoo de way...";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "...So yoo see, everything ish bretty glose. Here att de Dwarven Smitty we are right in de cender of de Garda.
+
+Dat was a choke, haha! It'sh an insider here at Pentachoron Garden. We arl like to glaim we're att de cender, but of course the Garda hass no cender. As de name says, it ish shaped like a pentachoron, which ish a kinda four-dimenshional triangle. Impossible cheometry, enaybled by de shbace-worping machig of de Badlands glose by.
+
+Oh, and thanks for coming here to "fix" our flip. It was nod necessary, really. We dwarves like our peace, dat'sh why we live ub here on the Mount. So whenever de old thing loggs down, we enchoy a few days resht from arl de Millers and Farmers and Keapers - and Witches! - visiting here. We dwarves haf a liddle goblin blood in our veins, so we can re-oben it whenever we feel like. It'sh de perfect arraynchment, haha!";
+	  f scroll_rate = 10.000000;
+	}
+}
