@@ -161,12 +161,36 @@
 		use_point_scids = 0x00500054,0x00500055,0x00500056;
 	}
 }
+[t:sign_glb_blacksmith_03,n:0x00500071]
+{
+	[common]
+	{
+		screen_name = "Silva Joolery";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -0.598084,-4.14006,-4.72898,0x34e56ec3;
+	}
+}
 [t:door_ice_peasant_left,n:0x00500076]
 {
 	[placement]
 	{
 	  q orientation = 0,-0.965926,0,0.25882;
 	  p position = -1.3391,-3.5,-2.74176,0x34e56ec3;
+	}
+}
+[t:sign_glb_blacksmith_03,n:0x00500070]
+{
+	[common]
+	{
+		screen_name = "Will Shields";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -5.14146,-3.89119,-2.47845,0xc3d419e8;
 	}
 }
 [t:door_ice_peasant_left,n:0x00500078]
@@ -275,27 +299,19 @@
 		use_point_scids = 0x00500060;
 	}
 }
-[t:sign_glb_blacksmith_03,n:0x00500070]
+[t:respawn_statue_azunai,n:0x00500094]
 {
+	[aspect]
+	{
+		model = m_i_glb_statue-01;
+	}
 	[common]
 	{
-		screen_name = "Will Shields";
+		screen_name = "Azunai the Dwarf";
 	}
 	[placement]
 	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -5.14146,-3.89119,-2.47845,0xc3d419e8;
-	}
-}
-[t:sign_glb_blacksmith_03,n:0x00500071]
-{
-	[common]
-	{
-		screen_name = "Silva Joolery";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -0.598084,-4.14006,-4.72898,0x34e56ec3;
+	  q orientation = 0,1,0,-1.60478e-007;
+	  p position = -2.33127,-0.3,3.28335,0x9050d458;
 	}
 }
