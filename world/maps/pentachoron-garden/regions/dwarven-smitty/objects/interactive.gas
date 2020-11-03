@@ -172,3 +172,106 @@
 		use_point_scids = 0x00500060;
 	}
 }
+[t:sign_glb_blacksmith_03,n:0x0050006c]
+{
+	[common]
+	{
+		screen_name = "Bleck-Wintur Armor";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -5.96318,-4.9064,-2.98589,0x160860a8;
+	}
+}
+[t:sign_glb_blacksmith_03,n:0x0050006d]
+{
+	[common]
+	{
+		screen_name = "Ero-Blayde Weapons";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -5.80904,-4.70964,4.64165,0x160860a8;
+	}
+}
+[t:sign_glb_blacksmith_left,n:0x0050006e]
+{
+	[common]
+	{
+		screen_name = "Silva Joolery";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -5.59381,-4.78376,7.39029,0x160860a8;
+	}
+}
+[t:sign_glb_blacksmith_right,n:0x0050006f]
+{
+	[common]
+	{
+		screen_name = "Will Shields";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -5.79398,-4.75696,-7.07719,0x160860a8;
+	}
+}
+[t:door_ice_peasant_left,n:0x00500072]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = -3.54786,-5.15,-2.38301,0x160860a8;
+	}
+}
+[t:door_ice_peasant_right,n:0x00500073]
+{
+	[door_basic]
+	{
+	  b can_use = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.58367,-5.15,0.418522,0x160860a8;
+	}
+}
+[t:door_ice_peasant_right,n:0x00500074]
+{
+	[placement]
+	{
+	  p position = 1.78053,-3.15,7.64876,0x160860a8;
+	}
+}
+[t:door_ice_peasant_left,n:0x00500076]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.965926,0,0.25882;
+	  p position = -1.3391,-3.5,-2.74176,0x34e56ec3;
+	}
+}
+[t:door_ice_peasant_left,n:0x00500078]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.965926,0,0.25882;
+	  p position = -1.33668,-3.5,-2.74512,0xc3d419e8;
+	}
+}
+[t:door_grs_peasant_right,n:0x0050007a]
+{
+	[door_basic]
+	{
+	  b can_use = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.887011,0,0.461748;
+	  p position = 3.75408,-3.15,1.35127,0x160860a8;
+	}
+}
