@@ -21,29 +21,6 @@
 	  p position = 1.50357,-5.15,-7.90015,0x160860a8;
 	}
 }
-[t:dwarf_shop_shield,n:0x0050006a]
-{
-	[common]
-	{
-		screen_name = "Will Smyth";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = will_smyth_shield_shop;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.92388,0,0.382683;
-	  p position = -0.465115,-3.5,2.32556,0xc3d419e8;
-	}
-}
 [t:dwarf_shop_boots_helm_gloves,n:0x00500066]
 {
 	[common]
@@ -90,34 +67,6 @@
 	  p position = 3.55457,-3.15,4.39585,0x160860a8;
 	}
 }
-[t:ulfgrim,n:0x0050006b]
-{
-	[aspect]
-	{
-	  f max_life = 882;
-	  f max_mana = 169;
-	}
-	[common]
-	{
-		screen_name = "Wyrt Smyth";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = wyrt_smyth;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,1.78814e-007;
-	  p position = -2.02572,0,1.74543,0x9e64d4fe;
-	}
-}
 [t:dwarf_shop_ranged,n:0x00500068]
 {
 	[common]
@@ -162,5 +111,56 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = -0.837839,-3.5,2.47163,0x34e56ec3;
+	}
+}
+[t:dwarf_shop_shield,n:0x0050006a]
+{
+	[common]
+	{
+		screen_name = "Will Smyth";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = will_smyth_shield_shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = -0.465115,-3.5,2.32556,0xc3d419e8;
+	}
+}
+[t:ulfgrim,n:0x0050006b]
+{
+	[aspect]
+	{
+	  f max_life = 882;
+	  f max_mana = 169;
+	}
+	[common]
+	{
+		screen_name = "Wyrt Smyth";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = wyrt_smyth;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,1.78814e-007;
+	  p position = -2.02572,0,1.74543,0x9e64d4fe;
 	}
 }
