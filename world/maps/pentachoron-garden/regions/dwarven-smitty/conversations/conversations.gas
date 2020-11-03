@@ -1,12 +1,3 @@
-[dummy_shop]
-{
-	[text*]
-	{
-		choice = shop;
-		screen_text = "Shop?";
-	  f scroll_rate = 10.000000;
-	}
-}
 [wyrt_smyth]
 {
 	[text*]
@@ -31,7 +22,73 @@ Iff yoo haf to leave, lett me tell yoo de way...";
 
 Dat was a choke, haha! It'sh an insider here at Pentachoron Garden. We arl like to glaim we're att de cender, but of course the Garda hass no cender. As de name says, it ish shaped like a pentachoron, which ish a kinda four-dimenshional triangle. Impossible cheometry, enaybled by de shbace-worping machig of de Badlands glose by.
 
-Oh, and thanks for coming here to "fix" our flip. It was nod necessary, really. We dwarves like our peace, dat'sh why we live ub here on the Mount. So whenever de old thing loggs down, we enchoy a few days resht from arl de Millers and Farmers and Keapers - and Witches! - visiting here. We dwarves haf a liddle goblin blood in our veins, so we can re-oben it whenever we feel like. It'sh de perfect arraynchment, haha!";
+Oh, and thanks for coming here to ";
+	  f scroll_rate = 10.000000;
+	}
+}
+[will_smyth_shield_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello straynger, welcome in. Haf some muffins to keep yoo worm.
+
+Wud yoo like to buy a shield? Don't go upp de Mount withoud one!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[bleck_smyth_body_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello straynger, welcome in. Haf some pine wine to keep yoo worm.
+
+Wud yoo like a worm coat or a shtrong armor?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[wintur_smyth_bhg_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello straynger, welcome in. Haf some mead to keep yoo worm.
+
+Wud yoo like a worm hatt or some gloves?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[blayde_smyth_melee_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello straynger, welcome in. Haf some shrump ale to keep yoo worm.
+
+Wud yoo like a new shword?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[ero_smyth_ranged_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello straynger, welcome in. Haf some mulled whisky to keep yoo worm.
+
+Wud yoo like a new bow?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[silva_smyth_joolery_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello straynger, welcome in. Haf some chincherbread to keep yoo worm.
+
+Wud yoo like to buy some joolery? I make rings and amuleds... I'm shure dey wud look great on yoo!";
 	  f scroll_rate = 10.000000;
 	}
 }

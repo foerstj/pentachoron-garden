@@ -31,19 +31,25 @@
 			{
 				[all*]
 				{
-					il_main = #body/23-40;
+					il_main = #body/1-20;
+					max = 23;
+					min = 23;
+				}
+				[all*]
+				{
+					il_main = #body/21-40;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #body/41-60;
 					max = 7;
 					min = 7;
 				}
 				[all*]
 				{
-					il_main = #body/41-79;
-					max = 16;
-					min = 16;
-				}
-				[all*]
-				{
-					il_main = #body/80-110;
+					il_main = #body/61-80;
 					max = 3;
 					min = 3;
 				}
@@ -101,59 +107,59 @@
 			{
 				[all*]
 				{
-					il_main = #gloves/3-40;
-					max = 8;
-					min = 8;
+					il_main = #gloves/1-40;
+					max = 13;
+					min = 13;
 				}
 				[all*]
 				{
-					il_main = #gloves/41-79;
-					max = 8;
-					min = 8;
+					il_main = #gloves/41-80;
+					max = 7;
+					min = 7;
 				}
 				[all*]
 				{
-					il_main = #gloves/80-110;
-					max = 4;
-					min = 4;
-				}
-
-				[all*]
-				{
-					il_main = #helm/3-40;
-					max = 8;
-					min = 8;
-				}
-				[all*]
-				{
-					il_main = #helm/41-79;
-					max = 8;
-					min = 8;
-				}
-				[all*]
-				{
-					il_main = #helm/80-110;
-					max = 4;
-					min = 4;
+					il_main = #gloves/81-120;
+					max = 3;
+					min = 3;
 				}
 
 				[all*]
 				{
-					il_main = #boots/3-40;
-					max = 8;
-					min = 8;
+					il_main = #helm/1-40;
+					max = 13;
+					min = 13;
 				}
 				[all*]
 				{
-					il_main = #boots/41-79;
-					max = 8;
-					min = 8;
+					il_main = #helm/41-80;
+					max = 7;
+					min = 7;
 				}
 				[all*]
 				{
-					il_main = #boots/80-110;
-					max = 4;
-					min = 4;
+					il_main = #helm/81-120;
+					max = 3;
+					min = 3;
+				}
+
+				[all*]
+				{
+					il_main = #boots/1-40;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #boots/41-80;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #boots/81-120;
+					max = 3;
+					min = 3;
 				}
 			}
 		}
@@ -207,21 +213,27 @@
 			{
 				[all*]
 				{
-					il_main = #melee/14-18;
-					max = 8;
-					min = 8;
+					il_main = #melee/1-10;
+					max = 23;
+					min = 23;
 				}
 				[all*]
 				{
-					il_main = #melee/19-38;
-					max = 18;
-					min = 18;
+					il_main = #melee/11-20;
+					max = 13;
+					min = 13;
 				}
 				[all*]
 				{
-					il_main = #melee/39-52;
-					max = 6;
-					min = 6;
+					il_main = #melee/21-30;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #melee/31-40;
+					max = 3;
+					min = 3;
 				}
 			}
 		}
@@ -267,21 +279,27 @@
 			{
 				[all*]
 				{
-					il_main = #ranged/14-18;
-					max = 8;
-					min = 8;
+					il_main = #ranged/1-10;
+					max = 23;
+					min = 23;
 				}
 				[all*]
 				{
-					il_main = #ranged/19-38;
-					max = 18;
-					min = 18;
+					il_main = #ranged/11-20;
+					max = 13;
+					min = 13;
 				}
 				[all*]
 				{
-					il_main = #ranged/39-52;
-					max = 6;
-					min = 6;
+					il_main = #ranged/21-30;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #ranged/31-40;
+					max = 3;
+					min = 3;
 				}
 			}
 		}
@@ -337,21 +355,21 @@
 			{
 				[all*]
 				{
-					il_main = #shield/3-40;
-					max = 5;
-					min = 5;
+					il_main = #shield/1-40;
+					max = 13;
+					min = 13;
 				}
 				[all*]
 				{
-					il_main = #shield/41-79;
-					max = 6;
-					min = 6;
+					il_main = #shield/41-80;
+					max = 7;
+					min = 7;
 				}
 				[all*]
 				{
-					il_main = #shield/80-110;
-					max = 4;
-					min = 4;
+					il_main = #shield/81-120;
+					max = 3;
+					min = 3;
 				}
 			}
 		}
@@ -405,27 +423,51 @@
 			{
 				[all*]
 				{
-					il_main = #ring/-mod(1)/19-23;
-					max = 3;
-					min = 1;
+					il_main = #ring/-mod(1)/1-20;
+					max = 7;
+					min = 3;
 				}
 				[all*]
 				{
-					il_main = #amulet/-mod(1)/19-23;
-					max = 3;
-					min = 1;
+					il_main = #ring/-mod(1)/21-40;
+					max = 7;
+					min = 3;
 				}
 				[all*]
 				{
-					il_main = #ring/25-40;
-					max = 3;
-					min = 1;
+					il_main = #amulet/-mod(1)/1-20;
+					max = 7;
+					min = 3;
 				}
 				[all*]
 				{
-					il_main = #amulet/25-40;
-					max = 3;
-					min = 1;
+					il_main = #amulet/-mod(1)/21-40;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #ring/1-20;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #ring/21-40;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #amulet/1-20;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #amulet/21-40;
+					max = 7;
+					min = 3;
 				}
 			}
 		}
