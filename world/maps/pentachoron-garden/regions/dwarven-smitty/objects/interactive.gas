@@ -123,6 +123,18 @@
 		use_point_scids = 0x0050004a,0x0050004b,0x0050004c;
 	}
 }
+[t:coil_gob_02,n:0x005000c6]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.522388,12,-0.0906782,0x5755e605;
+	}
+}
 [t:lever_glb_05,n:0x00500058]
 {
 	[on_off_lever]
@@ -159,6 +171,18 @@
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -0.613781,12,0.763369,0x91059b94;
 		use_point_scids = 0x00500054,0x00500055,0x00500056;
+	}
+}
+[t:coil_gob_02,n:0x005000c1]
+{
+	[aspect]
+	{
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.708382,12,0.00908899,0x91059b94;
 	}
 }
 [t:sign_glb_blacksmith_03,n:0x00500071]
@@ -277,6 +301,22 @@
 		use_point_scids = 0x00500040,0x00500041;
 	}
 }
+[t:respawn_statue_azunai,n:0x00500094]
+{
+	[aspect]
+	{
+		model = m_i_glb_statue-01;
+	}
+	[common]
+	{
+		screen_name = "Azunai the Dwarf";
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.60478e-007;
+	  p position = -2.33127,-0.3,3.28335,0x9050d458;
+	}
+}
 [t:statue_cav_spin_02,n:0x0050005a]
 {
 	[on_off_lever]
@@ -297,21 +337,5 @@
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = 0.0129452,0.2,-0.00331414,0xb518763b;
 		use_point_scids = 0x00500060;
-	}
-}
-[t:respawn_statue_azunai,n:0x00500094]
-{
-	[aspect]
-	{
-		model = m_i_glb_statue-01;
-	}
-	[common]
-	{
-		screen_name = "Azunai the Dwarf";
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,-1.60478e-007;
-	  p position = -2.33127,-0.3,3.28335,0x9050d458;
 	}
 }
