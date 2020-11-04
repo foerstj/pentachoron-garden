@@ -2,4 +2,12 @@
 {
 	source_region_guid = 0x00000005;
 	source_region_name = dwarven-smitty;
+	[t:stitch_editor,n:spider-hole]
+	{
+		dest_region = spider-hole;
+		[node_ids]
+		{
+			0x00501501 = 0xE1E24B32,2;
+		}
+	}
 }
