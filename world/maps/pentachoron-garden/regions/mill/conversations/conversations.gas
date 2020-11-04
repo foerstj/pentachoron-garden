@@ -36,6 +36,14 @@
 	}
 	[text*]
 	{
+		activate_quest* = beast_spider_hole_giant_spider,0;
+		choice = more;
+	  i order = 4;
+		screen_text = "Same for the way up north. It goes right through the Spider Hole, where a giant spider lives, ugh. Better to find another way to the Dwarven Smitty, if you really want to go there. They sell a lot of stuff, nice shoes and such, but the dwarves are just as unpleasant as the weather up on that snowy mountain.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "So as I said, have a nice walk through the Park! And make sure to talk with mum and dad, they'll help you out!";
 	  f scroll_rate = 10.000000;
 	}

@@ -339,3 +339,15 @@
 		use_point_scids = 0x00500060;
 	}
 }
+[t:sign_ice_01,n:0x005000cf]
+{
+	[common]
+	{
+		screen_name = "To Mill via Spider Hole";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.78381,-0.0344463,1.11993,0x9050d458;
+	}
+}

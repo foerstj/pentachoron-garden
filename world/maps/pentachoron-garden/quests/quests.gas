@@ -66,6 +66,18 @@
 			speaker = mrs. farmer;
 		}
 	}
+	[beast_spider_hole_giant_spider]
+	{
+		screen_name = Giant Spider;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill the Giant Spider in the Spider Hole.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 	[beast_spookeywood_skeleton_captain]
 	{
 		screen_name = skeleton captain;

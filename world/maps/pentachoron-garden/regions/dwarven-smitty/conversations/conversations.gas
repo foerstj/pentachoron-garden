@@ -131,6 +131,14 @@ Iff yoo haf to leave, lett me tell yoo de way...";
 	}
 	[text*]
 	{
+		activate_quest* = beast_spider_hole_giant_spider,0;
+		choice = more;
+	  i order = 2;
+		screen_text = "South from here is de Mill. De miller, mishder Miller, thinks he'sh de mayor of de Garda, bud otherwise he'sh a nice guy. De way leads righd through de Shbider Hole, with lods off cyoute fluffy shbiders; de Millers are afraid of dem though, esbeshially de big blagg hairy one, so dey'll be glad to hear id iff yoo kill id along de way.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "...So yoo see, everything is bretty glose. Afder arl, we're righd ad de cender of de Garda here. Wink wink nod nod.
 
 And thank yoo so mutsh for 'fixing' owa flib...";
