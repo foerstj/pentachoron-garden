@@ -9,8 +9,15 @@
   x targetnode = 0xD34D3AAE;
 	[t:snode,n:0xd34d3aae]
 	{
+	  b bounds_camera = true;
+	  b camera_fade = false;
 	  x guid = 0xD34D3AAE;
 	  x mesh_guid = 0x0000061F;
+	  x nodelevel = 0xFFFFFFFF;
+	  x nodeobject = 0xFFFFFFFF;
+	  x nodesection = 0xFFFFFFFF;
+	  b occludes_camera = true;
+	  b occludes_light = true;
 		texsetabbr = sn02;
 	}
 }
