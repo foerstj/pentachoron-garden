@@ -3647,52 +3647,16 @@
 	  p position = 2.03273,5.24521e-006,6.76628,0xc7bd6499;
 	}
 }
-[t:bush_grs_rhod_02,n:0x001000d2]
+[t:bush_grs_rhod_01,n:0x001000d3]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 2.5;
+	  f scale_multiplier = 2.4;
 	}
 	[placement]
 	{
-	  q orientation = 0,1,0,-1.62921e-007;
-	  p position = -0.248928,0,-1.50877,0xcca20df0;
-	}
-}
-[t:tree_grs_oak_03,n:0x00100063]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.27702;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.748956,0,0.66262;
-	  p position = -0.581875,-0.650014,0.515942,0x83bae935;
-	}
-}
-[t:fern_grs_03,n:0x001000d8]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 3.25503;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.999391,0,-0.0348995;
-	  p position = -3.41774,-0.65,-2.2251,0x83bae935;
-	}
-}
-[t:foliage_grs_01,n:0x00100199]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.5;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.956305,0,0.292371;
-	  p position = -0.0519791,-0.650001,0.0239391,0x83bae935;
+	  q orientation = 0,0.66262,0,0.748956;
+	  p position = 1.53628,-1.2,1.45621,0xbaa23010;
 	}
 }
 [t:tree_glb_sway_03,n:0x0010009a]
@@ -3743,16 +3707,52 @@
 	  p position = -3.2212,0,3.00253,0x28a5236a;
 	}
 }
-[t:bush_grs_rhod_01,n:0x001000d3]
+[t:tree_grs_oak_03,n:0x00100063]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 2.4;
+	  f scale_multiplier = 1.27702;
 	}
 	[placement]
 	{
-	  q orientation = 0,0.66262,0,0.748956;
-	  p position = 1.53628,-1.2,1.45621,0xbaa23010;
+	  q orientation = 0,-0.748956,0,0.66262;
+	  p position = -0.581875,-0.650014,0.515942,0x83bae935;
+	}
+}
+[t:fern_grs_03,n:0x001000d8]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 3.25503;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.999391,0,-0.0348995;
+	  p position = -3.41774,-0.65,-2.2251,0x83bae935;
+	}
+}
+[t:foliage_grs_01,n:0x00100199]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.956305,0,0.292371;
+	  p position = -0.0519791,-0.650001,0.0239391,0x83bae935;
+	}
+}
+[t:bush_grs_rhod_02,n:0x001000d2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.62921e-007;
+	  p position = -0.248928,0,-1.50877,0xcca20df0;
 	}
 }
 [t:grass_grs_06,n:0x00100182]
