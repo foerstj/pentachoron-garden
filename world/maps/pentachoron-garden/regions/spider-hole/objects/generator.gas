@@ -1,3 +1,38 @@
+[t:generator_generic,n:0x0150010b]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0150010B,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = "spider";
+	  i max_alive_children = 2;
+	  i num_children_incubating = 8;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.507538,0,0.861629;
+	  p position = -0.496033,0,-3.64778,0x9e187244;
+	}
+}
 [t:generator_generic,n:0x0150032f]
 {
 	[common]
@@ -31,41 +66,6 @@
 	{
 	  q orientation = 0,0.507538,0,0.861629;
 	  p position = -2.86447,-1.90735e-006,-1.03488,0x8299f7df;
-	}
-}
-[t:generator_generic,n:0x01500038]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = send_world_message("we_req_activate",0x01500038,0f,"default","every",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(10.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[generator_basic]
-	{
-		child_template_name = "spider";
-	  i max_alive_children = 2;
-	  i num_children_incubating = 8;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.507538,0,0.861629;
-	  p position = 3.7253,-4,-4.45635,0x4984f5b1;
 	}
 }
 [t:generator_generic,n:0x0150005d]
@@ -103,7 +103,7 @@
 	  p position = -0.269876,-3.91441,-5.29601,0x2e8536e7;
 	}
 }
-[t:generator_generic,n:0x0150010b]
+[t:generator_generic,n:0x01500038]
 {
 	[common]
 	{
@@ -111,7 +111,7 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x0150010B,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x01500038,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -135,6 +135,6 @@
 	[placement]
 	{
 	  q orientation = 0,0.507538,0,0.861629;
-	  p position = -0.496033,0,-3.64778,0x9e187244;
+	  p position = 3.7253,-4,-4.45635,0x4984f5b1;
 	}
 }
