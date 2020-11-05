@@ -2,4 +2,22 @@
 {
 	source_region_guid = 0x00000025;
 	source_region_name = rats-den;
+	[t:stitch_editor,n:dwarven-smitty]
+	{
+		dest_region = dwarven-smitty;
+		[node_ids]
+		{
+			0x00502501 = 0x132159BA,2;
+		}
+	}
+	[t:stitch_editor,n:farm]
+	{
+		dest_region = farm;
+		[node_ids]
+		{
+			0x00202501 = 0x4039A6D9,4;
+			0x00202502 = 0x4039A6D9,5;
+			0x00202503 = 0x06A03169,2;
+		}
+	}
 }
