@@ -106,6 +106,15 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	}
 	[text*]
 	{
+		activate_quest* = beast_winterwood_grizzly_furok,0;
+		choice = more;
+	  i order = 5;
+		screen_text = "And finally, south from hither is the Winterwood and then the Dwarven Smitty.  Taketh some warm robes with thee, t's bitter cold up thither on the mount.  And beware! the beasts art dangerous enow themselves, but on top of yond the dwarves like to snuffs those folk.  Since last week i heareth a furok raging up thither like nimble-footed. 
+ anyways if 't be true thee make shift to avoid 'r slay yond beast and arrive at the Dwarven Smitty, greet the lot from me.  They cometh not down yond oft but at which hour they doth they buyeth a LOT of Shrump Ale";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "Enjoy thy time in the Garden!";
 	  f scroll_rate = 10.000000;
 	}

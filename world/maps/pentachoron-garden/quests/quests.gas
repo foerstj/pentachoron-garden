@@ -103,6 +103,18 @@
 			speaker = mrs. farmer;
 		}
 	}
+	[beast_winterwood_grizzly_furok]
+	{
+		screen_name = Grizzly Furok;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill the Grizzly Furok in the Winterwood.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 	[flip_farm]
 	{
 		screen_name = farm flip;

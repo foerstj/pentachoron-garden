@@ -148,6 +148,14 @@ Behind de Den lies de Farm. De Farmers are nice folks, albeid with no tayshde fo
 	}
 	[text*]
 	{
+		activate_quest* = beast_winterwood_grizzly_furok,0;
+		choice = more;
+	  i order = 4;
+		screen_text = "Iff yoo wand to gow to the Inn, go north from here. De way leads through de beautiful Winterwood righd into de Shrumbwood. Be careful though - lasht week liddle Boyler manached to shdeal arl de food from a furok's lair, and now dat one ish like really mad, lol. Mighd bite.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "...So yoo see, everything ish bretty glose. Afder arl, we're righd ad de cender of de Garda here. Wink wink nod nod.
 
 And thank yoo so mutsh for 'fixing' owa flib...";
