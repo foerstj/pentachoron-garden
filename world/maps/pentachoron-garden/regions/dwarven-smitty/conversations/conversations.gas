@@ -139,7 +139,16 @@ Iff yoo haf to leave, lett me tell yoo de way...";
 	}
 	[text*]
 	{
-		screen_text = "...So yoo see, everything is bretty glose. Afder arl, we're righd ad de cender of de Garda here. Wink wink nod nod.
+		activate_quest* = beast_rats_den_monstrous_rat,0;
+		choice = more;
+	  i order = 3;
+		screen_text = "To the eashd ish a part of the Woods called the Rat's Den, full of delicious fad rads. Sundays it'sh my turn to coog, so on Saddurdays I ofden go there to hund. Come bagg on Sunday and haf grilled rad with us! Jusht if yoo see a rad in there dat's glowing red, blease kill id. Id habbens when dey dig too deeb and dringg de machig groundwader. They tayshde awful and shtart biting the others.
+Behind de Den lies de Farm. De Farmers are nice folks, albeid with no tayshde for rads, and Mishder Farmer will habbily rend yoo their mules if yoo want one.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		screen_text = "...So yoo see, everything ish bretty glose. Afder arl, we're righd ad de cender of de Garda here. Wink wink nod nod.
 
 And thank yoo so mutsh for 'fixing' owa flib...";
 	  f scroll_rate = 10.000000;

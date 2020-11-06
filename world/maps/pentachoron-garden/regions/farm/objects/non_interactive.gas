@@ -3551,18 +3551,6 @@
 	  p position = 3.40838,5.94246,3.3137,0x98e600c9;
 	}
 }
-[t:bush_grs_rhod_01,n:0x00200048]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2.72559;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.52992,0,0.848048;
-	  p position = -0.0963097,-0.100421,0.280501,0x6e8eddb4;
-	}
-}
 [t:groundcover_grs_08,n:0x0020018d]
 {
 	[aspect]
@@ -4531,6 +4519,18 @@
 	  p position = -1.09874,0,-1.69642,0x39e7e158;
 	}
 }
+[t:bush_grs_rhod_01,n:0x00200048]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2.72559;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.52992,0,0.848048;
+	  p position = -0.0963097,-0.100421,0.280501,0x6e8eddb4;
+	}
+}
 [t:groundcover_grs_08,n:0x00200190]
 {
 	[aspect]
@@ -4577,5 +4577,13 @@
 	{
 	  q orientation = 0,0.649448,0,0.760406;
 	  p position = -3.11858,-1.2,3.25903,0xf8f2c76e;
+	}
+}
+[t:post_glb_01,n:0x00200215]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 3.66731,-0.65,-1.09718,0xcdb76870;
 	}
 }

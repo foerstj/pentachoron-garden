@@ -53,6 +53,18 @@
 			speaker = molly;
 		}
 	}
+	[beast_rats_den_monstrous_rat]
+	{
+		screen_name = Monstrous Rat;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill the Monstrous Rat in the Rat's Den.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 	[beast_snapper_pond_alpha_wolf]
 	{
 		screen_name = alpha wolf;
