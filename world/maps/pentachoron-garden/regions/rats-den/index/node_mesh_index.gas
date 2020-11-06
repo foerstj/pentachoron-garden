@@ -2,6 +2,8 @@
 {
 	0x00000427 = t_for01_flr-tx-grs01-04x04-c;
 	0x00000428 = t_for01_flr-tx-grs01-04x04-e;
+	0x00000429 = t_for01_flr-tx-grs01-08x04-c;
+	0x0000042b = t_for01_flr-tx-grs01-08x04-e;
 	0x0000049e = t_xxx_brdg_rop-24;
 	0x000004aa = t_xxx_brdg_tx-rop-wal-08;
 	0x000004ab = t_xxx_brdg_tx-rop-wal-12;
@@ -20,7 +22,11 @@
 	0x0000050d = t_xxx_cnr_tee-08-04-12-l;
 	0x0000050e = t_xxx_cnr_tee-08-04-12-r;
 	0x0000061a = t_xxx_flr_04x04-v0;
+	0x0000061b = t_xxx_flr_04x04-v1;
 	0x0000061e = t_xxx_flr_04x08-v0;
+	0x0000061f = t_xxx_flr_08x08-v0;
+	0x00000620 = t_xxx_flr_08x08-v1;
+	0x00000621 = t_xxx_flr_08x08-v2;
 	0x00000693 = t_xxx_hal_cnr-ccav;
 	0x00000694 = t_xxx_hal_cnr-cnvx;
 	0x0000069f = t_xxx_hal_thck;
@@ -30,8 +36,14 @@
 	0x00000746 = t_xxx_ledg_08-cnr-cnvx-t;
 	0x0000074b = t_xxx_ledg_08-thck-t;
 	0x0000074d = t_xxx_ledg_08-thin-t;
+	0x0000074f = t_xxx_ledg_12-cnr-ccav-t;
 	0x00000752 = t_xxx_ledg_12-cnr-cnvx-t;
 	0x00000757 = t_xxx_ledg_12-thck-t;
+	0x00000759 = t_xxx_ledg_12-thin-t;
+	0x0000075b = t_xxx_ledg_24-cnr-ccav-t;
+	0x0000075e = t_xxx_ledg_24-cnr-cnvx-t;
+	0x00000763 = t_xxx_ledg_24-thck-t;
+	0x00000765 = t_xxx_ledg_24-thin-t;
 	0x0000079f = t_xxx_pth_04x04-f;
 	0x000007a2 = t_xxx_pth_08x04-b;
 	0x000007a4 = t_xxx_pth_08x04-d;
@@ -39,6 +51,7 @@
 	0x000007ac = t_xxx_pth_08x08-b;
 	0x000007b2 = t_xxx_pth_08x08-h;
 	0x00000945 = t_xxx_wal_04-diag-thick-l;
+	0x00000946 = t_xxx_wal_04-diag-thick-r;
 	0x00000947 = t_xxx_wal_04-diag-thin-l;
 	0x0000094a = t_xxx_wal_04-pth-r;
 	0x0000094b = t_xxx_wal_04-thck;
