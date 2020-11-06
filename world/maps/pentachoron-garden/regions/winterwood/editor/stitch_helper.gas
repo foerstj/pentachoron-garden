@@ -2,4 +2,27 @@
 {
 	source_region_guid = 0x00000035;
 	source_region_name = winterwood;
+	[t:stitch_editor,n:dwarven-smitty]
+	{
+		dest_region = dwarven-smitty;
+		[node_ids]
+		{
+			0x00503501 = 0x7DD58A48,2;
+		}
+	}
+	[t:stitch_editor,n:inn]
+	{
+		dest_region = inn;
+		[node_ids]
+		{
+			0x00303501 = 0xABA429CE,6;
+			0x00303502 = 0x576048CD,7;
+			0x00303503 = 0x576048CD,8;
+			0x00303504 = 0x40DBB764,3;
+			0x00303505 = 0x40DBB764,4;
+			0x00303506 = 0xC0BED35C,3;
+			0x00303507 = 0xC0BED35C,4;
+			0x00303508 = 0xE1485A6A,3;
+		}
+	}
 }
