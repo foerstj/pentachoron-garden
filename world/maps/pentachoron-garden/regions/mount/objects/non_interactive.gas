@@ -1,0 +1,50 @@
+[t:statue_glb_roman_03,n:0x0450002e]
+{
+	[aspect]
+	{
+	  b draw_selection_indicator = false;
+	  b is_selectable = true;
+	  f scale_multiplier = 4;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Lord Hovart";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 2.84902,2.00002,1.01716,0x9732accf;
+	}
+}
+[t:statue_glb_01,n:0x0450002f]
+{
+	[aspect]
+	{
+	  b draw_selection_indicator = false;
+	  b is_selectable = true;
+	  f scale_multiplier = 2;
+	}
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Lady Ashish";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382684,0,0.923879;
+	  p position = 2.56022,3.3951,1.61134,0xfcabd946;
+	}
+}
+[t:stand_csl_01,n:0x04500031]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.93662,2,1.21451,0xfcabd946;
+	}
+}
