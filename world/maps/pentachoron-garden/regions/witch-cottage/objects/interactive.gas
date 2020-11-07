@@ -53,6 +53,18 @@
 	  p position = -1.38592,-0.0739736,1.52924,0x4417ea72;
 	}
 }
+[t:sign_glb_01,n:0x0040014b]
+{
+	[common]
+	{
+		screen_name = "To Inn via Krugwood";
+	}
+	[placement]
+	{
+	  q orientation = 0,-1.60478e-007,0,-1;
+	  p position = -1.37417,0.210831,1.53435,0x4417ea72;
+	}
+}
 [t:sign_glb_01,n:0x0040004d]
 {
 	[common]
@@ -83,6 +95,18 @@
 	{
 	  q orientation = 0,2.98023e-007,0,1;
 	  p position = -3.9316,-0.286321,-3.1847,0x905a93df;
+	}
+}
+[t:sign_glb_01,n:0x00400170]
+{
+	[common]
+	{
+		screen_name = "To Inn via Krugwood";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 2.11382,-0.256443,-3.58536,0x3e4b16c1;
 	}
 }
 [t:statue_cav_spin_02,n:0x00400040]
@@ -149,29 +173,5 @@
 	{
 	  q orientation = 0,-1.49012e-007,0,1;
 	  p position = 1.95146,-1.5,0.229566,0x3307a4f8;
-	}
-}
-[t:sign_glb_01,n:0x0040014b]
-{
-	[common]
-	{
-		screen_name = "To Inn via Krugwood";
-	}
-	[placement]
-	{
-	  q orientation = 0,-1.60478e-007,0,-1;
-	  p position = -1.37417,0.210831,1.53435,0x4417ea72;
-	}
-}
-[t:sign_glb_01,n:0x00400170]
-{
-	[common]
-	{
-		screen_name = "To Inn via Krugwood";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.923879,0,-0.382684;
-	  p position = 2.11382,-0.256443,-3.58536,0x3e4b16c1;
 	}
 }
