@@ -2,6 +2,7 @@
 {
 	0x00000491 = t_xxx_brdg_rck-16-l;
 	0x00000492 = t_xxx_brdg_rck-16-r;
+	0x0000049a = t_xxx_brdg_rop-08;
 	0x0000049c = t_xxx_brdg_rop-16;
 	0x0000049e = t_xxx_brdg_rop-24;
 	0x0000049f = t_xxx_brdg_rop-28;
@@ -25,8 +26,12 @@
 	0x00000756 = t_xxx_ledg_12-thck-b;
 	0x00000757 = t_xxx_ledg_12-thck-t;
 	0x0000076a = t_xxx_ledg_32-cnr-cnvx-t;
+	0x0000076b = t_xxx_ledg_32-ele-bottom-a;
+	0x0000076c = t_xxx_ledg_32-ele-top-a;
+	0x0000076d = t_xxx_ledg_32-ele-wheels-a;
 	0x0000076e = t_xxx_ledg_32-thck-b;
 	0x0000076f = t_xxx_ledg_32-thck-t;
+	0x00000772 = t_xxx_ledg_ele-platform-a;
 	0x0000079b = t_xxx_pth_04x04-b;
 	0x000007a9 = t_xxx_pth_08x04-i;
 	0x00000949 = t_xxx_wal_04-pth-l;
