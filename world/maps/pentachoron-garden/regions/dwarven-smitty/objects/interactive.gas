@@ -341,6 +341,18 @@
 	  p position = 3.97713,-0.65,1.48998,0x42faf5de;
 	}
 }
+[t:sign_ice_01,n:0x005001f7]
+{
+	[common]
+	{
+		screen_name = "To Inn via Winterwood";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.33299,-0.35,3.79487,0x240b38d6;
+	}
+}
 [t:statue_cav_spin_02,n:0x0050005a]
 {
 	[on_off_lever]
@@ -361,17 +373,5 @@
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = 0.0129452,0.2,-0.00331414,0xb518763b;
 		use_point_scids = 0x00500060;
-	}
-}
-[t:sign_ice_01,n:0x005001f7]
-{
-	[common]
-	{
-		screen_name = "To Inn via Winterwood";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -3.33299,-0.35,3.79487,0x240b38d6;
 	}
 }

@@ -2699,6 +2699,13 @@
 	  p position = 2.51037,-9.53674e-007,-0.586205,0x9fac13de;
 	}
 }
+[t:post_ice_01,n:0x005001f5]
+{
+	[placement]
+	{
+	  p position = -3.3238,-0.35,3.81092,0x240b38d6;
+	}
+}
 [t:tree_ice_sway_03,n:0x005001a8]
 {
 	[aspect]
@@ -3293,12 +3300,5 @@
 	{
 	  q orientation = 0,0.725374,0,-0.688355;
 	  p position = 0.934641,0,-0.220638,0x624d5ae1;
-	}
-}
-[t:post_ice_01,n:0x005001f5]
-{
-	[placement]
-	{
-	  p position = -3.3238,-0.35,3.81092,0x240b38d6;
 	}
 }
