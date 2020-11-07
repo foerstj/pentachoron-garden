@@ -1,21 +1,44 @@
 [node_mesh_index]
 {
+	0x00000491 = t_xxx_brdg_rck-16-l;
+	0x00000492 = t_xxx_brdg_rck-16-r;
+	0x0000049c = t_xxx_brdg_rop-16;
+	0x0000049e = t_xxx_brdg_rop-24;
+	0x0000049f = t_xxx_brdg_rop-28;
+	0x000004a5 = t_xxx_brdg_tx-rck-ramp;
+	0x000004a6 = t_xxx_brdg_tx-rck-wal-08;
+	0x000004aa = t_xxx_brdg_tx-rop-wal-08;
+	0x000004ab = t_xxx_brdg_tx-rop-wal-12;
 	0x000004ad = t_xxx_brdg_tx-rop-wal-32;
 	0x000004ee = t_xxx_cnr_04-cnvx;
 	0x000004ef = t_xxx_cnr_08-ccav;
 	0x000004f0 = t_xxx_cnr_08-cnvx;
 	0x000004f5 = t_xxx_cnr_32-ccav;
 	0x000004f6 = t_xxx_cnr_32-cnvx;
+	0x00000509 = t_xxx_cnr_tee-04-04-08-l;
 	0x0000061a = t_xxx_flr_04x04-v0;
 	0x0000061e = t_xxx_flr_04x08-v0;
+	0x0000061f = t_xxx_flr_08x08-v0;
+	0x00000620 = t_xxx_flr_08x08-v1;
+	0x0000074a = t_xxx_ledg_08-thck-b;
+	0x0000074b = t_xxx_ledg_08-thck-t;
+	0x00000756 = t_xxx_ledg_12-thck-b;
+	0x00000757 = t_xxx_ledg_12-thck-t;
 	0x0000076a = t_xxx_ledg_32-cnr-cnvx-t;
+	0x0000076e = t_xxx_ledg_32-thck-b;
 	0x0000076f = t_xxx_ledg_32-thck-t;
+	0x0000079b = t_xxx_pth_04x04-b;
+	0x000007a9 = t_xxx_pth_08x04-i;
 	0x00000949 = t_xxx_wal_04-pth-l;
+	0x0000094a = t_xxx_wal_04-pth-r;
 	0x0000094b = t_xxx_wal_04-thck;
 	0x0000095a = t_xxx_wal_08-pth-l;
+	0x0000095b = t_xxx_wal_08-pth-r;
 	0x00000960 = t_xxx_wal_08-thck;
 	0x00000961 = t_xxx_wal_08-thin;
+	0x00000976 = t_xxx_wal_12-thck;
 	0x0000098e = t_xxx_wal_32-diag-thick-l;
 	0x00000992 = t_xxx_wal_32-thck;
 	0x00000993 = t_xxx_wal_32-thin;
+	0x00000c40 = t_ic01_floor-dragon-skull-a;
 }

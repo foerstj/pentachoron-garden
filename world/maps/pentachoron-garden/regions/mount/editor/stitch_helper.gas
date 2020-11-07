@@ -2,4 +2,12 @@
 {
 	source_region_guid = 0x00000045;
 	source_region_name = mount;
+	[t:stitch_editor,n:dwarven-smitty]
+	{
+		dest_region = dwarven-smitty;
+		[node_ids]
+		{
+			0x00504501 = 0x6D4D3CCE,2;
+		}
+	}
 }
