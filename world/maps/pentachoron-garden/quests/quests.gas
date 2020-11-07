@@ -199,6 +199,18 @@
 			speaker = ;
 		}
 	}
+	[hovart_inn_winterwood]
+	{
+		screen_name = Hovart in the Winterwood;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill Lord Hovart in the Winterwood near the Inn.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 	[hovart_witch_krugwood]
 	{
 		screen_name = Hovart in the Krugwood;
