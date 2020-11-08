@@ -8,7 +8,7 @@
 			{
 				action* = change_quest_state("beast_peak_mount_frost_mage","active",0);
 			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(2.500000,"on_every_enter");
+				condition* = party_member_within_sphere(20.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
