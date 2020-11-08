@@ -72,6 +72,16 @@ Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corps
 	}
 	[text*]
 	{
+		activate_quest* = beast_peak_mount_frost_mage,0;
+		choice = more;
+	  i order = 5;
+		screen_text = "And to the east is the peak of the mount, it's called Peak Mount.
+You need to be in reasonable shape to climb the Mount; take warm clothes with you and beware of the Frost Mage!
+If I were you, I wouldn't bother going up there - it's shitty cold and on the other side is... the Dwarven Smitty. Ugh. These dwarves are SO annoying. And frankly, a little weird in the head.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "Wherever you want to go, there's no point in waiting for the weather to get better. It never does around here!";
 	  f scroll_rate = 10.000000;
 	}

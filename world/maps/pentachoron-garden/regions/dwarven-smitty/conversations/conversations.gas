@@ -156,6 +156,15 @@ Behind de Den lies de Farm. De Farmers are nice folks, albeid with no tayshde fo
 	}
 	[text*]
 	{
+		activate_quest* = beast_peak_mount_frost_mage,0;
+		choice = more;
+	  i order = 5;
+		screen_text = "And behind the Smitty, to the west, lies de peag off de mound, it'sh called Peak Mount.
+It'sh a nice liddle hige up dere and bleasandly fresh, I toadally recommend id. Beware of de Frosht Mayche though! He'sh kind of the king of the Ice Mayches of de Mound, and he'sh making nothing bud drouble ubb dere. Wonder what the Witches haf to do with him... The Witch's Coddage ish on de other side of de Peag. Bud iff I were yoo I wudn'd wayshte time visiding DEM - shady old hags. Frangly a bid weird in deir heads. I've heard shdories of what dey haf in deir backyard and what dey breed in deir basement... No, definidely a bedder idea to haf a nice walg through the Winderwood down to the Inn!";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "...So yoo see, everything ish bretty glose. Afder arl, we're righd ad de cender of de Garda here. Wink wink nod nod.
 
 And thank yoo so mutsh for 'fixing' owa flib...";

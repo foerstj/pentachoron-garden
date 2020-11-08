@@ -375,3 +375,27 @@
 		use_point_scids = 0x00500060;
 	}
 }
+[t:sign_ice_01,n:0x005001fb]
+{
+	[common]
+	{
+		screen_name = "To Witch's Cottage via Peak Mount";
+	}
+	[placement]
+	{
+	  q orientation = -0.382683,-5.44913e-008,2.2571e-008,0.92388;
+	  p position = -6.03238,-1.5073,-5.71013,0xf0e2bb5b;
+	}
+}
+[t:sign_ice_01,n:0x00500200]
+{
+	[common]
+	{
+		screen_name = "To Witch's Cottage via Peak Mount";
+	}
+	[placement]
+	{
+	  q orientation = 0,-5.8981e-008,0,1;
+	  p position = -6.28703,1.94582,-1.68122,0x50c05125;
+	}
+}
