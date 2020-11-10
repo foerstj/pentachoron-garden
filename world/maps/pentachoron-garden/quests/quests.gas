@@ -235,4 +235,16 @@
 			speaker = ;
 		}
 	}
+	[hovart_smitty_peak_mount]
+	{
+		screen_name = Hovart on Peak Mount;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill Lord Hovart on Peak Mount near the Dwarven Smitty.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
 }
