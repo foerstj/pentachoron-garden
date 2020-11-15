@@ -483,6 +483,15 @@
 			}
 		}
 	}
+	[inventory]
+	{
+	  i gold = 400;
+		[other]
+		{
+			il_main = potion_health_medium;
+			il_main = potion_mana_medium;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.5373,0,0.843391;

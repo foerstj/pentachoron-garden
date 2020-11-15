@@ -92,6 +92,19 @@
 			}
 		}
 	}
+	[inventory]
+	{
+	  i gold = 240;
+		[equipment]
+		{
+			es_spellbook = book_glb_magic_01;
+		}
+		[other]
+		{
+			il_main = potion_health_medium;
+			il_main = potion_mana_medium;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,5.96046e-008,0,1;

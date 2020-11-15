@@ -891,7 +891,7 @@
 			{
 				action* = call_sfx_script("unique_ray_purple(sgx)","","");
 			  b can_self_destruct = true;
-				condition* = receive_world_message("we_entered_world",0,"on_every_message");
+				condition* = receive_world_message("we_entered_world",0,"on_first_message");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -902,6 +902,15 @@
 			  b single_shot = true;
 			  b start_active = true;
 			}
+		}
+	}
+	[inventory]
+	{
+	  i gold = 200;
+		[other]
+		{
+			il_main = potion_mana_medium;
+			il_main = potion_health_medium;
 		}
 	}
 	[placement]
@@ -1608,6 +1617,14 @@
 }
 [t:klaw_boss_01,n:0x02400047]
 {
+	[inventory]
+	{
+	  i gold = 380;
+		[other]
+		{
+			il_main = potion_health_medium;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.999391,0,0.0348994;

@@ -231,6 +231,14 @@
 }
 [t:krug_scout_boss_01,n:0x03400198]
 {
+	[inventory]
+	{
+	  i gold = 40;
+		[other]
+		{
+			il_main = potion_health_medium;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.861629,0,-0.507539;
@@ -411,6 +419,58 @@
 	{
 	  q orientation = 0,0.656059,0,0.75471;
 	  p position = -0.939511,-2,-3.17585,0x3a2f9fa3;
+	}
+}
+[t:lord_hovart,n:0x034002b2]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("hovart_witch_krugwood","active",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(20.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = change_quest_state("hovart_witch_krugwood","completed",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_killed",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[inventory]
+	{
+	  i gold = 200;
+		[other]
+		{
+			il_main = potion_mana_medium;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999962,0,-0.00872666;
+	  p position = 0.139503,1.19762,4.0104,0x7b119e0e;
 	}
 }
 [t:krug_raider,n:0x034002fd]
@@ -1011,6 +1071,19 @@
 			}
 		}
 	}
+	[inventory]
+	{
+	  i gold = 425;
+		[equipment]
+		{
+			es_spellbook = book_glb_magic_01;
+		}
+		[other]
+		{
+			il_main = potion_health_medium;
+			il_main = potion_mana_medium;
+		}
+	}
 	[placement]
 	{
 	  p position = 0.90156,-0.299999,1.07782,0x6fe23aca;
@@ -1018,6 +1091,14 @@
 }
 [t:krug_grunt_boss_01,n:0x03400114]
 {
+	[inventory]
+	{
+	  i gold = 180;
+		[other]
+		{
+			il_main = potion_health_medium;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0436191,0,-0.999048;
@@ -1842,6 +1923,14 @@
 }
 [t:klaw_boss_01,n:0x03400298]
 {
+	[inventory]
+	{
+	  i gold = 380;
+		[other]
+		{
+			il_main = potion_health_medium;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.748955,0,0.66262;
@@ -1982,49 +2071,5 @@
 	{
 	  q orientation = 0,0.052336,0,0.99863;
 	  p position = 0.0769005,1.18646,3.81853,0x903e03a1;
-	}
-}
-[t:lord_hovart,n:0x034002b2]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = change_quest_state("hovart_witch_krugwood","active",0);
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(20.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-			[*]
-			{
-				action* = change_quest_state("hovart_witch_krugwood","completed",0);
-			  b can_self_destruct = true;
-				condition* = receive_world_message("we_killed",0,"on_every_message");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.999962,0,-0.00872666;
-	  p position = 0.139503,1.19762,4.0104,0x7b119e0e;
 	}
 }

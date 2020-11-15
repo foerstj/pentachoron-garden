@@ -972,6 +972,14 @@
 			}
 		}
 	}
+	[inventory]
+	{
+	  i gold = 100;
+		[other]
+		{
+			il_main = potion_mana_large;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.507538,0,0.861629;
@@ -1348,6 +1356,14 @@
 }
 [t:braak_boss_01,n:0x04500220]
 {
+	[inventory]
+	{
+	  i gold = 180;
+		[other]
+		{
+			il_main = potion_health_large;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.390731,0,0.920505;
@@ -1584,6 +1600,19 @@
 			}
 		}
 	}
+	[inventory]
+	{
+	  i gold = 800;
+		[equipment]
+		{
+			es_spellbook = book_glb_magic_01;
+		}
+		[other]
+		{
+			il_main = potion_health_large;
+			il_main = potion_mana_large;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.594823,0,0.803857;
@@ -1672,6 +1701,14 @@
 }
 [t:ice_archer_boss_01,n:0x045001fb]
 {
+	[inventory]
+	{
+	  i gold = 500;
+		[other]
+		{
+			il_main = potion_health_large;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.91706,0,-0.398749;
@@ -1736,6 +1773,14 @@
 }
 [t:ice_warrior_boss_01,n:0x045001fa]
 {
+	[inventory]
+	{
+	  i gold = 550;
+		[other]
+		{
+			il_main = potion_health_large;
+		}
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0784588,0,-0.996917;
