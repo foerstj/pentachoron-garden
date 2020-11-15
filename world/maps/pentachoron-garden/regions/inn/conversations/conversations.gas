@@ -3,7 +3,7 @@
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Valorous day! would thee like to drinketh a shrump ale?";
+		screen_text = "Valorous day! wouldst thou like to drinken a Shrump Ale?";
 	  f scroll_rate = 15.000000;
 	}
 }
@@ -18,9 +18,9 @@
 	}
 	[text*]
 	{
-		screen_text = "Oh, t might not but has't been so quite quaint back in the days.  Thee knoweth, at which hour lord hovart and mistress ashish wast staying hither.  At which hour they wast still young and valorous. 
+		screen_text = "Oh, t might not but has't been so quite quaint back in the days.  Thou knowest, at which hour Lord Hovart and Mistress Ashish wast staying hither.  At which hour they wast still young and valorous. 
  
-doth thee knoweth the story of lord hovart and mistress ashish? hovart wast a lord in ehb back then, the only one in fact, and mistress ashish wast a utraean sorceress - and they hath fallen madly in love with each other!
+Dost thou know the story of Lord Hovart and Mistress Ashish? Hovart wast a lord in Ehb back then, the only one in fact, and Mistress Ashish wast a Utraean sorceress - and they hath fallen madly in love with each other!
 in their young days they hath built this garden estate, and hath spent many a joyous summer vacation in its quite quaint surroundings. 
  and they hath lived happily ev'r after.  - well not very much, of course";
 	  f scroll_rate = 10.000000;
@@ -67,14 +67,14 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	{
 		choice = more;
 	  i order = 0;
-		screen_text = "Welcome, lief visitor! would thee like to visit mine own ale-house? cometh in and beest our guest!";
+		screen_text = "Welcome, lief visitor! wouldst thou like to visit mine own ale-house? comest in and beest our guest!";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "If 't be true thou art looking f'r the right way to wend from hither, alloweth me holp thee.  The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at handeth, forsooth!";
+		screen_text = "If 't be true thou art looking f'r the right way to wend from hither, alloweth me holp thee.  The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at hand, forsooth!";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]
@@ -83,7 +83,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 		choice = more;
 	  i order = 2;
 	  b quest_dialogue = true;
-		screen_text = "Walking down 'long this hither quite quaint Brook thee shall passeth the Snapper Pond and anon reacheth the Mill.  T's a nice dram pond with a waterfall and at each moment enow snappers to catcheth, alloweth not those folk bite thee, haha! just keepeth an eye ope, i've hath heard wolves howling out thither last night of all";
+		screen_text = "Walking down 'long this hither quite quaint Brook thou shal pass the Snapper Pond and anon reach the Mill.  T's a nice dram pond with a waterfall and at each moment enow snappers to catch, alloweth not those folk bite thee, haha! just keepeth an eye ope, i've hath heard wolves howling out thither last night of all";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]
@@ -92,7 +92,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 		choice = more;
 	  i order = 3;
 	  b quest_dialogue = true;
-		screen_text = "Upstream lies the Farm.  Mr. Farmer is a very valorous cousin of mine, frequent customer and reliable supplier.  And he's at each moment joyous to did rend mules, if 't be true thou art interest'd.  The way leads through an orchard full of fusty fruit trees and gremals.  Such cute dram creatures, as long as they becometh not too big right? eke maketh f'r a valorous stew";
+		screen_text = "Upstream lies the Farm.  Mr. Farmer is a very valorous cousin of mine, frequent customer and reliable supplier.  And he's at each moment joyous to rend mules, if 't be true thou art interest'd.  The way leads through an orchard full of fusty fruit trees and gremals.  Such cute dram creatures, as long as they becometh not too big right? eke maketh f'r a valorous stew";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]
@@ -101,7 +101,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 		choice = more;
 	  i order = 4;
 	  b quest_dialogue = true;
-		screen_text = "Going east from hither, thee shall receiveth into the Krugwood.  Beest a did bite careful thither, the beasts art in quite an uproar since this guy hath called Huskar the Shaman becameth their vaward recently, he's making nothing but ado.  Still just krugs though, nothing to beest afraid of.  I'd rather beest afraid of the lodging thee reacheth after yond: the Witch's Cottage, haha!";
+		screen_text = "Going east from hither, thou shalt get into the Krugwood.  Beest a did bite careful thither, the beasts art in quite an uproar since this guy called Huskar the Shaman becameth their vaward recently, he's making nothing but ado.  Still just krugs though, nothing to beest afraid of.  I'd rather beest afraid of the lodging thou reachest after yond: the Witch's Cottage, haha!";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]
@@ -110,7 +110,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 		choice = more;
 	  i order = 5;
 		screen_text = "And finally, south from hither is the Winterwood and then the Dwarven Smitty.  Taketh some warm robes with thee, t's bitter cold up thither on the mount.  And beware! the beasts art dangerous enow themselves, but on top of yond the dwarves like to snuffs those folk.  Since last week i heareth a furok raging up thither like nimble-footed. 
- anyways if 't be true thee make shift to avoid 'r slay yond beast and arrive at the Dwarven Smitty, greet the lot from me.  They cometh not down yond oft but at which hour they doth they buyeth a LOT of Shrump Ale";
+ anyways if 't be true thou makest shift to avoid 'r slay yond beast and arrive at the Dwarven Smitty, greet the lot from me.  They cometh not down yond oft but at which hour they doth they buyeth a LOT of Shrump Ale";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]
@@ -140,8 +140,8 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	[text*]
 	{
 		choice = potential_member;
-		screen_text = "Holla visitor, would thee like some company?
-mine own name is Bailey, i'm the daughter of this house, and bor'd to death of serving shrump ale to the grannies' club of wannabe historians.  Prithee taketh me with thee!";
+		screen_text = "Holla visitor, wouldst thou like some company?
+mine own name is Bailey, i'm the daughter of this house, and bor'd to death of serving Shrump Ale to the grannies' club of wannabe historians.  Prithee taketh me with thee!";
 	  f scroll_rate = 15.000000;
 	}
 }
