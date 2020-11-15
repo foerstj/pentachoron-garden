@@ -5,7 +5,7 @@
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello outlander! Heading out for a walk in the Garden? The Flip-Flop's broken anyways...";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -14,7 +14,7 @@
 	  i order = 1;
 	  b quest_dialogue = true;
 		screen_text = "I totally recommend you to go down to the Farm, they have such cute animals there. They rent pack mules, by the way. And the way through the Park is really pretty, and there are no beasts or big animals around, just the phraks can be annoying at times. If you see a phrak queen do smash it.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -23,7 +23,7 @@
 	  i order = 2;
 	  b quest_dialogue = true;
 		screen_text = "Upstream you get to the Inn. They have drinks and it's a nice place to meet some people. Maybe you'll find some company for a longer walk? My sister's there right now, together with granny. Just I heard wolves howling at the Snapper Pond recently, so maybe it's a better idea to take the long route downstream...";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -32,7 +32,7 @@
 	  i order = 3;
 	  b quest_dialogue = true;
 		screen_text = "If you go south from here towards the Witch's Cottage, you'll end up in the Spookeywood where undead skeletons roam. Their Captain's the worst. Cannot recommend it. Anyways who wants to visit that old creepy witch?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -40,12 +40,12 @@
 		choice = more;
 	  i order = 4;
 		screen_text = "Same for the way up north. It goes right through the Spider Hole, where a giant spider lives, ugh. Better to find another way to the Dwarven Smitty, if you really want to go there. They sell a lot of stuff, nice shoes and such, but the dwarves are just as unpleasant as the weather up on that snowy mountain.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		screen_text = "So as I said, have a nice walk through the Park! And make sure to talk with mum and dad, they'll help you out!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [mr_miller]
@@ -55,28 +55,28 @@
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello there young fella, welcome to the Garden!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "My name is Mr. Miller, I am the miller here - and kind of like a mayor to this place.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 2;
 		screen_text = "Pleasure to meet you. It's not often we have visitors here, you see. Sure, this place is a bit off the beaten track... lying on the edge of the Badlands and stuff... but it's actually quite nice, isn't it? And don't worry, whatever you've heard of the region, it's all just people talking nonsense, it's really all safe and harmless. I'm sure you'll like it here!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 3;
 		screen_text = "Now, I'm afraid the Garden is just a little unkempt these days, I hope you don't mind. What's worse, the Flip-Flop is out of order again... it's our very own teleport hub, very convenient to get to the other places usually, just got a little rusty over the centuries, I guess.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -84,7 +84,7 @@
 	  i order = 4;
 		screen_text = "Once the flips get locked down, they can only be unlocked by goblin hands touching the outside flip switches.
 You can try your luck with them, if you want. A lot of people have goblin blood in them without knowing. None of us here has, except for the Dwarves of course, but they're the kind of people who enjoy being left in peace for a while, so they're never in a great hurry to fix them.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -99,19 +99,19 @@ You can try your luck with them, if you want. A lot of people have goblin blood 
 		screen_text = "So, if you're lucky and able to open the flips, would you like to help me out? You'd have to walk to them, of course. But by walking you would also get to see the Garden - win-win, right?
 
 You can have a nice walk down along the Brook to the Farm and the Inn, and you'll easily get back here for lunchtime. What do you think? We can take care of the Witch's Cottage and the Dwarven Smitty later on, those areas are a bit more difficult...";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 6;
 		screen_text = "If you need anything, ask my wifey inside. Our stocks are a bit limited right now due to the Flip-Flop situation, but I'm sure we have all you need to get you started.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		screen_text = "Enjoy your time in the Garden!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [mrs_miller]
@@ -121,26 +121,26 @@ You can have a nice walk down along the Brook to the Farm and the Inn, and you'l
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello there, stranger. Welcome to Pentachoron Garden!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "This place used to be the favourite garden estate of the late Lord Hovart, who had a summer residence in these parts long ago. He loved this garden so much, he still rises from the dead sometimes and walks abroad. No seriously, if you see him walking around somewhere, kindly send him back to the dead. Don't worry, he's actually quite harmless.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 2;
 		screen_text = "The Garden is very neatly arranged in such a way that you can reach easily from any point to any other. Our Mill here is right in the center. The Flip-Flop of course offers even more convenience, except it recently got locked down again... If you want to help just ask my hubby outside.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = shop;
 		screen_text = "Do you need anything? I have only some basic stuff here at the moment, but please have a look. There are sometimes beasts and wild animals walking abroad in the Garden, you might want to take some provisions with you and something to protect yourself.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }

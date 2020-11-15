@@ -5,14 +5,14 @@
 		choice = more;
 	  i order = 0;
 		screen_text = "Good day to you, dear stranger. Welcome to Pentachoron Garden.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "It's the loveliest piece of land right here along the Brook, isn't it? Our Farm is right in the Middle of the Garden.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -21,12 +21,12 @@
 		screen_text = "Are you new to the Garden?
 Well, there's basically three parts: we're in the Vale, which is the nicest part of it to have a walk. I recommend you to just follow the Brook down to the Inn - greet our junior if you see him there.
 Then there's the Woods, and behind them lies the Mount. Be a bit careful if you wander through the Woods, and especially up on the Mount. Also, take some warm clothes with you, it's usually covered in snow up there.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		screen_text = "Enjoy your time here, my dear! Life is too short to worry. Just have fun, young one.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [mr_farmer_no_packmules]
@@ -34,7 +34,7 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	[text*]
 	{
 		screen_text = "You won't find packmules like these anywhere else!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [mr_farmer_packmules]
@@ -44,20 +44,20 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello there, welcome on our little homestead!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "My name is Mr. Farmer, I'm the farmer here. And the proud owner of these beautiful packmules. Look at these exemplars, what beautiful mules they are! So strong and always loyal. You won't find packmules like these anywhere else! You can rent them if you want!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = buy_packmule;
 		screen_text = "Would you like to rent a packmule? You can keep it for your entire stay here in the Garden if you want.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [mrs_farmer]
@@ -67,14 +67,14 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello, and welcome to the Farm!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "Not sure where to go from here? The Flip-Flop is broken currently, but don't worry, we are right in the middle of the Garden, so everything is pretty close anyways. About the Flip-Flop best ask Mr. Miller up at the Mill.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -83,7 +83,7 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	  i order = 2;
 	  b quest_dialogue = true;
 		screen_text = "If you follow the Brook upstream, you'll get to the Mill soon enough. And the way there is literally a walk in the Park. You'll see, it's beautiful. And no wild animals to be afraid of - though if you see a phrak queen kindly squash it, we don't want these critters to build nests!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -92,7 +92,7 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	  i order = 3;
 	  b quest_dialogue = true;
 		screen_text = "Following the Brook downstream, you'll get through our Orchard, and will arrive at the Inn. Our junior's over there probably, hanging out with his friends instead of making himself useful. Anyways, the Orchard is full of cute little gremals but be careful with the bigger ones. Been bitten recently.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -101,7 +101,7 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	  i order = 4;
 		screen_text = "Heading north you will leave the Vale and the Brook and enter the Woods. This way lies our Graveyard, not very pleasant because it's quite swampy. Also not pleasant because it's haunted by an Ancient Corpse who keeps waking up our forefathers.
 Passing through it you will arrive at the Witch's Cottage. If you want to know why our graveyard is at the ugliest place in the Garden, ask them. Apparently it was old Walburga herself who decided this back then.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -109,11 +109,11 @@ Passing through it you will arrive at the Witch's Cottage. If you want to know w
 		choice = more;
 	  i order = 5;
 		screen_text = "The way to the Dwarven Smitty up on the Mount also leads throught the Woods, naturally. You can get there when you continue west from here. The way leads right through the Rat's Den, however, so I'd look for a different way up the Mount if I were you. If you do go through the Rat's Den, I'd be thankful for every hairy beast you kill. Those rats are a real plague to our Farm...";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		screen_text = "Enjoy your stay in the Garden!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }

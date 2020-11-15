@@ -5,7 +5,7 @@
 		choice = more;
 	  i order = 0;
 		screen_text = "Welcome, child. What can Arantxa do for you?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -17,7 +17,7 @@ Anyhow, since those days the Agallans have vowed never to create magical items w
 And this is how the Badlands were created. After the Cataclysm, huge parts of central Aranna were uninhabitable, but slowly nature heals and magic calms down. But to this day there are places like this all over central Aranna, Badlands soaked with erratic magic that bends time and space, and blurs the borders between dreams and reality, and erupts uncontrollably in all sorts of ways and makes such parts quite uninhabitable. But here on the outskirts it's not so bad, ah?
 
 I don't know how much you knew about this place before you came here. We are here on the outskirts of the Green Range Badlands, which are the Badlands closest to the Kingdom of Ehb. And the Garden is safe, honestly. People have always been a bit superstitious about the Badlands and tell all kinds of weird stories about them. Just like they do about witches, hehe.";
-	  f scroll_rate = 5.000000;
+	  f scroll_rate = 10.000000;
 	}
 }
 [demelza]
@@ -26,7 +26,7 @@ I don't know how much you knew about this place before you came here. We are her
 	{
 		choice = shop;
 		screen_text = "Welcome in, child. What can Demelza do for you?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [luna]
@@ -36,14 +36,14 @@ I don't know how much you knew about this place before you came here. We are her
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello, visitor, and welcome to the Witch's Cottage. You may enter; Demelza the Witch awaits you.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "Not sure which way to take from here? Well, let's see... we're right in the middle of the Garden here, so all the places are close to reach.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -51,7 +51,7 @@ I don't know how much you knew about this place before you came here. We are her
 		choice = more;
 	  i order = 2;
 		screen_text = "If you go north from here, you will get to the Mill. The way leads through the Spookeywood - not for the faint-hearted, but basically it's just a bunch of skeletons that keep forgetting what behooves the dead. Their captain's the most annoying of the lot; always fun to slay him.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -60,7 +60,7 @@ I don't know how much you knew about this place before you came here. We are her
 	  i order = 3;
 		screen_text = "Heading south, you will come to the Graveyard - easily the most beautiful part of the Garden. I clearly recommend it! Old Walburga chose wisely when she assigned this place.
 Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corpse at the Graveyard, even though it's not bothering anyone. But they'll be glad if you banish it.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -68,7 +68,7 @@ Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corps
 		choice = more;
 	  i order = 4;
 		screen_text = "To the west is the Inn - a great place to meet people from all over the Garden, and maybe to find company for a walk. The way goes straight through the Krugwood. The krugs aren't usually anything to worry about, but keep an eye open - the good Arantxa has attempted to teach magic tricks to krugs for fun, and unfortunately she's had some success. Now we have a krug conjurer out there that calls himself Huskar the Shaman and is just stirring up the whole bunch. If you could just kill him along the way that would be nice.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -78,11 +78,11 @@ Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corps
 		screen_text = "And to the east is the peak of the mount, it's called Peak Mount.
 You need to be in reasonable shape to climb the Mount; take warm clothes with you and beware of the Frost Mage!
 If I were you, I wouldn't bother going up there - it's shitty cold and on the other side is... the Dwarven Smitty. Ugh. These dwarves are SO annoying. And frankly, a little weird in the head.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		screen_text = "Wherever you want to go, there's no point in waiting for the weather to get better. It never does around here!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }

@@ -4,7 +4,7 @@
 	{
 		choice = shop;
 		screen_text = "Valorous day! would thee like to drinketh a shrump ale?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [fanelia_keaper]
@@ -14,7 +14,7 @@
 		choice = more;
 	  i order = 0;
 		screen_text = "Holla stranger, beest our guest! enjoying our garden? t's quite lovely isn't t?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -23,7 +23,7 @@
 doth thee knoweth the story of lord hovart and mistress ashish? hovart wast a lord in ehb back then, the only one in fact, and mistress ashish wast a utraean sorceress - and they hath fallen madly in love with each other!
 in their young days they hath built this garden estate, and hath spent many a joyous summer vacation in its quite quaint surroundings. 
  and they hath lived happily ev'r after.  - well not very much, of course";
-	  f scroll_rate = 7.000000;
+	  f scroll_rate = 10.000000;
 	}
 }
 [gramper_farmer]
@@ -33,14 +33,14 @@ in their young days they hath built this garden estate, and hath spent many a jo
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello, young fella! Do you know the history of Lord Hovart?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		screen_text = "Hovart was a lord in Ehb, long time ago, and his lady was the Utraean sorceress Ashish. And that during the war times, of course. Yeah it was all pretty romantic and stuff. Then he started dabbling with her magic and turned evil. Clear case of megalomania, if you ask me. I know some people tell that he turned evil because he spent too much time up here close to the Badlands, nonsense of course.
 Anyhow he turned evil, and she was captured by the Utraeans and turned into a spider monster. Lucky for us they pretty much forgot about this place, and instead built a whacky underground fortress over in Ehb. Hovart was slain in the Seck Rebellion but pops up as an undead from time to time. Even here. Guess he misses the good old times... but too late for him, of course.
 If you see him walking abroad, be so kind and send him back where he belongs.";
-	  f scroll_rate = 7.000000;
+	  f scroll_rate = 10.000000;
 	}
 }
 [granny_miller]
@@ -50,7 +50,7 @@ If you see him walking abroad, be so kind and send him back where he belongs.";
 		choice = more;
 	  i order = 0;
 		screen_text = "A visitor, how nice! Welcome to the Garden. Wanna know a bit about its history? You're lucky because us three are basically the inofficial club of hobby historians of Pentachoron Garden, hehe.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -58,7 +58,7 @@ If you see him walking abroad, be so kind and send him back where he belongs.";
 Then, well, you know... they abandoned this place. But they had servants living here, year-round. And when they heard that their masters were rather not coming back, they simply stayed here, taking ownership of the place, starting families. And those servants were our forefathers. There you have it - we're all descendants of Lord Hovart's servants here.
 
 Ah the Flip-Flop? That was built during those days as well, during one of the first generations after Hovart's death. They found a little treasure in His Lordship's chambers, and since they didn't have any need for it, they commissioned their very own teleportation system from the Goblins, so they could visit each other even more easily. The Goblins of course had pillaged the components from some Utraean ruins, what else. And it's very handy right? A bit rusty and moody sometimes but most of the days it works perfectly fine.";
-	  f scroll_rate = 7.000000;
+	  f scroll_rate = 10.000000;
 	}
 }
 [inn_keaper]
@@ -68,14 +68,14 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 		choice = more;
 	  i order = 0;
 		screen_text = "Welcome, lief visitor! would thee like to visit mine own ale-house? cometh in and beest our guest!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "If 't be true thou art looking f'r the right way to wend from hither, alloweth me holp thee.  The Inn is right in the middle of Pentachoron Garden, so everything lieth quite close at handeth, forsooth!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -84,7 +84,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	  i order = 2;
 	  b quest_dialogue = true;
 		screen_text = "Walking down 'long this hither quite quaint Brook thee shall passeth the Snapper Pond and anon reacheth the Mill.  T's a nice dram pond with a waterfall and at each moment enow snappers to catcheth, alloweth not those folk bite thee, haha! just keepeth an eye ope, i've hath heard wolves howling out thither last night of all";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -93,7 +93,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	  i order = 3;
 	  b quest_dialogue = true;
 		screen_text = "Upstream lies the Farm.  Mr. Farmer is a very valorous cousin of mine, frequent customer and reliable supplier.  And he's at each moment joyous to did rend mules, if 't be true thou art interest'd.  The way leads through an orchard full of fusty fruit trees and gremals.  Such cute dram creatures, as long as they becometh not too big right? eke maketh f'r a valorous stew";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -102,7 +102,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	  i order = 4;
 	  b quest_dialogue = true;
 		screen_text = "Going east from hither, thee shall receiveth into the Krugwood.  Beest a did bite careful thither, the beasts art in quite an uproar since this guy hath called Huskar the Shaman becameth their vaward recently, he's making nothing but ado.  Still just krugs though, nothing to beest afraid of.  I'd rather beest afraid of the lodging thee reacheth after yond: the Witch's Cottage, haha!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -111,12 +111,12 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	  i order = 5;
 		screen_text = "And finally, south from hither is the Winterwood and then the Dwarven Smitty.  Taketh some warm robes with thee, t's bitter cold up thither on the mount.  And beware! the beasts art dangerous enow themselves, but on top of yond the dwarves like to snuffs those folk.  Since last week i heareth a furok raging up thither like nimble-footed. 
  anyways if 't be true thee make shift to avoid 'r slay yond beast and arrive at the Dwarven Smitty, greet the lot from me.  They cometh not down yond oft but at which hour they doth they buyeth a LOT of Shrump Ale";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		screen_text = "Enjoy thy time in the Garden!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_accept]
@@ -124,7 +124,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	[text*]
 	{
 		screen_text = "Yay let's go!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_disband]
@@ -132,7 +132,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	[text*]
 	{
 		screen_text = "Wait, what?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_join_bailey]
@@ -142,7 +142,7 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 		choice = potential_member;
 		screen_text = "Holla visitor, would thee like some company?
 mine own name is Bailey, i'm the daughter of this house, and bor'd to death of serving shrump ale to the grannies' club of wannabe historians.  Prithee taketh me with thee!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_join_boyler]
@@ -153,7 +153,7 @@ mine own name is Bailey, i'm the daughter of this house, and bor'd to death of s
 		screen_text = "Greetingks, straynger. My nayme ish Boyler Smyth, son on Blade.
 Wud you like companee dyouring your shtay here? It wud be my bleashure to show you de Dwarven Smitty, and a handee combatt mayge ish always usefull.
 Of coarse I wud like to earn some pocket monee; I want to buy a nyoo anvill foar my homeworg.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_join_kale]
@@ -163,14 +163,14 @@ Of coarse I wud like to earn some pocket monee; I want to buy a nyoo anvill foar
 		choice = more;
 	  i order = 0;
 		screen_text = "Hello. I am Kale, Kale Farmer. I'm a farmer.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = more;
 	  i order = 1;
 		screen_text = "My parents are farmers. We live on the Farm.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
@@ -178,13 +178,13 @@ Of coarse I wud like to earn some pocket monee; I want to buy a nyoo anvill foar
 	  i order = 2;
 		screen_text = "Wanna see the Farm? I can show you. I can show you around the whole Garden if you want.
 But you would need to pay my bill...";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 	[text*]
 	{
 		choice = potential_member;
 		screen_text = "I'm afraid I have ordered too many Shrump Ales and my money ran out. Math's a bitch right? My friends here have no money left either. Mom n pop will be angry with me again. Please bail me out? You can rely on my strong arm for as long as you stay.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_join_millie]
@@ -193,7 +193,7 @@ But you would need to pay my bill...";
 	{
 		choice = potential_member;
 		screen_text = "Hello mate, fancy some company for taking a stroll through the Garden? I'd love to join you. I'd also love some pocket money, wink wink nod nod.";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_join_zend]
@@ -203,7 +203,7 @@ But you would need to pay my bill...";
 		choice = potential_member;
 		screen_text = "What do we have here, a visitor! Have money?
 I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage on your side exploring the Garden? I wanna buy a new cauldron for my homework, so for a little bit of gold I'm all yours!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_reject]
@@ -211,7 +211,7 @@ I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage o
 	[text*]
 	{
 		screen_text = "Pff then not!";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
 [pm_rejoin]
@@ -220,6 +220,6 @@ I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage o
 	{
 		choice = potential_member;
 		screen_text = "No hard feelings mate... Wanna go together again?";
-	  f scroll_rate = 10.000000;
+	  f scroll_rate = 15.000000;
 	}
 }
