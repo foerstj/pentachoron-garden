@@ -14,6 +14,14 @@
 	  p position = -1.70201,-5.75394,-0.903394,0x4cdd515c;
 	}
 }
+[t:skrubb_farm,n:0x02400279]
+{
+	[placement]
+	{
+	  q orientation = 0,0.104529,0,0.994522;
+	  p position = -2.51536,-0.3,3.98358,0x084b9fdc;
+	}
+}
 [t:krug_scavenger,n:0x02400226]
 {
 	[placement]
@@ -46,6 +54,22 @@
 	  p position = -3.47747,0,0.571951,0x557fd6f6;
 	}
 }
+[t:skrubb_farm,n:0x02400235]
+{
+	[placement]
+	{
+	  q orientation = 0,0.681998,0,0.731354;
+	  p position = -0.306952,-5.89747,-4.9952,0x026b5db8;
+	}
+}
+[t:skrubb_farm,n:0x02400278]
+{
+	[placement]
+	{
+	  q orientation = 0,0.233445,0,-0.97237;
+	  p position = -0.79451,2,3.03666,0x48f5c168;
+	}
+}
 [t:phrak,n:0x0240025d]
 {
 	[placement]
@@ -76,6 +100,14 @@
 	{
 	  q orientation = 0,0.809017,0,-0.587785;
 	  p position = 1.30704,0,-0.486902,0x0c51b75a;
+	}
+}
+[t:skrubb_farm,n:0x0240027a]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999962,0,0.00872632;
+	  p position = -0.184655,0,1.65952,0x344de7c3;
 	}
 }
 [t:bear,n:0x02400229]
@@ -403,6 +435,14 @@
 	  p position = 3.30719,-0.251431,-1.79289,0xc1256333;
 	}
 }
+[t:skrubb_farm,n:0x02400281]
+{
+	[placement]
+	{
+	  q orientation = 0,0.026177,0,0.999657;
+	  p position = -1.89211,-3.8147e-006,-3.05496,0x941f01cb;
+	}
+}
 [t:walking_corpse,n:0x024000ad]
 {
 	[placement]
@@ -547,6 +587,14 @@
 	  p position = -0.953742,-0.299999,3.23934,0x3e3b426f;
 	}
 }
+[t:skrubb_farm,n:0x0240027b]
+{
+	[placement]
+	{
+	  q orientation = 0,0.997564,0,-0.0697566;
+	  p position = -3.1153,-3.8147e-006,0.294758,0xc0aee607;
+	}
+}
 [t:gargoyle_ranged,n:0x024001aa]
 {
 	[placement]
@@ -667,6 +715,14 @@
 	  p position = 2.80927,0,0.597079,0x96d297e5;
 	}
 }
+[t:skrubb_farm,n:0x0240027d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.93358,0,0.358368;
+	  p position = 1.50399,-7.45058e-009,1.00369,0x500acfd8;
+	}
+}
 [t:tortured_corpse,n:0x02400051]
 {
 	[placement]
@@ -721,6 +777,14 @@
 	{
 	  q orientation = 0,0.829038,0,0.559193;
 	  p position = 3.7306,0,-0.903921,0xb36a248f;
+	}
+}
+[t:skrubb_farm,n:0x0240027c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.62932,0,-0.777146;
+	  p position = -0.0649548,0,-1.93556,0xb36a248f;
 	}
 }
 [t:walking_corpse,n:0x0240005b]
@@ -821,6 +885,21 @@
 			  f reset_duration = 0.000000;
 			  b single_player = true;
 			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = call_sfx_script("unique_ray_purple(sgx)","","");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_entered_world",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
 			  b start_active = true;
 			}
 		}
@@ -935,6 +1014,14 @@
 	  p position = -3.49544,0,1.65302,0x37956276;
 	}
 }
+[t:skrubb_farm,n:0x0240027e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.782608,0,-0.622515;
+	  p position = 0.782606,0,-3.22776,0x37956276;
+	}
+}
 [t:tortured_corpse,n:0x02400052]
 {
 	[placement]
@@ -1039,6 +1126,14 @@
 	  p position = 0.999256,0,-1.45132,0x5e94bf78;
 	}
 }
+[t:skrubb_farm,n:0x02400282]
+{
+	[placement]
+	{
+	  q orientation = 0,0.878817,0,-0.477159;
+	  p position = 2.83114,0,1.13351,0x5e94bf78;
+	}
+}
 [t:gremal,n:0x0240023d]
 {
 	[placement]
@@ -1077,6 +1172,14 @@
 	{
 	  q orientation = 0,0.85264,0,0.522498;
 	  p position = 65.7448,0,-0.660583,0x6a933efa;
+	}
+}
+[t:skrubb_farm,n:0x02400283]
+{
+	[placement]
+	{
+	  q orientation = 0,0.309017,0,0.951056;
+	  p position = -0.0940704,-4,-0.949788,0xeeb64a7a;
 	}
 }
 [t:phrak_piercer,n:0x0240024c]
@@ -1125,6 +1228,22 @@
 	{
 	  q orientation = 0,0.809017,0,0.587785;
 	  p position = 3.29474,-0.276699,-2.47223,0x01123453;
+	}
+}
+[t:skrubb_farm,n:0x0240027f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.165047,0,-0.986286;
+	  p position = 0.132639,-0.0499992,0.790745,0x28f79439;
+	}
+}
+[t:skrubb_farm,n:0x02400280]
+{
+	[placement]
+	{
+	  q orientation = 0,0.642788,0,0.766044;
+	  p position = -1.60476,-0.0499954,0.505684,0x28f79439;
 	}
 }
 [t:gargoyle,n:0x024001dc]
@@ -1627,109 +1746,5 @@
 	{
 	  q orientation = 0,0.0261767,0,-0.999657;
 	  p position = -0.238686,1.25,1.91849,0xfa97eccb;
-	}
-}
-[t:skrubb_farm,n:0x02400235]
-{
-	[placement]
-	{
-	  q orientation = 0,0.681998,0,0.731354;
-	  p position = -0.306952,-5.89747,-4.9952,0x026b5db8;
-	}
-}
-[t:skrubb_farm,n:0x02400278]
-{
-	[placement]
-	{
-	  q orientation = 0,0.233445,0,-0.97237;
-	  p position = -0.79451,2,3.03666,0x48f5c168;
-	}
-}
-[t:skrubb_farm,n:0x02400279]
-{
-	[placement]
-	{
-	  q orientation = 0,0.104529,0,0.994522;
-	  p position = -2.51536,-0.3,3.98358,0x084b9fdc;
-	}
-}
-[t:skrubb_farm,n:0x0240027a]
-{
-	[placement]
-	{
-	  q orientation = 0,0.999962,0,0.00872632;
-	  p position = -0.184655,0,1.65952,0x344de7c3;
-	}
-}
-[t:skrubb_farm,n:0x0240027b]
-{
-	[placement]
-	{
-	  q orientation = 0,0.997564,0,-0.0697566;
-	  p position = -3.1153,-3.8147e-006,0.294758,0xc0aee607;
-	}
-}
-[t:skrubb_farm,n:0x0240027c]
-{
-	[placement]
-	{
-	  q orientation = 0,0.62932,0,-0.777146;
-	  p position = -0.0649548,0,-1.93556,0xb36a248f;
-	}
-}
-[t:skrubb_farm,n:0x0240027d]
-{
-	[placement]
-	{
-	  q orientation = 0,0.93358,0,0.358368;
-	  p position = 1.50399,-7.45058e-009,1.00369,0x500acfd8;
-	}
-}
-[t:skrubb_farm,n:0x0240027e]
-{
-	[placement]
-	{
-	  q orientation = 0,0.782608,0,-0.622515;
-	  p position = 0.782606,0,-3.22776,0x37956276;
-	}
-}
-[t:skrubb_farm,n:0x0240027f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.165047,0,-0.986286;
-	  p position = 0.132639,-0.0499992,0.790745,0x28f79439;
-	}
-}
-[t:skrubb_farm,n:0x02400280]
-{
-	[placement]
-	{
-	  q orientation = 0,0.642788,0,0.766044;
-	  p position = -1.60476,-0.0499954,0.505684,0x28f79439;
-	}
-}
-[t:skrubb_farm,n:0x02400281]
-{
-	[placement]
-	{
-	  q orientation = 0,0.026177,0,0.999657;
-	  p position = -1.89211,-3.8147e-006,-3.05496,0x941f01cb;
-	}
-}
-[t:skrubb_farm,n:0x02400282]
-{
-	[placement]
-	{
-	  q orientation = 0,0.878817,0,-0.477159;
-	  p position = 2.83114,0,1.13351,0x5e94bf78;
-	}
-}
-[t:skrubb_farm,n:0x02400283]
-{
-	[placement]
-	{
-	  q orientation = 0,0.309017,0,0.951056;
-	  p position = -0.0940704,-4,-0.949788,0xeeb64a7a;
 	}
 }
