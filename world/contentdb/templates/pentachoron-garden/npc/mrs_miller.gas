@@ -56,16 +56,28 @@
 			{
 				[all*]
 				{
-					il_main = #melee/0-10;
-					max = 5;
-					min = 5;
+					il_main = #melee/0-5;
+					max = 3;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #melee/6-10;
+					max = 3;
+					min = 3;
 				}
 
 				[all*]
 				{
-					il_main = #ranged/0-10;
-					max = 5;
-					min = 5;
+					il_main = #ranged/0-5;
+					max = 3;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #ranged/6-10;
+					max = 3;
+					min = 3;
 				}
 			}
 
@@ -107,6 +119,9 @@
 
             spell_fireshot = 2;
             spell_zap = 2;
+			
+			bw_g_d_s_s_c_avg = 1;
+			bw_g_c_s_s_r_avg = 1;
 		}
 	}
 }
