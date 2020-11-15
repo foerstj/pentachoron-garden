@@ -16,6 +16,15 @@
 	}
 	[text*]
 	{
+		choice = more;
+	  i order = 2;
+		screen_text = "Are you new to the Garden?
+Well, there's basically three parts: we're in the Vale, which is the nicest part of it to have a walk. I recommend you to just follow the Brook down to the Inn - greet our junior if you see him there.
+Then there's the Woods, and behind them lies the Mount. Be a bit careful if you wander through the Woods, and especially up on the Mount. Also, take some warm clothes with you, it's usually covered in snow up there.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
 		screen_text = "Enjoy your time here, my dear! Life is too short to worry. Just have fun, young one.";
 	  f scroll_rate = 10.000000;
 	}
