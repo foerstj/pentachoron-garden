@@ -3,6 +3,59 @@
 }
 [quests]
 {
+	[beast_park_phrak_queen]
+	{
+		screen_name = phrak queen;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:mill:conversations:molly_miller;
+			description = kill the phrak queen in the park.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = molly;
+		}
+	}
+	[beast_snapper_pond_alpha_wolf]
+	{
+		screen_name = alpha wolf;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
+			description = kill the alpha wolf at the snapper pond.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = mrs. farmer;
+		}
+	}
+	[beast_orchard_hulking_gremal]
+	{
+		screen_name = hulking gremal;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
+			description = kill the hulking gremal in the orchard.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = mrs. farmer;
+		}
+	}
+
+	[beast_spookeywood_skeleton_captain]
+	{
+		screen_name = skeleton captain;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
+			description = kill the skeleton captain in the spookeywood.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = mrs. farmer;
+		}
+	}
 	[beast_graveyard_ancient_corpse]
 	{
 		screen_name = Ancient Corpse;
@@ -27,39 +80,13 @@
 			speaker = ;
 		}
 	}
-	[beast_orchard_hulking_gremal]
+	[beast_spider_hole_giant_spider]
 	{
-		screen_name = hulking gremal;
+		screen_name = Giant Spider;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
-			description = kill the hulking gremal in the orchard.;
-		  i order = 0;
-		  b required_update = true;
-			speaker = mrs. farmer;
-		}
-	}
-	[beast_park_phrak_queen]
-	{
-		screen_name = phrak queen;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			address = world:maps:pentachoron-garden:regions:mill:conversations:molly_miller;
-			description = kill the phrak queen in the park.;
-		  i order = 0;
-		  b required_update = true;
-			speaker = molly;
-		}
-	}
-	[beast_peak_mount_frost_mage]
-	{
-		screen_name = Frost Mage;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = Kill the Frost Mage on Peak Mount.;
+			description = Kill the Giant Spider in the Spider Hole.;
 		  i order = 0;
 		  b required_update = true;
 			speaker = ;
@@ -77,44 +104,7 @@
 			speaker = ;
 		}
 	}
-	[beast_snapper_pond_alpha_wolf]
-	{
-		screen_name = alpha wolf;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
-			description = kill the alpha wolf at the snapper pond.;
-		  i order = 0;
-		  b required_update = true;
-			speaker = mrs. farmer;
-		}
-	}
-	[beast_spider_hole_giant_spider]
-	{
-		screen_name = Giant Spider;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = Kill the Giant Spider in the Spider Hole.;
-		  i order = 0;
-		  b required_update = true;
-			speaker = ;
-		}
-	}
-	[beast_spookeywood_skeleton_captain]
-	{
-		screen_name = skeleton captain;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
-			description = kill the skeleton captain in the spookeywood.;
-		  i order = 0;
-		  b required_update = true;
-			speaker = mrs. farmer;
-		}
-	}
+
 	[beast_winterwood_grizzly_furok]
 	{
 		screen_name = Grizzly Furok;
@@ -122,6 +112,31 @@
 		[*]
 		{
 			description = Kill the Grizzly Furok in the Winterwood.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
+	[beast_peak_mount_frost_mage]
+	{
+		screen_name = Frost Mage;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Kill the Frost Mage on Peak Mount.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = ;
+		}
+	}
+
+	[flip_mill]
+	{
+		screen_name = mill flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = re-activate the mill flip by turning the flip switch at the mill.;
 		  i order = 0;
 		  b required_update = true;
 			speaker = ;
@@ -151,13 +166,13 @@
 			speaker = ;
 		}
 	}
-	[flip_mill]
+	[flip_witch]
 	{
-		screen_name = mill flip;
+		screen_name = witch's flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = re-activate the mill flip by turning the flip switch at the mill.;
+			description = re-activate the witch's flip by turning the flip switch at the witch's cottage.;
 		  i order = 0;
 		  b required_update = true;
 			speaker = ;
@@ -175,18 +190,7 @@
 			speaker = ;
 		}
 	}
-	[flip_witch]
-	{
-		screen_name = witch's flip;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = re-activate the witch's flip by turning the flip switch at the witch's cottage.;
-		  i order = 0;
-		  b required_update = true;
-			speaker = ;
-		}
-	}
+
 	[hovart_mill_snapper_pond]
 	{
 		screen_name = Hovart at the Snapper Pond;
