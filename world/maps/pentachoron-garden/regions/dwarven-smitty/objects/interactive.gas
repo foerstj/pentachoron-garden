@@ -85,6 +85,18 @@
 	  p position = 3.75408,-3.15,1.35127,0x160860a8;
 	}
 }
+[t:sign_ice_01,n:0x005001fb]
+{
+	[common]
+	{
+		screen_name = "To Witch's Cottage via Peak Mount";
+	}
+	[placement]
+	{
+	  q orientation = -0.382683,-5.44913e-008,2.2571e-008,0.92388;
+	  p position = -6.03238,-1.5073,-5.71013,0xf0e2bb5b;
+	}
+}
 [t:lever_glb_05,n:0x00500050]
 {
 	[on_off_lever]
@@ -223,6 +235,18 @@
 	{
 	  q orientation = 0,-0.965926,0,0.25882;
 	  p position = -1.33668,-3.5,-2.74512,0xc3d419e8;
+	}
+}
+[t:sign_ice_01,n:0x00500200]
+{
+	[common]
+	{
+		screen_name = "To Witch's Cottage via Peak Mount";
+	}
+	[placement]
+	{
+	  q orientation = 0,-5.8981e-008,0,1;
+	  p position = -6.28703,1.94582,-1.68122,0x50c05125;
 	}
 }
 [t:lever_gob_01,n:0x0050004d]
@@ -373,29 +397,5 @@
 	  q orientation = 0,1,0,-1.49012e-007;
 	  p position = 0.0129452,0.2,-0.00331414,0xb518763b;
 		use_point_scids = 0x00500060;
-	}
-}
-[t:sign_ice_01,n:0x005001fb]
-{
-	[common]
-	{
-		screen_name = "To Witch's Cottage via Peak Mount";
-	}
-	[placement]
-	{
-	  q orientation = -0.382683,-5.44913e-008,2.2571e-008,0.92388;
-	  p position = -6.03238,-1.5073,-5.71013,0xf0e2bb5b;
-	}
-}
-[t:sign_ice_01,n:0x00500200]
-{
-	[common]
-	{
-		screen_name = "To Witch's Cottage via Peak Mount";
-	}
-	[placement]
-	{
-	  q orientation = 0,-5.8981e-008,0,1;
-	  p position = -6.28703,1.94582,-1.68122,0x50c05125;
 	}
 }
