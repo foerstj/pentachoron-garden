@@ -31,6 +31,10 @@
 }
 [t:sign_glb_01,n:0x0020019f]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[common]
 	{
 		screen_name = "To Mill via Park";
@@ -51,6 +55,10 @@
 }
 [t:sign_glb_01,n:0x00200208]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[common]
 	{
 		screen_name = "To Witch's Cottage via Graveyard";
@@ -63,6 +71,10 @@
 }
 [t:sign_glb_01,n:0x00200214]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[common]
 	{
 		screen_name = "To Dwarven Smitty via Rat's Den";

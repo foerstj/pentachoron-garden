@@ -87,6 +87,10 @@
 }
 [t:sign_ice_01,n:0x005001fb]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[common]
 	{
 		screen_name = "To Witch's Cottage via Peak Mount";
@@ -94,7 +98,7 @@
 	[placement]
 	{
 	  q orientation = -0.382683,-5.44913e-008,2.2571e-008,0.92388;
-	  p position = -6.03238,-1.5073,-5.71013,0xf0e2bb5b;
+	  p position = 3.96248,0.2427,3.96738,0x13edb606;
 	}
 }
 [t:lever_glb_05,n:0x00500050]
@@ -367,6 +371,10 @@
 }
 [t:sign_ice_01,n:0x005001f7]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[common]
 	{
 		screen_name = "To Inn via Winterwood";

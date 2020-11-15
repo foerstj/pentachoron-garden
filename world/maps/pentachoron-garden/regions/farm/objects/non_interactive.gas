@@ -801,6 +801,10 @@
 }
 [t:post_glb_01,n:0x00200156]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[placement]
 	{
 	  p position = -1.00227,-1.90735e-006,1.09642,0x3cd5866e;
@@ -4015,6 +4019,10 @@
 }
 [t:post_glb_01,n:0x00200207]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -4318,6 +4326,10 @@
 }
 [t:post_glb_01,n:0x00200215]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;

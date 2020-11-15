@@ -51,6 +51,10 @@
 }
 [t:sign_glb_01,n:0x003001db]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[common]
 	{
 		screen_name = "To Farm via Orchard";
@@ -75,6 +79,10 @@
 }
 [t:sign_glb_01,n:0x00300427]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[common]
 	{
 		screen_name = "To Dwarven Smitty via Winterwood";

@@ -43,6 +43,10 @@
 }
 [t:sign_glb_01,n:0x004001bb]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[common]
 	{
 		screen_name = "To Dwarven Smitty via Peak Mount";
@@ -50,7 +54,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,-0.707107;
-	  p position = -1.8028,-0.3,3.49521,0xfb677671;
+	  p position = -1.6154,-0.300001,3.51306,0xfb677671;
 	}
 }
 [t:sign_glb_01,n:0x004000b0]
@@ -99,6 +103,10 @@
 }
 [t:sign_glb_01,n:0x0040013e]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[common]
 	{
 		screen_name = "To Farm via Graveyard";

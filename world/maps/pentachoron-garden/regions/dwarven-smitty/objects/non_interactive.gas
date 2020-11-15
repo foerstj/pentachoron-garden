@@ -2645,6 +2645,10 @@
 }
 [t:post_ice_01,n:0x005001f9]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
@@ -2717,6 +2721,10 @@
 }
 [t:post_ice_01,n:0x005001f5]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[placement]
 	{
 	  p position = -3.3238,-0.35,3.81092,0x240b38d6;

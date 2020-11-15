@@ -2702,6 +2702,10 @@
 }
 [t:post_glb_01,n:0x00300127]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[placement]
 	{
 	  p position = -0.871254,0,-1.80345,0x631780f0;
@@ -4250,6 +4254,10 @@
 }
 [t:post_glb_01,n:0x00300423]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.60478e-007;

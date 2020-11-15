@@ -592,6 +592,10 @@
 }
 [t:post_glb_01,n:0x004001ba]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,-0.707107;
@@ -1549,6 +1553,10 @@
 }
 [t:post_glb_01,n:0x0040013b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.2;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
