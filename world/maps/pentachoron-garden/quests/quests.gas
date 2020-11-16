@@ -3,6 +3,62 @@
 }
 [quests]
 {
+	[flip_mill]
+	{
+		screen_name = Mill flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Re-activate the Mill flip by turning the flip switch at the Mill.;
+		  i order = 0;
+		  b required_update = true;
+		}
+	}
+	[flip_farm]
+	{
+		screen_name = Farm flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Re-activate the Farm flip by turning the flip switch at the Farm.;
+		  i order = 0;
+		  b required_update = true;
+		}
+	}
+	[flip_inn]
+	{
+		screen_name = Inn flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Re-activate the Inn flip by turning the flip switch at the Inn.;
+		  i order = 0;
+		  b required_update = true;
+		}
+	}
+	[flip_witch]
+	{
+		screen_name = Witch's flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Re-activate the Witch's flip by turning the flip switch at the Witch's Cottage.;
+		  i order = 0;
+		  b required_update = true;
+		}
+	}
+	[flip_smitty]
+	{
+		screen_name = Smitty flip;
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = Re-activate the Smitty flip by turning the flip switch at the Dwarven Smitty.;
+		  i order = 0;
+		  b required_update = true;
+		}
+	}
+
 	[beast_park_phrak_queen]
 	{
 		screen_name = Phrak Queen;
@@ -111,62 +167,6 @@
 		[*]
 		{
 			description = Kill the Frost Mage on Peak Mount.;
-		  i order = 0;
-		  b required_update = true;
-		}
-	}
-
-	[flip_mill]
-	{
-		screen_name = Mill flip;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = Re-activate the Mill flip by turning the flip switch at the Mill.;
-		  i order = 0;
-		  b required_update = true;
-		}
-	}
-	[flip_farm]
-	{
-		screen_name = Farm flip;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = Re-activate the Farm flip by turning the flip switch at the Farm.;
-		  i order = 0;
-		  b required_update = true;
-		}
-	}
-	[flip_inn]
-	{
-		screen_name = Inn flip;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = Re-activate the Inn flip by turning the flip switch at the Inn.;
-		  i order = 0;
-		  b required_update = true;
-		}
-	}
-	[flip_witch]
-	{
-		screen_name = Witch's flip;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = Re-activate the Witch's flip by turning the flip switch at the Witch's Cottage.;
-		  i order = 0;
-		  b required_update = true;
-		}
-	}
-	[flip_smitty]
-	{
-		screen_name = Smitty flip;
-		victory_sample = s_e_level_up_quest;
-		[*]
-		{
-			description = Re-activate the Smitty flip by turning the flip switch at the Dwarven Smitty.;
 		  i order = 0;
 		  b required_update = true;
 		}
