@@ -1,10 +1,38 @@
 [chapters]
 {
+	[qa_flips]
+	{
+		screen_name = "Flip Quests";
+		[*]
+		{
+			order = 0;
+			description = "Quests to re-activate the five teleportation flips.";
+		}
+	}
+	[qb_beasts]
+	{
+		screen_name = "Way Quests";
+		[*]
+		{
+			order = 0;
+			description = "Quests for the various beasts to slay along the way.";
+		}
+	}
+	[qc_hovarts]
+	{
+		screen_name = "Hovart Quests";
+		[*]
+		{
+			order = 0;
+			description = "Make Hovart dead again! (Recommended for level 5+.)";
+		}
+	}
 }
 [quests]
 {
 	[qa1_flip_mill]
 	{
+		chapter = qa_flips;
 		screen_name = Mill flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -16,6 +44,7 @@
 	}
 	[qa2_flip_farm]
 	{
+		chapter = qa_flips;
 		screen_name = Farm flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -27,6 +56,7 @@
 	}
 	[qa3_flip_inn]
 	{
+		chapter = qa_flips;
 		screen_name = Inn flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -38,6 +68,7 @@
 	}
 	[qa4_flip_witch]
 	{
+		chapter = qa_flips;
 		screen_name = Witch's flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -49,6 +80,7 @@
 	}
 	[qa5_flip_smitty]
 	{
+		chapter = qa_flips;
 		screen_name = Smitty flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -61,6 +93,7 @@
 
 	[beast_park_phrak_queen]
 	{
+		chapter = qb_beasts;
 		screen_name = Phrak Queen;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -72,6 +105,7 @@
 	}
 	[beast_snapper_pond_alpha_wolf]
 	{
+		chapter = qb_beasts;
 		screen_name = Alpha Wolf;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -83,6 +117,7 @@
 	}
 	[beast_orchard_hulking_gremal]
 	{
+		chapter = qb_beasts;
 		screen_name = Hulking Gremal;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -95,6 +130,7 @@
 
 	[beast_spookeywood_skeleton_captain]
 	{
+		chapter = qb_beasts;
 		screen_name = Skeleton Captain;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -106,6 +142,7 @@
 	}
 	[beast_graveyard_ancient_corpse]
 	{
+		chapter = qb_beasts;
 		screen_name = Ancient Corpse;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -117,6 +154,7 @@
 	}
 	[beast_krugwood_huskar]
 	{
+		chapter = qb_beasts;
 		screen_name = Huskar the Shaman;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -128,6 +166,7 @@
 	}
 	[beast_spider_hole_giant_spider]
 	{
+		chapter = qb_beasts;
 		screen_name = Giant Spider;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -139,6 +178,7 @@
 	}
 	[beast_rats_den_monstrous_rat]
 	{
+		chapter = qb_beasts;
 		screen_name = Monstrous Rat;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -151,6 +191,7 @@
 
 	[beast_winterwood_grizzly_furok]
 	{
+		chapter = qb_beasts;
 		screen_name = Grizzly Furok;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -162,6 +203,7 @@
 	}
 	[beast_peak_mount_frost_mage]
 	{
+		chapter = qb_beasts;
 		screen_name = Frost Mage;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -174,6 +216,7 @@
 
 	[hovart_mill_snapper_pond]
 	{
+		chapter = qc_hovarts;
 		screen_name = Hovart at the Snapper Pond;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -185,6 +228,7 @@
 	}
 	[hovart_farm_orchard]
 	{
+		chapter = qc_hovarts;
 		screen_name = Hovart in the Orchard;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -196,6 +240,7 @@
 	}
 	[hovart_inn_winterwood]
 	{
+		chapter = qc_hovarts;
 		screen_name = Hovart in the Winterwood;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -207,6 +252,7 @@
 	}
 	[hovart_witch_krugwood]
 	{
+		chapter = qc_hovarts;
 		screen_name = Hovart in the Krugwood;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -218,6 +264,7 @@
 	}
 	[hovart_smitty_peak_mount]
 	{
+		chapter = qc_hovarts;
 		screen_name = Hovart on Peak Mount;
 		victory_sample = s_e_level_up_quest;
 		[*]
