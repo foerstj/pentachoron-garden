@@ -88,11 +88,11 @@ You can try your luck with them, if you want. A lot of people have goblin blood 
 	}
 	[text*]
 	{
-		activate_quest* = flip_mill,0;
-		activate_quest* = flip_farm,0;
-		activate_quest* = flip_inn,0;
-		activate_quest* = flip_witch,0;
-		activate_quest* = flip_smitty,0;
+		activate_quest* = qa1_flip_mill,0;
+		activate_quest* = qa2_flip_farm,0;
+		activate_quest* = qa3_flip_inn,0;
+		activate_quest* = qa4_flip_witch,0;
+		activate_quest* = qa5_flip_smitty,0;
 		choice = more;
 	  i order = 5;
 	  b quest_dialogue = true;
