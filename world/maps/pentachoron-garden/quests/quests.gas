@@ -5,55 +5,47 @@
 {
 	[beast_park_phrak_queen]
 	{
-		screen_name = phrak queen;
+		screen_name = Phrak Queen;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			address = world:maps:pentachoron-garden:regions:mill:conversations:molly_miller;
-			description = kill the phrak queen in the park.;
+			description = Kill the Phrak Queen in the Park.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = molly;
 		}
 	}
 	[beast_snapper_pond_alpha_wolf]
 	{
-		screen_name = alpha wolf;
+		screen_name = Alpha Wolf;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
-			description = kill the alpha wolf at the snapper pond.;
+			description = Kill the Alpha Wolf at the Snapper Pond.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = mrs. farmer;
 		}
 	}
 	[beast_orchard_hulking_gremal]
 	{
-		screen_name = hulking gremal;
+		screen_name = Hulking Gremal;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
-			description = kill the hulking gremal in the orchard.;
+			description = Kill the Hulking Gremal in the Orchard.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = mrs. farmer;
 		}
 	}
 
 	[beast_spookeywood_skeleton_captain]
 	{
-		screen_name = skeleton captain;
+		screen_name = Skeleton Captain;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			address = world:maps:pentachoron-garden:regions:farm:conversations:ms_farmer;
-			description = kill the skeleton captain in the spookeywood.;
+			description = Kill the Skeleton Captain in the Spookeywood.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = mrs. farmer;
 		}
 	}
 	[beast_graveyard_ancient_corpse]
@@ -62,10 +54,9 @@
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = kill the ancient corpse at the graveyard.;
+			description = Kill the Ancient Corpse at the Graveyard.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[beast_krugwood_huskar]
@@ -77,7 +68,6 @@
 			description = Kill Huskar the Shaman in the Krugwood.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[beast_spider_hole_giant_spider]
@@ -89,7 +79,6 @@
 			description = Kill the Giant Spider in the Spider Hole.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[beast_rats_den_monstrous_rat]
@@ -101,7 +90,6 @@
 			description = Kill the Monstrous Rat in the Rat's Den.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 
@@ -114,7 +102,6 @@
 			description = Kill the Grizzly Furok in the Winterwood.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[beast_peak_mount_frost_mage]
@@ -126,56 +113,51 @@
 			description = Kill the Frost Mage on Peak Mount.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 
 	[flip_mill]
 	{
-		screen_name = mill flip;
+		screen_name = Mill flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = re-activate the mill flip by turning the flip switch at the mill.;
+			description = Re-activate the Mill flip by turning the flip switch at the Mill.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[flip_farm]
 	{
-		screen_name = farm flip;
+		screen_name = Farm flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = re-activate the farm flip by turning the flip switch at the farm.;
+			description = Re-activate the Farm flip by turning the flip switch at the Farm.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[flip_inn]
 	{
-		screen_name = inn flip;
+		screen_name = Inn flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = re-activate the inn flip by turning the flip switch at the inn.;
+			description = Re-activate the Inn flip by turning the flip switch at the Inn.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[flip_witch]
 	{
-		screen_name = witch's flip;
+		screen_name = Witch's flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = re-activate the witch's flip by turning the flip switch at the witch's cottage.;
+			description = Re-activate the Witch's flip by turning the flip switch at the Witch's Cottage.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[flip_smitty]
@@ -184,10 +166,9 @@
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = re-activate the Smitty flip by turning the flip switch at the Dwarven Smitty.;
+			description = Re-activate the Smitty flip by turning the flip switch at the Dwarven Smitty.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 
@@ -200,7 +181,6 @@
 			description = Kill Lord Hovart at the Snapper Pond near the Mill.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[hovart_farm_orchard]
@@ -212,7 +192,6 @@
 			description = Kill Lord Hovart in the Orchard near the Farm.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[hovart_inn_winterwood]
@@ -224,7 +203,6 @@
 			description = Kill Lord Hovart in the Winterwood near the Inn.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[hovart_witch_krugwood]
@@ -236,7 +214,6 @@
 			description = Kill Lord Hovart in the Krugwood near the Witch's Cottage.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 	[hovart_smitty_peak_mount]
@@ -248,7 +225,6 @@
 			description = Kill Lord Hovart on Peak Mount near the Dwarven Smitty.;
 		  i order = 0;
 		  b required_update = true;
-			speaker = ;
 		}
 	}
 }
