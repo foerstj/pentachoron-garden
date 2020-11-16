@@ -9,7 +9,7 @@
 	}
 	[text*]
 	{
-		activate_quest* = beast_park_phrak_queen,0;
+		activate_quest* = qb21_beast_park_phrak_queen,0;
 		choice = more;
 	  i order = 1;
 	  b quest_dialogue = true;
@@ -18,7 +18,7 @@
 	}
 	[text*]
 	{
-		activate_quest* = beast_snapper_pond_alpha_wolf,0;
+		activate_quest* = qb31_beast_snapper_pond_alpha_wolf,0;
 		choice = more;
 	  i order = 2;
 	  b quest_dialogue = true;
@@ -27,7 +27,7 @@
 	}
 	[text*]
 	{
-		activate_quest* = beast_spookeywood_skeleton_captain,0;
+		activate_quest* = qb41_beast_spookeywood_skeleton_captain,0;
 		choice = more;
 	  i order = 3;
 	  b quest_dialogue = true;
@@ -36,7 +36,7 @@
 	}
 	[text*]
 	{
-		activate_quest* = beast_spider_hole_giant_spider,0;
+		activate_quest* = qb51_beast_spider_hole_giant_spider,0;
 		choice = more;
 	  i order = 4;
 		screen_text = "Same for the way up north. It goes right through the Spider Hole, where a giant spider lives, ugh. Better to find another way to the Dwarven Smitty, if you really want to go there. They sell a lot of stuff, nice shoes and such, but the dwarves are just as unpleasant as the weather up on that snowy mountain.";

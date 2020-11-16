@@ -47,7 +47,7 @@ I don't know how much you knew about this place before you came here. We are her
 	}
 	[text*]
 	{
-		activate_quest* = beast_spookeywood_skeleton_captain,0;
+		activate_quest* = qb41_beast_spookeywood_skeleton_captain,0;
 		choice = more;
 	  i order = 2;
 		screen_text = "If you go north from here, you will get to the Mill. The way leads through the Spookeywood - not for the faint-hearted, but basically it's just a bunch of skeletons that keep forgetting what behooves the dead. Their captain's the most annoying of the lot; always fun to slay him.";
@@ -55,7 +55,7 @@ I don't know how much you knew about this place before you came here. We are her
 	}
 	[text*]
 	{
-		activate_quest* = beast_graveyard_ancient_corpse,0;
+		activate_quest* = qb42_beast_graveyard_ancient_corpse,0;
 		choice = more;
 	  i order = 3;
 		screen_text = "Heading south, you will come to the Graveyard - easily the most beautiful part of the Garden. I clearly recommend it! Old Walburga chose wisely when she assigned this place.
@@ -64,7 +64,7 @@ Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corps
 	}
 	[text*]
 	{
-		activate_quest* = beast_krugwood_huskar,0;
+		activate_quest* = qb43_beast_krugwood_huskar,0;
 		choice = more;
 	  i order = 4;
 		screen_text = "To the west is the Inn - a great place to meet people from all over the Garden, and maybe to find company for a walk. The way goes straight through the Krugwood. The krugs aren't usually anything to worry about, but keep an eye open - the good Arantxa has attempted to teach magic tricks to krugs for fun, and unfortunately she's had some success. Now we have a krug conjurer out there that calls himself Huskar the Shaman and is just stirring up the whole bunch. If you could just kill him along the way that would be nice.";
@@ -72,7 +72,7 @@ Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corps
 	}
 	[text*]
 	{
-		activate_quest* = beast_peak_mount_frost_mage,0;
+		activate_quest* = qb54_beast_peak_mount_frost_mage,0;
 		choice = more;
 	  i order = 5;
 		screen_text = "And to the east is the peak of the mount, it's called Peak Mount.

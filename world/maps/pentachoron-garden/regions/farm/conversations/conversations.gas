@@ -78,7 +78,7 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	}
 	[text*]
 	{
-		activate_quest* = beast_park_phrak_queen,0;
+		activate_quest* = qb21_beast_park_phrak_queen,0;
 		choice = more;
 	  i order = 2;
 	  b quest_dialogue = true;
@@ -87,7 +87,7 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	}
 	[text*]
 	{
-		activate_quest* = beast_orchard_hulking_gremal,0;
+		activate_quest* = qb32_beast_orchard_hulking_gremal,0;
 		choice = more;
 	  i order = 3;
 	  b quest_dialogue = true;
@@ -96,7 +96,7 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	}
 	[text*]
 	{
-		activate_quest* = beast_graveyard_ancient_corpse,0;
+		activate_quest* = qb42_beast_graveyard_ancient_corpse,0;
 		choice = more;
 	  i order = 4;
 		screen_text = "Heading north you will leave the Vale and the Brook and enter the Woods. This way lies our Graveyard, not very pleasant because it's quite swampy. Also not pleasant because it's haunted by an Ancient Corpse who keeps waking up our forefathers.
@@ -105,7 +105,7 @@ Passing through it you will arrive at the Witch's Cottage. If you want to know w
 	}
 	[text*]
 	{
-		activate_quest* = beast_rats_den_monstrous_rat,0;
+		activate_quest* = qb52_beast_rats_den_monstrous_rat,0;
 		choice = more;
 	  i order = 5;
 		screen_text = "The way to the Dwarven Smitty up on the Mount also leads throught the Woods, naturally. You can get there when you continue west from here. The way leads right through the Rat's Den, however, so I'd look for a different way up the Mount if I were you. If you do go through the Rat's Den, I'd be thankful for every hairy beast you kill. Those rats are a real plague to our Farm...";
