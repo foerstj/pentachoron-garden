@@ -9,13 +9,34 @@
 			description = "Quests to re-activate the five teleportation flips.";
 		}
 	}
-	[qb_beasts]
+	[qb1_beasts_vale]
 	{
-		screen_name = "Way Quests";
+		screen_name = "Way Quests - Vale";
 		[*]
 		{
 			order = 0;
-			description = "Quests for the various beasts to slay along the way.";
+			description = "Quests for the various beasts to slay along the way.
+Part 1: The Vale";
+		}
+	}
+	[qb2_beasts_woods]
+	{
+		screen_name = "Way Quests - Woods";
+		[*]
+		{
+			order = 0;
+			description = "Quests for the various beasts to slay along the way.
+Part 2: The Woods";
+		}
+	}
+	[qb3_beasts_mount]
+	{
+		screen_name = "Way Quests - Mount";
+		[*]
+		{
+			order = 0;
+			description = "Quests for the various beasts to slay along the way.
+Part 3: The Mount";
 		}
 	}
 	[qc_hovarts]
@@ -99,7 +120,7 @@ Hovart appears 5x on the map.";
 
 	[qb21_beast_park_phrak_queen]
 	{
-		chapter = qb_beasts;
+		chapter = qb1_beasts_vale;
 		screen_name = Phrak Queen;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -112,7 +133,7 @@ Hovart appears 5x on the map.";
 	}
 	[qb31_beast_snapper_pond_alpha_wolf]
 	{
-		chapter = qb_beasts;
+		chapter = qb1_beasts_vale;
 		screen_name = Alpha Wolf;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -125,7 +146,7 @@ Hovart appears 5x on the map.";
 	}
 	[qb32_beast_orchard_hulking_gremal]
 	{
-		chapter = qb_beasts;
+		chapter = qb1_beasts_vale;
 		screen_name = Hulking Gremal;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -139,7 +160,7 @@ Hovart appears 5x on the map.";
 
 	[qb41_beast_spookeywood_skeleton_captain]
 	{
-		chapter = qb_beasts;
+		chapter = qb2_beasts_woods;
 		screen_name = Skeleton Captain;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -152,7 +173,7 @@ Hovart appears 5x on the map.";
 	}
 	[qb42_beast_graveyard_ancient_corpse]
 	{
-		chapter = qb_beasts;
+		chapter = qb2_beasts_woods;
 		screen_name = Ancient Corpse;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -165,7 +186,7 @@ Hovart appears 5x on the map.";
 	}
 	[qb43_beast_krugwood_huskar]
 	{
-		chapter = qb_beasts;
+		chapter = qb2_beasts_woods;
 		screen_name = Huskar the Shaman;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -178,7 +199,7 @@ Hovart appears 5x on the map.";
 	}
 	[qb51_beast_spider_hole_giant_spider]
 	{
-		chapter = qb_beasts;
+		chapter = qb2_beasts_woods;
 		screen_name = Giant Spider;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -191,7 +212,7 @@ Hovart appears 5x on the map.";
 	}
 	[qb52_beast_rats_den_monstrous_rat]
 	{
-		chapter = qb_beasts;
+		chapter = qb2_beasts_woods;
 		screen_name = Monstrous Rat;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -205,7 +226,7 @@ Hovart appears 5x on the map.";
 
 	[qb53_beast_winterwood_grizzly_furok]
 	{
-		chapter = qb_beasts;
+		chapter = qb3_beasts_mount;
 		screen_name = Grizzly Furok;
 		victory_sample = s_e_level_up_quest;
 		[*]
@@ -218,7 +239,7 @@ Hovart appears 5x on the map.";
 	}
 	[qb54_beast_peak_mount_frost_mage]
 	{
-		chapter = qb_beasts;
+		chapter = qb3_beasts_mount;
 		screen_name = Frost Mage;
 		victory_sample = s_e_level_up_quest;
 		[*]
