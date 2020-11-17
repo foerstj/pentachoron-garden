@@ -909,8 +909,8 @@
 	  i gold = 200;
 		[other]
 		{
-			il_main = potion_mana_medium;
 			il_main = potion_health_medium;
+			il_main = potion_mana_medium;
 		}
 	}
 	[placement]
@@ -1628,7 +1628,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.999391,0,0.0348994;
-	  p position = 0.0804596,-1.94368,0.195881,0x02feafd6;
+	  p position = -0.0232391,-1.94049,-0.613976,0x02feafd6;
 	}
 }
 [t:moth,n:0x02400249]
