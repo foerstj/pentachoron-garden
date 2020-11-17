@@ -1,0 +1,114 @@
+[t:cmd_auto_save,n:0x00200221]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00200221,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = actor_within_bounding_box(20.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 2.9288,0.549999,0.0100169,0xb72fcbcc;
+	}
+}
+[t:cmd_auto_save,n:0x00200222]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00200222,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = actor_within_bounding_box(20.000000,0.500000,1.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 2.3806,0.549999,0.702522,0x61807672;
+	}
+}
+[t:cmd_auto_save,n:0x00200223]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00200223,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = actor_within_bounding_box(20.000000,0.500000,1.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.33012,0.549999,0.121677,0xfd8f82e6;
+	}
+}
+[t:cmd_auto_save,n:0x00200224]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00200224,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = actor_within_bounding_box(20.000000,0.500000,1.000000,"on_first_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.11212,0.549999,0.00360584,0x591cbdc0;
+	}
+}
