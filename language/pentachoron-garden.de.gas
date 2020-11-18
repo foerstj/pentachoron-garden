@@ -2,12 +2,85 @@
 {
 	[0x0000]
 	{
-		from = "Welcome to the Mill";
-		to = "Willkommen an der Mühle";
+		from = "Pentachoron Garden";
+		to = "Pentachoron Garten";
 	}
 	[0x0000]
 	{
-		from = "Piggy Pig";
-		to = "Schweini";
+		from = "An enchanted place that once was a manorial garden.
+FOSS, CC-BY-SA.
+Music by https://www.serpentsoundstudios.com";
+		to = "Ein verzauberter Ort der einmal ein herrschaftlicher Garten war.
+FOSS, CC-BY-SA.
+Musik von https://www.serpentsoundstudios.com";
+	}
+
+	// Start positions
+	[0x0000]
+	{
+		from = "The Mill";
+		to = "Die Mühle";
+	}
+	[0x0000]
+	{
+		from = "The Windmill down at the Brook
+(starting place)";
+		to = "Die Windmühle unten am Bach
+(Startplatz)";
+	}
+	[0x0000]
+	{
+		from = "The Farm";
+		to = "Der Bauernhof";
+	}
+	[0x0000]
+	{
+		from = "The Farm
+(mule rental)";
+		to = "Der Bauernhof
+(Maultierverleih)";
+	}
+	[0x0000]
+	{
+		from = "The Inn";
+		to = "Das Wirtshaus";
+	}
+	[0x0000]
+	{
+		from = "The Inn in the Shrumpwood
+(hireables)";
+		to = "Das Wirtshaus im Pilswald
+(Begleitungen)";
+	}
+	[0x0000]
+	{
+		from = "The Witch's Cottage";
+		to = "Das Hexenhaus";
+	}
+	[0x0000]
+	{
+		from = "The Witch's Cottage deep in the Woods
+(magic shop)";
+		to = "Das Hexenhaus tief in den Wäldern
+(Magierladen)";
+	}
+	[0x0000]
+	{
+		from = "The Dwarven Smitty";
+		to = "Die Zwergenschmiede";
+	}
+	[0x0000]
+	{
+		from = "The Dwarven Smitty up on the Mount
+(equipment shops)";
+		to = "Die Zwergenschmiede auf dem Berg
+(Rüstungsläden)";
+	}
+
+	// COPY
+	[0x0000]
+	{
+		from = "";
+		to = "";
 	}
 }
