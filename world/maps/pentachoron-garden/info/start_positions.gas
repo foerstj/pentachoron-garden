@@ -3,9 +3,10 @@
 	[t:start_group,n:dwarven-smitty]
 	{
 	  b default = false;
-		description = "";
+		description = "The Dwarven Smitty up on the Mount
+(equipment shops)";
 	  b dev_only = false;
-	  i id = 1698464;
+	  i id = 5;
 		screen_name = "The Dwarven Smitty";
 		[start_position]
 		{
@@ -110,9 +111,10 @@
 	[t:start_group,n:farm]
 	{
 	  b default = false;
-		description = "";
+		description = "The Farm
+(mule rental)";
 	  b dev_only = false;
-	  i id = 1698464;
+	  i id = 2;
 		screen_name = "The Farm";
 		[start_position]
 		{
@@ -217,9 +219,10 @@
 	[t:start_group,n:inn]
 	{
 	  b default = false;
-		description = "";
+		description = "The Inn in the Shrumpwood
+(hireables)";
 	  b dev_only = false;
-	  i id = 1698464;
+	  i id = 3;
 		screen_name = "The Inn";
 		[start_position]
 		{
@@ -324,9 +327,10 @@
 	[t:start_group,n:mill]
 	{
 	  b default = true;
-		description = "";
+		description = "The Windmill down at the Brook
+(starting place)";
 	  b dev_only = false;
-	  i id = 0;
+	  i id = 1;
 		screen_name = "The Mill";
 		[start_position]
 		{
@@ -431,9 +435,10 @@
 	[t:start_group,n:witch-cottage]
 	{
 	  b default = false;
-		description = "The Witch's Cottage";
+		description = "The Witch's Cottage deep in the Woods
+(magic shop)";
 	  b dev_only = false;
-	  i id = 1698464;
+	  i id = 4;
 		screen_name = "The Witch's Cottage";
 		[start_position]
 		{
