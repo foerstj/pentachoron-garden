@@ -387,6 +387,10 @@
 }
 [t:statue_cav_spin_02,n:0x0050005a]
 {
+	[common]
+	{
+		screen_name = "Smitty flip";
+	}
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
