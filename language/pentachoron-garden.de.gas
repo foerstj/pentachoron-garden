@@ -486,7 +486,7 @@ Hovart erscheint 5x auf der Karte.";
 	[0x0000]
 	{
 		from = "Bleck Smyth";
-		to = "Grohb Schmidt";
+		to = "Aisen Schmidt";
 	}
 	[0x0000]
 	{
@@ -637,7 +637,7 @@ Hovart erscheint 5x auf der Karte.";
 		to = "Phrak-Königin";
 	}
 	
-	// Statues
+	// Statues etc (non-interactive)
 	[0x0000]
 	{
 		from = "Azunai the Defender";
@@ -648,12 +648,320 @@ Hovart erscheint 5x auf der Karte.";
 		from = "Xeria the Valiant";
 		to = "Xeria die Tapfere";
 	}
+	[0x0000]
+	{
+		from = "Azunai the Dwarf";
+		to = "Azunai der Zwerg";
+	}
+	[0x0000]
+	{
+		from = "Lady Ashish";
+		to = "Fürstin Ashish";
+	}
+	[0x0000]
+	{
+		from = "Lord Hovart";
+		to = "Fürst Hovart";
+	}
+	// Farm
+	[0x0000]
+	{
+		from = "Fiacrius Farmer, Forefather of the Farmer Family.";
+		to = "Fiacrius Bauer, Ahnherr der Familie Bauer.";
+	}
+	// Flop
+	[0x0000]
+	{
+		from = "Welcome to Pentachoron Garden Flop. - Built by Goblin Inventors, Inc.";
+		to = "Willkommen im Pentachoron Garten Flop. - Erbaut von der Goblin-Erfinder GmbH";
+	}
+	// Inn
+	[0x0000]
+	{
+		from = "In memory of grandfather Kalm";
+		to = "Im Gedenken an Großvater Wernix";
+	}
+	// Mill
+	[0x0000]
+	{
+		from = "'Big City' by Molly";
+		to = "'Die Große Stadt' von Molly";
+	}
+	[0x0000]
+	{
+		from = "'Fairy' by Millie";
+		to = "'Fee' von Millie";
+	}
+	[0x0000]
+	{
+		from = "Saint Miller, lol.";
+		to = "Sankt Müller, lol.";
+	}
+	// Witch's Cottage
+	[0x0000]
+	{
+		from = "Walburga the Witch";
+		to = "Walburga die Hexe";
+	}
+	[0x0000]
+	{
+		from = "Zaramoth the Unmaker - was he really that evil?";
+		to = "Zaramoth der Zerstörer - war er wirklich so böse?";
+	}
+	[0x0000]
+	{
+		from = "The Fury as a Pet";
+		to = "Die Furie als Haustier";
+	}
+	[0x0000]
+	{
+		from = "Zaramoth the Unmaker";
+		to = "Zaramoth der Zerstörer";
+	}
 
-	// Signs
+	// Signs etc (interactive)
+	// Flips
+	[0x0000]
+	{
+		from = "Witch's flip";
+		to = "Hexenflip";
+	}
+	[0x0000]
+	{
+		from = "Farm flip";
+		to = "Bauernflip";
+	}
+	[0x0000]
+	{
+		from = "Mill flip";
+		to = "Mühlenflip";
+	}
+	[0x0000]
+	{
+		from = "Smitty flip";
+		to = "Schmiedenflip";
+	}
+	[0x0000]
+	{
+		from = "Inn flip";
+		to = "Wirtsflip";
+	}
+	// Dwarven Smitty
+	[0x0000]
+	{
+		from = "Bleck-Wintur Armor";
+		to = "Aisen-Wintor Rüstungen";
+	}
+	[0x0000]
+	{
+		from = "Ero-Blayde Weapons";
+		to = "Hau-Dehgen Waffen";
+	}
+	[0x0000]
+	{
+		from = "Silva Joolery";
+		to = "Silba Schmuck";
+	}
+	[0x0000]
+	{
+		from = "Will Shields";
+		to = "Will Schilde";
+	}
+	[0x0000]
+	{
+		from = "To Witch's Cottage via Peak Mount";
+		to = "Zum Hexenhaus via Spitz Berg";
+	}
+	[0x0000]
+	{
+		from = "To Mill via Spider Hole";
+		to = "Zur Mühle via Spinnenloch";
+	}
+	[0x0000]
+	{
+		from = "To Farm via Rat's Den";
+		to = "Zum Bauernhof via Rattengrube";
+	}
+	[0x0000]
+	{
+		from = "To Inn via Winterwood";
+		to = "Zum Wirtshaus via Winterwald";
+	}
+	// Farm
+	[0x0000]
+	{
+		from = "To Inn via Orchard";
+		to = "Zum Wirtshaus via Obstgarten";
+	}
+	[0x0000]
+	{
+		from = "Mules!";
+		to = "Maultiere!";
+	}
+	[0x0000]
+	{
+		from = "To Mill via Park";
+		to = "Zur Mühle via Park";
+	}
+	[0x0000]
+	{
+		from = "To Witch's Cottage via Graveyard";
+		to = "Zum Hexenhaus via Friedhof";
+	}
+	[0x0000]
+	{
+		from = "To Dwarven Smitty via Rat's Den";
+		to = "Zur Zwergenschmiede via Rattengrube";
+	}
+	// Flop
+	[0x0000]
+	{
+		from = "Dwarven Smitty";
+		to = "Zwergenschmiede";
+	}
+	[0x0000]
+	{
+		from = "Farm";
+		to = "Bauernhof";
+	}
+	[0x0000]
+	{
+		from = "Witch's Cottage";
+		to = "Hexenhaus";
+	}
+	[0x0000]
+	{
+		from = "Mill";
+		to = "Mühle";
+	}
+	[0x0000]
+	{
+		from = "Inn";
+		to = "Wirtshaus";
+	}
+	// Graveyard
+	[0x0000]
+	{
+		from = "Smyth Family";
+		to = "Familie Schmidt";
+	}
+	[0x0000]
+	{
+		from = "...who always need an extra sausage!";
+		to = "...die immer eine Extrawurst brauchen!";
+	}
+	[0x0000]
+	{
+		from = "Hovart go home!";
+		to = "Hovart go home!";
+	}
+	[0x0000]
+	{
+		from = "Miller Family";
+		to = "Familie Müller";
+	}
+	[0x0000]
+	{
+		from = "Witch Family";
+		to = "Familie Hexe";
+	}
+	[0x0000]
+	{
+		from = "No Hovart!";
+		to = "Hovart raus!";
+	}
+	[0x0000]
+	{
+		from = "Keaper Family";
+		to = "Familie Wirt";
+	}
+	[0x0000]
+	{
+		from = "Farmer Family";
+		to = "Familie Bauer";
+	}
+	// Inn
+	[0x0000]
+	{
+		from = "Ye Olde Gadzookery Inn";
+		to = "Wirtshause zur Guten Alten Zeit";
+	}
+	[0x0000]
+	{
+		from = "To Mill via Snapper Pond";
+		to = "Zur Mühle via Schnapperteich";
+	}
+	[0x0000]
+	{
+		from = "To Farm via Orchard";
+		to = "Zum Bauernhof via Obstgarten";
+	}
+	[0x0000]
+	{
+		from = "To Witch's Cottage via Krugwood";
+		to = "Zum Hexenhaus via Krugwald";
+	}
+	[0x0000]
+	{
+		from = "To Dwarven Smitty via Winterwood";
+		to = "Zur Zwergenschmiede via Winterwald";
+	}
+	// Mill
 	[0x0000]
 	{
 		from = "Welcome to the Mill";
 		to = "Willkommen an der Mühle";
+	}
+	[0x0000]
+	{
+		from = "To Dwarven Smitty via Spider Hole";
+		to = "Zur Zwergenschmiede via Spinnenloch";
+	}
+	[0x0000]
+	{
+		from = "To Farm via Park";
+		to = "Zum Bauernhof via Park";
+	}
+	[0x0000]
+	{
+		from = "To Witch's Cottage via Spookeywood";
+		to = "Zum Hexenhaus via Spukwald";
+	}
+	[0x0000]
+	{
+		from = "To Inn via Snapper Pond";
+		to = "Zum Wirtshaus via Schnapperteich";
+	}
+	// Witch's Cottage
+	[0x0000]
+	{
+		from = "Demelza the Witch's Specialty Store for Miracles and lesser Magic";
+		to = "Hexe Demelza's Spezialitätenladen für Wunder und geringere Magie";
+	}
+	[0x0000]
+	{
+		from = "To Dwarven Smitty via Peak Mount";
+		to = "Zur Zwergenschmiede via Spitz Berg";
+	}
+	[0x0000]
+	{
+		from = "To Farm via Graveyard";
+		to = "Zum Bauernhof via Friedhof";
+	}
+	[0x0000]
+	{
+		from = "To Inn via Krugwood";
+		to = "Zum Wirtshaus via Krugwald";
+	}
+	[0x0000]
+	{
+		from = "To Mill via Spookeywood";
+		to = "Zur Mühle via Spukwald";
+	}
+	[0x0000]
+	{
+		from = "Don't touch!";
+		to = "Nicht berühren!";
 	}
 
 	// COPY
