@@ -383,6 +383,39 @@ Hovart erscheint 5x auf der Karte.";
 	}
 
 	// NPCs
+	// Mill
+	[0x0000]
+	{
+		from = "Mr. Miller";
+		to = "Herr Müller";
+	}
+	[0x0000]
+	{
+		from = "Mrs. Miller";
+		to = "Frau Müller";
+	}
+	[0x0000]
+	{
+		from = "Molly";
+		to = "Molly";
+	}
+	// Farm
+	[0x0000]
+	{
+		from = "Mrs. Farmer";
+		to = "Frau Bauer";
+	}
+	[0x0000]
+	{
+		from = "Mr. Farmer";
+		to = "Herr Bauer";
+	}
+	[0x0000]
+	{
+		from = "Grandma Farmer";
+		to = "Oma Bauer";
+	}
+	// Inn
 	[0x0000]
 	{
 		from = "Bailey";
@@ -395,15 +428,213 @@ Hovart erscheint 5x auf der Karte.";
 	}
 	[0x0000]
 	{
+		from = "Bar Keaper";
+		to = "Schank Wirt";
+	}
+	[0x0000]
+	{
+		from = "Inn Keaper";
+		to = "Gast Wirt";
+	}
+	[0x0000]
+	{
+		from = "Zend";
+		to = "Bast";
+	}
+	[0x0000]
+	{
+		from = "Kale";
+		to = "Kohl";
+	}
+	[0x0000]
+	{
+		from = "Millie";
+		to = "Millie";
+	}
+	[0x0000]
+	{
+		from = "Fanelia Keaper";
+		to = "Schwanen Wirt";
+	}
+	[0x0000]
+	{
+		from = "Gramper Farmer";
+		to = "Opa Bauer";
+	}
+	[0x0000]
+	{
+		from = "Granny Miller";
+		to = "Oma Müller";
+	}
+	// Witch's Cottage
+	[0x0000]
+	{
 		from = "Demelza the Witch";
 		to = "Demelza die Hexe";
 	}
+	[0x0000]
+	{
+		from = "Luna";
+		to = "Luna";
+	}
+	[0x0000]
+	{
+		from = "Arantxa the Witch";
+		to = "Arantxa die Hexe";
+	}
+	// Dwarven Smitty
+	[0x0000]
+	{
+		from = "Bleck Smyth";
+		to = "Grohb Schmidt";
+	}
+	[0x0000]
+	{
+		from = "Wintur Smyth";
+		to = "Wintor Schmidt";
+	}
+	[0x0000]
+	{
+		from = "Blayde Smyth";
+		to = "Dehgen Schmidt";
+	}
+	[0x0000]
+	{
+		from = "Ero Smyth";
+		to = "Hau Schmidt";
+	}
+	[0x0000]
+	{
+		from = "Silva Smyth";
+		to = "Silba Schmidt";
+	}
+	[0x0000]
+	{
+		from = "Will Smyth";
+		to = "Will Schmidt";
+	}
+	[0x0000]
+	{
+		from = "Wyrt Smyth";
+		to = "Wort Schmidt";
+	}
 	
 	// Animals
+	// Mill
+	[0x0000]
+	{
+		from = "Doggy McDogson";
+		to = "Hundi McHundson";
+	}
+	[0x0000]
+	{
+		from = "Lame Mary";
+		to = "Lahme Mary";
+	}
 	[0x0000]
 	{
 		from = "Piggy Pig";
 		to = "Schweini";
+	}
+	// Farm
+	[0x0000]
+	{
+		from = "Donkey Kong";
+		to = "Donkey Kong";
+	}
+	[0x0000]
+	{
+		from = "Samy Salami";
+		to = "Samy Salami";
+	}
+	[0x0000]
+	{
+		from = "Shnoofy";
+		to = "Schnuffi";
+	}
+	[0x0000]
+	{
+		from = "Woofy";
+		to = "Wuffi";
+	}
+	[0x0000]
+	{
+		from = "Miss Piggy";
+		to = "Miss Piggy";
+	}
+	[0x0000]
+	{
+		from = "Piggle-Dum";
+		to = "Pickel-Dum";
+	}
+	[0x0000]
+	{
+		from = "Piggle-Dee";
+		to = "Pickel-Di";
+	}
+	[0x0000]
+	{
+		from = "Frederick";
+		to = "Frederik";
+	}
+	[0x0000]
+	{
+		from = "Bacon";
+		to = "Schinken";
+	}
+	[0x0000]
+	{
+		from = "Dig Pig";
+		to = "Dig Pig";
+	}
+	[0x0000]
+	{
+		from = "Big Pig";
+		to = "Big Pig";
+	}
+	[0x0000]
+	{
+		from = "Burger";
+		to = "Burger";
+	}
+	[0x0000]
+	{
+		from = "Chow Cow";
+		to = "Kau-Kuh";
+	}
+	[0x0000]
+	{
+		from = "Moo";
+		to = "Muh";
+	}
+	// Inn
+	[0x0000]
+	{
+		from = "Sup Dawg";
+		to = "Sup Dawg";
+	}
+	[0x0000]
+	{
+		from = "Fusty";
+		to = "Stinkerchen";
+	}
+	[0x0000]
+	{
+		from = "Brownie";
+		to = "Brownie";
+	}
+	// Witch's Cottage (none)
+	// Dwarven Smitty (none)
+	// other
+	[0x0000]
+	{
+		from = "Lonely Groveller";
+		to = "Einsamer Groveller";
+	}
+	[0x0000]
+	{
+		from = "Phrak Queen";
+		to = "Phrak-Königin";
 	}
 	
 	// Statues
