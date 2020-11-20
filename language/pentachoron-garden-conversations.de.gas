@@ -304,6 +304,7 @@ Nun denn, solltet es Euch gelingen das Tier zu umgehen oder erlegen und zur Schm
 		from = "No hard feelings mate... Wanna go together again?";
 		to = "Alles gut mann. Wollen wir wieder zusammen gehen?";
 	}
+	// hireables join
 	[0x0000]
 	{
 		from = "Holla visitor, wouldst thou like some company?
@@ -353,6 +354,81 @@ Du müsstest allerdings meine Zeche zahlen...";
 I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage on your side exploring the Garden? I wanna buy a new cauldron for my homework, so for a little bit of gold I'm all yours!";
 		to = "Was haben wir denn hier, Besuch! Hast du Geld?
 Ich bin Bast Hexe, der Enkel von Demelza der Hexe. Hättest du gern einen talentierten Naturmagier an deiner Seite wenn du den Garten erkundest? Ich möchte mir einen neuen Hexenkessel für meine Hausaufgaben kaufen, also wenn du etwas Geld hast bin ich ganz dein!";
+	}
+	
+	// Witch's Cottage
+	// Arantxa
+	[0x0000]
+	{
+		from = "Welcome, child. What can Arantxa do for you?";
+		to = "Willkommen, Kind. Was kann Arantxa für dich tun?";
+	}
+	[0x0000]
+	{
+		from = "Do you know the story of Azunai and Zaramoth, and how the Badlands came to be? Let me tell you their story...
+
+It all happened at the end of the First Age. The Great Ancient Empires were in decline, the Empires of Stars, the Utraeans, the Agallan Giants, all once founded with noble motives and megalomanic aspirations, all torn by their never-ending wars and slowly getting corrupted by Evil from inside. It was then that Zaramoth the Unmaker became the last Emperor of the Stars, and with reckless terror and his magic sword he became the tyrant of Aranna. The sword had been made by giants and had Zaramoth's soul forged into it, and it made him invincible. Nothing could withstand him - until the hero Azunai arose from among the rebels, Azunai the Defender, and Xeria the Valiant was his right hand and saved him from attack and deceit. Azunai had an invincible shield, likewise made by giants. And when the two finally clashed, the invincible sword of Zaramoth the Unmaker and the invincible shield of Azunai the Defender, in that fateful battle on the Plain of Tears, they both broke into pieces, and the release of magic force wiped out everyone on the battlefield, and shifted the stars in the sky, and would have destroyed the whole of Aranna, had the Agallans not been watching and their mages not been able to stop the catastrophe. This is called the Great Cataclysm. It marks the end of the First Age and the Ancient Empires.
+
+Anyhow, since those days the Agallans have vowed never to create magical items with conflicting superlative enchantments ever again, and they never have.
+And this is how the Badlands were created. After the Cataclysm, huge parts of central Aranna were uninhabitable, but slowly nature heals and magic calms down. But to this day there are places like this all over central Aranna, Badlands soaked with erratic magic that bends time and space, and blurs the borders between dreams and reality, and erupts uncontrollably in all sorts of ways and makes such parts quite uninhabitable. But here on the outskirts it's not so bad, ah?
+
+I don't know how much you knew about this place before you came here. We are here on the outskirts of the Green Range Badlands, which are the Badlands closest to the Kingdom of Ehb. And the Garden is safe, honestly. People have always been a bit superstitious about the Badlands and tell all kinds of weird stories about them. Just like they do about witches, hehe.";
+		to = "Kennst du die Geschichte von Azunai und Zaramoth, und wie das Bannland entstand? Lass mich sie dir erzählen...
+
+Es geschah alles am Ende des Ersten Zeitalters. Die Großen Reiche der Antike waren im Niedergang, das Reich der Sterne, die Uträer, die Agallischen Riesen, alle einst gegründet mit noblen Motiven und größenwahnsinnigem Streben, alle zerrissen durch ihre endlosen Kriege und langsam von innen heraus vom Bösen korrumpiert. Es war zu dieser Zeit dass Zaramoth der Zerstörer der letzte Herrscher des Reichs der Sterne wurde, und mit rücksichtslosem Terror und seinem magischen Schwert wurde er zum Tyrann von Aranna. Das Schwert war von Riesen geschaffen worden und Zaramoths Seele war darin verschmiedet, und es machte ihn unbesiegbar. Nichts konnte ihm widerstehen - bis der Held Azunai aus den Rebellen hervorging, Azunai der Verteidiger, und Xeria die Tapfere war seine rechte Hand, die ihn in Schlacht und Verrat rettete. Azunai hatte einen unbesiegbaren Schild, ebenfalls von Riesen geschaffen. Und als diese beiden am Ende aufeinander trafen, das unbesiegbare Schwert Zaramoths des Zerstörers und der unbesiegbare Schild Azunais des Verteidigers, in jener schicksalhaften Schlacht auf der Ebene der Tränen, brachen sie beide in Stücke, und die Druckwelle der magischen Kraft löschte alles und jeden auf dem Schlachtfeld aus, und verrückte die Sterne am Firmament, und hätte ganz Aranna zunichte gemacht, wären die Agaller nicht wachsam gewesen und wäre es ihren Magiern nicht geglückt die Katastrophe aufzuhalten. Dies war der Große Kataklysmus. Er markiert das Ende des Ersten Zeitalters und der Reiche der Antike.
+
+Jedenfalls schwören die Agaller seitdem, nie wieder magische Objekte mit unvereinbaren superlativen Verzauberungen zu schaffen, und haben dies auch nie wieder getan.
+Und so entstanden die Bannlande. Nach dem Kataklysmus waren weite Teile Arannas unbewohnbar, doch langsam heilt die Natur und die Magie beruhigt sich. Doch bis zu diesem Tag gibt es Orte wie diesen hier verstreut im zentralen Aranna, Bannlande vollgesogen von wirrer Magie die Raum und Zeit verzerrt, und die Grenzen zwischen Traum und Wirklichkeit aufweicht, und in verschiedenster Weise unkontrollierbar ausbricht und diese Landstriche recht unbewohnbar macht. Aber hier im Randgebiet ist es halb so schimm, oder?
+
+Ich weiß nicht wie viel du über diesen Ort wusstest bevor du hier herkamst. Wir befinden uns hier am Rande des Grünberge-Bannlands, welches das naheste Bannland von Ehb aus ist. Und der Garten ist sicher, wirklich. Die Leute waren schon immer ein wenig abergläubisch was die Bannlande betrifft und erzählen alle möglichen seltsamen Geschichten über sie. Wie auch über Hexen, hehe.";
+	}
+	// Demelza
+	[0x0000]
+	{
+		from = "Welcome in, child. What can Demelza do for you?";
+		to = "Komm herein, Kind. Was kann Demelza für dich tun?";
+	}
+	// Luna
+	[0x0000]
+	{
+		from = "Hello, visitor, and welcome to the Witch's Cottage. You may enter; Demelza the Witch awaits you.";
+		to = "Sei gegrüßt, Besucher, und willkommen am Haus der Hexe. Du darfst eintreten; Demelza die Hexe erwartet dich.";
+	}
+	[0x0000]
+	{
+		from = "Not sure which way to take from here? Well, let's see... we're right in the middle of the Garden here, so all the places are close to reach.";
+		to = "Nicht sicher welchen Weg du von hier aus nehmen sollst? Mal schauen... wir sind hier genau in der Mitte des Gartens, daher sind alle Orte leicht zu erreichen.";
+	}
+	[0x0000]
+	{
+		from = "If you go north from here, you will get to the Mill. The way leads through the Spookeywood - not for the faint-hearted, but basically it's just a bunch of skeletons that keep forgetting what behooves the dead. Their captain's the most annoying of the lot; always fun to slay him.";
+		to = "Wenn du von hier aus nach Norden gehst, kommst du zur Mühle. Der Weg führt durch den Spukwald - nicht für zartbesaitete, aber eigentlich sind es nur ein Haufen Skelette die vergessen was sich für Tote gehört. Ihr Hauptmann ist der nervigste von allen; immer wieder ein Spaß ihn zu erschlagen.";
+	}
+	[0x0000]
+	{
+		from = "Heading south, you will come to the Graveyard - easily the most beautiful part of the Garden. I clearly recommend it! Old Walburga chose wisely when she assigned this place.
+Beyond that lies the Farm. The Farmers keep complaining about that Ancient Corpse at the Graveyard, even though it's not bothering anyone. But they'll be glad if you banish it.";
+		to = "Richtung Süden kommst du zum Friedhof - mit Abstand der schönste Teil des Gartens. Ich empfehle es definitiv! Die alte Walburga wählte diesen Ort weise.
+Dahinter liegt der Bauernhof. Die Bauern beschweren sich andauernd über den Alten Leichnam auf dem Friedhof, obwohl er niemanden stört. Aber sie werden froh sein wenn du ihn erledigst.";
+	}
+	[0x0000]
+	{
+		from = "To the west is the Inn - a great place to meet people from all over the Garden, and maybe to find company for a walk. The way goes straight through the Krugwood. The krugs aren't usually anything to worry about, but keep an eye open - the good Arantxa has attempted to teach magic tricks to krugs for fun, and unfortunately she's had some success. Now we have a krug conjurer out there that calls himself Huskar the Shaman and is just stirring up the whole bunch. If you could just kill him along the way that would be nice.";
+		to = "Im Westen liegt das Wirtshaus - ein guter Ort um Leute aus dem ganzen Garten zu treffen, und vielleicht auch um etwas Gesellschaft für einen Spaziergang zu finden. Der Weg führt direkt durch den Krugwald. Um die Krugs muss man sich für gewöhnlich keine Sorgen machen, aber haltet ein Auge offen - die gute Arantxa hat versucht Krugs ein paar Zaubertricks beizubringen, leider mit Erfolg. Jetzt haben wir einen Zauberlehrling da draußen der sich Huskar der Schamane nennt und die ganze Horde in Aufruhr versetzt. Wenn du ihm auf dem Weg nebenher die Kehle durchschneiden könntest wäre das fein.";
+	}
+	[0x0000]
+	{
+		from = "And to the east is the peak of the mount, it's called Peak Mount.
+You need to be in reasonable shape to climb the Mount; take warm clothes with you and beware of the Frost Mage!
+If I were you, I wouldn't bother going up there - it's shitty cold and on the other side is... the Dwarven Smitty. Ugh. These dwarves are SO annoying. And frankly, a little weird in the head.";
+		to = "Und östlich von hier befindet sich die Spitze des Berges, sie heißt Spitz Berg.
+Du musst schon fit sein um den Berg zu besteigen; nimm warme Klamotten mit und hab Acht vor dem Frostmagier!
+Wenn ich du wäre, würde ich mir nicht die Mühe machen - es ist arschkalt da oben und auf der anderen Seite ist... die Zwergenschmiede. Bah. Diese Zwerge sind SO nervig. Und, ehrlich gesagt, ein bisschen seltsam im Kopf.";
+	}
+	[0x0000]
+	{
+		from = "Wherever you want to go, there's no point in waiting for the weather to get better. It never does around here!";
+		to = "Wo du auch hin möchtest, auf besseres Wetter brauchst du hier nicht zu warten... das gibt es hier nicht!";
 	}
 
 	// COPY
