@@ -35,22 +35,34 @@
 			{
 				[all*]
 				{
-					il_main = #spell/4-18;
-					max = 40;
-					min = 40;
+					il_main = #spell/0-5;
+					max = 10;
+					min = 10;
 				}
 				[all*]
 				{
-					il_main = #spell/0-3;
-					max = 10;
-					min = 10;
+					il_main = #spell/6-10;
+					max = 20;
+					min = 20;
+				}
+				[all*]
+				{
+					il_main = #spell/10-20;
+					max = 20;
+					min = 20;
 				}
 			}
 			[misc]
 			{
                 [all*]
 				{
-					il_main = #spellbook/18-36;
+					il_main = #spellbook/0-20;
+					max = 6;
+					min = 4;
+				}
+                [all*]
+				{
+					il_main = #spellbook/21-40;
 					max = 6;
 					min = 4;
 				}
@@ -85,6 +97,10 @@
 
             spell_fireshot = 4;
             spell_zap = 4;
+			spell_explosive_powder = 2;
+			spell_flash = 2
+			
+			book_glb_magic_01 = 1;
 			
 			fury_eye = 1;
 		}
