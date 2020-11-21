@@ -7,6 +7,7 @@
 			[*]
 			{
 				action* = mood_change("farm");
+				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -277,6 +278,7 @@
 			[*]
 			{
 				action* = mood_change("farm");
+				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -305,6 +307,7 @@
 			[*]
 			{
 				action* = mood_change("farm");
+				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(16.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -334,6 +337,7 @@
 			[*]
 			{
 				action* = mood_change("farm");
+				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -362,6 +366,7 @@
 			[*]
 			{
 				action* = mood_change("farm");
+				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -440,5 +445,35 @@
 	{
 	  q orientation = 0,1,0,0;
 	  p position = 0.0113487,0.2,0.00433159,0x8065c870;
+	}
+}
+[t:trigger_generic,n:0x00200225]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("farm");
+				action* = set_player_world_location("farm");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.85641,0,-3.18473,0xb3a5c2b0;
 	}
 }

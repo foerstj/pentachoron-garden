@@ -423,6 +423,13 @@
 	  p position = -7.44722,15.85,2.68637,0x38ce9914;
 	}
 }
+[t:blocking_object,n:0x0050002b]
+{
+	[placement]
+	{
+	  p position = -2.21832,-12,-1.98737,0x1e8aaa8a;
+	}
+}
 [t:use_point,n:0x0050005e]
 {
 	[placement]
@@ -458,13 +465,6 @@
 	  p position = 2.93083,4,1.76965,0xe3578ddc;
 	}
 }
-[t:blocking_object,n:0x0050002b]
-{
-	[placement]
-	{
-	  p position = -2.21832,-12,-1.98737,0x1e8aaa8a;
-	}
-}
 [t:blocking_object,n:0x00500022]
 {
 	[placement]
@@ -488,6 +488,7 @@
 			[*]
 			{
 				action* = mood_change("dwarven-smithy");
+				action* = set_player_world_location("dwarven-smithy");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -611,6 +612,7 @@
 			[*]
 			{
 				action* = mood_change("dwarven-smithy");
+				action* = set_player_world_location("dwarven-smithy");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -639,6 +641,7 @@
 			[*]
 			{
 				action* = mood_change("dwarven-smithy");
+				action* = set_player_world_location("dwarven-smithy");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -667,6 +670,7 @@
 			[*]
 			{
 				action* = mood_change("dwarven-smithy");
+				action* = set_player_world_location("dwarven-smithy");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -695,6 +699,7 @@
 			[*]
 			{
 				action* = mood_change("dwarven-smithy");
+				action* = set_player_world_location("dwarven-smithy");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;

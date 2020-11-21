@@ -152,6 +152,7 @@
 			[*]
 			{
 				action* = mood_change("mill");
+				action* = set_player_world_location("mill");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -180,6 +181,7 @@
 			[*]
 			{
 				action* = mood_change("mill");
+				action* = set_player_world_location("mill");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,25.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -209,6 +211,7 @@
 			[*]
 			{
 				action* = mood_change("mill");
+				action* = set_player_world_location("mill");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,12.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -238,6 +241,7 @@
 			[*]
 			{
 				action* = mood_change("mill");
+				action* = set_player_world_location("mill");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,25.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -267,6 +271,7 @@
 			[*]
 			{
 				action* = mood_change("mill");
+				action* = set_player_world_location("mill");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,25.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -345,5 +350,34 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -0.0486526,0.2,0.0085144,0x07beb3bb;
+	}
+}
+[t:trigger_generic,n:0x001001ee]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("mill");
+				action* = set_player_world_location("mill");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 1.62611,0,-0.0700378,0xdb47f593;
 	}
 }

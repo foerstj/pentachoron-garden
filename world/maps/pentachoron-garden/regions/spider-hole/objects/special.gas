@@ -151,6 +151,7 @@
 			[*]
 			{
 				action* = mood_change("spider-hole-mount");
+				action* = set_player_world_location("spider-hole");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,4.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -238,6 +239,7 @@
 			[*]
 			{
 				action* = mood_change("spider-hole-vale");
+				action* = set_player_world_location("spider-hole");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(16.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;

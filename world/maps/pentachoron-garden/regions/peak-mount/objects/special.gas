@@ -14,6 +14,7 @@
 			[*]
 			{
 				action* = mood_change("peak-mount-woods-ele");
+				action* = set_player_world_location("peak-mount");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -356,6 +357,7 @@
 			[*]
 			{
 				action* = mood_change("peak-mount-smithy-snow-bottom");
+				action* = set_player_world_location("peak-mount");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;

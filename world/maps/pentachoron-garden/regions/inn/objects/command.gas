@@ -1,4 +1,4 @@
-[t:cmd_auto_save,n:0x0030045d]
+[t:cmd_auto_save,n:0x00300460]
 {
 	[common]
 	{
@@ -6,7 +6,7 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x0030045D,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x00300460,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,20.000000,"on_first_enter");
 			  f delay = 0.000000;
@@ -23,7 +23,7 @@
 	}
 	[placement]
 	{
-	  p position = -1.67081,1.90735e-006,-1.68629,0xe71417f3;
+	  p position = -0.440125,1.90735e-006,-1.75832,0xebeed893;
 	}
 }
 [t:cmd_auto_save,n:0x0030045e]
@@ -82,7 +82,7 @@
 	  p position = -2.31456,1.90735e-006,0.43813,0x29f4ba56;
 	}
 }
-[t:cmd_auto_save,n:0x00300460]
+[t:cmd_auto_save,n:0x0030045d]
 {
 	[common]
 	{
@@ -90,7 +90,7 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x00300460,0f,"default","every",0);
+				action* = send_world_message("we_req_activate",0x0030045D,0f,"default","every",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,20.000000,"on_first_enter");
 			  f delay = 0.000000;
@@ -107,6 +107,6 @@
 	}
 	[placement]
 	{
-	  p position = -0.440125,1.90735e-006,-1.75832,0xebeed893;
+	  p position = -1.67081,1.90735e-006,-1.68629,0xe71417f3;
 	}
 }
