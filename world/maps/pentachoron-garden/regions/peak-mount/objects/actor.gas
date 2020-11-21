@@ -942,7 +942,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("qc5_hovart_smitty_peak_mount","active",0);
+				action* = change_quest_state("qc5_hovart_smithy_peak_mount","active",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(20.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -957,7 +957,7 @@
 			}
 			[*]
 			{
-				action* = change_quest_state("qc5_hovart_smitty_peak_mount","completed",0);
+				action* = change_quest_state("qc5_hovart_smithy_peak_mount","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_killed",0,"on_every_message");
 			  f delay = 0.000000;

@@ -104,14 +104,14 @@ Hovart appears 5x on the map.";
 		  b required_update = true;
 		}
 	}
-	[qa5_flip_smitty]
+	[qa5_flip_smithy]
 	{
 		chapter = qa_flips;
-		screen_name = Smitty flip;
+		screen_name = Smithy flip;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = "Re-activate the Smitty flip by turning the flip switch at the Dwarven Smitty.
+			description = "Re-activate the Smithy flip by turning the flip switch at the Dwarven Smithy.
 (Flip quest 5/5)";
 		  i order = 0;
 		  b required_update = true;
@@ -303,14 +303,14 @@ Hovart appears 5x on the map.";
 		  b required_update = true;
 		}
 	}
-	[qc5_hovart_smitty_peak_mount]
+	[qc5_hovart_smithy_peak_mount]
 	{
 		chapter = qc_hovarts;
 		screen_name = Hovart on Peak Mount;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
-			description = "Kill Lord Hovart on Peak Mount near the Dwarven Smitty.
+			description = "Kill Lord Hovart on Peak Mount near the Dwarven Smithy.
 (Recommended for level 5+)";
 		  i order = 0;
 		  b required_update = true;

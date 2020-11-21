@@ -158,7 +158,7 @@
 		{
 			[*]
 			{
-				action* = change_quest_state("qa5_flip_smitty","active",0);
+				action* = change_quest_state("qa5_flip_smithy","active",0);
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(3.000000,0.500000,3.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -182,7 +182,7 @@
 {
 	[check_quest_bits]
 	{
-		bool_variable = "flip_smitty_activated";
+		bool_variable = "flip_smithy_activated";
 		map_name = "pentachoron-garden";
 	  x send_to_scid = 0x00F00083;
 	}

@@ -645,7 +645,7 @@
 [mood_setting*]
 {
   b interior = false;
-	mood_name = dwarven-smitty;
+	mood_name = dwarven-smithy;
   f transition_time = 5.000000;
 	[fog]
 	{
@@ -667,7 +667,7 @@
 		room_type = rt_plain;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 3.000000;
-		standard_track = s_m_place_5_dwarven_smitty;
+		standard_track = s_m_place_5_dwarven_smithy;
 	}
 	[snow]
 	{
@@ -682,7 +682,7 @@
 [mood_setting*]
 {
   b interior = true;
-	mood_name = dwarven-smitty-indoor;
+	mood_name = dwarven-smithy-indoor;
   f transition_time = 1.000000;
 	[fog]
 	{
@@ -704,7 +704,7 @@
 		room_type = rt_livingroom;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 3.000000;
-		standard_track = s_m_place_5_dwarven_smitty;
+		standard_track = s_m_place_5_dwarven_smithy;
 	}
 	[wind]
 	{
@@ -1264,7 +1264,7 @@
 [mood_setting*]
 {
   b interior = false;
-	mood_name = peak-mount-smitty-ice;
+	mood_name = peak-mount-smithy-ice;
   f transition_time = 5.000000;
 	[fog]
 	{
@@ -1297,7 +1297,7 @@
 [mood_setting*]
 {
   b interior = false;
-	mood_name = peak-mount-smitty-snow-upper;
+	mood_name = peak-mount-smithy-snow-upper;
   f transition_time = 5.000000;
 	[fog]
 	{
@@ -1334,7 +1334,7 @@
 [mood_setting*]
 {
   b interior = false;
-	mood_name = peak-mount-smitty-snow-middle;
+	mood_name = peak-mount-smithy-snow-middle;
   f transition_time = 5.000000;
 	[fog]
 	{
@@ -1367,7 +1367,7 @@
 [mood_setting*]
 {
   b interior = false;
-	mood_name = peak-mount-smitty-snow-lower;
+	mood_name = peak-mount-smithy-snow-lower;
   f transition_time = 5.000000;
 	[fog]
 	{
@@ -1404,7 +1404,7 @@
 [mood_setting*]
 {
   b interior = false;
-	mood_name = peak-mount-smitty-snow-bottom;
+	mood_name = peak-mount-smithy-snow-bottom;
   f transition_time = 5.000000;
 	[fog]
 	{

@@ -39,7 +39,7 @@
 		activate_quest* = qb51_beast_spider_hole_giant_spider,0;
 		choice = more;
 	  i order = 4;
-		screen_text = "Same for the way up north. It goes right through the Spider Hole, where a giant spider lives, ugh. Better to find another way to the Dwarven Smitty, if you really want to go there. They sell a lot of stuff, nice shoes and such, but the dwarves are just as unpleasant as the weather up on that snowy mountain.";
+		screen_text = "Same for the way up north. It goes right through the Spider Hole, where a giant spider lives, ugh. Better to find another way to the Dwarven Smithy, if you really want to go there. They sell a lot of stuff, nice shoes and such, but the dwarves are just as unpleasant as the weather up on that snowy mountain.";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]
@@ -92,13 +92,13 @@ You can try your luck with them, if you want. A lot of people have goblin blood 
 		activate_quest* = qa2_flip_farm,0;
 		activate_quest* = qa3_flip_inn,0;
 		activate_quest* = qa4_flip_witch,0;
-		activate_quest* = qa5_flip_smitty,0;
+		activate_quest* = qa5_flip_smithy,0;
 		choice = more;
 	  i order = 5;
 	  b quest_dialogue = true;
 		screen_text = "So, if you're lucky and able to open the flips, would you like to help me out? You'd have to walk to them, of course. But by walking you would also get to see the Garden - win-win, right?
 
-You can have a nice walk down along the Brook to the Farm and the Inn, and you'll easily get back here for lunchtime. What do you think? We can take care of the Witch's Cottage and the Dwarven Smitty later on, those areas are a bit more difficult...";
+You can have a nice walk down along the Brook to the Farm and the Inn, and you'll easily get back here for lunchtime. What do you think? We can take care of the Witch's Cottage and the Dwarven Smithy later on, those areas are a bit more difficult...";
 	  f scroll_rate = 15.000000;
 	}
 	[text*]

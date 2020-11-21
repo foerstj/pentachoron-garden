@@ -327,7 +327,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-bottom");
+				action* = mood_change("peak-mount-smithy-snow-bottom");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -355,7 +355,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-bottom");
+				action* = mood_change("peak-mount-smithy-snow-bottom");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -383,7 +383,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-lower");
+				action* = mood_change("peak-mount-smithy-snow-lower");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -418,7 +418,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-lower");
+				action* = mood_change("peak-mount-smithy-snow-lower");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -453,7 +453,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-middle");
+				action* = mood_change("peak-mount-smithy-snow-middle");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -488,7 +488,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-middle");
+				action* = mood_change("peak-mount-smithy-snow-middle");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -516,7 +516,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-upper");
+				action* = mood_change("peak-mount-smithy-snow-upper");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -551,7 +551,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-snow-upper");
+				action* = mood_change("peak-mount-smithy-snow-upper");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -591,7 +591,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-ice");
+				action* = mood_change("peak-mount-smithy-ice");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -681,7 +681,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("peak-mount-smitty-ice");
+				action* = mood_change("peak-mount-smithy-ice");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
