@@ -106,6 +106,10 @@
 		}
 		[world_levels]
 		{
+			[normal]
+			{
+			  i required_level = 8;
+			}
 		}
 	}
 	[t:start_group,n:farm]
@@ -214,6 +218,10 @@
 		}
 		[world_levels]
 		{
+			[normal]
+			{
+			  i required_level = 2;
+			}
 		}
 	}
 	[t:start_group,n:inn]
@@ -322,6 +330,10 @@
 		}
 		[world_levels]
 		{
+			[normal]
+			{
+			  i required_level = 4;
+			}
 		}
 	}
 	[t:start_group,n:mill]
@@ -430,6 +442,10 @@
 		}
 		[world_levels]
 		{
+			[normal]
+			{
+			  i required_level = 0;
+			}
 		}
 	}
 	[t:start_group,n:witch-cottage]
@@ -538,6 +554,10 @@
 		}
 		[world_levels]
 		{
+			[normal]
+			{
+			  i required_level = 6;
+			}
 		}
 	}
 }

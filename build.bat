@@ -1,5 +1,5 @@
 :: This script is supposed to be executed from your DS installation folder.
-:: TankCreator is expected to be in a sibling dir.
+:: TankCreator and gaspy are expected to be in sibling dirs.
 
 :: map name
 set map=pentachoron-garden
@@ -11,6 +11,8 @@ set doc_ds=%USERPROFILE%\Documents\Dungeon Siege
 set ds=.
 :: path of TankCreator
 set tc=..\TankCreator
+:: path of GasPy
+set gaspy=..\gaspy
 
 :: param
 set mode=%1
@@ -19,6 +21,10 @@ echo %mode%
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
+pushd %gaspy%
+venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"
+if %errorlevel% neq 0 pause
+popd
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
