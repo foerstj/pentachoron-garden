@@ -1597,6 +1597,10 @@
 }
 [t:foliage_grs_01,n:0x00100197]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.12339;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.656059,0,0.754709;
@@ -2620,6 +2624,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.662322,0,-0.749219;
 	  p position = 0.474834,0,-0.283573,0xb7ca0de6;
 	}
 }
@@ -2649,6 +2654,10 @@
 }
 [t:foliage_grs_01,n:0x001001a0]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.03843;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.0348993,0,0.999391;
@@ -2831,6 +2840,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.862956,0,0.505279;
 	  p position = -1.71582,-0.0259514,-2.34558,0xb3f37a0d;
 	}
 }
@@ -2842,6 +2852,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.039715,0,0.999211;
 	  p position = -1.66777,0.0224213,-2.05566,0xb3f37a0d;
 	}
 }
@@ -3270,8 +3281,13 @@
 }
 [t:tree_grs_cherry_01,n:0x00100056]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.08051;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.800956,0,0.598724;
 	  p position = 0.23151,0.244869,-0.11891,0x18284cbc;
 	}
 }
@@ -3314,6 +3330,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.687443,0,-0.726238;
 	  p position = -2.04134,0,-0.138996,0xe7028d38;
 	}
 }
@@ -3571,6 +3588,10 @@
 }
 [t:foliage_grs_01,n:0x0010018b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.19431;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.325568,0,0.945519;
@@ -4130,11 +4151,16 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.962791,0,-0.270246;
 	  p position = 3.96377,0.35,2.36465,0x7341ba36;
 	}
 }
 [t:foliage_grs_01,n:0x00100176]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.11846;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.990268,0,0.139173;
@@ -4287,8 +4313,13 @@
 }
 [t:tree_grs_apple_01,n:0x00100055]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.1335;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.82798,0,0.560758;
 	  p position = -0.0526485,-0.104561,0.0479641,0xf30eb210;
 	}
 }
@@ -4360,6 +4391,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.48372,0,0.875223;
 	  p position = 2.67467,-2,-3.67461,0x918576b5;
 	}
 }
@@ -4377,6 +4409,10 @@
 }
 [t:foliage_grs_01,n:0x0010019e]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.94276;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.96363,0,0.267238;

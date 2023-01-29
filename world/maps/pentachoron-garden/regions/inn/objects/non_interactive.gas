@@ -1223,6 +1223,10 @@
 }
 [t:tree_grs_apple_01,n:0x003000d1]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.81063;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.0523356,0,-0.99863;
@@ -1962,6 +1966,10 @@
 }
 [t:tree_grs_apple_01,n:0x003000cf]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89998;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.993572,0,-0.113203;
@@ -2351,6 +2359,10 @@
 }
 [t:tree_grs_apple_01,n:0x003000d0]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.15013;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.300706,0,0.953717;
@@ -3036,6 +3048,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.90087,0,-0.434088;
 	  p position = 3.4989,-2,-3.65432,0x8b3248ab;
 	}
 }
