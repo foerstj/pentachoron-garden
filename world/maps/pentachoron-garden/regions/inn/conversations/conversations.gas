@@ -119,23 +119,8 @@ Ah the Flip-Flop? That was built during those days as well, during one of the fi
 	  f scroll_rate = 15.000000;
 	}
 }
-[pm_accept]
-{
-	[text*]
-	{
-		screen_text = "Yay let's go!";
-	  f scroll_rate = 15.000000;
-	}
-}
-[pm_disband]
-{
-	[text*]
-	{
-		screen_text = "Wait, what?";
-	  f scroll_rate = 15.000000;
-	}
-}
-[pm_join_bailey]
+
+[bailey_join]
 {
 	[text*]
 	{
@@ -145,7 +130,17 @@ mine own name is Bailey, i'm the daughter of this house, and bor'd to death of s
 	  f scroll_rate = 15.000000;
 	}
 }
-[pm_join_boyler]
+[bailey_rejoin]
+{
+    [text*]
+    {
+		choice = potential_member;
+		screen_text = "Prithee taketh me with thee!";
+	  f scroll_rate = 15.000000;
+    }
+}
+
+[boyler_join]
 {
 	[text*]
 	{
@@ -156,7 +151,25 @@ Of course I would like to earn some pogged money; I wand to buy a new anvil for 
 	  f scroll_rate = 15.000000;
 	}
 }
-[pm_join_kale]
+[boyler_rejoin]
+{
+    [text*]
+    {
+		choice = potential_member;
+		screen_text = "Would you like combany during your shtay here? It would be my bleashure to show you the Dwarven Smithy, and a handy combat maych ish always useful.";
+	  f scroll_rate = 15.000000;
+    }
+}
+[boyler_accept_no_money]
+{
+    [text*]
+    {
+		screen_text = "Of course I would like to earn some pogged money; I wand to buy a new anvil for my homeworg.";
+	  f scroll_rate = 15.000000;
+    }
+}
+
+[kale_join]
 {
 	[text*]
 	{
@@ -187,7 +200,26 @@ But you would need to pay my bill...";
 	  f scroll_rate = 15.000000;
 	}
 }
-[pm_join_millie]
+[kale_rejoin]
+{
+    [text*]
+    {
+		choice = potential_member;
+		screen_text = "Wanna see the Farm? I can show you. I can show you around the whole Garden if you want.
+But you would need to pay my bill...";
+	  f scroll_rate = 15.000000;
+    }
+}
+[kale_accept_no_money]
+{
+    [text*]
+    {
+		screen_text = "Please bail me out? You can rely on my strong arm for as long as you stay.";
+	  f scroll_rate = 15.000000;
+    }
+}
+
+[millie_join]
 {
 	[text*]
 	{
@@ -196,7 +228,25 @@ But you would need to pay my bill...";
 	  f scroll_rate = 15.000000;
 	}
 }
-[pm_join_zend]
+[millie_rejoin]
+{
+    [text*]
+    {
+		choice = potential_member;
+		screen_text = "Fancy some company for taking a stroll through the Garden? I'd love to join you. I'd also love some pocket money, wink wink nod nod.";
+	  f scroll_rate = 15.000000;
+    }
+}
+[millie_accept_no_money]
+{
+    [text*]
+    {
+		screen_text = "I'd really love some pocket money, wink wink nod nod.";
+	  f scroll_rate = 15.000000;
+    }
+}
+
+[zend_join]
 {
 	[text*]
 	{
@@ -206,7 +256,41 @@ I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage o
 	  f scroll_rate = 15.000000;
 	}
 }
-[pm_reject]
+[zend_rejoin]
+{
+    [text*]
+    {
+		choice = potential_member;
+		screen_text = "Fancy a skilled nature mage on your side exploring the Garden? I wanna buy a new cauldron for my homework, so for a little bit of gold I'm all yours!";
+	  f scroll_rate = 15.000000;
+    }
+}
+[zend_accept_no_money]
+{
+    [text*]
+    {
+		screen_text = "No money? Pshah! Begone.";
+	  f scroll_rate = 15.000000;
+    }
+}
+
+[bailey_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[bailey_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	  f scroll_rate = 15.000000;
+	}
+}
+[bailey_reject]
 {
 	[text*]
 	{
@@ -214,7 +298,143 @@ I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage o
 	  f scroll_rate = 15.000000;
 	}
 }
-[pm_rejoin]
+[bailey_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "No hard feelings mate... Wanna go together again?";
+	  f scroll_rate = 15.000000;
+	}
+}
+
+[boyler_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[boyler_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	  f scroll_rate = 15.000000;
+	}
+}
+[boyler_reject]
+{
+	[text*]
+	{
+		screen_text = "Pff then not!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[boyler_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "No hard feelings mate... Wanna go together again?";
+	  f scroll_rate = 15.000000;
+	}
+}
+
+[kale_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[kale_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	  f scroll_rate = 15.000000;
+	}
+}
+[kale_reject]
+{
+	[text*]
+	{
+		screen_text = "Pff then not!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[kale_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "No hard feelings mate... Wanna go together again?";
+	  f scroll_rate = 15.000000;
+	}
+}
+
+[millie_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[millie_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	  f scroll_rate = 15.000000;
+	}
+}
+[millie_reject]
+{
+	[text*]
+	{
+		screen_text = "Pff then not!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[millie_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "No hard feelings mate... Wanna go together again?";
+	  f scroll_rate = 15.000000;
+	}
+}
+
+[zend_accept_have_money]
+{
+	[text*]
+	{
+		screen_text = "Yay let's go!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[zend_disband]
+{
+	[text*]
+	{
+		screen_text = "Wait, what?";
+	  f scroll_rate = 15.000000;
+	}
+}
+[zend_reject]
+{
+	[text*]
+	{
+		screen_text = "Pff then not!";
+	  f scroll_rate = 15.000000;
+	}
+}
+[zend_disband_rejoin]
 {
 	[text*]
 	{

@@ -82,16 +82,17 @@
 	{
 		[conversations]
 		{
-			* = pm_accept;
-			* = pm_disband;
-			* = pm_join_bailey;
-			* = pm_reject;
-			* = pm_rejoin;
+			* = bailey_accept_have_money;
+			* = bailey_disband;
+			* = bailey_disband_rejoin;
+			* = bailey_join;
+			* = bailey_reject;
+			* = bailey_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_bailey_pm.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_companion.skrit?oid=0x300079&namespace=bailey;
 	}
 	[placement]
 	{
@@ -116,16 +117,18 @@
 	{
 		[conversations]
 		{
-			* = pm_accept;
-			* = pm_disband;
-			* = pm_join_zend;
-			* = pm_reject;
-			* = pm_rejoin;
+			* = zend_accept_have_money;
+			* = zend_accept_no_money;
+			* = zend_disband;
+			* = zend_disband_rejoin;
+			* = zend_join;
+			* = zend_reject;
+			* = zend_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_zend_pm.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_companion.skrit?oid=0x30007a&namespace=zend;
 	}
 	[placement]
 	{
@@ -150,16 +153,18 @@
 	{
 		[conversations]
 		{
-			* = pm_accept;
-			* = pm_disband;
-			* = pm_join_kale;
-			* = pm_reject;
-			* = pm_rejoin;
+			* = kale_accept_have_money;
+			* = kale_accept_no_money;
+			* = kale_disband;
+			* = kale_disband_rejoin;
+			* = kale_join;
+			* = kale_reject;
+			* = kale_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_kale_pm.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_companion.skrit?oid=0x30007b&namespace=kale;
 	}
 	[placement]
 	{
@@ -184,16 +189,18 @@
 	{
 		[conversations]
 		{
-			* = pm_accept;
-			* = pm_disband;
-			* = pm_join_millie;
-			* = pm_reject;
-			* = pm_rejoin;
+			* = millie_accept_have_money;
+			* = millie_accept_no_money;
+			* = millie_disband;
+			* = millie_disband_rejoin;
+			* = millie_join;
+			* = millie_reject;
+			* = millie_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_millie_pm.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_companion.skrit?oid=0x30007c&namespace=millie;
 	}
 	[placement]
 	{
@@ -214,16 +221,18 @@
 	{
 		[conversations]
 		{
-			* = pm_accept;
-			* = pm_disband;
-			* = pm_join_boyler;
-			* = pm_reject;
-			* = pm_rejoin;
+			* = boyler_accept_have_money;
+			* = boyler_accept_no_money;
+			* = boyler_disband;
+			* = boyler_disband_rejoin;
+			* = boyler_join;
+			* = boyler_reject;
+			* = boyler_rejoin;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_boyler_pm.skrit;
+		jat_talk = world\ai\jobs\pentachoron-garden\npc\job_talk_companion.skrit?oid=0x30007d&namespace=boyler;
 	}
 	[placement]
 	{
