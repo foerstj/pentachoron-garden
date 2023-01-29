@@ -1,32 +1,52 @@
 [t:template,n:flowers_grs_04_x2]
 {
     specializes = flowers_grs_04_base;
-    aspect:scale_base = 2;
-  b aspect:does_block_camera = true;
+
+    [aspect]
+    {
+        scale_base = 2;
+      b does_block_camera = true;
+    }
 }
 [t:template,n:flowers_grs_05_x2]
 {
     specializes = flowers_grs_05_base;
-    aspect:scale_base = 2;
-  b aspect:does_block_camera = true;
+
+    [aspect]
+    {
+        scale_base = 2;
+      b does_block_camera = true;
+    }
 }
 [t:template,n:flowers_grs_06_x2]
 {
     specializes = flowers_grs_06_base;
-    aspect:scale_base = 2;
-  b aspect:does_block_camera = true;
+
+    [aspect]
+    {
+        scale_base = 2;
+      b does_block_camera = true;
+    }
 }
 [t:template,n:flowers_grs_07_x2]
 {
     specializes = flowers_grs_07_base;
-    aspect:scale_base = 2;
-  b aspect:does_block_camera = true;
+
+    [aspect]
+    {
+        scale_base = 2;
+      b does_block_camera = true;
+    }
 }
 [t:template,n:flowers_grs_08_x2]
 {
     specializes = flowers_grs_08_base;
-    aspect:scale_base = 2;
-  b aspect:does_block_camera = true;
+
+    [aspect]
+    {
+        scale_base = 2;
+      b does_block_camera = true;
+    }
 }
 [t:template,n:flowers_grs_blue_x2]
 {
@@ -48,6 +68,10 @@
 [t:template,n:flowers_grs_06_x4]
 {
     specializes = flowers_grs_06_base;
-    aspect:scale_base = 4;
-  b aspect:does_block_camera = true;
+
+    [aspect]
+    {
+        scale_base = 4;
+      b does_block_camera = true;
+    }
 }
