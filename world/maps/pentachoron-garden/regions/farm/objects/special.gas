@@ -7,7 +7,6 @@
 			[*]
 			{
 				action* = mood_change("farm");
-				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -20,11 +19,26 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("farm");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
-	  p position = -0.482735,0,2.69933,0xe8d3fadc;
+	  p position = -0.482735,0.0,2.69933,0xE8D3FADC;
 	}
 }
 [t:trigger_generic,n:0x00200009]
@@ -53,7 +67,7 @@
 	}
 	[placement]
 	{
-	  p position = -6.89044,-4.55,-3.46403,0xa7c236e5;
+	  p position = -6.89044,-4.55,-3.46403,0xA7C236E5;
 	}
 }
 [t:trigger_generic,n:0x0020000a]
@@ -81,7 +95,7 @@
 	}
 	[placement]
 	{
-	  p position = -4.58171,-4.55,-5.96565,0xa7c236e5;
+	  p position = -4.58171,-4.55,-5.96565,0xA7C236E5;
 	}
 }
 [t:trigger_generic,n:0x0020000b]
@@ -110,7 +124,7 @@
 	}
 	[placement]
 	{
-	  p position = -4.06339,-4.25,-3.05848,0xa7c236e5;
+	  p position = -4.06339,-4.25,-3.05848,0xA7C236E5;
 	}
 }
 [t:trigger_generic,n:0x0020000c]
@@ -138,7 +152,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.135224,-1.75,-2.64974,0x50c8807d;
+	  p position = 0.135224,-1.75,-2.64974,0x50C8807D;
 	}
 }
 [t:trigger_generic,n:0x0020000d]
@@ -166,7 +180,7 @@
 	}
 	[placement]
 	{
-	  p position = -1.85061,-1.75,-4.08741,0x50c8807d;
+	  p position = -1.85061,-1.75,-4.08741,0x50C8807D;
 	}
 }
 [t:trigger_generic,n:0x0020000e]
@@ -194,7 +208,7 @@
 	}
 	[placement]
 	{
-	  p position = 2.26397,-1.75,-4.03537,0x50c8807d;
+	  p position = 2.26397,-1.75,-4.03537,0x50C8807D;
 	}
 }
 [t:trigger_generic,n:0x0020000f]
@@ -222,7 +236,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.11114,-1.75,-5.43025,0x50c8807d;
+	  p position = 0.11114,-1.75,-5.43025,0x50C8807D;
 	}
 }
 [t:party_humanoid,n:0x0020001c]
@@ -238,7 +252,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.749284,-1.75,-1.11176,0x50c8807d;
+	  p position = 0.749284,-1.75,-1.11176,0x50C8807D;
 	}
 }
 [t:trigger_generic,n:0x00200225]
@@ -250,7 +264,6 @@
 			[*]
 			{
 				action* = mood_change("farm");
-				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -263,12 +276,27 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("farm");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(10.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = -1.85641,0,-3.18473,0xb3a5c2b0;
+	  p position = -1.85641,0.0,-3.18473,0xB3A5C2B0;
 	}
 }
 [t:trigger_generic,n:0x0020013a]
@@ -296,7 +324,7 @@
 	}
 	[placement]
 	{
-	  p position = 1.75682,9.53674e-007,-3.38915,0x8e678a26;
+	  p position = 1.75682,9.53674e-07,-3.38915,0x8E678A26;
 	}
 }
 [t:trigger_generic,n:0x00200020]
@@ -308,7 +336,6 @@
 			[*]
 			{
 				action* = mood_change("farm");
-				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(20.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -321,11 +348,26 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("farm");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(20.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
-	  p position = 2.89652,0.55,-1.05827,0xb72fcbcc;
+	  p position = 2.89652,0.55,-1.05827,0xB72FCBCC;
 	}
 }
 [t:trigger_generic,n:0x00200212]
@@ -337,7 +379,6 @@
 			[*]
 			{
 				action* = mood_change("farm");
-				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(16.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -350,12 +391,27 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("farm");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(16.000000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.163467,0,1.03101,0x36b30a6c;
+	  p position = -0.163467,0.0,1.03101,0x36B30A6C;
 	}
 }
 [t:trigger_generic,n:0x00200213]
@@ -367,7 +423,6 @@
 			[*]
 			{
 				action* = mood_change("farm");
-				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -380,11 +435,26 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("farm");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(8.000000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
-	  p position = 0.192006,0,-1.84349,0xd534094b;
+	  p position = 0.192006,0.0,-1.84349,0xD534094B;
 	}
 }
 [t:trigger_generic,n:0x00200211]
@@ -396,7 +466,6 @@
 			[*]
 			{
 				action* = mood_change("farm");
-				action* = set_player_world_location("farm");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(8.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -409,26 +478,41 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("farm");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(8.000000,1.000000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.0728416,0,0.0688376,0xfd8f82e6;
+	  p position = -0.0728416,0.0,0.0688376,0xFD8F82E6;
 	}
 }
 [t:use_point,n:0x002000be]
 {
 	[placement]
 	{
-	  p position = 0.459687,0.199999,-0.366926,0x8065c870;
+	  p position = 0.459687,0.199999,-0.366926,0x8065C870;
 	}
 }
 [t:set_quest_bits,n:0x002000ee]
 {
 	[placement]
 	{
-	  p position = -0.623737,0.2,-0.611561,0x8065c870;
+	  p position = -0.623737,0.2,-0.611561,0x8065C870;
 	}
 	[set_quest_bits]
 	{
@@ -445,7 +529,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.61008,0.2,0.621115,0x8065c870;
+	  p position = 0.61008,0.2,0.621115,0x8065C870;
 	}
 }
 [t:trigger_generic,n:0x00200138]
@@ -474,6 +558,6 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = 0.0113487,0.2,0.00433159,0x8065c870;
+	  p position = 0.0113487,0.2,0.00433159,0x8065C870;
 	}
 }

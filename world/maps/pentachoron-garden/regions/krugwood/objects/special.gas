@@ -23,7 +23,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.201651,-1.23141,0.473219,0x1c93cdef;
+	  p position = 0.201651,-1.23141,0.473219,0x1C93CDEF;
 	}
 }
 [t:trigger_generic,n:0x03400023]
@@ -35,7 +35,6 @@
 			[*]
 			{
 				action* = mood_change("krugwood-rain");
-				action* = set_player_world_location("krugwood");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -48,32 +47,47 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("krugwood");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(4.000000,0.500000,1.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
-	  p position = -0.0663781,-1.2299,7.50359,0x5cbf121d;
+	  p position = -0.0663781,-1.2299,7.50359,0x5CBF121D;
 	}
 }
 [t:blocking_object,n:0x03400071]
 {
 	[placement]
 	{
-	  p position = 0.483993,-2,-1.8194,0xc7920371;
+	  p position = 0.483993,-2.0,-1.8194,0xC7920371;
 	}
 }
 [t:blocking_object,n:0x03400070]
 {
 	[placement]
 	{
-	  p position = 2.46731,7.96251,1.85374,0x5fa36938;
+	  p position = 2.46731,7.96251,1.85374,0x5FA36938;
 	}
 }
 [t:blocking_object,n:0x0340006f]
 {
 	[placement]
 	{
-	  p position = -0.452011,-6,-1.91981,0xc48ca41d;
+	  p position = -0.452011,-6.0,-1.91981,0xC48CA41D;
 	}
 }
 [t:trigger_generic,n:0x03400020]
@@ -85,7 +99,6 @@
 			[*]
 			{
 				action* = mood_change("krugwood");
-				action* = set_player_world_location("krugwood");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,0.500000,16.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -98,11 +111,26 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
+			[*]
+			{
+				action* = set_player_world_location("krugwood");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(1.000000,0.500000,16.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = false;
+			  b single_shot = false;
+			  b start_active = true;
+			}
 		}
 	}
 	[placement]
 	{
-	  p position = -1.55531,0,-0.192816,0xbc57e0a9;
+	  p position = -1.55531,0.0,-0.192816,0xBC57E0A9;
 	}
 }
 [t:trigger_generic,n:0x03400022]
@@ -130,6 +158,6 @@
 	}
 	[placement]
 	{
-	  p position = 0.0894318,-1.20856,1.01409,0x26d51fb7;
+	  p position = 0.0894318,-1.20856,1.01409,0x26D51FB7;
 	}
 }

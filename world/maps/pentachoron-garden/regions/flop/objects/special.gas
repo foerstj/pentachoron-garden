@@ -2,6 +2,7 @@
 {
 	[common]
 	{
+	  b is_single_player = false;
 		[instance_triggers]
 		{
 			[*]
@@ -15,7 +16,7 @@
 			  b no_trig_bits = false;
 				occupants_group = ;
 			  f reset_duration = 0.000000;
-			  b single_player = true;
+			  b single_player = false;
 			  b single_shot = false;
 			  b start_active = true;
 			}
@@ -23,14 +24,14 @@
 	}
 	[placement]
 	{
-	  p position = 1.72626,-3.8147e-006,1.10537,0x8e08237e;
+	  p position = 1.72626,-3.8147e-06,1.10537,0x8E08237E;
 	}
 }
 [t:use_point,n:0x00f00064]
 {
 	[placement]
 	{
-	  p position = 0.0492773,0.2,-0.590272,0xe4dc555e;
+	  p position = 0.0492773,0.2,-0.590272,0xE4DC555E;
 	}
 }
 [t:check_quest_bits,n:0x00f00065]
@@ -43,7 +44,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.590956,0.2,0.50604,0xe4dc555e;
+	  p position = 0.590956,0.2,0.50604,0xE4DC555E;
 	}
 }
 [t:trigger_generic,n:0x00f00066]
@@ -71,7 +72,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.0289328,0.2,0.0537081,0xe4dc555e;
+	  p position = 0.0289328,0.2,0.0537081,0xE4DC555E;
 	}
 }
 [t:check_quest_bits,n:0x00f0006e]
@@ -84,14 +85,14 @@
 	}
 	[placement]
 	{
-	  p position = 0.599873,0.199998,0.614572,0x5fa825b7;
+	  p position = 0.599873,0.199998,0.614572,0x5FA825B7;
 	}
 }
 [t:use_point,n:0x00f00070]
 {
 	[placement]
 	{
-	  p position = -0.0214424,0.2,-0.565559,0x5fa825b7;
+	  p position = -0.0214424,0.2,-0.565559,0x5FA825B7;
 	}
 }
 [t:trigger_generic,n:0x00f00074]
@@ -120,7 +121,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.040812,0.2,-0.0107841,0x5fa825b7;
+	  p position = 0.040812,0.2,-0.0107841,0x5FA825B7;
 	}
 }
 [t:check_quest_bits,n:0x00f0006b]
@@ -133,14 +134,14 @@
 	}
 	[placement]
 	{
-	  p position = 0.496883,0.200001,0.590391,0xe830b88a;
+	  p position = 0.496883,0.200001,0.590391,0xE830B88A;
 	}
 }
 [t:use_point,n:0x00f0006c]
 {
 	[placement]
 	{
-	  p position = 0.0179452,0.199999,-0.539515,0xe830b88a;
+	  p position = 0.0179452,0.199999,-0.539515,0xE830B88A;
 	}
 }
 [t:trigger_generic,n:0x00f00073]
@@ -168,14 +169,14 @@
 	}
 	[placement]
 	{
-	  p position = 0.0326307,0.2,0.0470114,0xe830b88a;
+	  p position = 0.0326307,0.2,0.0470114,0xE830B88A;
 	}
 }
 [t:use_point,n:0x00f0007a]
 {
 	[placement]
 	{
-	  p position = -0.0114684,0.2,-0.569543,0x56ded2ed;
+	  p position = -0.0114684,0.2,-0.569543,0x56DED2ED;
 	}
 }
 [t:trigger_generic,n:0x00f0007c]
@@ -203,7 +204,7 @@
 	}
 	[placement]
 	{
-	  p position = -0.00776219,0.2,0.0154181,0x56ded2ed;
+	  p position = -0.00776219,0.2,0.0154181,0x56DED2ED;
 	}
 }
 [t:check_quest_bits,n:0x00f00082]
@@ -216,7 +217,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.553458,0.2,0.568728,0x56ded2ed;
+	  p position = 0.553458,0.2,0.568728,0x56DED2ED;
 	}
 }
 [t:use_point,n:0x00f0007d]
