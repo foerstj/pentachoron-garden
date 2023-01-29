@@ -144,6 +144,36 @@
 	  p position = 3.57423,0,-1.9221,0x28c9942a;
 	}
 }
+[t:trigger_generic,n:0x00300462]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("inn");
+				action* = set_player_world_location("inn");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(7.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.480822,-0.174275,1.12138,0x8b40d32a;
+	}
+}
 [t:trigger_generic,n:0x0030001e]
 {
 	[common]
@@ -292,35 +322,5 @@
 	[set_quest_bits]
 	{
 		bool_variable = "flip_inn_activated";
-	}
-}
-[t:trigger_generic,n:0x00300462]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("inn");
-				action* = set_player_world_location("inn");
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(7.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -0.480822,-0.174275,1.12138,0x8b40d32a;
 	}
 }

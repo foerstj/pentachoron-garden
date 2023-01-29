@@ -351,6 +351,35 @@
 	  p position = -0.154732,4,-0.569397,0x55b68bf9;
 	}
 }
+[t:trigger_generic,n:0x004001c8]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("witch-cottage");
+				action* = set_player_world_location("witch-cottage");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(7.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = 0.513931,0,-0.651383,0x70c6532e;
+	}
+}
 [t:trigger_generic,n:0x00400034]
 {
 	[common]
@@ -683,34 +712,5 @@
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
 	  p position = -2.83596,-0.189937,2.82584,0x9bdc1645;
-	}
-}
-[t:trigger_generic,n:0x004001c8]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("witch-cottage");
-				action* = set_player_world_location("witch-cottage");
-			  b can_self_destruct = true;
-				condition* = party_member_within_sphere(7.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = 0.513931,0,-0.651383,0x70c6532e;
 	}
 }
