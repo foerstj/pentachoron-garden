@@ -3,17 +3,17 @@
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
-	  f off_message_delay = 1;
+	  f off_message_delay = 1.000000;
 	  x off_scid = 0x0450002A;
-	  f on_message_delay = 1;
+	  f on_message_delay = 1.000000;
 	  x on_scid = 0x0450002A;
-	  f reset_time = 10;
-	  f reset_time_2 = 10;
+	  f reset_time = 10.000000;
+	  f reset_time_2 = 10.000000;
 	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.29869,-0.25,1.62916,0x82e74cfb;
+	  p position = 1.29869,-0.25,1.62916,0x82E74CFB;
 		use_point_scids = 0x0450002c,0x0450002b;
 	}
 }
@@ -22,17 +22,17 @@
 	[on_off_lever]
 	{
 		off_message = we_req_activate;
-	  f off_message_delay = 1;
+	  f off_message_delay = 1.000000;
 	  x off_scid = 0x0450002A;
-	  f on_message_delay = 1;
+	  f on_message_delay = 1.000000;
 	  x on_scid = 0x0450002A;
-	  f reset_time = 10;
-	  f reset_time_2 = 10;
+	  f reset_time = 10.000000;
+	  f reset_time_2 = 10.000000;
 	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,-0.707107;
-	  p position = -5.57694,23.85,1.22066,0x97e29eba;
+	  p position = -5.57694,23.85,1.22066,0x97E29EBA;
 		use_point_scids = 0x0450002b,0x0450002d;
 	}
 }
