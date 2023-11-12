@@ -18,6 +18,28 @@ set gaspy=..\gaspy
 set mode=%1
 echo %mode%
 
+:: pre-build checks
+pushd %gaspy%
+venv\Scripts\python -m build.check_player_world_locations %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_lore %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_moods %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_quests %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_dupe_node_ids %map%
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m build.check_tips %map%
+if %errorlevel% neq 0 pause
+setlocal EnableDelayedExpansion
+if "%mode%"=="release" (
+  venv\Scripts\python -m build.check_cam_blocks %map%
+  if !errorlevel! neq 0 pause
+)
+endlocal
+popd
+
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
