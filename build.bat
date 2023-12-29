@@ -50,6 +50,7 @@ rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\art" "%tmp%\Bits\art" /E
 robocopy "%doc_ds%\Bits\world\ai\jobs\%map%" "%tmp%\Bits\world\ai\jobs\%map%" /E
 robocopy "%doc_ds%\Bits\world\contentdb\templates\%map%" "%tmp%\Bits\world\contentdb\templates\%map%" /E
+robocopy "%doc_ds%\Bits\world\contentdb\templates\minibits" "%tmp%\Bits\world\contentdb\templates\minibits" /E
 robocopy "%doc_ds%\Bits\world\global\moods\%map%" "%tmp%\Bits\world\global\moods\%map%" /E
 pushd %gaspy%
 venv\Scripts\python -m build.swap_music_tracks "%tmp%\Bits"
