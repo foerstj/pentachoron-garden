@@ -1,6 +1,3 @@
-set copyright=CC-BY-SA 2023
-set author=Johannes Förstner
-
 :: Compile music file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\world\global\moods\%map%" "%tmp%\Bits\world\global\moods\%map%" /E
