@@ -11,6 +11,10 @@
 			* = demelza;
 		}
 	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,-0.382683;
@@ -120,7 +124,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
 	}
 	[placement]
 	{
@@ -316,6 +320,10 @@
 		{
 			* = arantxa;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_player=false;
 	}
 	[placement]
 	{

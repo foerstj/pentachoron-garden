@@ -11,6 +11,10 @@
 			* = bar_keaper;
 		}
 	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=&face_back=true;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
@@ -30,6 +34,10 @@
 		{
 			* = inn_keaper;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
 	}
 	[placement]
 	{
@@ -256,7 +264,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_back=true;
 	}
 	[placement]
 	{
@@ -276,6 +284,10 @@
 		{
 			* = gramper_farmer;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_back=true;
 	}
 	[placement]
 	{
@@ -298,7 +310,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?face_back=true;
 	}
 	[placement]
 	{
