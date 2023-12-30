@@ -1,0 +1,110 @@
+[t:template,n:3W_skrubb_base]  // = 3W_skrubb
+{
+	category_name = "3W_evil_d";
+	doc = "3W_skrubb";
+	specializes = 3W_base_skrubb;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  35.2, 0;
+			intelligence =  4.5, 0;
+			dexterity =  3.9, 0;
+		}
+	}
+	[aspect]
+	{
+		draw_shadow = false;
+		experience_value = 787700;
+		life = 86.3;
+		max_life = 86.3;
+		mana = 28.8;
+		max_mana = 28.8;
+		model = m_c_edm_sb_pos_1;
+		[voice]
+		{
+			[cast]			{ * = s_e_attack_skrubb; }
+			[die]			{ priority = high; * = s_e_die_skrubb_SED; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_skrubb_small_SED; }
+			[hit_glance]	{ priority = low; * = s_e_hit_skrubb; }
+		}
+	}
+	[attack]
+	{
+		attack_range = 3;
+		damage_max = 3.2;
+		damage_min = 2.6;
+		reload_delay = 1;
+		damage_bonus_min_cmagic = 7;
+		damage_bonus_max_cmagic = 21;
+	}
+    [defend] { defense=62.3; }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_skrubb_spit; }
+	}
+	[common]
+	{
+		screen_name="Skrubb";
+		membership = monster,immune_freeze;
+	}
+	[mind]
+	{
+		actor_auto_fidgets = false;
+		movement_orders = mo_hold;
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+
+		melee_engage_range = 10;
+		personal_space_range = 4.7;
+		on_enemy_entered_ocz_attack = true;
+		ranged_engage_range = 10.0;
+		sight_range = 10.0;
+		sight_origin_height	= 2;
+	}
+}
+
+[t:template,n:3W_pg_skrubb] { specializes = 3W_pg_skrubb_base; }
+[t:template,n:3W_pg_skrubb_base]
+{
+	specializes = 3W_skrubb_base;
+
+	doc = "3W_pg_skrubb";
+	[inventory]
+	{
+		[other] { il_active_primary_spell=spell_pg_skrubb_spit; }
+	}
+
+    // stats from 3W_dsx_scorpiot_ranged_rusted
+	[actor]
+	{
+		[skills]
+		{
+		  strength 		= 39.9, 0; 
+		  intelligence  =  11, 0;
+		  dexterity 	=  19.7, 0;
+		  ranged 		=  77, 0;
+		  combat_magic	=  77, 0;
+		  nature_magic	=  77, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 907920;
+		life             = 1443.3;
+		max_life         = 1443.3;
+		mana             = 243;
+		max_mana         = 243;
+	}
+	[attack]
+	{
+		damage_max = 364.5;
+		damage_min = 198.8;
+		damage_bonus_min_cmagic = 250;
+		damage_bonus_max_cmagic = 435;
+	}
+	[defend] { defense = 557.2; }
+}

@@ -1,7 +1,7 @@
-[t:template,n:pg_skrubb]
+[t:template,n:skrubb_base]  // = skrubb
 {
 	category_name = "1W_evil_d";
-	doc = "pg_skrubb";
+	doc = "skrubb";
 	specializes = base_skrubb;
 	[actor]
 	{
@@ -16,8 +16,8 @@
 	{
 		draw_shadow = false;
 		experience_value = 100;
-		life = 200;
-		max_life = 200;
+		life = 30;
+		max_life = 30;
 		mana = 10;
 		max_mana = 10;
 		model = m_c_edm_sb_pos_1;
@@ -32,11 +32,11 @@
 	[attack]
 	{
 		attack_range = 3;
-		damage_max = 20;
-		damage_min = 15;
+		damage_max = 1;
+		damage_min = 1;
 		reload_delay = 1;
 	}
-    [defend] { defense=50; }
+    [defend] { defense=21; }
 	[inventory]
 	{
 		selected_active_location = il_active_primary_spell;
@@ -63,4 +63,44 @@
 		sight_range = 10.0;
 		sight_origin_height	= 2;
 	}
+}
+
+[t:template,n:pg_skrubb] { specializes = pg_skrubb_base; }
+[t:template,n:pg_skrubb_base]
+{
+	specializes = skrubb_base;
+
+	doc = "pg_skrubb";
+	[inventory]
+	{
+		[other] { il_active_primary_spell=spell_pg_skrubb_spit; }
+	}
+
+    // stats from dsx_scorpiot_ranged_rusted
+	[actor]
+	{
+		[skills]
+		{
+		  strength 		= 11, 0; 
+		  intelligence  =  7, 0;
+		  dexterity 	=  8, 0;
+		  ranged 		=  7, 0;
+		  combat_magic	=  7, 0;
+		  nature_magic	=  7, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 156;
+		life             = 196;
+		max_life         = 196;
+		mana             = 33;
+		max_mana         = 33;
+	}
+	[attack]
+	{
+		damage_max = 45;
+		damage_min = 30;
+	}
+	[defend] { defense = 73; }
 }
