@@ -84,14 +84,14 @@
 	}
 }
 
-[t:template,n:chest_csl_02_pg_park_sub]
+[t:template,n:2W_chest_csl_02_pg_park_sub]
 {
 	specializes = base_chest_02;
 
 	category_name = "pg";
-	doc = "chest_csl_02_pg_park_sub";
+	doc = "2W_chest_csl_02_pg_park_sub";
 
-    // loot from crate_glb_path2crypts, edited to guarantee non-empty
+    // loot from 2W_crate_glb_path2crypts, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -101,30 +101,30 @@
 				[gold*]
 				{
 					chance = 0.1;
-					max = 12;
-					min = 8;
+					max = 10373;
+					min = 5187;
 					min_pile = 1;
 					piles = 2 - 3;
 				}
 				[oneof*]
 				{
 					//chance = 0.3;  // REMOVED
-					il_main = #weapon/2-7;
-					il_main = #armor/2-7;
+					il_main = #weapon/40-141;
+					il_main = #armor/54-189;
 				}
 			}
 		}
 	}
 }
 
-[t:template,n:chest_csl_02_pg_vale_boss]
+[t:template,n:2W_chest_csl_02_pg_vale_boss]
 {
 	specializes = base_chest_02;
 
 	category_name = "pg";
-	doc = "chest_csl_02_pg_vale_boss";
+	doc = "2W_chest_csl_02_pg_vale_boss";
 
-    // damage & loot from chest_csl_02_fh_r3
+    // damage & loot from 2W_chest_csl_02_fh_r3
 	[inventory]
 	{
 		[pcontent]
@@ -133,30 +133,30 @@
 			{
 				[oneof*]
 				{
-					il_main = #weapon/14-16;
-					il_main = #body/32-40;
+					il_main = #weapon/141-162;
+					il_main = #body/365-456;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/16-19;
-					il_main = #body/-rare(1)/35-46;
+					il_main = #weapon/-rare(1)/162-192;
+					il_main = #body/-rare(1)/399-524;
 				}
 				[oneof*]
 				{
 					chance = 0.5;
-					il_main = potion_mana_small;
-					il_main = potion_health_small;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 19;
-		damage_min = 13;
+		damage_max = 181;
+		damage_min = 121;
 	}
 	[trapped]
 	{
@@ -165,12 +165,12 @@
 	}
 }
 
-[t:template,n:chest_csl_03_pg_sw]
+[t:template,n:2W_chest_csl_03_pg_sw]
 {
 	specializes = base_chest_03;
 
 	category_name = "pg";
-	doc = "chest_csl_03_pg_sw";
+	doc = "2W_chest_csl_03_pg_sw";
 
 	[aspect]
 	{
@@ -180,7 +180,7 @@
 		}
 	}
 
-    // damage & loot from chest_csl_03_sd_r1, edited to guarantee non-empty
+    // damage & loot from 2W_chest_csl_03_sd_r1, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -190,32 +190,32 @@
 				[gold*]
 				{
 					chance = 0.1;
-					max = 50;
-					min = 30;
+					max = 41827;
+					min = 33462;
 				}
 				[oneof*]
 				{
 					//chance = 0.5;  // REMOVED
-					il_main = #weapon/9-18;
-					il_main = #armor/20-50;
-					il_main = #*/9-18;
+					il_main = #weapon/81-163;
+					il_main = #armor/200-500;
+					il_main = #*/81-163;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/18-21;
-					il_main = #armor/-rare(1)/47-55;
-					il_main = #*/-rare(1)/18-21;
+					il_main = #weapon/-rare(1)/163-190;
+					il_main = #armor/-rare(1)/470-550;
+					il_main = #*/-rare(1)/163-190;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 25;
-		damage_min = 17;
+		damage_max = 191;
+		damage_min = 127;
 	}
 	[trapped]
 	{
@@ -224,14 +224,14 @@
 	}
 }
 
-[t:template,n:chest_csl_02_pg_gy_boss]
+[t:template,n:2W_chest_csl_02_pg_gy_boss]
 {
 	specializes = base_chest_02;
 
 	category_name = "pg";
-	doc = "chest_csl_02_pg_gy_boss";
+	doc = "2W_chest_csl_02_pg_gy_boss";
 
-    // damage & loot from chest_csl_02_dm_r10, edited to guarantee non-empty
+    // damage & loot from 2W_chest_csl_02_dm_r10, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -241,38 +241,38 @@
 				[gold*]
 				{
 					chance = 0.6;
-					max = 135;
-					min = 117;
+					max = 47233;
+					min = 37786;
 				}
 				[oneof*]
 				{
 					//chance = 0.6;  // REMOVED
-					il_main = #weapon/17-23;
-					il_main = #armor/40-55;
-					il_main = #*/17-23;
+					il_main = #weapon/101-137;
+					il_main = #armor/252-347;
+					il_main = #*/101-137;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/20-26;
-					il_main = #armor/-rare(1)/34-60;
-					il_main = #*/-rare(1)/20-26;
+					il_main = #weapon/-rare(1)/119-155;
+					il_main = #armor/-rare(1)/214-378;
+					il_main = #*/-rare(1)/119-155;
 				}
 				[oneof*]
 				{
 					chance = 0.5;
-					il_main = potion_mana_small;
-					il_main = potion_health_small;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 30;
-		damage_min = 20;
+		damage_max = 199;
+		damage_min = 133;
 	}
 	[trapped]
 	{
@@ -281,12 +281,12 @@
 	}
 }
 
-[t:template,n:chest_csl_03_pg_gy_klaws]
+[t:template,n:2W_chest_csl_03_pg_gy_klaws]
 {
 	specializes = base_chest_03;
 
 	category_name = "pg";
-	doc = "chest_csl_03_pg_gy_klaws";
+	doc = "2W_chest_csl_03_pg_gy_klaws";
 
 	[aspect]
 	{
@@ -296,7 +296,7 @@
 		}
 	}
 
-    // damage & loot from chest_csl_03_dm_r10, edited to guarantee non-empty
+    // damage & loot from 2W_chest_csl_03_dm_r10, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -306,32 +306,32 @@
 				[gold*]
 				{
 					chance = 0.2;
-					max = 100;
-					min = 77;
+					max = 47233;
+					min = 37786;
 				}
 				[oneof*]
 				{
 					//chance = 0.5;  // REMOVED
-					il_main = #weapon/10-23;
-					il_main = #armor/30-55;
-					il_main = #*/10-23;
+					il_main = #weapon/59-137;
+					il_main = #armor/189-347;
+					il_main = #*/59-137;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/21-27;
-					il_main = #armor/-rare(1)/52-61;
-					il_main = #*/-rare(1)/21-27;
+					il_main = #weapon/-rare(1)/125-161;
+					il_main = #armor/-rare(1)/328-384;
+					il_main = #*/-rare(1)/125-161;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 30;
-		damage_min = 20;
+		damage_max = 199;
+		damage_min = 133;
 	}
 	[trapped]
 	{
@@ -340,12 +340,12 @@
 	}
 }
 
-[t:template,n:chest_gob_01_pg_kw_klaws]
+[t:template,n:2W_chest_gob_01_pg_kw_klaws]
 {
 	specializes = base_chest_05;
 
 	category_name = "pg";
-	doc = "chest_gob_01_pg_kw_klaws";
+	doc = "2W_chest_gob_01_pg_kw_klaws";
 
 	[aspect]
 	{
@@ -355,7 +355,7 @@
 		}
 	}
 
-    // damage & loot from chest_gob_01_dm_r11, edited to guarantee non-empty
+    // damage & loot from 2W_chest_gob_01_dm_r11, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -365,41 +365,41 @@
 				[gold*]
 				{
 					chance = 0.5;
-					max = 90;
-					min = 60;
+					max = 50177;
+					min = 40142;
 					min_pile = 11;
 					piles = 2 - 4;
 				}
 				[oneof*]
 				{
 					//chance = 0.7;  // REMOVED
-					il_main = #weapon/15-22;
-					il_main = #armor/30-45;
-					il_main = #*/15-22;
+					il_main = #weapon/83-122;
+					il_main = #armor/175-262;
+					il_main = #*/83-122;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/23-27;
-					il_main = #armor/-rare(1)/44-51;
-					il_main = #*/-rare(1)/23-27;
+					il_main = #weapon/-rare(1)/127-149;
+					il_main = #armor/-rare(1)/256-297;
+					il_main = #*/-rare(1)/127-149;
 				}
 				[oneof*]
 				{
 					chance = 0.002;
-					il_main = #weapon/-unique(2)/23-27;
-					il_main = #armor/-unique(2)/44-51;
-					il_main = #*/-unique(2)/23-27;
+					il_main = #weapon/-unique(2)/127-149;
+					il_main = #armor/-unique(2)/256-297;
+					il_main = #*/-unique(2)/127-149;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 36;
-		damage_min = 24;
+		damage_max = 202;
+		damage_min = 134;
 	}
 	[trapped]
 	{
@@ -408,14 +408,14 @@
 	}
 }
 
-[t:template,n:chest_csl_02_pg_kw_sub]
+[t:template,n:2W_chest_csl_02_pg_kw_sub]
 {
 	specializes = base_chest_02;
 
 	category_name = "pg";
-	doc = "chest_csl_02_pg_kw_sub";
+	doc = "2W_chest_csl_02_pg_kw_sub";
 
-    // damage & loot from chest_csl_02_dm_r11, edited to guarantee non-empty
+    // damage & loot from 2W_chest_csl_02_dm_r11, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -425,38 +425,38 @@
 				[gold*]
 				{
 					chance = 0.8;
-					max = 140;
-					min = 105;
+					max = 50177;
+					min = 40142;
 				}
 				[oneof*]
 				{
 					//chance = 0.8;  // REMOVED
-					il_main = #weapon/17-23;
-					il_main = #armor/40-55;
-					il_main = #*/17-23;
+					il_main = #weapon/94-127;
+					il_main = #armor/233-320;
+					il_main = #*/94-127;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/17-26;
-					il_main = #armor/-rare(1)/45-60;
-					il_main = #*/-rare(1)/17-26;
+					il_main = #weapon/-rare(1)/94-144;
+					il_main = #armor/-rare(1)/262-349;
+					il_main = #*/-rare(1)/94-144;
 				}
 				[oneof*]
 				{
 					chance = 0.5;
-					il_main = potion_mana_small;
-					il_main = potion_health_small;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 36;
-		damage_min = 24;
+		damage_max = 202;
+		damage_min = 134;
 	}
 	[trapped]
 	{
@@ -465,12 +465,12 @@
 	}
 }
 
-[t:template,n:chest_csl_03_pg_kw_boss]
+[t:template,n:2W_chest_csl_03_pg_kw_boss]
 {
 	specializes = base_chest_03;
 
 	category_name = "pg";
-	doc = "chest_csl_03_pg_kw_boss";
+	doc = "2W_chest_csl_03_pg_kw_boss";
 
 	[aspect]
 	{
@@ -480,7 +480,7 @@
 		}
 	}
 
-    // damage & loot from chest_csl_03_dm_r11, edited to guarantee non-empty
+    // damage & loot from 2W_chest_csl_03_dm_r11, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -490,33 +490,33 @@
 				[gold*]
 				{
 					chance = 0.5;
-					max = 105;
-					min = 80;
+					max = 50177;
+					min = 40142;
 					piles = 5 - 7;
 				}
 				[oneof*]
 				{
 					//chance = 0.7;  // REMOVED
-					il_main = #weapon/15-23;
-					il_main = #armor/40-55;
-					il_main = #*/15-23;
+					il_main = #weapon/83-127;
+					il_main = #armor/233-320;
+					il_main = #*/83-127;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/21-27;
-					il_main = #armor/-rare(1)/52-62;
-					il_main = #*/-rare(1)/21-27;
+					il_main = #weapon/-rare(1)/116-149;
+					il_main = #armor/-rare(1)/303-361;
+					il_main = #*/-rare(1)/116-149;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 36;
-		damage_min = 24;
+		damage_max = 202;
+		damage_min = 134;
 	}
 	[trapped]
 	{
@@ -525,12 +525,12 @@
 	}
 }
 
-[t:template,n:chest_cav_01_pg_sh_a]
+[t:template,n:2W_chest_cav_01_pg_sh_a]
 {
 	specializes = base_chest_06;
 
 	category_name = "pg";
-	doc = "chest_cav_01_pg_sh_a";
+	doc = "2W_chest_cav_01_pg_sh_a";
 
 	[aspect]
 	{
@@ -540,7 +540,7 @@
 		}
 	}
 
-    // damage & loot from chest_cav_01_sd_r1, edited to guarantee non-empty
+    // damage & loot from 2W_chest_cav_01_sd_r1, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -550,38 +550,38 @@
 				[gold*]
 				{
 					chance = 0.6;
-					max = 60;
-					min = 40;
+					max = 41827;
+					min = 33462;
 				}
 				[oneof*]
 				{
 					//chance = 0.4;  // REMOVED
-					il_main = #weapon/9-18;
-					il_main = #armor/20-50;
-					il_main = #*/9-18;
+					il_main = #weapon/81-163;
+					il_main = #armor/200-500;
+					il_main = #*/81-163;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/11-21;
-					il_main = #armor/-rare(1)/27-54;
-					il_main = #*/-rare(1)/11-21;
+					il_main = #weapon/-rare(1)/99-190;
+					il_main = #armor/-rare(1)/270-540;
+					il_main = #*/-rare(1)/99-190;
 				}
 				[oneof*]
 				{
 					chance = 0.3;
-					il_main = potion_mana_small;
-					il_main = potion_health_small;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 25;
-		damage_min = 17;
+		damage_max = 191;
+		damage_min = 127;
 	}
 	[trapped]
 	{
@@ -590,12 +590,12 @@
 	}
 }
 
-[t:template,n:chest_cav_01_pg_sh_b]
+[t:template,n:2W_chest_cav_01_pg_sh_b]
 {
 	specializes = base_chest_06;
 
 	category_name = "pg";
-	doc = "chest_cav_01_pg_sh_b";
+	doc = "2W_chest_cav_01_pg_sh_b";
 
 	[aspect]
 	{
@@ -605,7 +605,7 @@
 		}
 	}
 
-    // damage & loot from chest_cav_01_sd_r2, edited to guarantee non-empty
+    // damage & loot from 2W_chest_cav_01_sd_r2, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -615,34 +615,34 @@
 				[gold*]
 				{
 					chance = 0.2;
-					max = 70;
-					min = 50;
+					max = 47233;
+					min = 37786;
 					min_pile = 12;
 					piles = 1 - 3;
 				}
 				[oneof*]
 				{
 					//chance = 0.4;  // REMOVED
-					il_main = #weapon/9-19;
-					il_main = #armor/20-50;
-					il_main = #*/9-19;
+					il_main = #weapon/72-152;
+					il_main = #armor/174-436;
+					il_main = #*/72-152;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/11-22;
-					il_main = #armor/-rare(1)/28-55;
-					il_main = #*/-rare(1)/11-22;
+					il_main = #weapon/-rare(1)/88-176;
+					il_main = #armor/-rare(1)/244-479;
+					il_main = #*/-rare(1)/88-176;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 29;
-		damage_min = 19;
+		damage_max = 196;
+		damage_min = 130;
 	}
 	[trapped]
 	{
@@ -651,14 +651,14 @@
 	}
 }
 
-[t:template,n:chest_csl_02_pg_rd_side]
+[t:template,n:2W_chest_csl_02_pg_rd_side]
 {
 	specializes = base_chest_02;
 
 	category_name = "pg";
-	doc = "chest_csl_02_pg_rd_side";
+	doc = "2W_chest_csl_02_pg_rd_side";
 
-    // damage & loot from chest_csl_02_dm_r11, edited to guarantee non-empty
+    // damage & loot from 2W_chest_csl_02_dm_r11, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -668,38 +668,38 @@
 				[gold*]
 				{
 					chance = 0.8;
-					max = 140;
-					min = 105;
+					max = 50177;
+					min = 40142;
 				}
 				[oneof*]
 				{
 					//chance = 0.8;  // REMOVED
-					il_main = #weapon/17-23;
-					il_main = #armor/40-55;
-					il_main = #*/17-23;
+					il_main = #weapon/94-127;
+					il_main = #armor/233-320;
+					il_main = #*/94-127;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/17-26;
-					il_main = #armor/-rare(1)/45-60;
-					il_main = #*/-rare(1)/17-26;
+					il_main = #weapon/-rare(1)/94-144;
+					il_main = #armor/-rare(1)/262-349;
+					il_main = #*/-rare(1)/94-144;
 				}
 				[oneof*]
 				{
 					chance = 0.5;
-					il_main = potion_mana_small;
-					il_main = potion_health_small;
+					il_main = potion_mana_large;
+					il_main = potion_health_large;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 36;
-		damage_min = 24;
+		damage_max = 202;
+		damage_min = 134;
 	}
 	[trapped]
 	{
@@ -708,12 +708,12 @@
 	}
 }
 
-[t:template,n:chest_gob_01_pg_rd_boss]
+[t:template,n:2W_chest_gob_01_pg_rd_boss]
 {
 	specializes = base_chest_05;
 
 	category_name = "pg";
-	doc = "chest_gob_01_pg_rd_boss";
+	doc = "2W_chest_gob_01_pg_rd_boss";
 
 	[aspect]
 	{
@@ -723,7 +723,7 @@
 		}
 	}
 
-    // damage & loot from chest_gob_01_dm_r11, edited to guarantee non-empty
+    // damage & loot from 2W_chest_gob_01_dm_r11, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -733,41 +733,41 @@
 				[gold*]
 				{
 					chance = 0.5;
-					max = 90;
-					min = 60;
+					max = 50177;
+					min = 40142;
 					min_pile = 11;
 					piles = 2 - 4;
 				}
 				[oneof*]
 				{
 					//chance = 0.7;  // REMOVED
-					il_main = #weapon/15-22;
-					il_main = #armor/30-45;
-					il_main = #*/15-22;
+					il_main = #weapon/83-122;
+					il_main = #armor/175-262;
+					il_main = #*/83-122;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/23-27;
-					il_main = #armor/-rare(1)/44-51;
-					il_main = #*/-rare(1)/23-27;
+					il_main = #weapon/-rare(1)/127-149;
+					il_main = #armor/-rare(1)/256-297;
+					il_main = #*/-rare(1)/127-149;
 				}
 				[oneof*]
 				{
 					chance = 0.002;
-					il_main = #weapon/-unique(2)/23-27;
-					il_main = #armor/-unique(2)/44-51;
-					il_main = #*/-unique(2)/23-27;
+					il_main = #weapon/-unique(2)/127-149;
+					il_main = #armor/-unique(2)/256-297;
+					il_main = #*/-unique(2)/127-149;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 36;
-		damage_min = 24;
+		damage_max = 202;
+		damage_min = 134;
 	}
 	[trapped]
 	{
@@ -776,12 +776,12 @@
 	}
 }
 
-[t:template,n:chest_ice_01_pg_ww_boss]
+[t:template,n:2W_chest_ice_01_pg_ww_boss]
 {
 	specializes = base_chest_03;
 
 	category_name = "pg";
-	doc = "chest_ice_01_pg_ww_boss";
+	doc = "2W_chest_ice_01_pg_ww_boss";
 
 	[aspect]
 	{
@@ -791,7 +791,7 @@
 		}
 	}
 
-    // damage & loot from chest_ice_01_path2ac, edited to guarantee non-empty
+    // damage & loot from 2W_chest_ice_01_path2ac, edited to guarantee non-empty
 	[inventory]
 	{
 		[pcontent]
@@ -801,41 +801,41 @@
 				[gold*]
 				{
 					chance = 0.2;
-					max = 135;
-					min = 117;
+					max = 56264;
+					min = 45011;
 					min_pile = 2110;
 					piles = 6 - 8;
 				}
 				[oneof*]
 				{
 					//chance = 0.5;  // REMOVED
-					il_main = #weapon/12-32;
-					il_main = #armor/19-95;
-					il_main = #*/12-32;
+					il_main = #weapon/68-182;
+					il_main = #armor/114-570;
+					il_main = #*/68-182;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/29-37;
-					il_main = #armor/-rare(1)/97-115;
-					il_main = #*/-rare(1)/29-37;
+					il_main = #weapon/-rare(1)/165-211;
+					il_main = #armor/-rare(1)/582-690;
+					il_main = #*/-rare(1)/165-211;
 				}
 				[oneof*]
 				{
 					chance = 0.002;
-					il_main = #weapon/-unique(2)/29-37;
-					il_main = #armor/-unique(2)/97-115;
-					il_main = #*/-unique(2)/29-37;
+					il_main = #weapon/-unique(2)/165-211;
+					il_main = #armor/-unique(2)/582-690;
+					il_main = #*/-unique(2)/165-211;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 40;
-		damage_min = 26;
+		damage_max = 209;
+		damage_min = 139;
 	}
 	[trapped]
 	{
@@ -844,14 +844,14 @@
 	}
 }
 
-[t:template,n:chest_csl_02_pg_ww_mage]
+[t:template,n:2W_chest_csl_02_pg_ww_mage]
 {
 	specializes = base_chest_02;
 
 	category_name = "pg";
-	doc = "chest_csl_02_pg_ww_mage";
+	doc = "2W_chest_csl_02_pg_ww_mage";
 
-    // damage & loot from chest_csl_02_un_nt_r1
+    // damage & loot from 2W_chest_csl_02_un_nt_r1
 	[inventory]
 	{
 		[pcontent]
@@ -860,31 +860,31 @@
 			{
 				[gold*]
 				{
-					max = 287;
-					min = 235;
+					max = 53126;
+					min = 42501;
 				}
 				[oneof*]
 				{
-					il_main = #weapon/10-23;
-					il_main = #armor/30-55;
-					il_main = #*/10-23;
+					il_main = #weapon/56-129;
+					il_main = #armor/177-325;
+					il_main = #*/56-129;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.1;
-					il_main = #weapon/-rare(1)/22-26;
-					il_main = #armor/-rare(1)/47-60;
-					il_main = #*/-rare(1)/22-26;
+					il_main = #weapon/-rare(1)/123-146;
+					il_main = #armor/-rare(1)/278-355;
+					il_main = #*/-rare(1)/123-146;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 40;
-		damage_min = 26;
+		damage_max = 209;
+		damage_min = 139;
 	}
 	[trapped]
 	{
@@ -893,12 +893,12 @@
 	}
 }
 
-[t:template,n:chest_ice_01_pg_pm]
+[t:template,n:2W_chest_ice_01_pg_pm]
 {
 	specializes = base_chest_03;
 
 	category_name = "pg";
-	doc = "chest_ice_01_pg_pm";
+	doc = "2W_chest_ice_01_pg_pm";
 
 	[aspect]
 	{
@@ -908,7 +908,7 @@
 		}
 	}
 
-    // damage & loot from chest_ice_01_mm_r1
+    // damage & loot from 2W_chest_ice_01_mm_r1
 	[inventory]
 	{
 		[pcontent]
@@ -917,39 +917,39 @@
 			{
 				[gold*]
 				{
-					max = 35;
-					min = 17;
+					max = 59533;
+					min = 47626;
 				}
 				[oneof*]
 				{
 					chance = 0.7;
-					il_main = #weapon/12-32;
-					il_main = #armor/19-95;
-					il_main = #*/12-32;
+					il_main = #weapon/52-140;
+					il_main = #armor/86-431;
+					il_main = #*/52-140;
 					max = 2;
 					min = 1;
 				}
 				[oneof*]
 				{
 					chance = 0.004;
-					il_main = #weapon/-rare(1)/29-37;
-					il_main = #armor/-rare(1)/97-115;
-					il_main = #*/-rare(1)/29-37;
+					il_main = #weapon/-rare(1)/127-162;
+					il_main = #armor/-rare(1)/440-521;
+					il_main = #*/-rare(1)/127-162;
 				}
 				[oneof*]
 				{
 					chance = 0.002;
-					il_main = #weapon/-unique(2)/29-37;
-					il_main = #armor/-unique(2)/97-115;
-					il_main = #*/-unique(2)/29-37;
+					il_main = #weapon/-unique(2)/127-162;
+					il_main = #armor/-unique(2)/440-521;
+					il_main = #*/-unique(2)/127-162;
 				}
 			}
 		}
 	}
 	[attack]
 	{
-		damage_max = 450;
-		damage_min = 234;
+		damage_max = 215;
+		damage_min = 143;
 	}
 	[trapped]
 	{
