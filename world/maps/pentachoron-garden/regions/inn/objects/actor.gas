@@ -87,6 +87,11 @@
 	  f max_mana = 30;
 	  f scale_multiplier = 0.8;
 	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -120,6 +125,8 @@
 	}
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Zend";
 	}
 	[conversation]
@@ -156,6 +163,8 @@
 	}
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Kale";
 	}
 	[conversation]
@@ -192,6 +201,8 @@
 	}
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Millie";
 	}
 	[conversation]
@@ -225,6 +236,11 @@
 	  f max_life = 68.6;
 	  f max_mana = 80;
 	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 	}
 	[conversation]
 	{
@@ -420,6 +436,163 @@
 	{
 	  q orientation = 0,0.997564,0,-0.0697566;
 	  p position = -15.8405,-3.7,-3.66764,0xe4abc8e5;
+	}
+}
+[t:bailey_keaper,n:0x00300463]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = bailey_mp;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -5.92156,-2.7,1.83547,0xe4abc8e5;
+	}
+}
+[t:zed,n:0x00300464]
+{
+	[aspect]
+	{
+	  i gold_value = 200;
+	  f max_life = 68.6;
+	  f max_mana = 80;
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Zend";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = zend_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -8.02608,-2.7,5.39091,0xe4abc8e5;
+	}
+}
+[t:rusk,n:0x00300465]
+{
+	[aspect]
+	{
+	  i gold_value = 200;
+	  f max_life = 78.4;
+	  f max_mana = 31;
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Kale";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = kale_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382684,0,0.92388;
+	  p position = -8.08588,-2.7,2.55356,0xe4abc8e5;
+	}
+}
+[t:naidi,n:0x00300466]
+{
+	[aspect]
+	{
+	  i gold_value = 200;
+	  f max_life = 58.8;
+	  f max_mana = 34;
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Millie";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = millie_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = -4.87298,-2.7,5.58906,0xe4abc8e5;
+	}
+}
+[t:boyler_smyth,n:0x00300467]
+{
+	[aspect]
+	{
+	  i gold_value = 200;
+	  f max_life = 68.6;
+	  f max_mana = 80;
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = boyler_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -4.37874,-2.7,3.3784,0xe4abc8e5;
 	}
 }
 [t:gremal,n:0x00300431]

@@ -139,6 +139,14 @@ mine own name is Bailey, i'm the daughter of this house, and bor'd to death of s
 	  f scroll_rate = 15.000000;
     }
 }
+[bailey_mp]
+{
+	[text*]
+	{
+		screen_text = "Holla visitor! mine own name is Bailey, i'm the daughter of this house, and bor'd to death of serving Shrump Ale to the grannies' club of wannabe historians.";
+	  f scroll_rate = 15.000000;
+	}
+}
 
 [boyler_join]
 {
@@ -167,6 +175,14 @@ Of course I would like to earn some pogged money; I wand to buy a new anvil for 
 		screen_text = "Of course I would like to earn some pogged money; I wand to buy a new anvil for my homeworg.";
 	  f scroll_rate = 15.000000;
     }
+}
+[boyler_mp]
+{
+	[text*]
+	{
+		screen_text = "Greedings, stranger. My name ish Boyler Smyth, son of Blade.";
+	  f scroll_rate = 15.000000;
+	}
 }
 
 [kale_join]
@@ -218,6 +234,28 @@ But you would need to pay my bill...";
 	  f scroll_rate = 15.000000;
     }
 }
+[kale_mp]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello. I am Kale, Kale Farmer. I'm a farmer.";
+	  f scroll_rate = 15.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "My parents are farmers. We live on the Farm.";
+	  f scroll_rate = 15.000000;
+	}
+	[text*]
+	{
+		screen_text = "I'm afraid I have ordered too many Shrump Ales and my money ran out. Math's a bitch right?";
+	  f scroll_rate = 15.000000;
+	}
+}
 
 [millie_join]
 {
@@ -244,6 +282,14 @@ But you would need to pay my bill...";
 		screen_text = "I'd really love some pocket money, wink wink nod nod.";
 	  f scroll_rate = 15.000000;
     }
+}
+[millie_mp]
+{
+	[text*]
+	{
+		screen_text = "Hello mate, howya doin!";
+	  f scroll_rate = 15.000000;
+	}
 }
 
 [zend_join]
@@ -272,6 +318,14 @@ I'm Zend Witch, the grandson of Demelza the Witch. Fancy a skilled nature mage o
 		screen_text = "No money? Pshah! Begone.";
 	  f scroll_rate = 15.000000;
     }
+}
+[zend_mp]
+{
+	[text*]
+	{
+		screen_text = "What do we have here, a visitor! I'm Zend Witch, the grandson of Demelza the Witch.";
+	  f scroll_rate = 15.000000;
+	}
 }
 
 [bailey_accept_have_money]

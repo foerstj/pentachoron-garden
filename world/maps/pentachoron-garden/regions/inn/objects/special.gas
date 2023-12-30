@@ -56,6 +56,13 @@
 	  p position = 10.8594,-2.7,0.588061,0xe4abc8e5;
 	}
 }
+[t:use_point,n:0x00300461]
+{
+	[placement]
+	{
+	  p position = -3.69355,-2.7,-0.970154,0xe4abc8e5;
+	}
+}
 [t:trigger_generic,n:0x00300028]
 {
 	[common]
@@ -406,12 +413,5 @@
 	[set_quest_bits]
 	{
 		bool_variable = "flip_inn_activated";
-	}
-}
-[t:use_point,n:0x00300461]
-{
-	[placement]
-	{
-	  p position = -3.69355,-2.7,-0.970154,0xe4abc8e5;
 	}
 }
