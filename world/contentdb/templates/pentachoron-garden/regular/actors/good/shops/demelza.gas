@@ -32,9 +32,9 @@
 	[store]
 	{
 		item_markup = 2;
-    }
+	}
 
-    // store content hand-crafted, originally based on magician_killean_herne (Fallraen)
+	// store content hand-crafted, originally based on magician_killean_herne (Fallraen)
 	[inventory]
 	{
 		[store_pcontent]
@@ -64,13 +64,13 @@
 			}
 			[misc]
 			{
-                [all*]
+				[all*]
 				{
 					il_main = #spellbook/0-20;
 					max = 6;
 					min = 4;
 				}
-                [all*]
+				[all*]
 				{
 					il_main = #spellbook/21-40;
 					max = 6;
@@ -96,17 +96,17 @@
 			potion_rejuvenation_small = 5;
 
 			scroll_resurrect = 10;
-            spell_resurrect = 10;
-            spell_revive = 10;
-            spell_healing_hands = 10;
+			spell_resurrect = 10;
+			spell_revive = 10;
+			spell_healing_hands = 10;
 
-            spell_fireshot = 4;
-            spell_zap = 4;
+			spell_fireshot = 4;
+			spell_zap = 4;
 			spell_explosive_powder = 2;
 			spell_flash = 2
-			
+
 			book_glb_magic_01 = 1;
-			
+
 			fury_eye = 1;
 		}
 	}
