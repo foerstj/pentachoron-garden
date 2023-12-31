@@ -1,39 +1,50 @@
 [t:template,n:potion_shop]
 {
-	category_name = "potion_shop";
-	doc = "potion_shop";
 	specializes = base_npc_bk;
+
+    // basic shop stuff
+	doc = "potion_shop";
+	category_name = "1W_shopkeep";
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		use_range = 1.0;
+		is_ghost_usable = TRUE;
+	}
+	[conversation]
+	{
+	}
+	[respawn_shrine]
+	{
+	}
+	[inventory]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+    }
+
+    // looks
 	[actor]
 	{
 		portrait_icon = b_gui_ig_i_ic_c_shopkeep;
 	}
 	[aspect]
 	{
-		draw_selection_indicator = TRUE;
-		use_range = 1.0;
-		is_ghost_usable = TRUE;
 		[textures]
 		{
 			0 = b_c_gbn_bk-04;
 		}
 	}
+
+    // potion shop
 	[common]
 	{
 		screen_name = "Potion Shop";
 	}
-	[conversation]
-	{
-	}
-	[inventory]
-	{
-	}
-	[respawn_shrine]
-	{
-	}
 	[store]
 	{
-		item_markup = 2;
-
 		[item_restock]
 		{
 			potion_health_small = 16;
