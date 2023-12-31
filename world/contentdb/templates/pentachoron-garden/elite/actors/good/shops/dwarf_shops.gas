@@ -1,0 +1,492 @@
+[t:template,n:3W_dwarf_shop_body]
+{
+	category_name = "3W_shopkeep";
+	doc = "3W_dwarf shop body";
+	specializes = 3W_base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_go;
+	}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		use_range = 1.0;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_05;
+			1 = b_c_pos_a1_032;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #body/326-359;
+					max = 23;
+					min = 23;
+				}
+				[all*]
+				{
+					il_main = #body/361-395;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #body/396-430;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #body/432-465;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_may_attack = false;
+		actor_may_be_attacked = false;
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:3W_dwarf_shop_boots_helm_gloves]
+{
+	category_name = "3W_shopkeep";
+	doc = "3W_dwarf shop boots helm gloves";
+	specializes = 3W_base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_orkin;
+	}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		use_range = 1;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_06;
+			1 = b_c_pos_a1_034;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[mind]
+	{
+		actor_may_attack = false;
+		actor_may_be_attacked = false;
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[armor]
+			{
+				[all*]
+				{
+					il_main = #gloves/326-395;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #gloves/396-465;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #gloves/467-536;
+					max = 3;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #helm/326-395;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #helm/396-465;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #helm/467-536;
+					max = 3;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #boots/326-395;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #boots/396-465;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #boots/467-536;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:3W_dwarf_shop_melee]
+{
+	category_name = "3W_shopkeep";
+	doc = "3W_dwarf shop melee";
+	specializes = 3W_base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_dornek;
+	}
+	[aspect]
+	{
+		use_range = 1.0;
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_09;
+			1 = b_c_pos_a1_063;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_weapon_hand = ax_g_c_2h1b_avg;
+		}
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #melee/189-199;
+					max = 23;
+					min = 23;
+				}
+				[all*]
+				{
+					il_main = #melee/200-209;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #melee/210-220;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #melee/221-231;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:3W_dwarf_shop_ranged]
+{
+	category_name = "3W_shopkeep";
+	doc = "3W_dwarf shop ranged";
+	specializes = 3W_base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_gl;
+	}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		use_range = 1.0;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_07;
+			1 = b_c_pos_a1_069;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[weapons]
+			{
+				[all*]
+				{
+					il_main = #ranged/189-199;
+					max = 23;
+					min = 23;
+				}
+				[all*]
+				{
+					il_main = #ranged/200-209;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #ranged/210-220;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #ranged/221-231;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[mind]
+	{
+		actor_may_attack = false;
+		actor_may_be_attacked = false;
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:3W_dwarf_shop_shield]
+{
+	category_name = "3W_shopkeep";
+	doc = "3W_dwarf shop shield";
+	specializes = 3W_base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_rhut;
+	}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		use_range = 1;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_10;
+			1 = b_c_pos_a1_068;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[mind]
+	{
+		actor_may_attack = false;
+		actor_may_be_attacked = false;
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[shields]
+			{
+				[all*]
+				{
+					il_main = #shield/326-395;
+					max = 13;
+					min = 13;
+				}
+				[all*]
+				{
+					il_main = #shield/396-465;
+					max = 7;
+					min = 7;
+				}
+				[all*]
+				{
+					il_main = #shield/467-536;
+					max = 3;
+					min = 3;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
+[t:template,n:3W_dwarf_shop_ring_amulet]
+{
+	category_name = "3W_shopkeep";
+	doc = "3W_dwarf shop ring amulet";
+	specializes = 3W_base_dwarf;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_torg;
+	}
+	[aspect]
+	{
+		use_range = 1.0;
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gan_df_skin_02;
+			1 = b_c_pos_a1_006;
+		}
+	}
+	[common]
+	{
+		screen_name = "Smyth";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_ch_f_g_c_avg;
+			es_weapon_hand = ax_g_c_2h1b_avg;
+		}
+		[store_pcontent]
+		{
+			full_ratio = 0;
+			[misc]
+			{
+				[all*]
+				{
+					il_main = #ring/-mod(1)/170-185;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #ring/-mod(1)/186-201;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #amulet/-mod(1)/170-185;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #amulet/-mod(1)/186-201;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #ring/170-185;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #ring/186-201;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #amulet/170-185;
+					max = 7;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = #amulet/186-201;
+					max = 7;
+					min = 3;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+	}
+}
