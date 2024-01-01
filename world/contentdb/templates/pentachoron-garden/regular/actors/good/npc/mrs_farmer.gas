@@ -1,0 +1,10 @@
+[t:template,n:pg_mrs_farmer] { specializes = pg_mrs_farmer_base; }
+[t:template,n:pg_mrs_farmer_base]
+{
+    specializes = mp_gypsy_female_01;
+
+	[common]
+	{
+		screen_name = "Mrs. Farmer";
+	}
+}

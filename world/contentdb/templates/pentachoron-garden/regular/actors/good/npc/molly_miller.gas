@@ -1,0 +1,14 @@
+[t:template,n:pg_molly_miller] { specializes = pg_molly_miller_base; }
+[t:template,n:pg_molly_miller_base]
+{
+    specializes = mp_townfolk_f_01;
+
+	[aspect]
+	{
+	  f scale_base = 0.8;
+	}
+	[common]
+	{
+		screen_name = "Molly";
+	}
+}

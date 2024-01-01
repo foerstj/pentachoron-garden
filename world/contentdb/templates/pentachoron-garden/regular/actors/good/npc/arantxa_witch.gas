@@ -1,0 +1,10 @@
+[t:template,n:pg_arantxa_witch] { specializes = pg_arantxa_witch_base; }
+[t:template,n:pg_arantxa_witch_base]
+{
+    specializes = verma;
+
+	[common]
+	{
+		screen_name = "Arantxa the Witch";
+	}
+}

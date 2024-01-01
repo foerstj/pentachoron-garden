@@ -1,0 +1,10 @@
+[t:template,n:pg_wyrt_smyth] { specializes = pg_wyrt_smyth_base; }
+[t:template,n:pg_wyrt_smyth_base]
+{
+    specializes = ulfgrim;
+
+	[common]
+	{
+		screen_name = "Wyrt Smyth";
+	}
+}

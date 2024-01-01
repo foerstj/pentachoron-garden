@@ -1,0 +1,10 @@
+[t:template,n:pg_mr_farmer] { specializes = pg_mr_farmer_base; }
+[t:template,n:pg_mr_farmer_base]
+{
+    specializes = bodrus;
+
+	[common]
+	{
+		screen_name = "Mr. Farmer";
+	}
+}

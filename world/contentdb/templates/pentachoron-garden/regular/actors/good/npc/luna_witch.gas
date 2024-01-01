@@ -1,0 +1,11 @@
+[t:template,n:pg_luna_witch] { specializes = pg_luna_witch_base; }
+[t:template,n:pg_luna_witch_base]
+{
+    specializes = lilialaniliel;
+
+	[common]
+	{
+	  b rollover_display = true;
+		screen_name = "Luna";
+	}
+}

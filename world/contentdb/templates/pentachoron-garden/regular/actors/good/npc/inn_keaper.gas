@@ -1,0 +1,10 @@
+[t:template,n:pg_inn_keaper] { specializes = pg_inn_keaper_base; }
+[t:template,n:pg_inn_keaper_base]
+{
+    specializes = hein;
+
+	[common]
+	{
+		screen_name = "Inn Keaper";
+	}
+}

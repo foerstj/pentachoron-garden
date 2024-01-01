@@ -1,0 +1,10 @@
+[t:template,n:pg_granny_miller] { specializes = pg_granny_miller_base; }
+[t:template,n:pg_granny_miller_base]
+{
+    specializes = peasant_female_big;
+
+	[common]
+	{
+		screen_name = "Granny Miller";
+	}
+}

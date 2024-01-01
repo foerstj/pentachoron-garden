@@ -1,0 +1,10 @@
+[t:template,n:pg_mr_miller] { specializes = pg_mr_miller_base; }
+[t:template,n:pg_mr_miller_base]
+{
+    specializes = mp_townfolk_m_05;
+
+	[common]
+	{
+		screen_name = "Mr. Miller";
+	}
+}
