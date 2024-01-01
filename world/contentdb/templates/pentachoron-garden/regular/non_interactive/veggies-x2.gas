@@ -1,0 +1,13 @@
+[t:template,n:cabbage_glb_01_x2] { specializes = cabbage_glb_01_x2_base; }
+[t:template,n:cabbage_glb_01_x2_base]
+{
+    specializes = cabbage_glb_01_base;
+    aspect:scale_base = 2;
+}
+
+[t:template,n:plant_glb_squash_x2] { specializes = plant_glb_squash_x2_base; }
+[t:template,n:plant_glb_squash_x2_base]
+{
+    specializes = plant_glb_squash_base;
+    aspect:scale_base = 2;
+}

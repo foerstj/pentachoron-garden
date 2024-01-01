@@ -1,0 +1,28 @@
+[t:template,n:cabbage_glb_01_base]  // = cabbage_glb_01
+{
+	category_name = "foliage";
+	doc = "grs_cabbage";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = .55;
+		lodfi_upper = .85;
+		model = m_i_glb_cabbage;
+	}
+}
+[t:template,n:plant_glb_squash_base]  // = plant_glb_squash
+{
+	category_name = "foliage";
+	doc = "grs_squash";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1.0;
+		model = m_i_glb_plant-squash-01;
+		[textures]
+		{
+			0 = b_i_glb_plant-squash;
+		}
+	}
+}
