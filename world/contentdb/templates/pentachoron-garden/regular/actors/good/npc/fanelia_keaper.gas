@@ -1,7 +1,7 @@
-[t:template,n:townfolk_f_05_talks]
+[t:template,n:townfolk_f_05_base]  // = townfolk_f_05
 {
 	category_name = "1W_townsperson";
-	doc = "townfolk_f_05_talks";
+	doc = "townfolk_f_05";
 	specializes = base_npc_fg;
 	[aspect]
 	{
@@ -24,7 +24,22 @@
 			es_feet = bo_bo_le_light;
 		}
 	}
+}
+
+[t:template,n:pg_fanelia_keaper] { specializes = pg_fanelia_keaper_base; }
+[t:template,n:pg_fanelia_keaper_base]
+{
+    specializes = townfolk_f_05_base;
+
+	[common]
+	{
+		screen_name = "Fanelia Keaper";
+	}
 	[conversation]
 	{
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 }
