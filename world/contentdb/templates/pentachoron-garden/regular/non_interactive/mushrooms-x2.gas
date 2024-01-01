@@ -1,29 +1,40 @@
-[t:template,n:mushroom_glb_01_x2]
+[t:template,n:mushroom_glb_01_x2] { specializes = mushroom_glb_01_x2_base; }
+[t:template,n:mushroom_glb_01_x2_base]
 {
     specializes = mushroom_glb_01_base;
     aspect:scale_base = 2;
 }
-[t:template,n:mushroom_glb_02_x2]
+
+[t:template,n:mushroom_glb_02_x2] { specializes = mushroom_glb_02_x2_base; }
+[t:template,n:mushroom_glb_02_x2_base]
 {
     specializes = mushroom_glb_02_base;
     aspect:scale_base = 2;
 }
-[t:template,n:mushroom_glb_03_x2]
+
+[t:template,n:mushroom_glb_03_x2] { specializes = mushroom_glb_03_x2_base; }
+[t:template,n:mushroom_glb_03_x2_base]
 {
     specializes = mushroom_glb_03_base;
     aspect:scale_base = 2;
 }
-[t:template,n:mushroom_glb_04_x2]
+
+[t:template,n:mushroom_glb_04_x2] { specializes = mushroom_glb_04_x2_base; }
+[t:template,n:mushroom_glb_04_x2_base]
 {
     specializes = mushroom_glb_04_base;
     aspect:scale_base = 2;
 }
-[t:template,n:mushroom_glb_05_x2]
+
+[t:template,n:mushroom_glb_05_x2] { specializes = mushroom_glb_05_x2_base; }
+[t:template,n:mushroom_glb_05_x2_base]
 {
     specializes = mushroom_glb_05_base;
     aspect:scale_base = 2;
 }
-[t:template,n:mushroom_glb_06_x2]
+
+[t:template,n:mushroom_glb_06_x2] { specializes = mushroom_glb_06_x2_base; }
+[t:template,n:mushroom_glb_06_x2_base]
 {
     specializes = mushroom_glb_06_base;
 
@@ -33,7 +44,9 @@
       b does_block_camera = true;
     }
 }
-[t:template,n:mushroom_glb_07_x2]
+
+[t:template,n:mushroom_glb_07_x2] { specializes = mushroom_glb_07_x2_base; }
+[t:template,n:mushroom_glb_07_x2_base]
 {
     specializes = mushroom_glb_07_base;
 
@@ -43,7 +56,9 @@
       b does_block_camera = true;
     }
 }
-[t:template,n:mushroom_glb_08_x2]
+
+[t:template,n:mushroom_glb_08_x2] { specializes = mushroom_glb_08_x2_base; }
+[t:template,n:mushroom_glb_08_x2_base]
 {
     specializes = mushroom_glb_08_base;
 
@@ -53,7 +68,9 @@
       b does_block_camera = true;
     }
 }
-[t:template,n:mushroom_glb_09_x2]
+
+[t:template,n:mushroom_glb_09_x2] { specializes = mushroom_glb_09_x2_base; }
+[t:template,n:mushroom_glb_09_x2_base]
 {
     specializes = mushroom_glb_09_base;
 
@@ -63,7 +80,9 @@
       b does_block_camera = true;
     }
 }
-[t:template,n:mushroom_glb_10_x2]
+
+[t:template,n:mushroom_glb_10_x2] { specializes = mushroom_glb_10_x2_base; }
+[t:template,n:mushroom_glb_10_x2_base]
 {
     specializes = mushroom_glb_10_base;
 
