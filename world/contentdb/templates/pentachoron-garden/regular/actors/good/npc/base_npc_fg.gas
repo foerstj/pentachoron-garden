@@ -1,0 +1,13 @@
+[t:template,n:base_npc_fg_pg]
+{
+    specializes = base_npc_fg;
+
+	category_name = "1W_townsperson";
+    doc = "PG farmgirl NPC";
+
+    [conversation] {}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+}

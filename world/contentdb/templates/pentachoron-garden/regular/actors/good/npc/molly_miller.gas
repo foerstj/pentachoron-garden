@@ -1,11 +1,23 @@
 [t:template,n:pg_molly_miller] { specializes = pg_molly_miller_base; }
 [t:template,n:pg_molly_miller_base]
 {
-    specializes = mp_townfolk_f_01;
+    specializes = base_npc_fg_pg;
 
 	[aspect]
 	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_14;
+			1 = b_c_pos_a1_073;
+		}
 	  f scale_base = 0.8;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_le_light;
+		}
 	}
 	[common]
 	{

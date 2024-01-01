@@ -1,11 +1,26 @@
 [t:template,n:pg_luna_witch] { specializes = pg_luna_witch_base; }
 [t:template,n:pg_luna_witch_base]
 {
-    specializes = lilialaniliel;
+    specializes = base_npc_fg_pg;
 
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_23;
+			1 = b_c_pos_a1_024;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_weapon_hand = st_un_tiger;
+			es_feet = bo_bo_le_light;
+		}
+    }
 	[common]
 	{
-	  b rollover_display = true;
 		screen_name = "Luna";
 	}
 }
