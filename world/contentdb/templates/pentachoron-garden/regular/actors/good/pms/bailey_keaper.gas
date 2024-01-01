@@ -1,7 +1,9 @@
-[t:template,n:bailey_keaper]
+[t:template,n:pg_bailey_keaper] { specializes = pg_bailey_keaper_base; }
+[t:template,n:pg_bailey_keaper_base]
 {
-	doc = "bailey_keaper";
 	specializes = base_pm_fg;
+
+	doc = "bailey_keaper";
 	[actor]
 	{
 		portrait_icon = b_gui_ig_i_ic_c_ul;
@@ -15,7 +17,6 @@
             nature_magic 	=  	1, 0, 0;
 			combat_magic = 		1, 0, 0;
             uber 			=  	1, 0, 0;
-
 		}
 	}
 	[aspect]
@@ -26,6 +27,7 @@
 			0 = b_c_gah_fg_skin_16;
 			1 = b_c_pos_a1_026;
 		}
+        scale_base = 0.8;
 	}
 	[common] { screen_name="Bailey"; }
 	[inventory]
@@ -40,6 +42,5 @@
         {
             il_main = he_ca_le_avg;
         }
-
 	}
 }
