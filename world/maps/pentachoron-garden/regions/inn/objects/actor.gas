@@ -426,16 +426,16 @@
 		dev_instance_text = "MP";
 	  b is_single_player = false;
 	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
-	}
 	[conversation]
 	{
 		[conversations]
 		{
 			* = bailey_mp;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
 	}
 	[placement]
 	{
