@@ -1,3 +1,29 @@
+[t:cmd_animation_command,n:0x00300468]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1952541803;
+	  x client_scid = 0x00300081;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -2.2477,-2.7,-2.5578,0xe4abc8e5;
+	}
+}
+[t:cmd_animation_command,n:0x00300469]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1952541803;
+	  x client_scid = 0x0030007E;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = 2.87955,-2.7,-3.79204,0xe4abc8e5;
+	}
+}
 [t:cmd_auto_save,n:0x00300460]
 {
 	[common]
@@ -112,18 +138,5 @@
 	[placement]
 	{
 	  p position = -1.67081,1.90735e-006,-1.68629,0xe71417f3;
-	}
-}
-[t:cmd_animation_command,n:0x00300469]
-{
-	[cmd_animation_command]
-	{
-	  i animation = 1952541803;
-	  x client_scid = 0x0030007E;
-	  b initially_active = true;
-	}
-	[placement]
-	{
-	  p position = 2.53686,-2.7,-2.97129,0xe4abc8e5;
 	}
 }
