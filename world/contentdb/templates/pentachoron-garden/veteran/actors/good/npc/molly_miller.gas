@@ -1,0 +1,28 @@
+[t:template,n:2W_pg_molly_miller]
+{
+	specializes = 2W_pg_molly_miller_base;
+}
+[t:template,n:2W_pg_molly_miller_base]
+{
+	specializes = 2W_base_npc_fg_pg;
+	[aspect]
+	{
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_14;
+			1 = b_c_pos_a1_073;
+		}
+	  f scale_base = 0.800000;
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_feet = bo_bo_le_light;
+		}
+	}
+	[common]
+	{
+		screen_name = "Molly";
+	}
+}

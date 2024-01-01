@@ -1,0 +1,29 @@
+[t:template,n:3W_pg_fanelia_keaper]
+{
+	specializes = 3W_pg_fanelia_keaper_base;
+}
+[t:template,n:3W_pg_fanelia_keaper_base]
+{
+	specializes = 3W_base_npc_fg_pg;
+	[aspect]
+	{
+		model = m_c_gah_fg_pos_a7;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_24;
+			1 = b_c_pos_a7_049;
+		}
+	}
+	[inventory]
+	{
+		custom_head = m_c_gah_fg_hlmt_head-03;
+		[equipment]
+		{
+			es_feet = bo_bo_le_light;
+		}
+	}
+	[common]
+	{
+		screen_name = "Fanelia Keaper";
+	}
+}

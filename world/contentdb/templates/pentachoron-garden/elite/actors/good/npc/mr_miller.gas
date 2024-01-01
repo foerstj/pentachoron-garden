@@ -1,0 +1,12 @@
+[t:template,n:3W_pg_mr_miller]
+{
+	specializes = 3W_pg_mr_miller_base;
+}
+[t:template,n:3W_pg_mr_miller_base]
+{
+	specializes = 3W_mp_townfolk_m_05;
+	[common]
+	{
+		screen_name = "Mr. Miller";
+	}
+}

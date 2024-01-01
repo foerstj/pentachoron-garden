@@ -1,0 +1,12 @@
+[t:template,n:2W_pg_grandma_farmer]
+{
+	specializes = 2W_pg_grandma_farmer_base;
+}
+[t:template,n:2W_pg_grandma_farmer_base]
+{
+	specializes = 2W_mother_zaod;
+	[common]
+	{
+		screen_name = "Grandma Farmer";
+	}
+}

@@ -1,0 +1,12 @@
+[t:template,n:3W_pg_inn_keaper]
+{
+	specializes = 3W_pg_inn_keaper_base;
+}
+[t:template,n:3W_pg_inn_keaper_base]
+{
+	specializes = 3W_hein;
+	[common]
+	{
+		screen_name = "Inn Keaper";
+	}
+}

@@ -1,0 +1,89 @@
+[t:template,n:3W_base_npc_fg_pg]
+{
+	specializes = 3W_base_npc_fg;
+	category_name = "3W_townsperson";
+	doc = "3W_PG farmgirl NPC";
+	[conversation]
+	{
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_gah_fg_fs;
+			[chore_attack]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = at;
+					qffg = dff;
+				}
+			}
+			[chore_default]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = ds;
+				}
+			}
+			[chore_die]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = select_transition;
+				[anim_files]
+				{
+					00 = di;
+				}
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0,1,2,3,4,5,6,7;
+				skrit = select_fidget;
+				[anim_files]
+				{
+					00 = dsf;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0,5;
+				skrit = select_attack;
+				[anim_files]
+				{
+					00 = mg;
+					01 = mg-02;
+				}
+			}
+			[chore_misc]
+			{
+				chore_stances = ignore;
+				skrit = select_transition;
+				[anim_files]
+				{
+					sit1 = a_c_gah_fg_fs0_dsf-08;
+					look = a_c_gah_fg_fs0_dsf;
+					talk = a_c_gah_fg_fs0_dsf-02;
+					wyme = a_c_gah_fg_fs0_dsf-03;
+					hoe1 = a_c_gah_fg_fs5_dsf-03;
+				}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0,1,2,3,4,5,6;
+				skrit = select_walk;
+				[anim_files]
+				{
+					00 = rl;
+				}
+			}
+		}
+	}
+}

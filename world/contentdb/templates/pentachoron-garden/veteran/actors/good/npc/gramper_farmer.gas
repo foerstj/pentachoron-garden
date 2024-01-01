@@ -1,0 +1,12 @@
+[t:template,n:2W_pg_gramper_farmer]
+{
+	specializes = 2W_pg_gramper_farmer_base;
+}
+[t:template,n:2W_pg_gramper_farmer_base]
+{
+	specializes = 2W_onoc;
+	[common]
+	{
+		screen_name = "Gramper Farmer";
+	}
+}

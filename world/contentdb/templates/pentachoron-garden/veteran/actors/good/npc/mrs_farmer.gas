@@ -1,0 +1,21 @@
+[t:template,n:2W_pg_mrs_farmer]
+{
+	specializes = 2W_pg_mrs_farmer_base;
+}
+[t:template,n:2W_pg_mrs_farmer_base]
+{
+	specializes = 2W_base_npc_fg_pg;
+	[aspect]
+	{
+		model = m_c_gah_fg_pos_b1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_07;
+			1 = b_c_pos_b1_006;
+		}
+	}
+	[common]
+	{
+		screen_name = "Mrs. Farmer";
+	}
+}
