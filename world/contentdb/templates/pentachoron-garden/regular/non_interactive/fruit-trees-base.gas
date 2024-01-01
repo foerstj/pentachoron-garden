@@ -1,0 +1,76 @@
+[t:template,n:tree_grs_apple_01_base]  // = tree_grs_apple_01
+{
+	category_name = "trees";
+	doc = "grs_apple";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-apple-01;
+	}
+}
+[t:template,n:tree_grs_cherry_01_base]  // = tree_grs_cherry_01
+{
+	category_name = "trees";
+	doc = "grs_cherry";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-apple-01;
+		[textures]
+		{
+			0 = b_i_grs_tree-cherry;
+		}
+	}
+}
+[t:template,n:tree_grs_lemon_01_base]  // = tree_grs_lemon_01
+{
+	category_name = "trees";
+	doc = "grs_lemon";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-apple-01;
+		[textures]
+		{
+			0 = b_i_grs_tree-lemon;
+		}
+	}
+}
+[t:template,n:tree_grs_orange_01_base]  // = tree_grs_orange_01
+{
+	category_name = "trees";
+	doc = "grs_orange";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-apple-01;
+		[textures]
+		{
+			0 = b_i_grs_tree-orange;
+		}
+	}
+}
+[t:template,n:tree_grs_plum_01_base]  // = tree_grs_plum_01
+{
+	category_name = "trees";
+	doc = "grs_plum";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-apple-01;
+		[textures]
+		{
+			0 = b_i_grs_tree-plum;
+		}
+	}
+}
