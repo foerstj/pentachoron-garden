@@ -1,0 +1,12 @@
+// 2xl scale: volume *= 2^2 -> scale_base = 1.587 (inverse = 0.63)
+
+[t:template,n:mushroom_glb_01_2xl] { specializes = mushroom_glb_01_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_02_2xl] { specializes = mushroom_glb_02_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_03_2xl] { specializes = mushroom_glb_03_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_04_2xl] { specializes = mushroom_glb_04_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_05_2xl] { specializes = mushroom_glb_05_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_06_2xl] { specializes = mushroom_glb_06_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_07_2xl] { specializes = mushroom_glb_07_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_08_2xl] { specializes = mushroom_glb_08_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_09_2xl] { specializes = mushroom_glb_09_base; aspect:scale_base = 1.587; }
+[t:template,n:mushroom_glb_10_2xl] { specializes = mushroom_glb_10_base; aspect:scale_base = 1.587; }
