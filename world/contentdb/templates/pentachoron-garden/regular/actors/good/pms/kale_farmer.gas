@@ -1,0 +1,55 @@
+[t:template,n:rusk_base]  // = rusk
+{
+	doc = "Rusk";
+	specializes = base_pm_fb;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_ru;
+		[skills]
+		{
+			dexterity 		= 0.81, 0, 10;
+			intelligence 	= 0.27, 0, 10;
+			strength 		= 1.92, 0, 10;
+			melee 			= 3, 0, 0;
+			uber 			= 3, 0, 0;
+		}
+	}
+	[aspect]
+	{
+		gold_value = 1100;
+		model = m_c_gah_fb_pos_a1;
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_28;
+			1 = b_c_pos_a1_028;
+		}
+	}
+	[common]
+	{
+		screen_name = "Rusk";
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_sl_f_g_c_fun;
+			es_feet = #boots/-no_mod/2-8;
+		}
+		[other]
+		{
+			il_main = ss_un_gl_rusk;
+			il_main = #shield/-no_mod/5-10;
+            il_main = he_ca_le_avg;
+		}
+
+	}
+}
+
+[t:template,n:pg_kale_farmer] { specializes = pg_kale_farmer_base; }
+[t:template,n:pg_kale_farmer_base]
+{
+    specializes = rusk_base;
+
+    aspect:scale_base = 0.8;
+    common:screen_name = "Kale";
+}
