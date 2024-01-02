@@ -1,0 +1,64 @@
+[t:template,n:groundcover_grs_05_base]  // = groundcover_grs_05
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.35;
+		lodfi_upper = 0.8;
+		model = m_i_glb_ground-cover-01;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_grs_06_base]  // = groundcover_grs_06
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.6;
+		model = m_i_glb_ground-cover-02;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_grs_07_base]  // = groundcover_grs_07
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_lg_sparse";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_glb_ground-cover-03;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
+[t:template,n:groundcover_grs_08_base]  // = groundcover_grs_08
+{
+	category_name = "foliage";
+	doc = "grs_fern_grndcvr_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.8;
+		model = m_i_glb_ground-cover-04;
+		[textures]
+		{
+			0 = b_i_grs_ground-cover-01;
+		}
+	}
+}
