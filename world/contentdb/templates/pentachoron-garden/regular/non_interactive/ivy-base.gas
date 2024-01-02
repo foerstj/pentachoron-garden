@@ -1,0 +1,72 @@
+[t:template,n:ivy_grs_01_base]  // = ivy_grs_01
+{
+	category_name = "foliage";
+	doc = "grs_ivy_right_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.65;
+		model = m_i_grs_ivy-01;
+	}
+}
+[t:template,n:ivy_grs_02_base]  // = ivy_grs_02
+{
+	category_name = "foliage";
+	doc = "grs_ivy_left_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.65;
+		model = m_i_grs_ivy-02;
+	}
+}
+[t:template,n:ivy_grs_03_base]  // = ivy_grs_03
+{
+	category_name = "foliage";
+	doc = "grs_ivy_thin_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.35;
+		model = m_i_grs_ivy-03;
+	}
+}
+[t:template,n:ivy_grs_04_base]  // = ivy_grs_04
+{
+	category_name = "foliage";
+	doc = "grs_ivy_right_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.35;
+		model = m_i_grs_ivy-04;
+	}
+}
+[t:template,n:ivy_grs_05_base]  // = ivy_grs_05
+{
+	category_name = "foliage";
+	doc = "grs_ivy_border_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.25;
+		model = m_i_grs_ivy-05;
+	}
+}
+[t:template,n:ivy_grs_06_base]  // = ivy_grs_06
+{
+	category_name = "foliage";
+	doc = "grs_ivy_clump_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_grs_ivy-06;
+	}
+}
