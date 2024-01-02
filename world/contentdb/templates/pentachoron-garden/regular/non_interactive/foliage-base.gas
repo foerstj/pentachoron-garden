@@ -1,0 +1,12 @@
+[t:template,n:foliage_grs_01_base]  // = foliage_grs_01
+{
+	category_name = "foliage";
+	doc = "grs_ferns_grndcvr";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.9;
+		model = m_i_grs_foliage-01;
+	}
+}
