@@ -1,0 +1,6 @@
+[t:template,n:fern_grs_03_x3] { specializes = fern_grs_03_x3_base; }
+[t:template,n:fern_grs_03_x3_base]
+{
+    specializes = fern_grs_03_base;
+    aspect:scale_base = 3;
+}
