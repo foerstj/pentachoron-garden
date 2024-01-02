@@ -14,7 +14,7 @@ set tc=..\TankCreator
 :: path of GasPy
 set gaspy=..\gaspy
 
-set copyright=CC-BY-SA 2023
+set copyright=CC-BY-SA 2024
 set author=Johannes Förstner
 
 :: param
