@@ -6,7 +6,7 @@
 	}
 	[placement]
 	{
-	  p position = 2.06459,3.0,0.357442,0x835DFB32;
+	  p position = 2.06459,3,0.357442,0x835dfb32;
 	}
 }
 [t:sign_glb_barn_03,n:0x00f00005]
@@ -17,7 +17,7 @@
 	}
 	[placement]
 	{
-	  p position = 0.101242,3.0,0.0894852,0x236A0A85;
+	  p position = 0.101242,3,0.0894852,0x236a0a85;
 	}
 }
 [t:sign_glb_magicshop_01,n:0x00f00062]
@@ -28,7 +28,7 @@
 	}
 	[placement]
 	{
-	  p position = -1.99219,3.0,0.183446,0x6767CCC3;
+	  p position = -1.99219,3,0.183446,0x6767ccc3;
 	}
 }
 [t:sign_glb_generalstore_01,n:0x00f00006]
@@ -39,7 +39,7 @@
 	}
 	[placement]
 	{
-	  p position = -2.17529,3.0,-0.334648,0xF5367BDA;
+	  p position = -2.17529,3,-0.334648,0xf5367bda;
 	}
 }
 [t:sign_glb_inn_03,n:0x00f00081]
@@ -50,7 +50,7 @@
 	}
 	[placement]
 	{
-	  p position = 1.91329,3.0,0.141854,0x5F79B289;
+	  p position = 1.91329,3,0.141854,0x5f79b289;
 	}
 }
 [t:statue_cav_spin_02,n:0x00f00003]
@@ -64,12 +64,12 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00F00065;
 	  x on_scid = 0x00F00065;
-	  f reset_time = 3.000000;
+	  f reset_time = 3;
 	}
 	[placement]
 	{
 	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = 0.0474319,0.2,0.0199819,0xE4DC555E;
+	  p position = 0.0474319,0.2,0.0199819,0xe4dc555e;
 		use_point_scids = 0x00f00064;
 	}
 }
@@ -84,12 +84,12 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00F0006E;
 	  x on_scid = 0x00F0006E;
-	  f reset_time = 3.000000;
+	  f reset_time = 3;
 	}
 	[placement]
 	{
 	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = -0.00741029,0.2,-0.01439,0x5FA825B7;
+	  p position = -0.00741029,0.2,-0.01439,0x5fa825b7;
 		use_point_scids = 0x00f00070;
 	}
 }
@@ -104,12 +104,12 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00F0006B;
 	  x on_scid = 0x00F0006B;
-	  f reset_time = 3.000000;
+	  f reset_time = 3;
 	}
 	[placement]
 	{
 	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = 0.0340127,0.199999,-0.0102763,0xE830B88A;
+	  p position = 0.0340127,0.199999,-0.0102763,0xe830b88a;
 		use_point_scids = 0x00f0006c;
 	}
 }
@@ -124,12 +124,12 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00F00082;
 	  x on_scid = 0x00F00082;
-	  f reset_time = 3.000000;
+	  f reset_time = 3;
 	}
 	[placement]
 	{
 	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = -0.0155053,0.2,0.0113029,0x56DED2ED;
+	  p position = -0.0155053,0.2,0.0113029,0x56ded2ed;
 		use_point_scids = 0x00f0007a;
 	}
 }
@@ -144,7 +144,7 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x00F00080;
 	  x on_scid = 0x00F00080;
-	  f reset_time = 3.000000;
+	  f reset_time = 3;
 	}
 	[placement]
 	{

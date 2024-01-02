@@ -3,7 +3,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
-	  p position = -3.81023,-4.25,-3.79585,0xA7C236E5;
+	  p position = -3.81023,-4.25,-3.79585,0xa7c236e5;
 	}
 }
 [t:sign_glb_01,n:0x002001fc]
@@ -15,7 +15,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 6.60488,-4.55,-7.42548,0xA7C236E5;
+	  p position = 6.60488,-4.55,-7.42548,0xa7c236e5;
 	}
 }
 [t:sign_glb_barn_03,n:0x00200196]
@@ -26,14 +26,14 @@
 	}
 	[placement]
 	{
-	  p position = -3.20037,-1.75,-4.56122,0x50C8807D;
+	  p position = -3.20037,-1.75,-4.56122,0x50c8807d;
 	}
 }
 [t:sign_glb_01,n:0x0020019f]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.200000;
+	  f scale_multiplier = 1.2;
 	}
 	[common]
 	{
@@ -42,7 +42,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.991907,0.0,1.25807,0x3CD5866E;
+	  p position = -0.991907,0,1.25807,0x3cd5866e;
 	}
 }
 [t:respawn_statue_azunai,n:0x00200162]
@@ -50,14 +50,14 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,5.96047e-008;
-	  p position = 0.396154,-0.271339,0.181196,0x536F8CBE;
+	  p position = 0.396154,-0.271339,0.181196,0x536f8cbe;
 	}
 }
 [t:sign_glb_01,n:0x00200208]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.800000;
+	  f scale_multiplier = 0.8;
 	}
 	[common]
 	{
@@ -66,14 +66,14 @@
 	[placement]
 	{
 	  q orientation = 0,-2.08616e-007,0,-1;
-	  p position = 1.52614,0.0,-1.97236,0x363D5004;
+	  p position = 1.52614,0,-1.97236,0x363d5004;
 	}
 }
 [t:sign_glb_01,n:0x00200214]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.800000;
+	  f scale_multiplier = 0.8;
 	}
 	[common]
 	{
@@ -82,7 +82,7 @@
 	[placement]
 	{
 	  q orientation = 0,1.78814e-007,0,1;
-	  p position = 3.68357,-0.65,-1.09671,0xCDB76870;
+	  p position = 3.68357,-0.65,-1.09671,0xcdb76870;
 	}
 }
 [t:statue_cav_spin_02,n:0x002000bd]
@@ -102,12 +102,12 @@
 	  x on_scid = 0x002000EE;
 	  x on_scid_2 = 0x00200115;
 	  x on_scid_3 = 0x0020013A;
-	  f reset_time = 3.000000;
+	  f reset_time = 3;
 	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
-	  p position = 0.0177419,0.199999,0.00517559,0x8065C870;
+	  p position = 0.0177419,0.199999,0.00517559,0x8065c870;
 		use_point_scids = 0x002000be;
 	}
 }
