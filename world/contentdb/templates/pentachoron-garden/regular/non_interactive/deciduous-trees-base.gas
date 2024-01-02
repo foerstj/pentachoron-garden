@@ -1,0 +1,401 @@
+[t:template,n:tree_grs_deciduous_04_base]  // = tree_grs_deciduous_04
+{
+	category_name = "trees";
+	doc = "grs_ash_lg_bushy";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_tree-deciduous-01;
+		[textures]
+		{
+			0 = b_i_grs_tree-ash;
+		}
+	}
+}
+[t:template,n:tree_grs_deciduous_08_base]  // = tree_grs_deciduous_08
+{
+	category_name = "trees";
+	doc = "grs_ash_med_bushy";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.8;
+		model = m_i_glb_tree-deciduous-02;
+		[textures]
+		{
+			0 = b_i_grs_tree-ash;
+		}
+	}
+}
+[t:template,n:tree_grs_deciduous_12_base]  // = tree_grs_deciduous_12
+{
+	category_name = "trees";
+	doc = "grs_ash_sm_bushy";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.5;
+		model = m_i_glb_tree-deciduous-03;
+		[textures]
+		{
+			0 = b_i_grs_tree-ash;
+		}
+	}
+}
+[t:template,n:tree_grs_deciduous_16_base]  // = tree_grs_deciduous_16
+{
+	category_name = "trees";
+	doc = "grs_ash_lg";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.15;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-deciduous-04;
+		[textures]
+		{
+			0 = b_i_grs_tree-ash;
+		}
+	}
+}
+[t:template,n:tree_grs_deciduous_20_base]  // = tree_grs_deciduous_20
+{
+	category_name = "trees";
+	doc = "grs_ash_med";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-05;
+		[textures]
+		{
+			0 = b_i_grs_tree-ash;
+		}
+	}
+}
+[t:template,n:tree_grs_deciduous_24_base]  // = tree_grs_deciduous_24
+{
+	category_name = "trees";
+	doc = "grs_ash_sm";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-deciduous-06;
+		[textures]
+		{
+			0 = b_i_grs_tree-ash;
+		}
+	}
+}
+
+[t:template,n:tree_grs_deciduous_sway_01_base]  // = tree_grs_deciduous_sway_01
+{
+	category_name = "trees";
+	doc = "grs_madrona_lg_sway";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-madrona;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_madrona_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
+[t:template,n:tree_grs_deciduous_sway_02_base]  // = tree_grs_deciduous_sway_02
+{
+	category_name = "trees";
+	doc = "grs_laurel_lg_sway";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-laurel;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_laurel_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
+[t:template,n:tree_grs_deciduous_sway_03_base]  // = tree_grs_deciduous_sway_03
+{
+	category_name = "trees";
+	doc = "grs_muave_lg_sway";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-mauve;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_mauve_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
+[t:template,n:tree_grs_deciduous_sway_04_base]  // = tree_grs_deciduous_sway_04
+{
+	category_name = "trees";
+	doc = "grs_ash_lg_sway";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-ash;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_ash_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
+[t:template,n:tree_grs_deciduous_sway_05_base]  // = tree_grs_deciduous_sway_05
+{
+	category_name = "trees";
+	doc = "grs_aspen_red_lg_sway";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-burgandy;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_burgandy_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
+[t:template,n:tree_grs_deciduous_sway_06_base]  // = tree_grs_deciduous_sway_06
+{
+	category_name = "trees";
+	doc = "grs_aspen_red_lg_sway_grassy";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-burgandy-02;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_burgandy_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
+[t:template,n:tree_grs_deciduous_sway_07_base]  // = tree_grs_deciduous_sway_07
+{
+	category_name = "trees";
+	doc = "grs_birch_yellow_lg_sway";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-autumn;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_oak_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
+[t:template,n:tree_grs_deciduous_sway_08_base]  // = tree_grs_deciduous_sway_08
+{
+	category_name = "trees";
+	doc = "tree_grs_deciduous_sway_08";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.2;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-deciduous-08;
+		[textures]
+		{
+			0 = b_i_grs_tree-autumn-02;
+		}
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_glb;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = tree-deciduous-08-sway;
+				}
+			}
+		}
+	}
+	[generic_emitter]
+	{
+		other_effect = leaf_burgandy_01;
+		rep_freq_min = 8.0;
+		rep_freq_max = 20.0;
+	}
+}
