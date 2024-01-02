@@ -1,0 +1,225 @@
+[t:template,n:cattail_grs_01_base]  // = cattail_grs_01
+{
+	category_name = "foliage";
+	doc = "grs_cattail_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.5;
+		model = m_i_grs_cattail-01;
+		scale_multiplier = 2;
+	}
+}
+[t:template,n:cattail_grs_02_base]  // = cattail_grs_02
+{
+	category_name = "foliage";
+	doc = "grs_cattail_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.15;
+		lodfi_upper = 0.6;
+		model = m_i_grs_cattail-02;
+		scale_multiplier = 2;
+	}
+}
+[t:template,n:cattail_grs_03_base]  // = cattail_grs_03
+{
+	category_name = "foliage";
+	doc = "grs_cattail_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.65;
+		model = m_i_grs_cattail-03;
+		scale_multiplier = 2;
+	}
+}
+[t:template,n:cattail_grs_04_base]  // = cattail_grs_04
+{
+	category_name = "foliage";
+	doc = "grs_cattail_sm_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.3;
+		lodfi_upper = 0.9;
+		model = m_i_grs_cattail-04;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_grs;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = cattail-04-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:cattail_grs_05_base]  // = cattail_grs_05
+{
+	category_name = "foliage";
+	doc = "grs_cattail_lg_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.6;
+		lodfi_upper = 1;
+		model = m_i_grs_cattail-05;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_grs;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = cattail-05-sway;
+				}
+			}
+		}
+	}
+}
+
+[t:template,n:cress_swp_water_01_base]  // = cress_swp_water_01
+{
+	category_name = "foliage";
+	doc = "swp_watercress_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-cress-01;
+	}
+}
+[t:template,n:cress_swp_water_02_base]  // = cress_swp_water_02
+{
+	category_name = "foliage";
+	doc = "swp_watercress_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-cress-02;
+	}
+}
+[t:template,n:cress_swp_water_03_base]  // = cress_swp_water_03
+{
+	category_name = "foliage";
+	doc = "swp_watercress_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_water-cress-03;
+	}
+}
+
+[t:template,n:lilypad_swp_01_base]  // = lilypad_swp_01
+{
+	category_name = "foliage";
+	doc = "swp_lilypads_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-01;
+	}
+}
+[t:template,n:lilypad_swp_02_base]  // = lilypad_swp_02
+{
+	category_name = "foliage";
+	doc = "swp_lilypads_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-02;
+	}
+}
+[t:template,n:lilypad_swp_03_base]  // = lilypad_swp_03
+{
+	category_name = "foliage";
+	doc = "swp_lilypads_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-03;
+	}
+}
+[t:template,n:lilypad_swp_04_base]  // = lilypad_swp_04
+{
+	category_name = "foliage";
+	doc = "swp_lilypad_lg_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-04;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_swp;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = lilypad-04-sway;
+				}
+			}
+		}
+	}
+}
+[t:template,n:lilypad_swp_05_base]  // = lilypad_swp_05
+{
+	category_name = "foliage";
+	doc = "swp_lilypad_sm_sway";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.05;
+		model = m_i_swp_lilypad-05;
+	}
+	[body]
+	{
+		initial_chore = chore_default;
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_swp;
+			[chore_default]
+			{
+				skrit = infinite_loop;
+				[anim_files]
+				{
+					00 = lilypad-05-sway;
+				}
+			}
+		}
+	}
+}
