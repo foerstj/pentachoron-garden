@@ -8,6 +8,10 @@
 }
 [t:door_grs_left_05,n:0x0040002f]
 {
+	[door_basic]
+	{
+	  x second_door = 0x00400030;
+	}
 	[placement]
 	{
 	  q orientation = -0.385118,0.593029,-0.385118,-0.59303;
@@ -16,6 +20,10 @@
 }
 [t:door_grs_right_05,n:0x00400030]
 {
+	[door_basic]
+	{
+	  x second_door = 0x0040002F;
+	}
 	[placement]
 	{
 	  q orientation = 0.385117,-0.593029,0.385118,0.59303;

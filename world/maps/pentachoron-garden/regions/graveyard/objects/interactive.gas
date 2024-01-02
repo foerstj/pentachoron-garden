@@ -28,6 +28,10 @@
 }
 [t:door_swp_cemetary_right,n:0x02400044]
 {
+	[door_basic]
+	{
+	  x second_door = 0x02400045;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
@@ -36,6 +40,10 @@
 }
 [t:door_swp_cemetary_left,n:0x02400045]
 {
+	[door_basic]
+	{
+	  x second_door = 0x02400044;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
@@ -56,6 +64,10 @@
 }
 [t:door_swp_cemetary_left,n:0x0240003d]
 {
+	[door_basic]
+	{
+	  x second_door = 0x0240003F;
+	}
 	[placement]
 	{
 	  p position = 2.05277,-1.2,0.0377731,0x34df39f9;
@@ -63,6 +75,10 @@
 }
 [t:door_swp_cemetary_right,n:0x0240003f]
 {
+	[door_basic]
+	{
+	  x second_door = 0x0240003D;
+	}
 	[placement]
 	{
 	  p position = 2.08066,-1.2,-0.0140381,0x34df39f9;
@@ -113,6 +129,10 @@
 }
 [t:door_swp_cemetary_left,n:0x0240003e]
 {
+	[door_basic]
+	{
+	  x second_door = 0x02400041;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
@@ -121,6 +141,10 @@
 }
 [t:door_swp_cemetary_right,n:0x02400041]
 {
+	[door_basic]
+	{
+	  x second_door = 0x0240003E;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
@@ -153,6 +177,10 @@
 }
 [t:door_swp_cemetary_left,n:0x02400042]
 {
+	[door_basic]
+	{
+	  x second_door = 0x02400043;
+	}
 	[placement]
 	{
 	  p position = 1.97501,-1.2,-0.110352,0x58d82fbb;
@@ -160,6 +188,10 @@
 }
 [t:door_swp_cemetary_right,n:0x02400043]
 {
+	[door_basic]
+	{
+	  x second_door = 0x02400042;
+	}
 	[placement]
 	{
 	  p position = 2.0041,-1.2,-0.0806713,0x58d82fbb;
