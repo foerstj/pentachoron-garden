@@ -290,7 +290,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.999848,0,0.0174523;
-	  p position = 2.88258,-0.65,-3.23693,0xb0bb1853;
+	  p position = 3.34583,-0.65,-3.25437,0xb0bb1853;
 	}
 }
 [t:troll_rock,n:0x01400270]
@@ -389,6 +389,14 @@
 	  p position = 3.71034,-17.7272,-3.48515,0x6ca4c82f;
 	}
 }
+[t:skrubb_small,n:0x0140025a]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.333807,0,0.942641;
+	  p position = 3.42093,0,3.43757,0x57234bbc;
+	}
+}
 [t:bat,n:0x01400265]
 {
 	[mind]
@@ -473,14 +481,6 @@
 	  p position = -0.860582,0,2.60251,0x17dff947;
 	}
 }
-[t:skrubb_small,n:0x0140025a]
-{
-	[placement]
-	{
-	  q orientation = 0,0.902585,0,-0.430511;
-	  p position = 1.56488,-0.649998,1.96441,0xaf974c00;
-	}
-}
 [t:skeleton,n:0x0140027d]
 {
 	[placement]
@@ -540,8 +540,8 @@
 	  i gold = 200;
 		[other]
 		{
-			il_main = potion_mana_medium;
 			il_main = potion_health_medium;
+			il_main = potion_mana_medium;
 		}
 	}
 	[placement]
