@@ -6,7 +6,7 @@
 	}
 	[placement]
 	{
-	  p position = 13.5599,0.623058,0.592233,0xe4abc8e5;
+	  p position = 13.5599,0.623058,0.592233,0xE4ABC8E5;
 	}
 }
 [t:sign_glb_inn_03,n:0x00300022]
@@ -18,7 +18,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,-0.707107;
-	  p position = 13.1528,-3.7,3.38696,0xe4abc8e5;
+	  p position = 13.1528,-3.7,3.38696,0xE4ABC8E5;
 	}
 }
 [t:door_grs_peasant_right,n:0x00300024]
@@ -26,7 +26,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 11.2472,-2.7,-0.0860479,0xe4abc8e5;
+	  p position = 11.2472,-2.7,-0.0860479,0xE4ABC8E5;
 	}
 }
 [t:respawn_statue_xeria,n:0x0030004a]
@@ -34,7 +34,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707106;
-	  p position = 11.3161,-3.69999,-11.2797,0xe4abc8e5;
+	  p position = 11.3161,-3.69999,-11.2797,0xE4ABC8E5;
 	}
 }
 [t:sign_glb_01,n:0x0030013b]
@@ -46,14 +46,14 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -5.03621,-0.0456354,-0.847406,0x568c90e4;
+	  p position = -5.03621,-0.0456354,-0.847406,0x568C90E4;
 	}
 }
 [t:sign_glb_01,n:0x003001db]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.2;
+	  f scale_multiplier = 1.200000;
 	}
 	[common]
 	{
@@ -62,7 +62,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -0.852966,0,-1.82269,0x631780f0;
+	  p position = -0.852966,0.0,-1.82269,0x631780F0;
 	}
 }
 [t:sign_glb_01,n:0x003003e1]
@@ -74,14 +74,14 @@
 	[placement]
 	{
 	  q orientation = 0,-6.37051e-008,0,1;
-	  p position = -3.59747,0,-0.516443,0x631780f0;
+	  p position = -3.59747,0.0,-0.516443,0x631780F0;
 	}
 }
 [t:sign_glb_01,n:0x00300427]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.8;
+	  f scale_multiplier = 0.800000;
 	}
 	[common]
 	{
@@ -90,7 +90,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -3.36935,0,-0.502042,0xd35f1b93;
+	  p position = -3.36935,0.0,-0.502042,0xD35F1B93;
 	}
 }
 [t:statue_cav_spin_02,n:0x00300013]
@@ -110,12 +110,12 @@
 	  x on_scid = 0x00300027;
 	  x on_scid_2 = 0x00300025;
 	  x on_scid_3 = 0x00300028;
-	  f reset_time = 3;
+	  f reset_time = 3.000000;
 	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.78814e-007;
-	  p position = 0.0031929,0.2,0.0190916,0x7e81941d;
+	  p position = 0.0031929,0.2,0.0190916,0x7E81941D;
 		use_point_scids = 0x00300015;
 	}
 }

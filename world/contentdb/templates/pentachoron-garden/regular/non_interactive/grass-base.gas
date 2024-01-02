@@ -1,0 +1,108 @@
+[t:template,n:grass_grs_01_base]  // = grass_grs_01
+{
+	category_name = "foliage";
+	doc = "grs_grass_short_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.51;
+		model = m_i_grs_grass-01;
+	}
+}
+[t:template,n:grass_grs_02_base]  // = grass_grs_02
+{
+	category_name = "foliage";
+	doc = "grs_grass_short_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.55;
+		lodfi_upper = 1;
+		model = m_i_grs_grass-02;
+	}
+}
+[t:template,n:grass_grs_03_base]  // = grass_grs_03
+{
+	category_name = "foliage";
+	doc = "grs_grass_short_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.85;
+		lodfi_upper = 1;
+		model = m_i_grs_grass-03;
+	}
+}
+[t:template,n:grass_grs_04_base]  // = grass_grs_04
+{
+	category_name = "foliage";
+	doc = "grs_grass_tall_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.5;
+		model = m_i_grs_grass-04;
+	}
+}
+[t:template,n:grass_grs_05_base]  // = grass_grs_05
+{
+	category_name = "foliage";
+	doc = "grs_grass_tall_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.4;
+		model = m_i_grs_grass-05;
+	}
+}
+[t:template,n:grass_grs_06_base]  // = grass_grs_06
+{
+	category_name = "foliage";
+	doc = "grs_grass_tall_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.6;
+		lodfi_upper = 1;
+		model = m_i_grs_grass-06;
+	}
+}
+[t:template,n:grass_grs_07_base]  // = grass_grs_07
+{
+	category_name = "foliage";
+	doc = "grs_grass_seeded_sm";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_grs_grass-07;
+	}
+}
+[t:template,n:grass_grs_08_base]  // = grass_grs_08
+{
+	category_name = "foliage";
+	doc = "grs_grass_seeded_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 0.9;
+		model = m_i_grs_grass-08;
+	}
+}
+[t:template,n:grass_grs_09_base]  // = grass_grs_09
+{
+	category_name = "foliage";
+	doc = "grs_grass_seeded_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.65;
+		model = m_i_grs_grass-09;
+	}
+}
