@@ -1,0 +1,8 @@
+// 1xl scale: volume *= 2^1 -> scale_base = 0.794 (inverse = 1.26, x2 = 1.587)
+
+[t:template,n:bush_grs_rhod_01_x2_1xs] { specializes = bush_grs_rhod_01_x2_base; aspect:scale_base = 1.587; }
+[t:template,n:bush_grs_rhod_02_x2_1xs] { specializes = bush_grs_rhod_01_x2_base; aspect:scale_base = 1.587; }
+[t:template,n:bush_grs_rhod_03_x2_1xs] { specializes = bush_grs_rhod_01_x2_base; aspect:scale_base = 1.587; }
+[t:template,n:bush_grs_rhod_04_x2_1xs] { specializes = bush_grs_rhod_01_x2_base; aspect:scale_base = 1.587; }
+
+[t:template,n:bush_ice_rhod_01_x2_1xs] { specializes = bush_ice_rhod_01_x2_base; aspect:scale_base = 1.587; }
