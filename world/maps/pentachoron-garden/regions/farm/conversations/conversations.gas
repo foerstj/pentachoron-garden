@@ -29,6 +29,21 @@ Then there's the Woods, and behind them lies the Mount. Be a bit careful if you 
 	  f scroll_rate = 15.000000;
 	}
 }
+[mr_farmer_mp]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hello there, welcome on our little homestead!";
+	  f scroll_rate = 15.000000;
+	}
+	[text*]
+	{
+		screen_text = "You won't find packmules like these anywhere else!";
+	  f scroll_rate = 15.000000;
+	}
+}
 [mr_farmer_no_packmules]
 {
 	[text*]

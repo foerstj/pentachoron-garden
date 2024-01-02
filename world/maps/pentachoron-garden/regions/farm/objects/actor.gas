@@ -54,6 +54,11 @@
 }
 [t:pg_mr_farmer,n:0x00200019]
 {
+	[common]
+	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
+	}
 	[conversation]
 	{
 		[conversations]
@@ -180,6 +185,30 @@
 	{
 	  q orientation = 0,0.350207,0,0.936672;
 	  p position = -0.566581,-1.75,-2.49805,0x50c8807d;
+	}
+}
+[t:pg_mr_farmer,n:0x00200226]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = mr_farmer_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 3.68855,-1.75,-4.54235,0x50c8807d;
 	}
 }
 [t:chicken_red,n:0x002000fc]
