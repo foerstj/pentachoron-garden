@@ -1,8 +1,7 @@
-[t:phrak_piercer_boss_01,n:0x01200288]
+[t:pg_phrak_queen,n:0x01200288]
 {
 	[common]
 	{
-		screen_name = "Phrak Queen";
 		[instance_triggers]
 		{
 			[*]
@@ -35,19 +34,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-	  i gold = 100;
-		[equipment]
-		{
-			es_spellbook = book_glb_magic_01;
-		}
-		[other]
-		{
-			il_main = potion_health_small;
-			il_main = potion_mana_small;
 		}
 	}
 	[placement]
