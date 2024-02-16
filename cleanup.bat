@@ -7,5 +7,5 @@ set ds=.
 
 :: Cleanup resources so as not to confuse Siege Editor
 del "%ds%\Resources\%map_cs%.dsres"
-del "%ds%\Resources\%map_cs%-de.dsres"
-del "%ds%\Resources\%map_cs%-music.dsres"
+del "%ds%\Resources\%map_cs%.de.dsres"
+del "%ds%\Resources\%map_cs% music.dsres"
