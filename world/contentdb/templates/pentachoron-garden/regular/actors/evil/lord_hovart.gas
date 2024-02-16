@@ -1,0 +1,120 @@
+[t:template,n:lord_hovart_base]  // = lord_hovart
+{
+	category_name = "1W_evil_c";
+	doc = "Lord_Hovart";
+	specializes = base_skeleton;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  15, 0;
+			intelligence =  6, 0;
+			dexterity =  11, 0;
+			melee =  10,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 100;
+		life = 190;
+		max_life = 190;
+		mana = 92;
+		max_mana = 92;
+		[textures]	{0=b_c_ecm_sk-02;}
+        scale_base = 1.25;
+	}
+	[attack]
+	{
+		damage_max = 22;
+		damage_min = 18;
+	}
+	[common]
+	{
+		membership = skeleton, monster;
+
+		[template_triggers]
+		{
+			[*]
+			{
+				single_shot = true;
+				no_trig_bits = true;
+				condition*	= receive_world_message("we_enemy_spotted");
+				action* 	= call_sfx_script("unique_light_red(sgx)");
+			}
+		}
+	}
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_bone_dirty_01 = 1;
+			frag_glb_bone_dirty_02 = 1;
+			frag_glb_bone_dirty_03 = 1;
+			frag_glb_bone_dirty_04 = 4;
+			frag_glb_bone_dirty_05 = 1;
+			frag_glb_bone_dirty_06 = 1;
+		}
+	}
+	[common] { screen_name="Lord Hovart"; }
+	[defend] { defense=29; }
+	[inventory]
+	{
+		[pcontent]
+		{
+			es_weapon_hand = ax_g_c_1h2b_avg;
+			es_shield_hand = #shield/-no_mod/50-70;
+			es_chest = gen_bd_un_bl_f_g_c_blood;
+
+			[all*]
+			{
+				[all*]
+				{
+       				chance = 0.05;
+            	    il_main = #spell/1-4;
+				}
+				[oneof*]
+				{
+					chance = 0.30;
+					il_main = #weapon/8-11;
+					il_main = #armor/10-51;
+   				    il_main = potion_health_small;
+				    il_main = potion_mana_small;
+	    		}
+    			[gold*]
+				{
+					max = 80;
+					min = 60;
+				}
+			}
+		}
+	}
+    [mind]
+	{
+		job_travel_distance_limit = 10;
+		melee_engage_range = 8.0;
+		on_job_reached_travel_distance_abort_attack = true;
+		ranged_engage_range							= 8.0;
+		sight_range									= 14.0;
+		jat_fidget									= world\ai\jobs\common\job_fidget.skrit;
+	}
+
+
+}
+
+[t:template,n:pg_lord_hovart] { specializes = pg_lord_hovart_base; }
+[t:template,n:pg_lord_hovart_base]
+{
+    specializes = lord_hovart_base;
+
+	[inventory]
+	{
+		[pcontent]
+		{
+			es_weapon_hand = ax_g_c_1h2b_avg;
+			es_shield_hand = #shield/-no_mod/50-70;
+			es_chest = bd_un_bl_f_g_c_blood;  // EDITED: NOT the generator!
+
+            // DELETED: original loot
+		}
+	}
+}
