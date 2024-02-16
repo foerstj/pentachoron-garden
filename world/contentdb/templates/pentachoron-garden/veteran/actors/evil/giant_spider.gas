@@ -1,0 +1,244 @@
+[t:template,n:2W_giant_spider_base]  // = 2W_giant_spider
+{
+	category_name = "2W_evil_b";
+	doc = "2W_giant_spider";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  65.7, 0;
+			intelligence =  8.7, 0;
+			dexterity =  33, 0;
+   			melee =  74,  0;
+		}
+	}
+	[aspect]
+	{
+		draw_shadow = false;
+		experience_value = 28500;
+		life = 3720;
+		max_life = 3720;
+		mana = 77.5;
+		max_mana = 77.5;
+		model = m_c_ebb_gs_pos_1;
+		[voice]
+		{
+			[cast]			{ * = s_e_attack_giant_spider; }
+			[die]			{ priority = high; * = s_e_die_giant_spider; }
+		}
+	}
+	[attack]
+	{
+		attack_range = 3;
+		damage_max = 511.5;
+		damage_min = 306.9;
+		damage_bonus_min_cmagic = 243;
+		damage_bonus_max_cmagic = 371;
+	}
+	[body]
+	{
+		avg_move_velocity = 0.0;
+		[bone_translator]
+		{
+			body_anterior = headbone;
+			body_mid = bone01;
+			body_posterior = body3_abdomen;
+			kill_bone = bone01;
+			shield_bone = rtmandible;
+			weapon_bone = ltmandible;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_ebb_gs_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files]
+				{
+					//00=at;
+					00=at-02;
+				}
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00 = at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=di; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files]
+					{
+						00=dff;
+						00=dff-02;
+						00=dff-03;
+					}
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=wl; }
+			}
+		}
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_giant_spider_acid; }
+	}
+	[common]
+	{
+		screen_name="Giant Spider";
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("giant_spider_eye_glow");
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+			}
+			[*]
+			{
+				action* = call_sfx_script("giant_spider_foot_spark_1");
+				condition* = receive_world_message("we_anim_sfx",1);
+			}
+			[*]
+			{
+				action* = call_sfx_script("giant_spider_foot_spark_2");
+				condition* = receive_world_message("we_anim_sfx",2);
+			}
+			[*]
+			{
+				action* = call_sfx_script("giant_spider_foot_spark_3");
+				condition* = receive_world_message("we_anim_sfx",3);
+			}
+			[*]
+			{
+				action* = call_sfx_script("giant_spider_foot_spark_4");
+				condition* = receive_world_message("we_anim_sfx",4);
+			}
+		}
+	}
+
+	[defend] { defense=670.4; }
+	[guts_manager]
+	{
+		effect_name = giant_spider_chunks;
+	}
+   	[inventory]
+	{
+   		[pcontent]
+		{
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #body/465-543;
+	                il_main = #weapon/166-180;
+				}
+				[oneof*]
+				{
+	                   il_main = #weapon/-rare(1)/230-259;
+	                   il_main = #armor/-rare(1)/581-682;
+                       il_main = #*/-rare(1)/230-259;
+                }
+				[gold*]
+				{
+					max = 724305;
+					min = 455183;
+                    piles = 3 - 6;
+				}
+			}
+		}
+	}
+
+	[mind]
+	{
+		actor_weapon_preference					= WP_MAGIC;
+		actor_auto_switches_to_magic			= true;
+
+		jat_die									= world\ai\jobs\actors\evil\job_die_explode.skrit;
+		jat_attack_object_melee					= world\ai\jobs\common\job_attack_object_melee.skrit
+			?hit_multiple						= true;
+
+
+		jat_flee_from_object					= jat_none;
+		jat_guard         						= jat_none;
+		jat_move          						= jat_none;
+		jat_patrol         						= jat_none;
+
+		on_enemy_entered_icz_switch_to_melee	= true;
+		on_engaged_lost_consciousness_abort_attack = true;
+		movement_orders 						= mo_hold;
+		melee_engage_range 						= 14.0;
+		personal_space_range 					= 2;
+		inner_comfort_zone_range 				= 3.0;
+		melee_engage_range 						= 3.1;
+		ranged_engage_range 					= 14.0;
+		sight_range 							= 14.0;
+	}
+
+	[generator_in_object]
+	{
+		spawn_chance = 1.0;
+		child_template_name = body_glb_spider_giant;
+	}
+
+	[physics]
+	{
+		explosion_magnitude = 2.5;
+		break_effect = giant_spider_explosion;
+		bone_box_collision = true;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_spider_giant_01 = 2;
+			frag_glb_spider_giant_02 = 2;
+			frag_glb_spider_giant_03 = 2;
+			frag_glb_spider_giant_04 = 2;
+			frag_glb_spider_giant_05 = 2;
+			frag_glb_spider_giant_06 = 2;
+			frag_glb_spider_giant_07 = 2;
+			frag_glb_spider_giant_08 = 2;
+			frag_glb_spider_giant_09 = 2;
+			frag_glb_spider_giant_10 = 10;
+		}
+	}
+}
+
+[t:template,n:2W_pg_giant_spider] { specializes = 2W_pg_giant_spider_base; }
+[t:template,n:2W_pg_giant_spider_base]
+{
+    specializes = 2W_giant_spider_base;
+
+	[inventory]
+	{
+	  i gold = 240;
+		[pcontent]
+		{
+			[all*]
+			{
+                il_main = potion_mana_large;
+                il_main = potion_health_large;
+			}
+		}
+	}
+}

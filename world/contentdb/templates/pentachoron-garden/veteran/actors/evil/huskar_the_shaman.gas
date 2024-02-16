@@ -1,0 +1,115 @@
+[t:template,n:2W_krug_shaman_boss_01_base]  // = 2W_krug_shaman_boss_01
+{
+	  category_name = "2W_evil_a";
+	  doc = "2W_krug shaman boss 01";
+	  specializes = 2W_krug_shaman_base;
+	[actor]
+	{
+		[skills]
+		{
+			  combat_magic = 56, 0;
+			  dexterity = 13.4, 0;
+			  intelligence = 14.5, 0;
+			  melee = 54, 0;
+			  strength = 35.2, 0;
+		}
+	}
+	[aspect]
+	{
+		textures:0 = b_c_eam_ks-02;
+		  experience_value = 29665;
+		  life = 501.6;
+		  mana = 5700;
+		  max_life = 501.6;
+		  max_mana = 5700;
+	      selection_indicator_scale = 1.2;
+	}
+	[attack]
+	{
+		  damage_max = 150.5;
+		  damage_min = 82.1;
+		damage_bonus_min_cmagic = 123;
+		damage_bonus_max_cmagic = 184;
+	}
+	[common]
+	{
+		  screen_name = "Huskar the Shaman";
+		  membership = krug,monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_yellow(sgx)");
+
+			}
+
+		}
+
+	}
+	[defend]
+	{
+		  defense = 820.8;
+	}
+	[inventory]
+	{
+		  selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			  il_active_primary_spell   = spell_fireshot;
+			  il_active_secondary_spell = spell_resurrect_monster;
+		}
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[gold*]
+				{
+					chance = 0.5;
+					max = 342793;
+					min = 237972;
+					min_pile = 10;
+					piles = 4 - 6;
+				}
+				[all*]
+				{
+					chance = 0.5;
+					il_main = #weapon/141-162;
+					il_main = #body/331-399;
+                    il_main = #body,ro/331-399;
+					  max = 2;
+					  min = 1;
+				}
+             }
+		}
+	}
+	[mind]
+	{
+		jat_brain							 = world\ai\jobs\common\brain_hero.skrit
+			?actor_creates_own_party			= true
+			&form_party_on_friend_entered_ICZ	= true
+			&form_party_on_friend_entered_OCZ	= true
+			&party_template						= "party_krug_shaman";
+	}
+}
+
+[t:template,n:2W_pg_huskar_the_shaman] { specializes = 2W_pg_huskar_the_shaman_base; }
+[t:template,n:2W_pg_huskar_the_shaman_base]
+{
+    specializes = 2W_krug_shaman_boss_01_base;
+
+	[inventory]
+	{
+	  i gold = 425;
+		[pcontent]
+		{
+			[all*]
+			{
+                il_main = potion_mana_large;
+                il_main = potion_health_large;
+			}
+		}
+	}
+}

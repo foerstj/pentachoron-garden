@@ -1,0 +1,111 @@
+[t:template,n:krug_shaman_boss_01_base]  // = krug_shaman_boss_01
+{
+	  category_name = "1W_evil_a";
+	  doc = "krug shaman boss 01";
+	  specializes = krug_shaman_base;
+	[actor]
+	{
+		[skills]
+		{
+			  combat_magic = 4, 0;
+			  dexterity = 6, 0;
+			  intelligence = 10, 0;
+			  melee = 2, 0;
+			  strength = 10, 0;
+		}
+	}
+	[aspect]
+	{
+		textures:0 = b_c_eam_ks-02;
+		  experience_value = 85;
+		  life = 44;
+		  mana = 500;
+		  max_life = 44;
+		  max_mana = 500;
+	      selection_indicator_scale = 1.2;
+	}
+	[attack]
+	{
+		  damage_max = 12;
+		  damage_min = 8;
+	}
+	[common]
+	{
+		  screen_name = "Huskar the Shaman";
+		  membership = krug,monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_yellow(sgx)");
+
+			}
+
+		}
+
+	}
+	[defend]
+	{
+		  defense = 70;
+	}
+	[inventory]
+	{
+		  selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			  il_active_primary_spell   = spell_fireshot;
+			  il_active_secondary_spell = spell_resurrect_monster;
+		}
+		[pcontent]
+		{
+			[all*]
+			{
+				[gold*]
+				{
+					max = 121;
+					min = 84;
+					min_pile = 10;
+					piles = 4 - 6;
+				}
+				[all*]
+				{
+					il_main = #weapon/14-16;
+					il_main = #body/29-35;
+				    il_main = #body,ro/29-35;
+					  max = 2;
+					  min = 1;
+				}
+             }
+		}
+	}
+	[mind]
+	{
+		jat_brain							 = world\ai\jobs\common\brain_hero.skrit
+			?actor_creates_own_party			= true
+			&form_party_on_friend_entered_ICZ	= true
+			&form_party_on_friend_entered_OCZ	= true
+			&party_template						= "party_krug_shaman";
+	}
+}
+
+[t:template,n:pg_huskar_the_shaman] { specializes = pg_huskar_the_shaman_base; }
+[t:template,n:pg_huskar_the_shaman_base]
+{
+    specializes = krug_shaman_boss_01_base;
+
+	[inventory]
+	{
+	  i gold = 425;
+		[pcontent]
+		{
+			[all*]
+			{
+                il_main = potion_mana_medium;
+                il_main = potion_health_medium;
+			}
+		}
+	}
+}

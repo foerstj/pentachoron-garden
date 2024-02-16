@@ -1562,7 +1562,7 @@
 	  p position = -1.75413,1.931,3.31001,0x93728078;
 	}
 }
-[t:ice_mage_boss_01,n:0x04500042]
+[t:pg_frost_mage,n:0x04500042]
 {
 	[common]
 	{
@@ -1598,19 +1598,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-	  i gold = 800;
-		[equipment]
-		{
-			es_spellbook = book_glb_magic_01;
-		}
-		[other]
-		{
-			il_main = potion_health_large;
-			il_main = potion_mana_large;
 		}
 	}
 	[placement]

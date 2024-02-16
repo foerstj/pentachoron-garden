@@ -54,7 +54,7 @@
 	  p position = 1.12769,0,3.34915,0xd34d3aae;
 	}
 }
-[t:giant_spider,n:0x0150002e]
+[t:pg_giant_spider,n:0x0150002e]
 {
 	[common]
 	{
@@ -90,19 +90,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-	  i gold = 240;
-		[equipment]
-		{
-			es_spellbook = book_glb_magic_01;
-		}
-		[other]
-		{
-			il_main = potion_health_medium;
-			il_main = potion_mana_medium;
 		}
 	}
 	[placement]

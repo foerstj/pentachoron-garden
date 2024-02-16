@@ -1033,7 +1033,7 @@
 	  p position = -3.10569,-0.65,1.03256,0xdfeba85e;
 	}
 }
-[t:krug_shaman_boss_01,n:0x03400033]
+[t:pg_huskar_the_shaman,n:0x03400033]
 {
 	[common]
 	{
@@ -1069,19 +1069,6 @@
 			  b single_shot = false;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-	  i gold = 425;
-		[equipment]
-		{
-			es_spellbook = book_glb_magic_01;
-		}
-		[other]
-		{
-			il_main = potion_mana_medium;
-			il_main = potion_health_medium;
 		}
 	}
 	[placement]

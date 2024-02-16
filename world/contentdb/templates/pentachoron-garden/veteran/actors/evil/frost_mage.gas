@@ -1,0 +1,96 @@
+[t:template,n:2W_ice_mage_boss_01_base]  // = 2W_ice_mage_boss_01
+{
+	category_name = "2W_evil_d";
+	doc = "2W_ice mage boss";
+	specializes = 2W_ice_mage_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength 		=  21.6, 0;
+			intelligence 	=  21.2, 0;
+			dexterity 		=  22, 0;
+			combat_magic 	=  61,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 48400;
+		life = 616.4;
+		max_life = 616.4;
+		mana = 250.1;
+		max_mana = 250.1;
+		textures:0 = b_c_edm_img-02;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 294.8;
+		damage_min = 221.1;
+		damage_bonus_min_cmagic = 84;
+		damage_bonus_max_cmagic = 111;
+	}
+	[common]
+	{
+		screen_name="Frost Mage";
+		membership=monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_blue(sgx)");
+			}
+		}
+	}
+    [defend] { defense=538.2; }
+	[inventory]
+	{
+		[pcontent]
+		{
+			[oneof*]
+			{
+				[all*]
+				{
+       				chance = 0.5;
+                    il_main = #cmagic/58-67;
+				}
+				[oneof*]
+				{
+					chance = 0.5;
+                    il_main = #*/172-198;
+                    il_main = #body,ro/300-400;
+				}
+
+			}
+		}
+		selected_active_location = il_active_primary_spell;
+		[other]
+		{
+			il_active_primary_spell=spell_ice_mage_iceblast;
+			il_spell_1=2w_spell_summon_ice_warriors_monster;
+		}
+	}
+
+}
+
+[t:template,n:2W_pg_frost_mage] { specializes = 2W_pg_frost_mage_base; }
+[t:template,n:2W_pg_frost_mage_base]
+{
+    specializes = 2W_ice_mage_boss_01_base;
+
+	[inventory]
+	{
+	  i gold = 800;
+		[pcontent]
+		{
+			[all*]
+			{
+                il_main = potion_health_super;
+                il_main = potion_mana_super;
+			}
+		}
+	}
+}
