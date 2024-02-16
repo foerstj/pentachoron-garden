@@ -63,6 +63,35 @@
 	  p position = -3.69355,-2.7,-0.970154,0xe4abc8e5;
 	}
 }
+[t:trigger_generic,n:0x0030046a]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = fade_nodes(0x00000003,1,2,1,"out:instant");
+				action* = mood_change("inn-indoor");
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(3.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  p position = -6.25579,-2.7,3.8481,0xe4abc8e5;
+	}
+}
 [t:trigger_generic,n:0x00300028]
 {
 	[common]
