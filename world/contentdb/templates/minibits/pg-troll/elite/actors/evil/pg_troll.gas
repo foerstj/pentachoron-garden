@@ -1,0 +1,82 @@
+[t:template,n:3W_pg_troll] { specializes = 3W_pg_troll_base; }
+[t:template,n:3W_pg_troll_base]
+{
+	specializes = 3W_troll_base;
+
+	[common] { screen_name="Garden Troll"; }
+	[inventory]
+	{
+        [equipment]
+        {
+            es_weapon_hand = cb_un_2h_troll_pg;
+        }
+    }
+
+    // stats & loot from 3W_krug_guard
+	[actor]
+	{
+		[skills]
+		{
+			  dexterity = 31.8,  0;
+			  intelligence = 12.1,  0;
+			  melee = 91,  0;
+			  strength = 58.9, 0;
+		}
+	}
+	[aspect]
+	{
+		  experience_value = 789645;
+		  life = 586.7;
+		  mana = 149.3;
+		  max_life = 586.7;
+		  max_mana = 149.3;
+	}
+	[attack]
+	{
+		  damage_max = 487.5;
+		  damage_min = 331.6;
+	}
+	[defend]
+	{
+		  defense = 741.3;
+	}
+	[inventory]
+	{
+		[pcontent]
+		{
+    		[oneof*]
+			{
+				[all*]
+				{
+					[gold*]
+					{
+						  chance = 0.2;
+						  max = 275261;
+						  min = 128455;
+					}
+				}
+				[all*]
+				{
+       				chance = 0.03;
+   	        	    il_main = #spell/32-85;
+				}
+				[oneof*]
+				{
+	    		    chance = 0.22;
+        	   	    il_main = #weapon/149-249;
+        	   	    il_main = #*/149-249;
+            	    il_main = #armor/117-640;
+    				il_main = potion_mana_super;
+					il_main = potion_health_super;
+				}
+                [oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/219-348;
+	                il_main = #armor/-rare(1)/299-853;
+                    il_main = #*/-rare(1)/219-348;
+                }
+			}
+		}
+	}
+}

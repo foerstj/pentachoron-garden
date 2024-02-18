@@ -1,0 +1,51 @@
+[t:template,n:cb_un_2h_troll_base]  // = cb_un_2h_troll
+{
+	specializes = base_club;
+	doc = "troll_club";
+	[aspect]
+	{
+		model = m_w_clb_009;
+	}
+	[attack]
+	{
+		damage_max = 31;
+		damage_min = 29;
+	}
+	[common]
+	{
+		is_pcontent_allowed = false;
+		screen_name = "Troll Club";
+	}
+	[gui]
+	{
+		equip_requirements = strength:16;
+		inventory_height = 3;
+		inventory_icon = b_gui_ig_i_w_clb_009;
+		inventory_width = 1;
+	}
+}
+
+[t:template,n:cb_un_2h_troll_pg] { specializes = cb_un_2h_troll_pg_base; }
+[t:template,n:cb_un_2h_troll_pg_base]
+{
+    specializes = cb_un_2h_troll_base;
+
+    // stats from ax_d_c_1h1b_avg ("Hack", worn by krug_grunt)
+	[attack]
+	{
+	  f damage_max = 17.000000;
+	  f damage_min = 14.000000;
+	}
+	[gui]
+	{
+		equip_requirements = strength:12;
+	}
+	[pcontent]
+	{
+		[base]
+		{
+		  f modifier_max = 1.000000;
+		  f modifier_min = 0.000000;
+		}
+	}
+}
