@@ -1,25 +1,25 @@
-[t:template,n:skrubb_base]  // = skrubb
+[t:template,n:2W_skrubb_base]  // = 2W_skrubb
 {
-	category_name = "1W_evil_d";
-	doc = "skrubb";
-	specializes = base_skrubb;
+	category_name = "2W_evil_d";
+	doc = "2W_skrubb";
+	specializes = 2W_base_skrubb;
 	[actor]
 	{
 		[skills]
 		{
-			strength =  15, 0;
-			intelligence =  3, 0;
-			dexterity =  2, 0;
+			strength =  26.3, 0;
+			intelligence =  3.8, 0;
+			dexterity =  3.1, 0;
 		}
 	}
 	[aspect]
 	{
 		draw_shadow = false;
-		experience_value = 100;
-		life = 30;
-		max_life = 30;
-		mana = 10;
-		max_mana = 10;
+		experience_value = 29400;
+		life = 61.5;
+		max_life = 61.5;
+		mana = 20.5;
+		max_mana = 20.5;
 		model = m_c_edm_sb_pos_1;
 		[voice]
 		{
@@ -32,11 +32,13 @@
 	[attack]
 	{
 		attack_range = 3;
-		damage_max = 1;
-		damage_min = 1;
+		damage_max = 2.3;
+		damage_min = 1.8;
 		reload_delay = 1;
+		damage_bonus_min_cmagic = 4;
+		damage_bonus_max_cmagic = 12;
 	}
-    [defend] { defense=21; }
+    [defend] { defense=44.4; }
 	[inventory]
 	{
 		selected_active_location = il_active_primary_spell;
@@ -65,42 +67,18 @@
 	}
 }
 
-[t:template,n:pg_skrubb] { specializes = pg_skrubb_base; }
-[t:template,n:pg_skrubb_base]
+[t:template,n:2W_giant_skrubb] { specializes = 2W_giant_skrubb_base; }
+[t:template,n:2W_giant_skrubb_base]
 {
-	specializes = skrubb_base;
+    specializes = 2W_skrubb_base;
 
-	doc = "pg_skrubb";
-	[inventory]
+	doc = "giant_skrubb";
+	[common]
 	{
-		[other] { il_active_primary_spell=spell_pg_skrubb_spit; }
+		screen_name = "Giant Skrubb";
 	}
-
-    // stats from dsx_scorpiot_ranged_rusted
-	[actor]
-	{
-		[skills]
-		{
-		  strength 		= 11, 0; 
-		  intelligence  =  7, 0;
-		  dexterity 	=  8, 0;
-		  ranged 		=  7, 0;
-		  combat_magic	=  7, 0;
-		  nature_magic	=  7, 0;
-		}
-	}
-	[aspect]
-	{
-		experience_value = 156;
-		life             = 196;
-		max_life         = 196;
-		mana             = 33;
-		max_mana         = 33;
-	}
-	[attack]
-	{
-		damage_max = 45;
-		damage_min = 30;
-	}
-	[defend] { defense = 73; }
+    [inventory]
+    {
+		[other] { il_active_primary_spell = spell_giant_skrubb_spit; }
+    }
 }
