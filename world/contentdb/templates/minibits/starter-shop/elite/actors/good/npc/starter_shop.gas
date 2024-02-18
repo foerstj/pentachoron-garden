@@ -1,6 +1,6 @@
 [t:template,n:3W_starter_shop]
 {
-	specializes = 3W_mp_townfolk_female_05;
+	specializes = 3W_base_npc_fg_multiplayer;
 
     // basic shop stuff
 	doc = "3W_starter_shop (MP)";
@@ -30,6 +30,24 @@
 	[actor]
 	{
 		portrait_icon = b_gui_ig_i_ic_c_phaedriel;
+	}
+	[aspect]
+	{
+		model = m_c_gah_fg_pos_b1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_06;
+			1 = b_c_pos_b1_005;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			[other]
+			{
+			}
+		}
 	}
 
     // starter shop
