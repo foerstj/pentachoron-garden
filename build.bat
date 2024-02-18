@@ -67,7 +67,8 @@ if %errorlevel% neq 0 pause
 
 :: Compile German language resource file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%doc_ds%\Bits\language" "%tmp%\Bits\language" %map%-* /S
+robocopy "%doc_ds%\Bits\language" "%tmp%\Bits\language" %map%-*.de.gas /S
+robocopy "%doc_ds%\Bits\language" "%tmp%\Bits\language" minibits-*.de.gas /S
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.de.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
