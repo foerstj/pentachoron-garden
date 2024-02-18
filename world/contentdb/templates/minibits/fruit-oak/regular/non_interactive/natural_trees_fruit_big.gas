@@ -1,0 +1,56 @@
+[t:template,n:base_tree_tall]
+{
+	specializes = base_tree;
+
+	category_name = "trees";
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.25;
+		model = m_i_glb_tree-oak-01;
+	}
+}
+[t:template,n:base_tree_spreading_sm]
+{
+	specializes = base_tree;
+
+	category_name = "trees";
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.25;
+		model = m_i_glb_tree-oak-02;
+	}
+}
+[t:template,n:base_tree_spreading_lg]
+{
+	specializes = base_tree;
+
+	category_name = "trees";
+	[aspect]
+	{
+		lodfi_lower = 0.4;
+		lodfi_upper = 0.4;
+		model = m_i_glb_tree-oak-03;
+	}
+}
+
+[t:template,n:tree_grs_apple_tall]          { specializes = base_tree_tall;         aspect:textures:0 = b_i_grs_tree-apple; }
+[t:template,n:tree_grs_apple_spreading_sm]  { specializes = base_tree_spreading_sm; aspect:textures:0 = b_i_grs_tree-apple; }
+[t:template,n:tree_grs_apple_spreading_lg]  { specializes = base_tree_spreading_lg; aspect:textures:0 = b_i_grs_tree-apple; }
+
+[t:template,n:tree_grs_cherry_tall]         { specializes = base_tree_tall;         aspect:textures:0 = b_i_grs_tree-cherry; }
+[t:template,n:tree_grs_cherry_spreading_sm] { specializes = base_tree_spreading_sm; aspect:textures:0 = b_i_grs_tree-cherry; }
+[t:template,n:tree_grs_cherry_spreading_lg] { specializes = base_tree_spreading_lg; aspect:textures:0 = b_i_grs_tree-cherry; }
+
+[t:template,n:tree_grs_lemon_tall]          { specializes = base_tree_tall;         aspect:textures:0 = b_i_grs_tree-lemon; }
+[t:template,n:tree_grs_lemon_spreading_sm]  { specializes = base_tree_spreading_sm; aspect:textures:0 = b_i_grs_tree-lemon; }
+[t:template,n:tree_grs_lemon_spreading_lg]  { specializes = base_tree_spreading_lg; aspect:textures:0 = b_i_grs_tree-lemon; }
+
+[t:template,n:tree_grs_orange_tall]         { specializes = base_tree_tall;         aspect:textures:0 = b_i_grs_tree-orange; }
+[t:template,n:tree_grs_orange_spreading_sm] { specializes = base_tree_spreading_sm; aspect:textures:0 = b_i_grs_tree-orange; }
+[t:template,n:tree_grs_orange_spreading_lg] { specializes = base_tree_spreading_lg; aspect:textures:0 = b_i_grs_tree-orange; }
+
+[t:template,n:tree_grs_plum_tall]           { specializes = base_tree_tall;         aspect:textures:0 = b_i_grs_tree-plum; }
+[t:template,n:tree_grs_plum_spreading_sm]   { specializes = base_tree_spreading_sm; aspect:textures:0 = b_i_grs_tree-plum; }
+[t:template,n:tree_grs_plum_spreading_lg]   { specializes = base_tree_spreading_lg; aspect:textures:0 = b_i_grs_tree-plum; }
