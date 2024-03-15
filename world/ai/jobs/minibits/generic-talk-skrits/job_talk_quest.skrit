@@ -8,11 +8,17 @@ Goid		m_Target$;
 #include "k_job_c_talk_utils"
 
 
-property    string  namespace$  = "mule_merchant"   doc = "Namespace for conversations and flags";
-property    bool    first$      = false             doc = "Whether to have a first conversation";
-property    bool    numeric$    = false             doc = "Different conversation for each mule count";
+property    string  namespace$      = "quest"               doc = "Namespace for conversations and flags";
+property    string  quest$                                  doc = "Name of the quest";
 property    bool    face_player$    = true                  doc = "Face player when starting to talk";
-property    string  talk_anim$      = "talk"                doc = "Animation during convo: talk or look";
+property    string  talk_anim$      = "talk"                doc = "Animation during convo, like talk or look, or empty string";
+property    bool    face_back$      = false                 doc = "Face back when talk is finished";
+
+
+float actor_X$;
+float actor_Y$;
+float actor_Z$;
+float actor_W$;
 
 
 void animate$()
@@ -64,7 +70,12 @@ event OnJobInit$( Job job$ )
 
     if ( face_player$ )
     {
-        SetState Face$;
+        actor_X$ = m_go$.Placement.Orientation.x;
+		actor_Y$ = m_go$.Placement.Orientation.y;
+		actor_Z$ = m_go$.Placement.Orientation.z;
+		actor_W$ = m_go$.Placement.Orientation.w;
+
+		SetState Face$;
     }
     else
     {
@@ -105,31 +116,13 @@ state Talk$
 
 	event OnEnterState$
 	{
-		if ( first$ && !GameAuditor.GetDb.GetBool( namespace$ + "_talked_to" ) )
+		if ( Victory.IsQuestCompleted( quest$ ) )
 		{
-			GameAuditor.GetDb.SetBool( namespace$ + "_talked_to", true );
-			m_Go$.GetConversation.RSSelectConversation( namespace$ + "_first" );
+			m_Go$.GetConversation.RSSelectConversation( MakeStringF( "%s_complete", namespace$ ) );
 		}
-		else
-		{
-            int numMules$ = m_Go$.GetStore().GetNumHires();
-			if ( numMules$ == 0 )
-			{
-				m_Go$.GetConversation.RSSelectConversation( namespace$ + "_no_packmules" );
-			}
-			else
-			{
-                if ( numeric$ )
-                {
-                    string muleConversation$;
-                    StringTool.AssignF(muleConversation$, "%s_%d_packmules", namespace$, numMules$);
-                    m_Go$.GetConversation.RSSelectConversation( muleConversation$ );
-                }
-                else
-                {
-                    m_Go$.GetConversation.RSSelectConversation( namespace$ + "_has_packmules" );
-                }
-			}
+        else
+        {
+			m_Go$.GetConversation.RSSelectConversation( MakeStringF( "%s_activate", namespace$ ) );
 		}
 
 		m_Go$.GetConversation.RSActivateDialogue();
@@ -145,6 +138,11 @@ state Exiting$
         if ( face_player$ )
         {
             MCPManager.MakeRequest( m_Go$.Goid, PL_FACE );
+
+            if ( face_back$ )
+            {
+                m_go$.Placement.SSetOrientation( MakeQuat( actor_X$, actor_Y$, actor_Z$, actor_W$));
+            }
         }
 
 		m_Job$.MarkForDeletion();
