@@ -35,11 +35,11 @@ popd
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
 pushd %gaspy%
-venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"
+venv\Scripts\python -m build.fix_start_positions_required_levels %map% --bits "%tmp%\Bits"
 if %errorlevel% neq 0 pause
 setlocal EnableDelayedExpansion
 if "%mode%"=="release" (
-  venv\Scripts\python -m build.add_world_levels %map% "%tmp%\Bits" "%bits%"
+  venv\Scripts\python -m build.add_world_levels %map% --bits "%tmp%\Bits" --template-bits "%bits%"
   if !errorlevel! neq 0 pause
 )
 endlocal
@@ -55,7 +55,7 @@ robocopy "%bits%\world\contentdb\templates\%map%" "%tmp%\Bits\world\contentdb\te
 robocopy "%bits%\world\contentdb\templates\minibits" "%tmp%\Bits\world\contentdb\templates\minibits" /E
 robocopy "%bits%\world\global\moods\%map%" "%tmp%\Bits\world\global\moods\%map%" /E
 pushd %gaspy%
-venv\Scripts\python -m build.swap_music_tracks "%tmp%\Bits"
+venv\Scripts\python -m build.swap_music_tracks --bits "%tmp%\Bits"
 if %errorlevel% neq 0 pause
 popd
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
