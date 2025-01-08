@@ -52,3 +52,7 @@ Changes in 1.3:
 - Fixed initial roof fade for companions in the Inn
 - Fixed balancing of trolls - introducing the Garden Troll instead
 - Resource update that adds ground holes to the Giant Skrubbs
+
+Changes in 1.4:
+- Fix for Garden Troll dropping their weapons
+- Fix for Giant Skrubb ground hole in Veteran & Elite
