@@ -23,5 +23,5 @@ Enjoy your time in the Garden!
 - No known incompatibilities.
 
 ## Attribution
-- Music by Alexander Nakarada, https://www.serpentsoundstudios.com
+- Music by Alexander Nakarada https://creatorchords.com/
 - Hi-res textures of upscaled plants by AntonioR (HRT mod)
