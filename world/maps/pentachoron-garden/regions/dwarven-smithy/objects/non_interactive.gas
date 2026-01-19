@@ -481,18 +481,6 @@
 	  p position = -1.37551,-2.78661,6.3351,0x160860a8;
 	}
 }
-[t:fan_gob_01,n:0x005000cd]
-{
-	[aspect]
-	{
-	  b does_block_camera = true;
-	}
-	[placement]
-	{
-	  q orientation = -0.707107,0,0,0.707107;
-	  p position = 0.456432,19.5014,1.89174,0x5755e605;
-	}
-}
 [t:tree_ice_sway_04_1xs,n:0x0050018e]
 {
 	[aspect]
@@ -503,18 +491,6 @@
 	{
 	  q orientation = 0,0.398749,0,-0.91706;
 	  p position = 3.9323,0.5,-2.66063,0x5755e605;
-	}
-}
-[t:fan_gob_01,n:0x005000cc]
-{
-	[aspect]
-	{
-	  b does_block_camera = true;
-	}
-	[placement]
-	{
-	  q orientation = -0.5,0.5,0.5,0.5;
-	  p position = 2.49026,18.9912,0.0122504,0x91059b94;
 	}
 }
 [t:tree_ice_pine_group_02_1xs,n:0x00500185]
@@ -550,18 +526,6 @@
 	{
 	  q orientation = 0,0.382683,0,0.92388;
 	  p position = -6.58239,-4.4525,-4.16326,0x34e56ec3;
-	}
-}
-[t:bearhead_glb,n:0x0050009c]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.965926,0,-0.258819;
-	  p position = -2.26938,2.52902,-3.02937,0x34e56ec3;
 	}
 }
 [t:bed_glb_hammock,n:0x005000a8]
@@ -828,18 +792,6 @@
 	[placement]
 	{
 	  p position = -4.60148,-3.5,2.65732,0xc3d419e8;
-	}
-}
-[t:bearhead_glb,n:0x0050009d]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.965926,0,-0.258819;
-	  p position = -2.28565,2.13023,-3.04627,0xc3d419e8;
 	}
 }
 [t:bed_csl_royal,n:0x005000a1]
@@ -3324,5 +3276,53 @@
 	{
 	  q orientation = 0,0.725374,0,-0.688355;
 	  p position = 0.934641,0,-0.220638,0x624d5ae1;
+	}
+}
+[t:bearhead_glb,n:0x0050009d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,-0.258819;
+	  p position = -1.09448,-2,-3.70956,0x25ce3f02;
+	}
+}
+[t:bearhead_glb,n:0x0050009c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.965926,0,-0.258819;
+	  p position = -1.08235,-2,-3.70534,0x6880f816;
+	}
+}
+[t:fan_gob_01,n:0x005000cc]
+{
+	[aspect]
+	{
+	  b does_block_camera = true;
+	}
+	[placement]
+	{
+	  q orientation = -0.5,0.5,0.5,0.5;
+	  p position = 2,5,0,0x7a625252;
+	}
+}
+[t:fan_gob_01,n:0x005000cd]
+{
+	[aspect]
+	{
+	  b does_block_camera = true;
+	}
+	[placement]
+	{
+	  q orientation = -0.707107,0,0,0.707107;
+	  p position = 0,5,2,0xafcc1cd6;
 	}
 }
