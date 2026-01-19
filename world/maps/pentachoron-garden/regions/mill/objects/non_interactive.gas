@@ -823,31 +823,6 @@
 	  p position = -7.05042,16.9427,-0.879737,0x34ade05d;
 	}
 }
-[t:mill_glb_vanes,n:0x00100150]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.8;
-	}
-	[placement]
-	{
-	  q orientation = 0.5,0.5,0.5,0.5;
-	  p position = 3.02433,10.4875,-0.901462,0x34ade05d;
-	}
-}
-[t:mill_glb_gear_01,n:0x00100159]
-{
-	[aspect]
-	{
-	  b does_block_camera = true;
-	  f scale_multiplier = 0.8;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 3.07751,6.83781,-0.935182,0x34ade05d;
-	}
-}
 [t:mill_glb_gear_01,n:0x0010015a]
 {
 	[aspect]
@@ -980,12 +955,37 @@
 	  p position = -7.937,11.841,-0.908652,0x34ade05d;
 	}
 }
+[t:mill_glb_vanes,n:0x00100150]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  q orientation = 0.5,0.5,0.5,0.5;
+	  p position = 7,-1,0,0x33de451e;
+	}
+}
+[t:mill_glb_gear_01,n:0x00100159]
+{
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 7,-5,0,0x33de451e;
+	}
+}
 [t:staghead_glb,n:0x001001d3]
 {
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.60478e-007;
-	  p position = 4.57109,6.40515,-1.03221,0x34ade05d;
+	  p position = 9,-5.5,0,0x33de451e;
 	}
 }
 [t:planter_glb_01,n:0x00100077]
