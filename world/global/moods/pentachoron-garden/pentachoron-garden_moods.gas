@@ -33,7 +33,7 @@
 }
 [mood_setting*]
 {
-  b interior = true;
+  b interior = false;
 	mood_name = mill-indoor;
   f transition_time = 1.000000;
 	[fog]
@@ -99,7 +99,7 @@
 }
 [mood_setting*]
 {
-  b interior = true;
+  b interior = false;
 	mood_name = farm-indoor;
   f transition_time = 1.000000;
 	[fog]
@@ -228,7 +228,7 @@
 }
 [mood_setting*]
 {
-  b interior = true;
+  b interior = false;
 	mood_name = inn-indoor;
   f transition_time = 1.000000;
 	[fog]
@@ -365,7 +365,7 @@
 }
 [mood_setting*]
 {
-  b interior = true;
+  b interior = false;
 	mood_name = witch-cottage-indoor;
   f transition_time = 1.000000;
 	[fog]
@@ -681,7 +681,7 @@
 }
 [mood_setting*]
 {
-  b interior = true;
+  b interior = false;
 	mood_name = dwarven-smithy-indoor;
   f transition_time = 1.000000;
 	[fog]
