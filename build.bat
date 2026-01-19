@@ -10,7 +10,7 @@ set ds=%DungeonSiege%
 :: path of TankCreator
 set tc=%TankCreator%
 
-set year=2025
+set year=2026
 set copyright=CC-BY-SA %year%
 set author=Johannes Förstner
 
