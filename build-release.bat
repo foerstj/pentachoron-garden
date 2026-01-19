@@ -1,1 +1,1 @@
-./build.bat release
+call .\build.bat release
