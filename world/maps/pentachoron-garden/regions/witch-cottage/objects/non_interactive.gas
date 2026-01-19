@@ -412,30 +412,6 @@
 	  p position = 5.30983,-1.24605,-3.66985,0x3f44dd46;
 	}
 }
-[t:ivy_grs_01_4xl,n:0x004000f1]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.10348;
-	}
-	[placement]
-	{
-	  q orientation = 0,5.96046e-008,0,1;
-	  p position = -0.224905,-4.26941,3.95729,0x3f44dd46;
-	}
-}
-[t:ivy_grs_03_4xl,n:0x004000f2]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.01587;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -5.12675,-4.65,2.27731,0x3f44dd46;
-	}
-}
 [t:ivy_grs_04_4xl,n:0x004000f3]
 {
 	[aspect]
@@ -484,42 +460,6 @@
 	  p position = -2.71109,-4.55484,-4.14394,0x3f44dd46;
 	}
 }
-[t:ivy_grs_03_4xl,n:0x004000f7]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.06402;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 4.55008,-5.07671,2.98502,0x3f44dd46;
-	}
-}
-[t:ivy_grs_01_4xl,n:0x004000fa]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.07551;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -0.673912,-4.14837,-3.82025,0x3f44dd46;
-	}
-}
-[t:ivy_grs_03_4xl,n:0x004000fb]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.08964;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.92388,0,0.382683;
-	  p position = 4.48832,-5.97027,-2.81821,0x3f44dd46;
-	}
-}
 [t:tree_grs_pine_03_4xl,n:0x00400113]
 {
 	[aspect]
@@ -566,6 +506,66 @@
 	{
 	  q orientation = 0,0.366501,0,0.930418;
 	  p position = -4.94272,-4.65,4.86952,0x3f44dd46;
+	}
+}
+[t:ivy_grs_01_4xl,n:0x004000f1]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.10348;
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = -0.224905,-8,3.95729,0x1c1b7379;
+	}
+}
+[t:ivy_grs_03_4xl,n:0x004000f2]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01587;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -5.12675,-8,2.27731,0x1c1b7379;
+	}
+}
+[t:ivy_grs_03_4xl,n:0x004000f7]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.06402;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 4.55008,-9,2.98502,0x1c1b7379;
+	}
+}
+[t:ivy_grs_01_4xl,n:0x004000fa]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07551;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.673912,-8,-3.82025,0x1c1b7379;
+	}
+}
+[t:ivy_grs_03_4xl,n:0x004000fb]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.08964;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 4.48832,-10,-2.81821,0x1c1b7379;
 	}
 }
 [t:fire_glb_01,n:0x00400090]
