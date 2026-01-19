@@ -23,36 +23,5 @@ Enjoy your time in the Garden!
 - No known incompatibilities.
 
 ## Attribution
-- Music by Alexander Nakarada, https://www.serpentsoundstudios.com
+- Music by Alexander Nakarada https://creatorchords.com/
 - Hi-res textures of upscaled plants by AntonioR (HRT mod)
-
-## Changelog
-Changes in 1.1:
-- Compressed music
-- Brushed-up plants
-- Make player-world-location triggers multi-player only, and auto-save triggers single-player only
-- Added required levels for multi-player start positions
-- Minor refinement of companion conversations
-- Hi-res textures for oversized objects: flowers, rhod bushes, giant skrubb
-- Internal refactorings
-
-Changes in 1.2:
-- Added Veteran & Elite world levels!
-- Made companions & mules in multi-player not hireable
-- Hulking Gremal was missing in multi-player
-- Minor polishings: cam-blocking terrain, barkeeper & skrubb navigable, female NPCs talking by themselves, fog color inside Inn,
-- double doors, no-return signs
-- Refactorings: plant sizes, music fallback, minibits
-
-Changes in 1.3:
-- Got the lore straight - Hovart and Ashish didn't make any sense
-- Fixed quest minibosses: Phrak Queen, Huskar, Giant Spider & Frost Mage weren't using their attacks
-- Changed the large fruit trees in the Orchard
-- Fixed twice-dropping Hovart Blood Armors
-- Fixed initial roof fade for companions in the Inn
-- Fixed balancing of trolls - introducing the Garden Troll instead
-- Resource update that adds ground holes to the Giant Skrubbs
-
-Changes in 1.4:
-- Fix for Garden Troll dropping their weapons
-- Fix for Giant Skrubb ground hole in Veteran & Elite
