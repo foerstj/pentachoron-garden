@@ -62,18 +62,16 @@ popd
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
-:: Compile German language resource file
-rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\language" "%tmp%\Bits\language" %map%-*.de.gas /S
-robocopy "%bits%\language" "%tmp%\Bits\language" minibits-*.de.gas /S
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.de.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
-if %errorlevel% neq 0 pause
-:: Compile Spanish language resource file
-rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\language" "%tmp%\Bits\language" %map%-*.es.gas /S
-robocopy "%bits%\language" "%tmp%\Bits\language" minibits-*.es.gas /S
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.es.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
-if %errorlevel% neq 0 pause
+:: Compile language resource files
+setlocal enableDelayedExpansion
+for %%x in (de es) do (
+  rmdir /S /Q "%tmp%\Bits"
+  robocopy "%bits%\language" "%tmp%\Bits\language" %map%-*.%%x.gas /S
+  robocopy "%bits%\language" "%tmp%\Bits\language" minibits-*.%%x.gas /S
+  "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.%%x.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
+  if !errorlevel! neq 0 pause
+)
+endlocal
 
 if not "%mode%"=="light" (
   call "%bits%\build-music.bat"
