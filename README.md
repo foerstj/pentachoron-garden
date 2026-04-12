@@ -25,3 +25,4 @@ Enjoy your time in the Garden!
 ## Attribution
 - Music by Alexander Nakarada https://creatorchords.com/
 - Hi-res textures of upscaled plants by AntonioR (HRT mod)
+- Spanish translations by Nekurrot
